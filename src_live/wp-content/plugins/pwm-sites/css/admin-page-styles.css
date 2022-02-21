@@ -1,0 +1,55 @@
+
+/* List Sites Page */
+.pwm-wrap-sites .pwm-button-table-action {
+	max-width: 80px;
+	width: 100%;
+	margin: 1px;
+}
+
+/* Settings Page */
+.pwm-wrap-site {
+	color: #203261;
+}
+.pwm-wrap-site h4 {
+	font-size: 16px;
+	font-weight: bold;
+}
+.pwm-wrap-site .pwm-site-installed-status {
+	margin: 0 15px 0 0;
+	font-weight: bold;
+}
+.pwm-wrap-site .pwm-form-table {
+	margin-left: -10px;
+	margin-right: -10px;
+}
+.pwm-wrap-site .pwm-form-table label {
+	font-weight: bold;
+}
+.pwm-wrap-site .pwm-form-table input {
+	max-width: 100%;
+	width: 100%;
+}
+.pwm-wrap-site .pwm-form-table .description {
+	margin: 0 0 10px;
+	font-size: 12px;
+	color: #203261;
+}
+.pwm-wrap-site .submit .pwm-button {
+	margin: 1px;
+	float: left;
+}
+.pwm-wrap-site .pwm-spinner {
+	margin-top: 0;
+	float: none;
+}
+
+@media screen and (max-width: 782px) {
+	.pwm-wrap-site .pwm-form-table {
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	.pwm-wrap-site .pwm-form-table td {
+		padding-right: 0;
+	}
+}

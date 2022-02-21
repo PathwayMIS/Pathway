@@ -1,0 +1,489 @@
+[
+    {
+        "key": "group_57c6db510f535",
+        "title": "Options Page",
+        "fields": [
+            {
+                "key": "field_57c6db61e5e04",
+                "label": "Logo",
+                "name": "logo",
+                "type": "image",
+                "instructions": "Upload your logo. Max height 50px.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "array",
+                "preview_size": "thumbnail",
+                "library": "all",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": ""
+            },
+            {
+                "key": "field_57c6dba8e5e05",
+                "label": "Brand Colour",
+                "name": "brand_colour",
+                "type": "color_picker",
+                "instructions": "Choose the brand\/accent colour to use throughout the application",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "options_page",
+                    "operator": "==",
+                    "value": "branding-settings"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": 1,
+        "description": ""
+    },
+    {
+        "key": "group_578646e25abd9",
+        "title": "Project Tracker",
+        "fields": [
+            {
+                "key": "field_578647c79c452",
+                "label": "Project Details",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 1
+            },
+            {
+                "key": "field_578647289c450",
+                "label": "Client",
+                "name": "client",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": 33,
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "Company Name",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_5786476b9c451",
+                "label": "Order Number",
+                "name": "order_number",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": 33,
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "Order Number",
+                "prepend": "#",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_578647e195fdf",
+                "label": "Deadline",
+                "name": "deadline",
+                "type": "date_picker",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": 33,
+                    "class": "",
+                    "id": ""
+                },
+                "display_format": "d\/m\/Y",
+                "return_format": "d\/m\/Y",
+                "first_day": 1
+            },
+            {
+                "key": "field_5786480295fe0",
+                "label": "Artwork",
+                "name": "artwork",
+                "type": "url",
+                "instructions": "Add PDF artwork file",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": 25,
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": ""
+            },
+            {
+                "key": "field_5786492a95fe2",
+                "label": "Order Form",
+                "name": "order_form",
+                "type": "url",
+                "instructions": "Order form for project",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": 25,
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": ""
+            },
+            {
+                "key": "field_5786488d95fe1",
+                "label": "Notes",
+                "name": "notes",
+                "type": "textarea",
+                "instructions": "Add notes to the project",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": 50,
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "maxlength": "",
+                "rows": 6,
+                "new_lines": "br",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_57864af3783a9",
+                "label": "Project Stage",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 1
+            },
+            {
+                "key": "field_57867067bce90",
+                "label": "Project Stage",
+                "name": "project_stage",
+                "type": "select",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": 25,
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "Design": "Design",
+                    "Print Production": "Print Production",
+                    "Jobs Out": "Jobs Out",
+                    "Delivery": "Delivery",
+                    "Completed": "Completed"
+                },
+                "default_value": [
+                    "Design"
+                ],
+                "allow_null": 1,
+                "multiple": 0,
+                "ui": 0,
+                "ajax": 0,
+                "placeholder": "",
+                "disabled": 0,
+                "readonly": 0
+            },
+            {
+                "key": "field_57b5e9a7f7531",
+                "label": "Design",
+                "name": "design_stage",
+                "type": "select",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_57867067bce90",
+                            "operator": "==",
+                            "value": "Design"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": 25,
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "1": "Design",
+                    "2": "On proof",
+                    "3": "Changes",
+                    "4": "Sent to Print"
+                },
+                "default_value": [
+                    1
+                ],
+                "allow_null": 1,
+                "multiple": 0,
+                "ui": 0,
+                "ajax": 0,
+                "placeholder": "",
+                "disabled": 0,
+                "readonly": 0
+            },
+            {
+                "key": "field_57866fb967f0d",
+                "label": "Print Production",
+                "name": "print_production_stage",
+                "type": "select",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_57867067bce90",
+                            "operator": "==",
+                            "value": "Print Production"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": 25,
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "1": "In Production",
+                    "2": "Finishing",
+                    "3": "Packing",
+                    "4": "Invoice",
+                    "5": "Customer\u00a0Notification"
+                },
+                "default_value": [],
+                "allow_null": 1,
+                "multiple": 0,
+                "ui": 0,
+                "ajax": 0,
+                "placeholder": "",
+                "disabled": 0,
+                "readonly": 0
+            },
+            {
+                "key": "field_5786717163e05",
+                "label": "Jobs Out",
+                "name": "jobs_out_stage",
+                "type": "select",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_57867067bce90",
+                            "operator": "==",
+                            "value": "Jobs Out"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": 25,
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "1": "In Production",
+                    "2": "Received from Supplier",
+                    "3": "Repack",
+                    "4": "Invoice",
+                    "5": "Customer\u00a0Notification"
+                },
+                "default_value": [],
+                "allow_null": 1,
+                "multiple": 0,
+                "ui": 0,
+                "ajax": 0,
+                "placeholder": "",
+                "disabled": 0,
+                "readonly": 0
+            },
+            {
+                "key": "field_578671ae63e06",
+                "label": "Delivery",
+                "name": "delivery_stage",
+                "type": "select",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_57867067bce90",
+                            "operator": "==",
+                            "value": "Delivery"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": 25,
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "1": "Collection",
+                    "2": "Company Van",
+                    "3": "Courrier"
+                },
+                "default_value": [],
+                "allow_null": 1,
+                "multiple": 0,
+                "ui": 0,
+                "ajax": 0,
+                "placeholder": "",
+                "disabled": 0,
+                "readonly": 0
+            },
+            {
+                "key": "field_5786734367b0d",
+                "label": "Courier Details",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_578671ae63e06",
+                            "operator": "==",
+                            "value": "3"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_578671d963e07",
+                "label": "Courier Name",
+                "name": "courier_name",
+                "type": "text",
+                "instructions": "Enter name of courier ",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": 25,
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "Add courier name...",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_5786721763e08",
+                "label": "Tracking Number",
+                "name": "tracking_number",
+                "type": "text",
+                "instructions": "Add tracking number for courier",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": 25,
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "Add courrier tracking number...",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "projects"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": [
+            "permalink",
+            "the_content",
+            "excerpt",
+            "discussion",
+            "comments",
+            "slug",
+            "author",
+            "format",
+            "page_attributes",
+            "featured_image",
+            "categories",
+            "tags",
+            "send-trackbacks"
+        ],
+        "active": 1,
+        "description": ""
+    }
+]

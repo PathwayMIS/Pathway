@@ -1,0 +1,113 @@
+@function calculateRem($size) {
+  $remSize: $size / 14px;
+  @return $remSize * 1rem;
+}
+
+@mixin font-size($size) {
+  font-size: $size;
+  font-size: calculateRem($size);
+}
+
+@mixin keyframes($animation-name) {
+    @-webkit-keyframes #{$animation-name} {
+        @content;
+    }
+    @-moz-keyframes #{$animation-name} {
+        @content;
+    }  
+    @-ms-keyframes #{$animation-name} {
+        @content;
+    }
+    @-o-keyframes #{$animation-name} {
+        @content;
+    }  
+    @keyframes #{$animation-name} {
+        @content;
+    }
+}
+
+@mixin animation($str) {
+  -webkit-animation: #{$str};
+  -moz-animation: #{$str};
+  -ms-animation: #{$str};
+  -o-animation: #{$str};
+  animation: #{$str};      
+}
+
+@mixin transition($args...) {
+  -webkit-transition: $args;
+  -moz-transition: $args;
+  -ms-transition: $args;
+  -o-transition: $args;
+  transition: $args;
+}
+
+@mixin transition-delay($delay...) {
+    -moz-transition-delay:    $delay;
+    -o-transition-delay:      $delay;
+    -webkit-transition-delay: $delay;
+    transition-delay:         $delay;
+}
+
+@mixin animation-delay($delay...) {
+    -moz-animation-delay:    $delay;
+    -o-animation-delay:      $delay;
+    -webkit-animation-delay: $delay;
+    animation-delay:         $delay;
+}
+
+@mixin opacity($opacity) {
+  opacity: $opacity;
+  $opacity-ie: $opacity * 100;
+  filter: alpha(opacity=$opacity-ie); //IE8
+}
+
+@mixin transform($val) {
+  -webkit-transform: $val;
+  -moz-transform: $val;
+  -ms-transform: $val;
+  transform: $val;
+}
+
+@mixin rotate( $val: -2deg ) {
+  -webkit-transform: rotate($val);
+  -moz-transform: rotate($val);
+  -ms-transform: rotate($val);
+  -o-transform: rotate($val);
+  transform: rotate($val);
+}
+
+@mixin column-count($val) {
+  -moz-column-count: $val;
+  -webkit-column-count: $val;
+  -o-column-count: $val;
+  column-count: $val;
+}
+
+@mixin column-gap($val) {
+  -moz-column-gap: $val;
+  -webkit-column-gap: $val;
+  -o-column-gap: $val;
+  column-gap: $val;
+}
+
+@mixin rounded-corners($tl) {
+  -webkit-border-radius:$tl;
+  -moz-border-radius:$tl;
+  -o-border-radius:$tl;
+  border-radius:$tl;
+}
+
+@mixin box-shadow($shadoh) {
+  -webkit-box-shadow: #{$shadoh} ;
+  -moz-box-shadow:  #{$shadoh};
+  box-shadow: #{$shadoh};
+}
+
+@mixin filter($filter-type,$filter-amount) { 
+  -webkit-filter: $filter-type+unquote('(#{$filter-amount})');
+  -moz-filter: $filter-type+unquote('(#{$filter-amount})');
+  -ms-filter: $filter-type+unquote('(#{$filter-amount})');
+  -o-filter: $filter-type+unquote('(#{$filter-amount})');
+  filter: $filter-type+unquote('(#{$filter-amount})');
+}

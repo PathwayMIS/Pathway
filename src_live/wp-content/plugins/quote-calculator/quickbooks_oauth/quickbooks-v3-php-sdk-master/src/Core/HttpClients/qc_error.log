@@ -1,0 +1,3011 @@
+https://quickbooks.api.intuit.com/v3/company/376453061/customer?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..ZadnXiT48Yk0eMYY7509WA.U7phZrGLk0rze-Fbjxr0uhF_aJArXEiL3p02z23iKxwTV0CxvnFaUj18mF1mbwSVeZhIMq-J2qld7PixIb5stm-rXkPjbOmYJ9F5GkkEsAz664BJ_N8uhBGY2BkGJF7DOmxv2Et18X5THKf_9zDnes-6ieOdHJ3TgxrjU_cChUdahKZbqzGSc1hBSfgkhUOkHjNKR02fWLEIaOS_t9Ezy1AzbsVDapDKfaZDg9HYXU_H9fuuewOm-dpyr1twYjxwKYwxycQ41bGMF6cC2wB7fF-6ccZrahlPFsJiPOfOOx7z5czzHi9CKOxlRBYg4ozvhcAcZsbmI3HrzXSMDkMTqSnPqI7y-UxxIfBZKEg5Rdsbw2865VmOQhrxZE5-Z1IbHVxlG4REiqwv2Hpflo1wGajaKyR5bZVohRYRg0CBCDrvNxcNzJvI38gi3OprVXTwVUd-dnQ703P8ZQT9Rx-Yyhiy1F9WaU9ZUCGN6R6y0NxNuienYX8nOnD2_REFDufAC-8Bw7J7nGXhwj16renzv_ajgeD-x9qQYDpm_Z-JMKeenJ5rNIKoxTpaP8lZJaaZv1myMkIGfYo2FUsqxy078Nf51oVIf6s-9NLG88yjgZVwshlYYmVSH6SsSPBuLTwol2fLLY1N6pA9h8vGZvyzr1Ne1ARbIc-YAhcHzrdQXD4.Ic55hNKJa6KZStu9lqsy7Q
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 1037
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Customer xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:GivenName>Olivia</ns0:GivenName>
+  <ns0:FamilyName>Salmon</ns0:FamilyName>
+  <ns0:CompanyName>Wickes Building Supplies Limited</ns0:CompanyName>
+  <ns0:DisplayName>Wickes Building Supplies Limited</ns0:DisplayName>
+  <ns0:PrimaryPhone>
+    <ns0:FreeFormNumber>07799547276</ns0:FreeFormNumber>
+  </ns0:PrimaryPhone>
+  <ns0:PrimaryEmailAddr>
+    <ns0:Address>olivia.salmon2@wickes.co.uk</ns0:Address>
+  </ns0:PrimaryEmailAddr>
+  <ns0:BillAddr>
+    <ns0:Line2>Lodge Way House</ns0:Line2>
+    <ns0:Line3>Lodge Way</ns0:Line3>
+    <ns0:City>Harlestone Road</ns0:City>
+    <ns0:Country>Northampton</ns0:Country>
+  </ns0:BillAddr>
+  <ns0:ShipAddr>
+    <ns0:Line1>FAO: Gabriella Salmon</ns0:Line1>
+    <ns0:Line2>100 Medina Avenue</ns0:Line2>
+    <ns0:Line3>Newport</ns0:Line3>
+    <ns0:City>Watford</ns0:City>
+    <ns0:Country>Isle of Wight</ns0:Country>
+    <ns0:PostalCode>PO30 1HG</ns0:PostalCode>
+  </ns0:ShipAddr>
+</ns0:Customer>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/customer?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..blVDLFeqQ8VlYBSx_e6yfQ.LL1gcBkE7uO_Q1_4aAgKVIorvMzFBjaLWXFDci6ase13-BYM1bafyNnDP4XXS_loj_IKzk9_KXMkJ9WpXiFR5VZKofys8B2PmrYOP3qKWJN5eg5UVERQG0wrN9hXSL4lTKbY57USyesVbUAgmJfj3nZXU0IxyoM-D0WqN5eLuXWKDbQHLNiOYHm8dCIN9k2ArKjp3bDV4nQ_vpCefSpgZySzVVLgy9DFE4x2JHePw5bARx6VvqgGSkomhCMQwYP9ksKbOs-OfZtQFM2kgeT7XMQNwpz8RWM1QwRvCdyLn56y3SyRbfu9h-Zz_t2-YtbRPEeElgkGaekBNW-j9BvQI-8Z9AJfuE5tFOFAszqNTMzkpxco6Weo2DyTKGeH0lV4gSEZtOk_-HPUf1fkjfrGWgKp4UIuOwEO6tBfz3_-pZJUTt6erWlT-44mYJtfMRRD4cRuhiHQxAGMjnuliwtoBcDzJlmeVR8iRnG_I3njMGjuliDj4g8a3Bpf9P3lv-gOtvpH_xYi-W31nhI_NYHq0cA5fNnRY4x__56ojSWERsxAtwpmqQWhNgvqRKSYEU53yH6NwbRUbwvjfN8Y6pIdqOPauyMmVszGaQ9KLWjraoI57D3rjusGnXaHIJ35162DFWtx0XG0x4YO260wmP1IBFfh0hD4szxW17R3vK3Arjg.wLpndpFSxlkZwn-IaiOaCw
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 1037
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Customer xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:GivenName>Olivia</ns0:GivenName>
+  <ns0:FamilyName>Salmon</ns0:FamilyName>
+  <ns0:CompanyName>Wickes Building Supplies Limited</ns0:CompanyName>
+  <ns0:DisplayName>Wickes Building Supplies Limited</ns0:DisplayName>
+  <ns0:PrimaryPhone>
+    <ns0:FreeFormNumber>07799547276</ns0:FreeFormNumber>
+  </ns0:PrimaryPhone>
+  <ns0:PrimaryEmailAddr>
+    <ns0:Address>olivia.salmon2@wickes.co.uk</ns0:Address>
+  </ns0:PrimaryEmailAddr>
+  <ns0:BillAddr>
+    <ns0:Line2>Lodge Way House</ns0:Line2>
+    <ns0:Line3>Lodge Way</ns0:Line3>
+    <ns0:City>Harlestone Road</ns0:City>
+    <ns0:Country>Northampton</ns0:Country>
+  </ns0:BillAddr>
+  <ns0:ShipAddr>
+    <ns0:Line1>FAO: Gabriella Salmon</ns0:Line1>
+    <ns0:Line2>100 Medina Avenue</ns0:Line2>
+    <ns0:Line3>Newport</ns0:Line3>
+    <ns0:City>Watford</ns0:City>
+    <ns0:Country>Isle of Wight</ns0:Country>
+    <ns0:PostalCode>PO30 1HG</ns0:PostalCode>
+  </ns0:ShipAddr>
+</ns0:Customer>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/customer?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..8UtPE1yg7zxz7r5AZ7iU_Q.Q7yD6AXAypXpbUPa5sOFGmVKVBCqDXNqXIobnjtHfg9Nv9UO3ERERDvCUFAQvVU4hwslHB8h_LKNLSxUvNtVYYoS8qfEscc9NIrbmmAi-V5C7C3A8V1A_mxSrBhuLcKLV_ICr4LjzsGH8LeOI-gHf11O49GNLwXNvNoFqwgQEsJ7fn3kXbtbHOHDX7PemNjBItGTva2GNpsWJxPmNmVGGyut25ite7uYkm5fkjL56_XcFkp6iOGlCYupjcTD-vXSgWxBTR14RtRgUW6R3zSumMYoGRX5KH9a07hv5XVtDqvMuXKi5mGGBH2G3oMWS1sxH-YyqQcJpXaAj2GNQ4_kzCV0tEwC5VpU38jlM716ZTPkwd5ivA2My8I658dGQ_3ClCG83ztZICTLs0i5H4lbk7oq4JvfDdofJbC32ErRocCxlePPsXPzXBJiC4FfP40SZRtWxR00nXPZKOa4SeLUIhCNfU5IykGEGE8_rfOlIB1muhkXTEnFqohSTyER3ZOEhU9HwNj6we3SgQOxxd_x8My33Xj_2KVKh53_uf4LoL4KKib5ThBVf8437OPM9II14Z9tm5yj_GAyogvKKo3jZ1KKF2hvWrrH4qO-ubWI2g1fu8QhdzEuM1gHoRFnsL8DcFFXQWvdAh0CFT4p1ek_Vm-zBlgZvFIr36NfcVS7JA0.JmLJvZBxjz7ZsPZPLAPU-A
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 1037
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Customer xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:GivenName>Olivia</ns0:GivenName>
+  <ns0:FamilyName>Salmon</ns0:FamilyName>
+  <ns0:CompanyName>Wickes Building Supplies Limited</ns0:CompanyName>
+  <ns0:DisplayName>Wickes Building Supplies Limited</ns0:DisplayName>
+  <ns0:PrimaryPhone>
+    <ns0:FreeFormNumber>07799547276</ns0:FreeFormNumber>
+  </ns0:PrimaryPhone>
+  <ns0:PrimaryEmailAddr>
+    <ns0:Address>olivia.salmon2@wickes.co.uk</ns0:Address>
+  </ns0:PrimaryEmailAddr>
+  <ns0:BillAddr>
+    <ns0:Line2>Lodge Way House</ns0:Line2>
+    <ns0:Line3>Lodge Way</ns0:Line3>
+    <ns0:City>Harlestone Road</ns0:City>
+    <ns0:Country>Northampton</ns0:Country>
+  </ns0:BillAddr>
+  <ns0:ShipAddr>
+    <ns0:Line1>FAO: Gabriella Salmon</ns0:Line1>
+    <ns0:Line2>100 Medina Avenue</ns0:Line2>
+    <ns0:Line3>Newport</ns0:Line3>
+    <ns0:City>Watford</ns0:City>
+    <ns0:Country>Isle of Wight</ns0:Country>
+    <ns0:PostalCode>PO30 1HG</ns0:PostalCode>
+  </ns0:ShipAddr>
+</ns0:Customer>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/customer?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..ioLmVN9ToT3fQ-3zOVVl-g.HknJaVzyzZ-IZovpDLwjLY-SV7qS9M3-_ly0BqIque25XXdT7WAwnvvfytS01rX3Af3r8LtaqHSLqdL6Mcg8CTQB13y-l5FhIFQyePg82FUyRD5SFTuhH-f-hTZ8w9luEXseeBEDFdmeauk576_k5V8tvFCgJ8ORH57UblNEZfLJiuwlKgWX1HkyOBqkiIMMBH1LCDqdu_94ICpcH5IjmTFRDPP3754ekzwLyfVitp-JEHIEAFhaxnXsCaERp3Wwj5K76HAJ9_UlFDqW9e1ajJAM4QcDTT42yVg8CwQWQgTra37LSdI0tWOawxyOc-qKLh6XNdAcCjxYxGZvW6l64Gt3WCwJm6gMFZuDhpv_t2R3N_csJiXE-BUBaTaxRmSTKolm7iy8hc8qmm5uEn0Gvs0wpcbkMWe6OLjVKTyHGKBetXhXgNkQYDkIRrzlUmJxVgtRxMf_ZLSZelRVjbbKSzQIucDhRKDr09Bxu0tfIHNWn7JPKF0icKnwS6IfyRsM5V66BHvxx5q0sYuLswuBbvR5WcVhfTG3bisKe1Gf54891vUlhTkb5uFfpPP2rugEVN_SLJQ6jmRG1mK0UEV2du_QEuakHcNx950FRh9lvXn_4vKkQiI5zc2YahhixyEJ0oC_qoG3qb0lW25stYiEa8SCqyL3bdaK7tOq65dsYe0.eYReSkcMwQa6aJEjVp6ILA
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 1037
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Customer xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:GivenName>Olivia</ns0:GivenName>
+  <ns0:FamilyName>Salmon</ns0:FamilyName>
+  <ns0:CompanyName>Wickes Building Supplies Limited</ns0:CompanyName>
+  <ns0:DisplayName>Wickes Building Supplies Limited</ns0:DisplayName>
+  <ns0:PrimaryPhone>
+    <ns0:FreeFormNumber>07799547276</ns0:FreeFormNumber>
+  </ns0:PrimaryPhone>
+  <ns0:PrimaryEmailAddr>
+    <ns0:Address>olivia.salmon2@wickes.co.uk</ns0:Address>
+  </ns0:PrimaryEmailAddr>
+  <ns0:BillAddr>
+    <ns0:Line2>Lodge Way House</ns0:Line2>
+    <ns0:Line3>Lodge Way</ns0:Line3>
+    <ns0:City>Harlestone Road</ns0:City>
+    <ns0:Country>Northampton</ns0:Country>
+  </ns0:BillAddr>
+  <ns0:ShipAddr>
+    <ns0:Line1>FAO: Gabriella Salmon</ns0:Line1>
+    <ns0:Line2>100 Medina Avenue</ns0:Line2>
+    <ns0:Line3>Newport</ns0:Line3>
+    <ns0:City>Watford</ns0:City>
+    <ns0:Country>Isle of Wight</ns0:Country>
+    <ns0:PostalCode>PO30 1HG</ns0:PostalCode>
+  </ns0:ShipAddr>
+</ns0:Customer>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/customer?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..FhVBwAvF9Lg9dLxM8rh4qA.MxYoZkgiv0bVF77M7aJqIG4aHyLhSNc3RkClZKJggCRe-nospVn9ZxN35GQ63C-DKtK255qqyYpEqO9xGYsd25QK8Vhb3tdbyqzjYCJeAnCXW65PDcRZ2Urlmk_I0pUsy9BKg2OmAYEU0xMvOMEErvOsC57wkZotI66J0R200ZxuhThGeuSnnGALL63ozgxNNM501WSdsjGSHmWA1arYXvrAEvSpxZQtMVR6z7O2Uj9JCCLHn7arlKchKsZeoO6tl_HAnBFGmyYh5qILaumrBi6mJUesEaWdg8_qamYxY4DnDWse5EGMAHy2YpgIBBBr3nLADteHjGfaMjb4ixAJfhu0fMLvswIloOmH59V631lZSwYqV_Gxc9B7rPki4j5EjMNE601xPjQxfHSdHjMaKVk2jfTONbF8JVP2TfSaL1J5Qe_1vXj3G9apoSpRapXmMDY8umoenTfqUL0zIL0KZD8c_HIK0hkaOfoPtc2jM__XkflyaTZp9-FJlNyO-ZhQNYN0ulQwK5ZA9sx83rx4jQOj-87FwqLmp7AQGjHD_83T4YKlANSWzuw2RWmjjfq9nz-rPV-aPlFE6IdtkLbZ3fz9ON0toU9X3biG4MF96mfrwhd09u-c1ZLnR9vxUd7QXwv9dm8Ub4Oxy2ivPnorNCLSLJQdK9p253XTkrIbXyU.SyV3CJGIjBQzhYqnnIroyQ
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 1037
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Customer xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:GivenName>Olivia</ns0:GivenName>
+  <ns0:FamilyName>Salmon</ns0:FamilyName>
+  <ns0:CompanyName>Wickes Building Supplies Limited</ns0:CompanyName>
+  <ns0:DisplayName>Wickes Building Supplies Limited</ns0:DisplayName>
+  <ns0:PrimaryPhone>
+    <ns0:FreeFormNumber>07799547276</ns0:FreeFormNumber>
+  </ns0:PrimaryPhone>
+  <ns0:PrimaryEmailAddr>
+    <ns0:Address>olivia.salmon2@wickes.co.uk</ns0:Address>
+  </ns0:PrimaryEmailAddr>
+  <ns0:BillAddr>
+    <ns0:Line2>Lodge Way House</ns0:Line2>
+    <ns0:Line3>Lodge Way</ns0:Line3>
+    <ns0:City>Harlestone Road</ns0:City>
+    <ns0:Country>Northampton</ns0:Country>
+  </ns0:BillAddr>
+  <ns0:ShipAddr>
+    <ns0:Line1>FAO: Gabriella Salmon</ns0:Line1>
+    <ns0:Line2>100 Medina Avenue</ns0:Line2>
+    <ns0:Line3>Newport</ns0:Line3>
+    <ns0:City>Watford</ns0:City>
+    <ns0:Country>Isle of Wight</ns0:Country>
+    <ns0:PostalCode>PO30 1HG</ns0:PostalCode>
+  </ns0:ShipAddr>
+</ns0:Customer>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/customer?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..k0j8QJlJG1MTgy7nomFbTA.4XysjgqRdKm5QL12MRYRM0LT-3rJuYtiwih97Mqejkwg5BIvncITbkCzULiA3Oko8SXZPfY8Fb2YcTwxwGTi8RdQ8XOxXQWHp7Fa8QS13sFVs9XgU8uFXAde-N6nioxxWaVW89u-x9mo0kFDEYxSqC-wSGEvD__kN-MVUXeeuKgSYbHyj_hfZAv0SCEb9KN8ylxXb5aYJLquoZTfu3RI4qJn5XGYNW_fXYyYX1hC8RyslYVhkpBWyxrimPnmXRlKp0-c9eTmbaPjd9NcvSFUbd90pHHn3lKziPqFL7-pdMBEQhNt6w3u5JD13JX0usdl0v-CEcI9A0iv8SU70DxNs6khvJdH9fVHZbrl1HFGX8bMp2eO5QSFUmGlLRByJcVWDS5dxmYkB-tUjje6h_7EARiyWHqlZEF7XhauNknt_t4RntFRIIVgFwNi1sqUvsAf9LVvHwQvclkfvbcTdz9VuUpz_rmOV2ZkHzxxFZmgHYKyuBgIdBEPpO_qXECW2jonzGn_QXD6jDEmrs4Cqpg0LfYQft0EPk6OmRuR7z3RVVFPTVSE2HJHU2SVdWJqqnfZZE_xD10ER7IBAC9X6f2L_KBcdpjovmGpQn9GOL4eK7wdD8bEQlGLtyWgywAKH3avideEcoPa8e3Rnm3CDSylR2JHDNHsfy2Fxj7KzZI5yZ0.fezYO8a-1Am3qo7fM_rDqg
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 1037
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Customer xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:GivenName>Olivia</ns0:GivenName>
+  <ns0:FamilyName>Salmon</ns0:FamilyName>
+  <ns0:CompanyName>Wickes Building Supplies Limited</ns0:CompanyName>
+  <ns0:DisplayName>Wickes Building Supplies Limited</ns0:DisplayName>
+  <ns0:PrimaryPhone>
+    <ns0:FreeFormNumber>07799547276</ns0:FreeFormNumber>
+  </ns0:PrimaryPhone>
+  <ns0:PrimaryEmailAddr>
+    <ns0:Address>olivia.salmon2@wickes.co.uk</ns0:Address>
+  </ns0:PrimaryEmailAddr>
+  <ns0:BillAddr>
+    <ns0:Line2>Lodge Way House</ns0:Line2>
+    <ns0:Line3>Lodge Way</ns0:Line3>
+    <ns0:City>Harlestone Road</ns0:City>
+    <ns0:Country>Northampton</ns0:Country>
+  </ns0:BillAddr>
+  <ns0:ShipAddr>
+    <ns0:Line1>FAO: Gabriella Salmon</ns0:Line1>
+    <ns0:Line2>100 Medina Avenue</ns0:Line2>
+    <ns0:Line3>Newport</ns0:Line3>
+    <ns0:City>Watford</ns0:City>
+    <ns0:Country>Isle of Wight</ns0:Country>
+    <ns0:PostalCode>PO30 1HG</ns0:PostalCode>
+  </ns0:ShipAddr>
+</ns0:Customer>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/customer?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..lcMqIx_doMcAHR5nKzpjLw.oRICRmR2d_xe5m59kR9H0C1LoedgmWvHHh22ci1I2EaDDofrwi0JDOAKlkzkWx5GU8iMK5HSSBIpP8PjKT-lL7O1kz52DYx_knOj5oaUW4lKraUy4CPM457U5EjLNVqReCozZoeuGvJOZu_C12McaLCyQnw40yIXh5kNipnPQXeu0rUAR_jCvggWiNN58Z5Y_hhpO2E1IWYG4oRTN-WuX1joUw4iBl6bHJ8vYzEHOV--maKtpTSlhX22GQRnjk6fdnkDgDLua35GvP7pB1hud9uN76n6YLg3hwMt1491pvOybEK9SJoH8DOyTxJXSip0CEGncpdNKu23XWW_Gq4ItcvwaR8tkDI8FVbsWDI2qR5argL4Yp-YFWGYWWGcSM7vNjGdH4xMtiDS09OSiPhwN7sAJg8AfbZmq5nyCxhYFDBJLm48CMR9PioOrHswYj1viaWqn5VUOTkti2X9t1YN4hsOIn5y_N--A6EvfvP1Wfz-8j2gyZVZMankBJCyA0ul2-OMlMpOVKFA-d5wOwlZlHgwh7BoBZDGNFG88XVRTrXxviicj3XgrtlwFLmphqQXkNXg75INAX15NTkY5xXbOYj7iXBxnRS-VZetf3Vu2UHzzRWTw5ObpGTOKMHNQwFKUHOULbFlWh5frTjub4MibcltZ08MLwyG5NuGyP7nLKc.YHtESmCNliCrRcVaOJMhzw
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 1037
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Customer xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:GivenName>Olivia</ns0:GivenName>
+  <ns0:FamilyName>Salmon</ns0:FamilyName>
+  <ns0:CompanyName>Wickes Building Supplies Limited</ns0:CompanyName>
+  <ns0:DisplayName>Wickes Building Supplies Limited</ns0:DisplayName>
+  <ns0:PrimaryPhone>
+    <ns0:FreeFormNumber>07799547276</ns0:FreeFormNumber>
+  </ns0:PrimaryPhone>
+  <ns0:PrimaryEmailAddr>
+    <ns0:Address>olivia.salmon2@wickes.co.uk</ns0:Address>
+  </ns0:PrimaryEmailAddr>
+  <ns0:BillAddr>
+    <ns0:Line2>Lodge Way House</ns0:Line2>
+    <ns0:Line3>Lodge Way</ns0:Line3>
+    <ns0:City>Harlestone Road</ns0:City>
+    <ns0:Country>Northampton</ns0:Country>
+  </ns0:BillAddr>
+  <ns0:ShipAddr>
+    <ns0:Line1>FAO: Gabriella Salmon</ns0:Line1>
+    <ns0:Line2>100 Medina Avenue</ns0:Line2>
+    <ns0:Line3>Newport</ns0:Line3>
+    <ns0:City>Watford</ns0:City>
+    <ns0:Country>Isle of Wight</ns0:Country>
+    <ns0:PostalCode>PO30 1HG</ns0:PostalCode>
+  </ns0:ShipAddr>
+</ns0:Customer>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/customer?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..Rm_sX4CKHHFdVjkaumTs1Q.siGwR4EmbULJS6fL24xJ9xdgipKjAspCUvbdN4Pc4eHjqbCsBhxa4f8rwTipdsmPG4_dXmkbx0vbxJUyLrGmeYB2Py8GXe1kp3Jl77IOoNE7CmsXDpaZnR7GwylUOKFdlqshr4w_kLB5tulmmdDYg-UjHKEIAIjzgaHnZjxaGx9x4Fz24fU48cCtbVh5NE__jUWlNIGpJUU8nHDdIxH92Bk1TM3UT3Sw7XVYxjdBwt-gqlawDGMlyfSpvaEPa-LQ9JI8zh8nGk8BRdS_EAl0AbugJ5mLQm_yWIzG79m0nHIMDGuE4um1fu6JK0oNtQVjPTf2reBeXShoE8JYb5pFpblbEvkq3Q7DaROEXlKhO0KGaAIG_JwPBa1NatTJpFcvzSFxXCLb8An_MdGSy0kpPYgVBg1ogY-lQSKAfPVe9VEBy660lx3Hm08fhvbvaFDAl28Bai89BpjapkE4UBkAp9fW_hImpQN8xJY2ry22CrggcMjsSYogsEgORJfYoDDPNX0U1PWK_x2aJcViWCqD6_3KgoPdfIGQ9XVPimqk_TAEYj5_kvqNnTe5xKWHqeuhd1n2uchPpzz_bTlWTotS1NAUiS-wD2H1Xb-Su9IuLYTp9neHj6oBRNMFqaMzqGp2SzQew-VBxalI5T1hfXv1SFA44sG0goLa6m7lQaDbYVA.NzyywzJ3CnrZCW1JjClrLQ
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 1037
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Customer xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:GivenName>Olivia</ns0:GivenName>
+  <ns0:FamilyName>Salmon</ns0:FamilyName>
+  <ns0:CompanyName>Wickes Building Supplies Limited</ns0:CompanyName>
+  <ns0:DisplayName>Wickes Building Supplies Limited</ns0:DisplayName>
+  <ns0:PrimaryPhone>
+    <ns0:FreeFormNumber>07799547276</ns0:FreeFormNumber>
+  </ns0:PrimaryPhone>
+  <ns0:PrimaryEmailAddr>
+    <ns0:Address>olivia.salmon2@wickes.co.uk</ns0:Address>
+  </ns0:PrimaryEmailAddr>
+  <ns0:BillAddr>
+    <ns0:Line2>Lodge Way House</ns0:Line2>
+    <ns0:Line3>Lodge Way</ns0:Line3>
+    <ns0:City>Harlestone Road</ns0:City>
+    <ns0:Country>Northampton</ns0:Country>
+  </ns0:BillAddr>
+  <ns0:ShipAddr>
+    <ns0:Line1>FAO: Gabriella Salmon</ns0:Line1>
+    <ns0:Line2>100 Medina Avenue</ns0:Line2>
+    <ns0:Line3>Newport</ns0:Line3>
+    <ns0:City>Watford</ns0:City>
+    <ns0:Country>Isle of Wight</ns0:Country>
+    <ns0:PostalCode>PO30 1HG</ns0:PostalCode>
+  </ns0:ShipAddr>
+</ns0:Customer>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/customer?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..QASiAl2rnSI-sDbgzKx2Tw.j7MiOH2EkjLSxXN0PTjaQfduZy7R_J2pJOP7UZ0JbS9rJ3QMQspupJiXdpNQdidpFdu5o1kZ29m4fGkP4SVHvjwXQn_ppTWGw2LC4_7LtWQH4QRLImNeCaFXyGBRZFlA4-VN9fmaJf_VYhVWGrSo5YPwNUkoymo7RJefFSce_iQNnw6VYVFfluj5Cgb-gcQla2BPPNNUAFPd_JChZbZfwRJf_G9HmFhAlq3GLGgOV9pFGL45KjXJ3T3tXFistBUi_tqK5OfrAIyRVzJa7Wql4SRWwcn4HFjU5K_ptSHkpc8iEhdTeQQg-B4Wt7rvd1Fhfzh6bcuZ7JrauUmm6x0agb98LzJocf6g22bOEOONq_4jfh7BdlycE2ui2QARZYT86mfqNugBKXcn1fgZv43JoBg6q0uBuFTnVMFd8gcB248nXx2uWqyl8Np78NtKslzhjrDAYB5tbxi4XZjtWF7GaNbuehqXg9VycNWVDzZ4rYozP_7KEncH6QrBcukdG3CTGcSSS8Hs0-ZjmDRuv0ZtsB1slrAA01qIgftxZecQlSSwRIh0zzZftitr1FFvCsV289qLbEwVV55KotH8QigdlfhUus1chHc0xCW8AyemJddOj38a4rN3JNoL9Hi-cQ5Dq149SjZ19AgfJSvJcfzkskfUhISyAq_8ilV6_O0xrYw.B6iojAg1QmIucs39YamyMw
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 790
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Customer xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:GivenName>Stephen</ns0:GivenName>
+  <ns0:FamilyName>Bush</ns0:FamilyName>
+  <ns0:CompanyName>University of the Third age</ns0:CompanyName>
+  <ns0:DisplayName>University of the Third age</ns0:DisplayName>
+  <ns0:PrimaryPhone>
+    <ns0:FreeFormNumber>01622 693312</ns0:FreeFormNumber>
+  </ns0:PrimaryPhone>
+  <ns0:PrimaryEmailAddr>
+    <ns0:Address>stephen@morwich.com</ns0:Address>
+  </ns0:PrimaryEmailAddr>
+  <ns0:BillAddr>
+    <ns0:Line1>Mr Brian White</ns0:Line1>
+    <ns0:Line2>118 Courtenay Road</ns0:Line2>
+    <ns0:City>Maidstone</ns0:City>
+    <ns0:Country>Kent</ns0:Country>
+    <ns0:PostalCode>Me15 6UN</ns0:PostalCode>
+  </ns0:BillAddr>
+  <ns0:ShipAddr/>
+</ns0:Customer>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/customer?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..e2adsa1XZr5_eFwHckox8Q.QsBDRQPl7WqwgGxp88v45pBY1qDY8GxHrPFznEPz5ZGBxqXT3kqcKfHN1eQ33wS-AtALxqWIDyurKFKE4ZpbIBwvmy6HPHopyHJBF9yBMATyhfi1lhaPiAnBdzpsnWR-wGF2bOgkMFSmCz0tqL3IaFFfo3lK1eLopPMerTsnV4XfhMnCdXcwUt4zQOgz-6jSS63cqW6dBYsPb3qI98ymXiCbQ-ZZJOV1BudJyeTp0BAX-vxcD7hD7HtggYr-HMUEOTO-Nzvo-JaZ7-KNqtwTcIDS9Z1B33_f3l_7nCZZhrt66J31oYNKDBZBOZB2Vu19HauHJ_GxK1PvWCYdE9XtBQM230E8LmBIYtKVunuvqI0skYSK2Es8zuyoGqN_VxXcaL6M82pouMi9wgAOl-FL_Nx8h0eP_7_-qnsht8-DXWtcI8Gmt4e7quQsrKkGr74BqyJc2H0-tzCwVIHk_MiQCCLT8T1X8DOf0LgFJUGIDaCFbWhzo696zvyTV1vVmJ7F6URJUu-qRzHS4ZdeEBitydZZxqbXMw2NeHBKdCBJkhwgeTkdsReGrwzcLuxLPWYH0mRxo0gxaK3rzrjX6WkmrKbfA9TAyFVwMgb7Y2y9hFBxt7lfE2iw7-x_CKs1yvPhx7Q4NGHiU9tJ5QdCWFUTp74brn8aaS3j49_nXe0bimI.rSfvwKaYgipt4wyjpqEX5g
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 1037
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Customer xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:GivenName>Olivia</ns0:GivenName>
+  <ns0:FamilyName>Salmon</ns0:FamilyName>
+  <ns0:CompanyName>Wickes Building Supplies Limited</ns0:CompanyName>
+  <ns0:DisplayName>Wickes Building Supplies Limited</ns0:DisplayName>
+  <ns0:PrimaryPhone>
+    <ns0:FreeFormNumber>07799547276</ns0:FreeFormNumber>
+  </ns0:PrimaryPhone>
+  <ns0:PrimaryEmailAddr>
+    <ns0:Address>olivia.salmon2@wickes.co.uk</ns0:Address>
+  </ns0:PrimaryEmailAddr>
+  <ns0:BillAddr>
+    <ns0:Line2>Lodge Way House</ns0:Line2>
+    <ns0:Line3>Lodge Way</ns0:Line3>
+    <ns0:City>Harlestone Road</ns0:City>
+    <ns0:Country>Northampton</ns0:Country>
+  </ns0:BillAddr>
+  <ns0:ShipAddr>
+    <ns0:Line1>FAO: Gabriella Salmon</ns0:Line1>
+    <ns0:Line2>100 Medina Avenue</ns0:Line2>
+    <ns0:Line3>Newport</ns0:Line3>
+    <ns0:City>Watford</ns0:City>
+    <ns0:Country>Isle of Wight</ns0:Country>
+    <ns0:PostalCode>PO30 1HG</ns0:PostalCode>
+  </ns0:ShipAddr>
+</ns0:Customer>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/customer?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..S5z1x-2O0BtW0Cs76M6oJw.6aZgBgFQ2tk_HWKXiFjnhQyQyh9ME-pmCpqMKPbkLt9W33hP0rysb6Z52JKZSraCtUBDLoYgfPdlR0f39fdug01kproGIQAEye6W0jqxEU9tuaRUCqngLfxeCBdy5j6RVMujUWt3Qx5iS9RqgKdxFfTRsi0Zee39q21v6vD8yYWZhY749J_Eh7WuOp9C2fEXqg4DkOjhqzvS7ASX3P8MF0I-pSwM4GxHK1HbPdlPTXMG5ZrRt03Kux7ZPqfF2zC2qWMCT5UWfDg9nt3cQ2VvThrtUdMS1x2a3tVL5mdfGRBKjVAlDz-ck-hVQfFh6ad6Q0SMw-HEqZLxUHg4lUFC2aPaJ40Cl89uwqMIy03mPLZ8cPqLKUTNyi8MQ5plyjVNmqV4o6hZHIMpWJd-h0qlwwczOXvQtFhBxuidRih3ZL0aWLiDm3ZQtaZ6Llsxxv7DH-3zMnkg4kFe_X6LO0uB7uuYNnZQtQSI4unSfLM_ovjCGor5iNC3s2dUIrm7iDk53fxZjM7Mk9ZjVXV3nArXfvgVSIgOcmHHvrDrkP1RgOh9DO2mgX4jSzGRDc9BTwYsmX-WeMcxLm2kuugMXps84kxa3egJmjxhHBr1fD2hYvgdK3llXZKYOHyF9lwQAQGRdm2bI_wWsLHEy0-zBRarOFDhTFRr4er9VS8rAPPWo3g.nOlIcSJaQTeeiV0ggALLPA
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 1037
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Customer xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:GivenName>Olivia</ns0:GivenName>
+  <ns0:FamilyName>Salmon</ns0:FamilyName>
+  <ns0:CompanyName>Wickes Building Supplies Limited</ns0:CompanyName>
+  <ns0:DisplayName>Wickes Building Supplies Limited</ns0:DisplayName>
+  <ns0:PrimaryPhone>
+    <ns0:FreeFormNumber>07799547276</ns0:FreeFormNumber>
+  </ns0:PrimaryPhone>
+  <ns0:PrimaryEmailAddr>
+    <ns0:Address>olivia.salmon2@wickes.co.uk</ns0:Address>
+  </ns0:PrimaryEmailAddr>
+  <ns0:BillAddr>
+    <ns0:Line2>Lodge Way House</ns0:Line2>
+    <ns0:Line3>Lodge Way</ns0:Line3>
+    <ns0:City>Harlestone Road</ns0:City>
+    <ns0:Country>Northampton</ns0:Country>
+  </ns0:BillAddr>
+  <ns0:ShipAddr>
+    <ns0:Line1>FAO: Gabriella Salmon</ns0:Line1>
+    <ns0:Line2>100 Medina Avenue</ns0:Line2>
+    <ns0:Line3>Newport</ns0:Line3>
+    <ns0:City>Watford</ns0:City>
+    <ns0:Country>Isle of Wight</ns0:Country>
+    <ns0:PostalCode>PO30 1HG</ns0:PostalCode>
+  </ns0:ShipAddr>
+</ns0:Customer>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/customer?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..kSe9guVKe0fYoeNZew0NBA.QPC-GeNv16q6CwrH1m5LQMsbSJm1jWp8fERa9anllVEYS8JHaK3MfbBh35UI_7_X26GB8U0SzZUiZtaNqidkXInW5Rz0LZc0E2tAcMMWbPErNJptXj_YA24nkqAivGVvWV1ogczvGh0-iIQJC6ta0BNG4FnJg5Hxa3VNkQkgkybCzulErxF0ZmxMKv_A9FKZTKGgSSzLUboglEKUD96AhchnlpHlMXrFTMKC94MJ3gHeN06Anmi8bHGOYMv_S9qfDhUjBMZljyepD6vDfD7uEhkxcTb5fqPLBrUMqI8GAeplqDkLi6b7jcHuQcG186-9ehUS_VFrBv2dohocccLJG9AGmw62bmzC-4r-GLrNLa-7hgMfFZJadrDmmGpkD7_osUPwM3lRKQ_8HH43EkRT75_1cy7QQ0RKp3Ztm1KQ23uC9kEPlEocJ38eYBOwokDSfFDZGpiWcg9NKrydpAWIPPz04Kglm6CHA9xYeSNdiBrNreTbH99pDsDPe371jf5LjvNIteHYvd3PQQHqjPLzdvTcOIf3Fdj5F-HORe9U7oDLZjdLw3Yf2PNvFhqK9dm2uzGg4G7Dph9bdsc24cU2KS9z-tYgge3XjCoaBqdGq_C4pHQmyjAHWfWqVj7JdAPFS1JSrQqMzZzzJPspfxWOx_QJFwfU7hoZQS_XbzRILTk.thpILv7Qx0s4XDnBvUSpjw
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 1037
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Customer xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:GivenName>Olivia</ns0:GivenName>
+  <ns0:FamilyName>Salmon</ns0:FamilyName>
+  <ns0:CompanyName>Wickes Building Supplies Limited</ns0:CompanyName>
+  <ns0:DisplayName>Wickes Building Supplies Limited</ns0:DisplayName>
+  <ns0:PrimaryPhone>
+    <ns0:FreeFormNumber>07799547276</ns0:FreeFormNumber>
+  </ns0:PrimaryPhone>
+  <ns0:PrimaryEmailAddr>
+    <ns0:Address>olivia.salmon2@wickes.co.uk</ns0:Address>
+  </ns0:PrimaryEmailAddr>
+  <ns0:BillAddr>
+    <ns0:Line2>Lodge Way House</ns0:Line2>
+    <ns0:Line3>Lodge Way</ns0:Line3>
+    <ns0:City>Harlestone Road</ns0:City>
+    <ns0:Country>Northampton</ns0:Country>
+  </ns0:BillAddr>
+  <ns0:ShipAddr>
+    <ns0:Line1>FAO: Gabriella Salmon</ns0:Line1>
+    <ns0:Line2>100 Medina Avenue</ns0:Line2>
+    <ns0:Line3>Newport</ns0:Line3>
+    <ns0:City>Watford</ns0:City>
+    <ns0:Country>Isle of Wight</ns0:Country>
+    <ns0:PostalCode>PO30 1HG</ns0:PostalCode>
+  </ns0:ShipAddr>
+</ns0:Customer>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/item?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..zxHwYFtw40SGFm9zno7yDw.ixI6DamYNzgakm8bKJ4TAKcxs5UtwKZmHL5jWGj93EobSD2vCOF4IiFxodQh0r1tQvp-Cfl3eT0eV1vsc8lNR5cwn8d52PamwlcWtkfEEDxuC-HPCDDA9iD-Xqbvi2fBZYwC_ACOMSaEMs9YJ67ak5I5i_Lcuo1Kx6t6rphvrjYSvsNwFLSDs5G-W51prmVAwJy0w72U8VKE4OD4CeBmY5EpIWAxzXbzsWm2btdZNm3fEZE3_7ZkfJAWGY6CWjAuHv-oDJcYD-yWLZMum92aSKx16kWrRk81PqcmOcjoYLZZ9yWxQpdhQBKlQD0lpAyOI2iRMB0o0XVZqH8keFXcrBooFNnJSlV0VOcPyi6WdqLir4bFkhN4o_EqJ3D1L9PmMDmgs0vL74ErvMnwj5oIle_vqfBQOwFW8BCP8Jz3Wa5pnn3Y7UzpFURBLcuwXCOTQOuMEXp4m7y1coNHnS61ykbqp8Bg8qUNEAqPfns98Wm6cYwPn3L0SwzK5AiVfi35uPrvx5rKKT497fa--vBOss4rGNjsBxGBrZ3eSp3ukgh0PBNWuOZcv53hiFISgNY2x-uua3nDhGAD-AxE9E6gshszfwBUXw96iD4EPSERZ7jOvaXH9i1Q0V-iRUaVhMLsdoL5KzoBCI2MFBBBkw_TaiTemvZ_HsXTZZ0mO9xMfCA.wQDfc-WNWyATExXJYAd-rw
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 544
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Item xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:Description>Design  Mixed Double sided</ns0:Description>
+  <ns0:Active>true</ns0:Active>
+  <ns0:SubItem>true</ns0:SubItem>
+  <ns0:ParentRef>78</ns0:ParentRef>
+  <ns0:Taxable>false</ns0:Taxable>
+  <ns0:UnitPrice>75.00</ns0:UnitPrice>
+  <ns0:Type>Service</ns0:Type>
+  <ns0:IncomeAccountRef name="Sales">156</ns0:IncomeAccountRef>
+  <ns0:TrackQtyOnHand>false</ns0:TrackQtyOnHand>
+  <ns0:InvStartDate>2020-02-25</ns0:InvStartDate>
+</ns0:Item>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/item?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..yQDJtPjije8kG7oDYUQ9XQ.OvksYSGCfQl2od46LLKlPL0m19lXrhj-07ukWpgSd-lZAmh4c8V_C8uPquexbKvCMNgBebgxYxtWLV_NdCpNu4kxtghR8bdDKQic0t67xU-ziu_bvXMVsxmLqlQAA7DNiXJYrB7gy0-t_LzNmAw-bOo8vlFAwnRrZXtigzMIQvjlINHTDrlxI3fEqqIGDA7x97GEIdniqpbvwnpiJDBC6p9s8LU1u9PE2Xeu27ZVVjfey80bKcLy6mtPfd3RI1lxII8oS_L-PMbT_H9K3PpdOrytcDUwT5YWb1rbfoTeClGCHuO0mnAuo9Be1YeG_t-rSxjTxzRKITAwc-tB2q9f9UYybMJhNBc_-VMW0KcmE1ZHZcL_K6Fs5eRyEf3ym7rz586jAdTICHBSPxZcicQj0pD-K9zLpdlMCJnUcN9OsgwonThxkrtwbODsZ5OiN61M-kP35JqBfSluYYNs2rBQ7wsg5pl5cVFjBlRaPXhOezwTXQ4ji8NP-5GylfAc847-FlQ3EPlZWmuJ9F3z_SSPSm00HzbURveFZA81DtIh7oCJdJUewbKEIRsiOpvOlgmYX6rtvkgd9ABnL6ByOYaQKFaRVf816xTUDfrNjluf7CXpEADYOkrtt2DZIhSVgEdYiUDAnQouA8RCLw3yivfiCieqmYG6pBwwUc-xdzohx-8.QmO7G_sPNRUgeYeHfuqVLw
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 544
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Item xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:Description>Design  Mixed Double sided</ns0:Description>
+  <ns0:Active>true</ns0:Active>
+  <ns0:SubItem>true</ns0:SubItem>
+  <ns0:ParentRef>78</ns0:ParentRef>
+  <ns0:Taxable>false</ns0:Taxable>
+  <ns0:UnitPrice>75.00</ns0:UnitPrice>
+  <ns0:Type>Service</ns0:Type>
+  <ns0:IncomeAccountRef name="Sales">156</ns0:IncomeAccountRef>
+  <ns0:TrackQtyOnHand>false</ns0:TrackQtyOnHand>
+  <ns0:InvStartDate>2020-02-25</ns0:InvStartDate>
+</ns0:Item>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/item?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..RwWyokhqKDZeUYJ0mwD1PQ.6qd0TMpcFtpakDNu2AMUXx7SSf6WQJvujsJlL1ZH7q3Uazs-ogmQ59r610UQkoWZkgIkwOCebHl5kE_0xijaaL-lCZe6uhBOpfdY_0Ny2B50wAI263tQDbjJz2Fm-ily9o4TmhT9n1PnL6zzAaOisOS4XjtjehcXmQcV3n9BcSo6GM2S91yaKd2NqvtcKNGjlkS6EMlvlf15veZOLZoJPb4Xqruxocxfo3zMGLIs8TyScdrTJaqaXk3lPu0Z4CnOFEqakWQiR_-fC5tK0lZdJ2nmAK0d0TmfzoVEH0vyMPX0OWSkhlprMTQPYQsWbeiTwFkTokQTwuQsiOJ12cVb-gototOhzKBeF-FtsrNZHMd39lcZZ4N25qlrlnBj5S6KicdgApYEOVZ5exLvMXHz1xuAEYshEq6DXZprDaMOsM4qWqUZiuraBFZEoHAsFz62n9eLVBdsRO9PvjW0O_igw4Q1Mep6S5SoM-Ad8XZyt8GjMCvD87m5Gb9G8PJj3Y7bfJUb_e2LcWpwsYk9-V5YNwirHFQkDQTCxEUMVPzzG_iRBJ5ivmfLUZNQOKvR2DqxLmjb82TlHWhE-huLuzyX_GVJWfQzhRSac4gIHpPdcMQNQldDtII6lUnz8MVPhRgmZk3hxTzPUj7M8ih47q1vaHolnmrMn_WtuKUqMAt3yR4.np0OmniLQEuH7eVaE2lT-A
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 544
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Item xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:Description>Design  Mixed Double sided</ns0:Description>
+  <ns0:Active>true</ns0:Active>
+  <ns0:SubItem>true</ns0:SubItem>
+  <ns0:ParentRef>78</ns0:ParentRef>
+  <ns0:Taxable>false</ns0:Taxable>
+  <ns0:UnitPrice>75.00</ns0:UnitPrice>
+  <ns0:Type>Service</ns0:Type>
+  <ns0:IncomeAccountRef name="Sales">156</ns0:IncomeAccountRef>
+  <ns0:TrackQtyOnHand>false</ns0:TrackQtyOnHand>
+  <ns0:InvStartDate>2020-02-25</ns0:InvStartDate>
+</ns0:Item>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/item?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..YNJ686deXGhZ82Ukjaz7Yg.5oqxuw4AWu6y5qC8qbbGKxjzVFR0Q4OHnmGDVuXlvqrsWN2ZFzoe5afkU3JVfKuOvIQY6rxojXVGcUwBTiUiiTbVuWvyN2hyf8xJvaTYICcRyQO7FdUAKimjjSc8GJ3YtMBjZjbykieMSO95xOkKvbGeStZg6xFub-rB_IIHqSu-yPEZbCSxX2d2LOe4_701fwWn9FEz2m3zss2IsxRhrBmxwTB8LGK4Ohhpm1OJMVapvSkk5Nl3FH9Ndg16c31juZC9zKGsBZi1GGgw9zE7YxisHe3jUi-11uPH4TXhV0cUOW1wwDFUxfhBFxJ6wMPSNV2NJtnUxI9av9zw30OCbjp5ZKVaSwWWYgHGkY_TFZrex6JBMuzumYA23GXG9BCHNfi7mOuXs7Pw5kcKskcdbrWphB7nDHcRtpTFM8VhQeEerk4CCBkPzX-gm5QMtOkbijIfC2MKXv6Z3W3qzIOCrJAO9Vc5b2Eii9L6Meur0b8kNg2MoIQ0fAtaJ5i41XHksZFhAB3Y6zafBSu4YB4YpM5dSuDPg7HEQJKR1GVgpZkHE9jVWj-z48ITCmNe_ynilnOWgRbM3bVVEvSxFCzdY3IgJEKyGUU0OYdP4p-nNvwPPeMrDJg6gzeD1-uCAhOZTDriW8pTaDnOlmyx9IJAkWf9P3Lvux_PJMZASRf54TU.fpdcbs92w811mZeKv8vlHw
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 544
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Item xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:Description>Design  Mixed Double sided</ns0:Description>
+  <ns0:Active>true</ns0:Active>
+  <ns0:SubItem>true</ns0:SubItem>
+  <ns0:ParentRef>78</ns0:ParentRef>
+  <ns0:Taxable>false</ns0:Taxable>
+  <ns0:UnitPrice>75.00</ns0:UnitPrice>
+  <ns0:Type>Service</ns0:Type>
+  <ns0:IncomeAccountRef name="Sales">156</ns0:IncomeAccountRef>
+  <ns0:TrackQtyOnHand>false</ns0:TrackQtyOnHand>
+  <ns0:InvStartDate>2020-02-27</ns0:InvStartDate>
+</ns0:Item>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/customer?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..OqoUGPDzjR4AkcO566a6Zg.uvvKb_c1mvGlWVcHfQKZElDHHQ3U0AtO_8TPeSZI9CPfpZU40CXilEU0cEj4kwdgaxpN6ugAqddqMFUpNwMlFkMAjWLw9J7McDBsTlaEquxpFoOAXFzIKVJZ4a4b_7Zk6u1kzuUAyuIWKXoQr0sB_55MQEnPheKI6sziK61IwZ_Ql_148Ng2_4rdXWOEp3rWqC_jjNeurUpNU0yQ7B6DzwffxaoayCjJj_mrAMAKefEgbUyANj7zF_zB9HnGXukN61WuBImfUr1Jx4pzHveEjIJSdjxzHlUL4oXeMpiuL9SIn_jSgf9tkigcO87KcNKc8LdPKgC5FInOlwu9kce4hvNde3fO-YpU0F2i-_IA0z28L0ofONM_o9G6eoOCu6v1s7vY380utCXDcRSXiZn4KIEVMiSkHsKduYSe0eTBhXy-wXOUqSsJQXmZsWFEWqw4EvAlGUg2NwjBdCuvzCj2KgTDULLYJhXBjlXsSIH4e41UJMZ_iz3OukWKXp8SzTNlRt39kvChXXzcz6TeltW1tcIvGXVXVFCZjmaY4HiI-5Ij3H0IeE7E62SNx7tKAc2o85Ve3kANQUXMP_S6KmS8tSMZXBLujXbU3XyyUv4liu-LQHcy5RYU6Wtl6YERGmT_88mN47aUXzRLaEQD5eQ0NwizsWTlyF8VtQGvtiWg2p0.yHbNYNM9lB__JYQ9u3j6uw
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 1037
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Customer xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:GivenName>Olivia</ns0:GivenName>
+  <ns0:FamilyName>Salmon</ns0:FamilyName>
+  <ns0:CompanyName>Wickes Building Supplies Limited</ns0:CompanyName>
+  <ns0:DisplayName>Wickes Building Supplies Limited</ns0:DisplayName>
+  <ns0:PrimaryPhone>
+    <ns0:FreeFormNumber>07799547276</ns0:FreeFormNumber>
+  </ns0:PrimaryPhone>
+  <ns0:PrimaryEmailAddr>
+    <ns0:Address>olivia.salmon2@wickes.co.uk</ns0:Address>
+  </ns0:PrimaryEmailAddr>
+  <ns0:BillAddr>
+    <ns0:Line2>Lodge Way House</ns0:Line2>
+    <ns0:Line3>Lodge Way</ns0:Line3>
+    <ns0:City>Harlestone Road</ns0:City>
+    <ns0:Country>Northampton</ns0:Country>
+  </ns0:BillAddr>
+  <ns0:ShipAddr>
+    <ns0:Line1>FAO: Gabriella Salmon</ns0:Line1>
+    <ns0:Line2>100 Medina Avenue</ns0:Line2>
+    <ns0:Line3>Newport</ns0:Line3>
+    <ns0:City>Watford</ns0:City>
+    <ns0:Country>Isle of Wight</ns0:Country>
+    <ns0:PostalCode>PO30 1HG</ns0:PostalCode>
+  </ns0:ShipAddr>
+</ns0:Customer>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/item?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..61mtONqe-k780ponFBp2XQ.mPFHwVXqSQVqbTlenLeeZg2JXeIBUrTR-VrV0RPh2OlLmpFVWcp0Nm4K_X6UO59SD22ub_k_GrbhRpQBCBmWZEUrdL2fP-gtLKYFEEwfBHffhfB0Rma-OIxYrIO-4XP1kQ4xamcOUv3eRiIiREtb1tvkYBayz3wozFypdBrYE9rDtBBL0LhLLtnFRP6puAGlvS0zD4g6OKNOI9COH9MHP6FrntvtUALVZTI4aa_2ZoJswLuZyTuXf6anulLSQ3Vx6IkK_yBcHN6TCmYRAaDLi61AzvksN8RV9u3uz5f1uBFc-BawsP7m9WxtsF-ZQOcIDXJhdMlNYTriz2J7SovRuWDdJJQLSgOoR3v1P8B2XscYSg6xuUNHsHZgJul_DKIYCBFT61I0HQZ_HLwh6Xw_ZE7Sh9Ltfa0oZEVqqN3S6fbMeYdcV9Z0lXoLCUNWwLbeInjU81MRJcl4zbuIifM5r4DfGw1B7wKzTPJ4AguEaafBStR4XVbNZHZglbuXH2c3eBe65054HlVFmNCBgBR5N0fZmiRHepJ9tpUm2THVgDoUfeaOaG_xSKfxx9uJehg_lPTAPRCKucYVk_J2Qfj43Ord6DJ-fbaNyAYO9bmQXvMBEqV7GI4n-p-gTOL2b58SsoN632nRpc9NxPssS2O16-bthyWBTo0YQOSyjOLym6I.GL_C5oVJbNYCrSZ3GF4ZFQ
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 539
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Item xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:Description>Design  A4 Throughout</ns0:Description>
+  <ns0:Active>true</ns0:Active>
+  <ns0:SubItem>true</ns0:SubItem>
+  <ns0:ParentRef>78</ns0:ParentRef>
+  <ns0:Taxable>false</ns0:Taxable>
+  <ns0:UnitPrice>95.00</ns0:UnitPrice>
+  <ns0:Type>Service</ns0:Type>
+  <ns0:IncomeAccountRef name="Sales">156</ns0:IncomeAccountRef>
+  <ns0:TrackQtyOnHand>false</ns0:TrackQtyOnHand>
+  <ns0:InvStartDate>2020-02-27</ns0:InvStartDate>
+</ns0:Item>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/item?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..Xy_unbalZFULKgdg8MW_uA.X7Px-g72nctVZH3JMu1sh54K7dYyBQLsYKDdLYaV2yu6Kg0x8D2OlFHTLJf-Ll6_QcugMqvmz2OVhp06o58ug95Dz9F3ucJ_HW4bRPxQRWYO2OPkbV6vhfwc42IAr_aWmEu-2cpjlcamOpBy7YxAIFt8ChvBxA5BEihoBudZu4a-iL7YTIIh22w3xtVOwS8995kR-03y8zIRooa92dqe_4BGOQporFn9sckEcrLaByc5I0hoWWdvI1Y-PrTJUY_T-a1brr_Wxi8zoNQO2Ox_udUypYPQHz-AI7JIjAJQUp5M5-no138yYALeBeZiQBpoSEAPjU64qdFX2vT0aXIv1kp2sVtBVe3FVH_ZHRUBAbLIqQwWpffSmJ4LgbUIeW6at2_blf5IpFoyQGDTpyTNbUKbaLI7c6v6q369XiD-4sIitqid4IXGY2XVMhB2F87R6_l7XU-qPb_rUZYh38ipPyKlWvWuLbuYmaE3VqOeg9w8Mc6VVCoWcnQNd_jiYtumOQnlbMsJG5RsmXmsDcIvDKFcrVD9v37QzzxX4MOBsx9A9gq5WEMX1bkWoV0KBVxYDBP3Ucw8k9wB-IqaCykDZv_jj4AWpUUxiBfJZhgI7ASA-yYa8-VOd8qRJjYHgJw9QjA0wCE0NiFSzTNt_6OXpc_E4fo-crU8fH8hKHjE8LY.Lybyrct3ZtIIuaqF3kKPFA
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 539
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Item xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:Description>Design  A4 Throughout</ns0:Description>
+  <ns0:Active>true</ns0:Active>
+  <ns0:SubItem>true</ns0:SubItem>
+  <ns0:ParentRef>78</ns0:ParentRef>
+  <ns0:Taxable>false</ns0:Taxable>
+  <ns0:UnitPrice>95.00</ns0:UnitPrice>
+  <ns0:Type>Service</ns0:Type>
+  <ns0:IncomeAccountRef name="Sales">156</ns0:IncomeAccountRef>
+  <ns0:TrackQtyOnHand>false</ns0:TrackQtyOnHand>
+  <ns0:InvStartDate>2020-02-27</ns0:InvStartDate>
+</ns0:Item>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/item?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..aOomRm-Vv2vKphqGc5snyg.e8llYgsSUw12BMQ2ofs3qMh8rE_oXpYxgWlk7M8nD8uxI-XQIuVy4z6JvoiotBpS3umhcmpFWKNowwZDWo8lB4piYjk_XljoP4HfADcc21CH3UauE81-7ado5fof77kJITFhLzn3ULavsWrvqOHc0cDX49HY-RqKT-P_jGcEgHAOchnBWQXqOYj7Vxkvj7Uf6cTP7Vau4dCr3E0tGG_qOs1F1rf5bOLwqAabaLvtzclsykX7NTCsdBh83jJkftBWVnFxF5RMxl-a4sU2Yr_lh2_bU8P7ARU8RWA8flXcJy5l4B7CDvTdmEsjmUOX4wk7MsbW6l4_NxWv96JCSdyxVx0PF9Iw04e_c6FaOm_rdr7IvhrEj5f-vUsPtGRI4KILnr92MEnlW4h8AU6FRdbncPS88oX4Y_OclRQAQ43AjhjJvsEScYssqH8cfBkuafcN49UctRzBaDmWuxOlPlKp7fcXS16hiUZoQcHkEBVGVFwgj8V2hl64wHlB8qlPpXgCAYgx15Nzd0NO98Jo-1rJFue-JkCDmeGqZqrt631SFkinmrw7_KwcFpIqzQmtvIfHMnFIP4G88O4Lf-iRDQT5ktJ-ujmWzqS7cC71chH1QRQsxThuxK5sCHWA5T9jsGF-YbEYZbNKsKbbqKhtX0szDPzO07b6PDr-sBpCTodpUy4.qvP4PgrbkQmpfizbyjr-nw
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 539
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Item xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:Description>Design  A4 Throughout</ns0:Description>
+  <ns0:Active>true</ns0:Active>
+  <ns0:SubItem>true</ns0:SubItem>
+  <ns0:ParentRef>78</ns0:ParentRef>
+  <ns0:Taxable>false</ns0:Taxable>
+  <ns0:UnitPrice>95.00</ns0:UnitPrice>
+  <ns0:Type>Service</ns0:Type>
+  <ns0:IncomeAccountRef name="Sales">156</ns0:IncomeAccountRef>
+  <ns0:TrackQtyOnHand>false</ns0:TrackQtyOnHand>
+  <ns0:InvStartDate>2020-02-27</ns0:InvStartDate>
+</ns0:Item>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/customer?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..flQIAuHlT2YR4LjyxIHpLA.me00hKT9v1s4UwStSoc9SPx9f_hxg2B2uFTfN_2VXC2JadRO9QdoJ3RCgR7argpCJtEPcccq1j_yoTxQs45bFPL2ZGsnu4WbmIKRW-_Lvm9xPcYefgywfKgc5mQYz7En8lg7QbSEb-AhzdyImwXFXmNx-qwI2MoanpVsf-WIJABFEid-O2S3BIN1cCotR0ybTf8qs3BjRZOObtm8QIGdYKjG5EZJtHKJhHfSn37qeTpLJRnqBc7D7TS3Buj_k3AS9v-Fv8LW-T6964pUUsxYPvHB1rlc-eHpuyFQ0Ciw041xhYWkHH_u6ALtKysqMXAdQ5uo2-R-mRDJ3VAXba1NK0uZF41EHVhIf42OhhI693HWOK9jWjbjQnQtMgt3YnM-IBeK_QbXxyhX8fyQQY3Stgnle-WOHAx2ViDEDKudIV4M2jpljIYtS4AcU8hj4yF4z82c9YEntQ350o7oJeHpqnmytbp7lWvqYU-NZbhmpb6CDv-KWXixgWUhymXOcpKOnoZlZdfYqWfEj_Oyny050lGP1hBdXxNa4Lw6hYNzt0_HvYzgHKqTSWNfu-iZKf0h8KAF7EBEVymAHq9zsulPjMZZVkrs8WWZ-3yYFcIPd2Vt4Dq3hhUa_a0XZezFgm-4mHa3dELByvCUlXBU9MorM45DYvDFFpX7anjrrpWV-gM.idg3hjMB6Xr67FxtfNVH2Q
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 1037
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Customer xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:GivenName>Olivia</ns0:GivenName>
+  <ns0:FamilyName>Salmon</ns0:FamilyName>
+  <ns0:CompanyName>Wickes Building Supplies Limited</ns0:CompanyName>
+  <ns0:DisplayName>Wickes Building Supplies Limited</ns0:DisplayName>
+  <ns0:PrimaryPhone>
+    <ns0:FreeFormNumber>07799547276</ns0:FreeFormNumber>
+  </ns0:PrimaryPhone>
+  <ns0:PrimaryEmailAddr>
+    <ns0:Address>olivia.salmon2@wickes.co.uk</ns0:Address>
+  </ns0:PrimaryEmailAddr>
+  <ns0:BillAddr>
+    <ns0:Line2>Lodge Way House</ns0:Line2>
+    <ns0:Line3>Lodge Way</ns0:Line3>
+    <ns0:City>Harlestone Road</ns0:City>
+    <ns0:Country>Northampton</ns0:Country>
+  </ns0:BillAddr>
+  <ns0:ShipAddr>
+    <ns0:Line1>FAO: Gabriella Salmon</ns0:Line1>
+    <ns0:Line2>100 Medina Avenue</ns0:Line2>
+    <ns0:Line3>Newport</ns0:Line3>
+    <ns0:City>Watford</ns0:City>
+    <ns0:Country>Isle of Wight</ns0:Country>
+    <ns0:PostalCode>PO30 1HG</ns0:PostalCode>
+  </ns0:ShipAddr>
+</ns0:Customer>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/item?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..XfVdjY5i_tqxRI1fkJD1og.wdaJXSB8EChpCbsbHLq0n58nbQpZHKxTg3Pj8RVdS6avMXO6JEfCCJ96r2NJT4GwQiPPMPzz3ZvzDXxSsKd9IPjxwl9Phdhz2kkjP5m8MhrBgEY-lAa54sAtbYHHESBX-XFUS9CdTVWtsfnSF7OKh_27rtU28pLszl8c4u4yYKT0T-TgvF8r-6Eq1r56y95JzuK3mBVFAEO7Ntbc5s3LCrLAMhLTzsETgmVvR3SvlKgK0fZgr4IAYID6i55MHLkVnWhXK-MOgS_7jsTL0hjLtAnU8fB2jleW254P5T-9YvhbNoGsb9EYMM-tVYV3Pz0rfJAtjDigUURbAcPUxdwUdv6juzdOOs-k_GQ8Snf8ahXRLe0lQYM2_QBEp3hi3RdjSGK4GkvbuJ_3gg-ewD_Wjyt--O3a0h8G2CENlKT03y8unCoe4Yz9mEN_iqWCp1qcaCFNdJtiDEKyYgPgbqJRRh27W3IKEZix1VkrccBIKGp0hMKThBM7BF8Sa3wKPTfKOhYokG2XK2LTisaaWsHK2-5k-oz-Tbyu-oV_rY7pTHnFSAvAirH_E9LzaCNlFFDB3cZv8zBWouCX2CL2DuqQWO9YQVjI50SzxcDd2d7ow7uY2UPBLECFHZccJUa8A0zryngGK4drUhdq5010zYRfK0ypEWP5mIR6SMWUfvY8aGo.PswY65bDkvOi2jpCc5MJIw
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 544
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Item xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:Description>Design  Mixed Double sided</ns0:Description>
+  <ns0:Active>true</ns0:Active>
+  <ns0:SubItem>true</ns0:SubItem>
+  <ns0:ParentRef>78</ns0:ParentRef>
+  <ns0:Taxable>false</ns0:Taxable>
+  <ns0:UnitPrice>75.00</ns0:UnitPrice>
+  <ns0:Type>Service</ns0:Type>
+  <ns0:IncomeAccountRef name="Sales">156</ns0:IncomeAccountRef>
+  <ns0:TrackQtyOnHand>false</ns0:TrackQtyOnHand>
+  <ns0:InvStartDate>2020-02-27</ns0:InvStartDate>
+</ns0:Item>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/customer?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..g3hq2tv_llYkOhNEYI9Swg.5VULmVoMYUAg6tVCw8tBUtV2XDbkgu7UIzATiRJGX8X7IqG7Df_8QihYAigQiCogG_9P3fIJjnnLNwPW8PAdRs4CvBrnf3kp1K3tKg3E5FF1kGZDOB-hrSuFIEJACWTvKNKfxTr81cmukFXi17vOt1S7tTQ1K8sNfNmgga3VesvIl4bQ2KpMYNSC8W9VQJMxfDZ-hDI5mhthbd-e2FuxhaeJZ-dsEuufR0UGVb0IJb3TJGpfOXMwFbYHb1AqOsDoromHkMju91GJmh_wxZnxrYHLR4AjaM6fs1TPHIAHDGP-0wMrTtkuACBnwY0dkxg5IX6wNR3l-D0Ia9ByclJSBI3Mpi7qo8qDZFciS8YjUpOTXw-XgoAOH_-XLUlegDYuSX5ZYgqpncfm8LcXnXtpFtJq2aaPyD-5ytbu0KMhFVlMpDKf6-PKRld7rjWr0VBthC5IP8Xn6sThZ28gLYTyPotdsc55gvPuxsemNJqa6P0z-1PGK3tfeT1E8vX43sLpkpboO3hP_q36YtQub2yvGDfKI-txUdw-hatQuxShsz_XRoCJh-NhTI1-82JU00L1iS2xTm2f7SCzIrxJxH4Yu73l-QbyRcTp2CpOmBa8eNEcGdRBcdG3XWUiXUUNx5XgraD6J7wSaaK_BLYiPwBByV_uBFJ7T9PL_m3AEjDj8z0.RyIBB5tJUHN5rmCLsmG4ZQ
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 1027
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Customer xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:GivenName>Emmet</ns0:GivenName>
+  <ns0:FamilyName>Hannan</ns0:FamilyName>
+  <ns0:CompanyName>Idyllic Events</ns0:CompanyName>
+  <ns0:DisplayName>Helen Ladlow</ns0:DisplayName>
+  <ns0:PrimaryPhone>
+    <ns0:FreeFormNumber>01622 674485</ns0:FreeFormNumber>
+  </ns0:PrimaryPhone>
+  <ns0:PrimaryEmailAddr>
+    <ns0:Address>hdladlow@yahoo.co.uk</ns0:Address>
+  </ns0:PrimaryEmailAddr>
+  <ns0:BillAddr>
+    <ns0:Line1>Main House, Turkey Court, Turkey Mill, Ashford Road</ns0:Line1>
+    <ns0:City>Maidstone</ns0:City>
+    <ns0:CountrySubDivisionCode>Kent</ns0:CountrySubDivisionCode>
+    <ns0:PostalCode>ME14 5PP</ns0:PostalCode>
+  </ns0:BillAddr>
+  <ns0:ShipAddr>
+    <ns0:Line1>Main House, Turkey Court, Turkey Mill, Ashford Road</ns0:Line1>
+    <ns0:City>Maidstone</ns0:City>
+    <ns0:CountrySubDivisionCode>Kent</ns0:CountrySubDivisionCode>
+    <ns0:PostalCode>ME14 5PP</ns0:PostalCode>
+  </ns0:ShipAddr>
+</ns0:Customer>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/customer?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..M8x34KRcRVSZutYWTZ4TJA.RRCbZ1S5zTnWm2iSCk349ncwoUzqn91aMqL_6VM-8O7cnYlyvQvLFfuZCzRum6jtoShqMhmp0ZChX8PQVv-VDIvmYmalZ0lCevmXyTh36oeQ9Qzv-of4eQUjrNIOQ_yLJP3ZaU7vSjhzAezvQ1SRAC3lCp8mpLsRqcIDfI6xHRXnTuqP5MCc8QH4YYnAKjAlqjgjhQvvFlEznh0fIhRnh59vHICtm9G2ig-ti9M97Ko61hGcnej-udev7zB7hLcI0iPerUgWiWoIaUDPPBoAKdXK3yuboYyJOyW7L8pRl9BhiNVKpCpAIwOtAVZQqGR1qZT63naB1qCXEwEM0NDhQJCPOhBVRxCY2C7GFM6M5VYICgmD6mdQEHa-JvlLZZNdbXbTGpgIFH8hC3NoskmpjPn2zaKdgtswCi9ybhyu_n_Hw3uVW2a1oPaAhjwErkD6o6Gz6MkjkOlpUk5ThX8SL4EEJPDDwAFfOCfkDhenTCkAuPQqUBUX1x-s3xIoPTvd-yZG60RjBCDNeF-7Q3C3RUV8M0Fp-KBJ3GdMZXnld6zUYeZfZxhrR4rmuHrZUM037tWwlQuzZvqzROHGDtNlIt7r7a1E4FKMVGRkdm-Ip7jD6fDTv0hDAeefk6JOiNImIVXvA9zj2SGYGgGFejNhp732VhAJzjebnkbsBA6hhJk.gF-Jdulz-BuUakduC_-4tg
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 1027
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Customer xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:GivenName>Emmet</ns0:GivenName>
+  <ns0:FamilyName>Hannan</ns0:FamilyName>
+  <ns0:CompanyName>Idyllic Events</ns0:CompanyName>
+  <ns0:DisplayName>Helen Ladlow</ns0:DisplayName>
+  <ns0:PrimaryPhone>
+    <ns0:FreeFormNumber>01622 674485</ns0:FreeFormNumber>
+  </ns0:PrimaryPhone>
+  <ns0:PrimaryEmailAddr>
+    <ns0:Address>hdladlow@yahoo.co.uk</ns0:Address>
+  </ns0:PrimaryEmailAddr>
+  <ns0:BillAddr>
+    <ns0:Line1>Main House, Turkey Court, Turkey Mill, Ashford Road</ns0:Line1>
+    <ns0:City>Maidstone</ns0:City>
+    <ns0:CountrySubDivisionCode>Kent</ns0:CountrySubDivisionCode>
+    <ns0:PostalCode>ME14 5PP</ns0:PostalCode>
+  </ns0:BillAddr>
+  <ns0:ShipAddr>
+    <ns0:Line1>Main House, Turkey Court, Turkey Mill, Ashford Road</ns0:Line1>
+    <ns0:City>Maidstone</ns0:City>
+    <ns0:CountrySubDivisionCode>Kent</ns0:CountrySubDivisionCode>
+    <ns0:PostalCode>ME14 5PP</ns0:PostalCode>
+  </ns0:ShipAddr>
+</ns0:Customer>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/item?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..ANKKjtIRj4hGLCa68F6NXQ.17J3z_JsQMF2Z18tuypkhT2ERkfz9tc2PCpHZBl21aOshZzmtcz7y1qbOxUOjgcEJqa9qkbMcSJNtwJ5W8HA4JaHz9W5D7_3a3Sog4Ac__Yb3KaraDCZ3PL-KXSArYU2ejGFnJR7LtHRkji38t9rByQ1-ak4NukxDWRSE1wurrUcbVaWd4mNX_cEtIv5QKqHd-6y5-AnVJM-3YWViCW7kto1yopcATgekCeDJYTzARRZbfzvsfMx7874tJl6rt4ht7mPAg9yFHpe7C77wnYVSGRPEmYh8xKfxc39W8AFB_QZCVAIKFK0pBdUbiHIL_MBvYHEMCrjQmQZsZNJL9TuJJKRGwsTR4ufWyKN9zREBBh9a4YQkL9IkIgByTE24A7vhGgNpiN7UvqvRlGgE1r3S-lIDVQDoPDMzOPATj94ISjV-_Tw1VbTnhAenXmTz6PmjuULdaXHzgWOzFYSQk_2sLB0gBhnLdfVA3F_ACFSm7_WQX65KxFtC_yn8pwFbbnAC_8AR8O4qOHoHpKZKf5HEVKaHekxkYuX49sQQJEsX2tVA49RvK7Q4H3t5Lii2KJTPup4xXVu3-v6G0MFGyHFT5ziHwliGZQheaaw9iOEIK9AuIs0hE19OMXj9sC0dUYEdK9IVsiBZLe00k3OheZxHecfrQMBX86bW_0QBpCllBA.ZVmPr3Yi0Xm8-K5nGqveBQ
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 533
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Item xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:Description>Design  Mixed </ns0:Description>
+  <ns0:Active>true</ns0:Active>
+  <ns0:SubItem>true</ns0:SubItem>
+  <ns0:ParentRef>78</ns0:ParentRef>
+  <ns0:Taxable>false</ns0:Taxable>
+  <ns0:UnitPrice>150.00</ns0:UnitPrice>
+  <ns0:Type>Service</ns0:Type>
+  <ns0:IncomeAccountRef name="Sales">156</ns0:IncomeAccountRef>
+  <ns0:TrackQtyOnHand>false</ns0:TrackQtyOnHand>
+  <ns0:InvStartDate>2020-03-10</ns0:InvStartDate>
+</ns0:Item>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/item?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..RQ0PS178x_8bPM2UkVmfUQ.sLj893XbzoI-HDGr7SzycZ7AVsaZoUKxdIqsHMGQrNnvCpMY7pUEh2b4vMR5FCkgyH_zjct1Hr8aVQ_qitTbl6Jaoo2ydg6b-VORmzwaGPX9OFGv-iCmuUAHWPaQPnTCsUUyACcoWhSZ5bZ7sX2krFi9hzRwteyqc3YIF9HWkwTJ75rsdViGuU3Yvygn46dsD13t1idV56dWpqb--KKddnzUGLfWNJb4aPHL1JfBjBauWsByaY-MW7J32NxbswyTwtpnZfDNyV75I_ypLREWSwmxaGnl626eiqZhLxFPO5Nuc5J0n2v0I_9CF_1KSLcuSGkSV2-ORkHreE_d2oUTEfeTzkWmUukViS5YLo_wpRqinVDTUv2HdqGsW2m208GT_a8R28sr8WeVBVYZEU3a2uYmyB_JvWjq-DL2cZLJHcPyasqe3YiAiTQ-d5vVz46VhjvCccf2gBWwXzAfRLmvX_Yo0MA0EpARNv7zsE3m1foNT3dNB-1u0OWo0sriAaVwkpxFmzmx4FMlGplCcn3rqogAPLjPGa86vhwBErxsEQdgUkj-E24kObE2ZAXN-tnDe_2pBHurX1wOABbcfDUZ_1leV3o6Aj_RyALO3QyaxmMmiv030ETWRdliwncPwbSbAKdEGfdK8G_LdERmi8jLtLVcuKcccqTY-kT2cOXWhXM.sUj9UmZJn9PTTTTltMdKBg
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 533
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Item xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:Description>Design  Mixed </ns0:Description>
+  <ns0:Active>true</ns0:Active>
+  <ns0:SubItem>true</ns0:SubItem>
+  <ns0:ParentRef>78</ns0:ParentRef>
+  <ns0:Taxable>false</ns0:Taxable>
+  <ns0:UnitPrice>150.00</ns0:UnitPrice>
+  <ns0:Type>Service</ns0:Type>
+  <ns0:IncomeAccountRef name="Sales">156</ns0:IncomeAccountRef>
+  <ns0:TrackQtyOnHand>false</ns0:TrackQtyOnHand>
+  <ns0:InvStartDate>2020-03-10</ns0:InvStartDate>
+</ns0:Item>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/item?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..NIalvkKGBe_ZDp65L2z1iA.qT4CqHcfBHpFJjE5MNo7pU0OmdTIh5mepnvsEm4R0j6RFMiJs518TjVWP0DjGRRsN3EMKhd_AeV6DPJKqSgneeqkF8thXieQmKHifC3HTjmkBN3Az-PUZtdNxxDF5h2B9JQEoJpIDjzLTzUnynGadPWlK1nZQqp0LVJQynQbxhl-YlA9juYuHz5qZLu58LW8IRfg0PnGCFExQ20i3ZV2cj9u4KfXkt3EwRRjy2oiXI9gVrFQQoZoeSYg3NOaSk5kQ3SrisYzggVR-CrLvoh_aFDTNzlgKWJcrfbv9kyq3kJBJs_WRP6o-iojj0d-6p_nsl_uzE9xohk7WayxCSlcehj5cP26UFjIXDPr1VPDAuy2fC9xT1gp3LxYjvbRMmZLNWpuk_q3XxPfXxbZjwk1ODVhvXoPDqhIt8_U59hGeWjuhuAYdFe0HJY_2KekvUfLtaLgPp6beaOWT2YM00culKPH28iPWywscXkgeCw4cINinQ4kRYNEE8auj1XxaesGxHooODUB9UbcoOTcboeDgb1KwJGf4SDRDyYSH82BgcxL8_CUIw-rnOO2JVtNbriOvQRi1ubm6ZvVCjjRKyqs-dCQo1Nqn6HrCnzNDhx01IJbuvUdNeMwC2SDwvqrq7WVoPkkBQoeFRrcvPZ3X31eJRazTJ2pn41ircC8gCFNxvw._pY0jVyxoFA08V5zdJE-Ew
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 610
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Item xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:Description>Printing  DL Single sided Black 50pp 25 Cover NCR CB W 80gsm, Cover NCR CF B 80gsm, Padding</ns0:Description>
+  <ns0:Active>true</ns0:Active>
+  <ns0:SubItem>true</ns0:SubItem>
+  <ns0:ParentRef>366</ns0:ParentRef>
+  <ns0:Taxable>false</ns0:Taxable>
+  <ns0:UnitPrice>90.00</ns0:UnitPrice>
+  <ns0:Type>Service</ns0:Type>
+  <ns0:IncomeAccountRef name="Sales">156</ns0:IncomeAccountRef>
+  <ns0:TrackQtyOnHand>false</ns0:TrackQtyOnHand>
+  <ns0:InvStartDate>2020-03-10</ns0:InvStartDate>
+</ns0:Item>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/customer?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..lo3MpiX5Ur-YAJxWmXCeuQ.P6ywISvQ58uV7xWQZMpc16PsU7sbNjPoF3bn5J1S49tllBUOteLYr9GjxWbC8Q-KvWK3jfDgFT7vNs7rOtd3xt24n10H6iClfKaQB5fcE6-Sa60-Xnw_8kEYKvo61LgDJcNreObEkPSXf4YKrIbUiICbhXYWVHn3O9J0l_fmzOidM6_CfS7n3m8dDIUE7tcWtsdX7_YmZfqNtoS5mrQNTK4Tm0OnrpBlRo0OG5HGejeewjO9_eUc-oZAgdbvkxa1I1yhEyFj7MtcprpZFUx6BFf2JPf-FWe4fGzhUeRWIX0vT1v8qftA0LLjf5DcGzkEi8ELS9SWBTi7XwLeXktODScFrY2FFplMQL9esddSVVQ1J7bpuXuRkfh9R4G6OoaSTBDTExCOo_SgZoBkn5oFocGIblgPSiBtgmKAzlbzClv8OIiF-bbL4JJrpDVv5aa5N_t-vZBvtOTQH46Ihu0HpHevpP6-UKlDtVe3tM85PqiSdb1IelhgrUDDzsFxOvwTGPJdmeMxGuTQRY24ahJNrkNjmzR5329i0muKU9sam8MxKs4UxHeTy-H-8lhiWi8qymWZCzeb8tjIo2_SBXzm47GphjriAqx0Q0B0-UWmPMFNxqjK23VmoFXH4EhZaUunn-X_OotZKfsc0KvOroBCk532x6sR039ZmU64WYjSszM.QJbSo-vYaZZspcev0GnNpQ
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 995
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Customer xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:GivenName>Vanessa</ns0:GivenName>
+  <ns0:FamilyName>Varoujian</ns0:FamilyName>
+  <ns0:CompanyName>Therapy Partners</ns0:CompanyName>
+  <ns0:DisplayName>Therapy Partners</ns0:DisplayName>
+  <ns0:PrimaryPhone>
+    <ns0:FreeFormNumber>0845 527 4809</ns0:FreeFormNumber>
+  </ns0:PrimaryPhone>
+  <ns0:PrimaryEmailAddr>
+    <ns0:Address>vanessavaroujian@therapypartners.co.uk</ns0:Address>
+  </ns0:PrimaryEmailAddr>
+  <ns0:BillAddr>
+    <ns0:Line1>39-48 Marsham Street</ns0:Line1>
+    <ns0:City>Maidstone</ns0:City>
+    <ns0:CountrySubDivisionCode>Kent</ns0:CountrySubDivisionCode>
+    <ns0:PostalCode>ME14 1HH</ns0:PostalCode>
+  </ns0:BillAddr>
+  <ns0:ShipAddr>
+    <ns0:Line1>39-48 Marsham Street</ns0:Line1>
+    <ns0:City>Maidstone</ns0:City>
+    <ns0:CountrySubDivisionCode>Kent</ns0:CountrySubDivisionCode>
+    <ns0:PostalCode>ME14 1HH</ns0:PostalCode>
+  </ns0:ShipAddr>
+</ns0:Customer>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/item?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..6zydLoHN5BZ_XNNymlfw0g.IuYr9qgIMWFplPoh9veNBxvjB4W4ptz21NiMovhdf_Cxwj-daSJ8IEvfqxJV0WkWaAy1kIJhR_m_HuyR1yV4m-BmCu5w73Bsa6oYo2BLapQXL-oDt7Repla1w6Fa0UyzZQuGS7YT0aUZ6pWPWo3SQcAUuOZcBPTHbk0XhRZ91UkmT7VI-yQx8HwBDpwn7MpDNa8BWbMMsCmGoDh1BurTERGeZDPNOPuxjNNQorNKJJ38lfqUmbq2wW9Z6KCvVm1O6dHbti0TZijIxAqebocN5cCQnfg3mTB7Hv9AM6bl8EM-lEfQEyps5k3lycwB2b1tYM37-wLSdp4LIKG_jva9MvFJDhcBr9pMsp__sAasJpIhGihVz6ngtiyMIizkNUs7MPkWh2od6ZllvhuxOlGQ5dr5D1wi-AfCiaacpFSzGRZbthNZqwyklwgPNXzL9OSQN9JKr2wH8cmR093XJGfKCJAuiWe24BKG2kNS018exgqnfyz4hZ4B3MNe_lkjxE-6RO14t27e_owtHU3nRxifxMrmJiTFMt97dheGVG1xEdDNoKGSSzFWwt92wJ8zjwGeKe81DI4qW2yVuw9i_ASCej0ZVmtGUzCkZN8aNdqjethgZ2xIypcXD3ECkh5JcXcYPpHSK1ZYK9hMQ6jLbgnUanLkUSKG-EqW4j5LnpLWcpE.1fh1qvYx-xT6F-PUOpl_Xg
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 546
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Item xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:Description>Wide Format    1 Cover  , </ns0:Description>
+  <ns0:Active>true</ns0:Active>
+  <ns0:SubItem>true</ns0:SubItem>
+  <ns0:ParentRef>520</ns0:ParentRef>
+  <ns0:Taxable>false</ns0:Taxable>
+  <ns0:UnitPrice>145.00</ns0:UnitPrice>
+  <ns0:Type>Service</ns0:Type>
+  <ns0:IncomeAccountRef name="Sales">156</ns0:IncomeAccountRef>
+  <ns0:TrackQtyOnHand>false</ns0:TrackQtyOnHand>
+  <ns0:InvStartDate>2020-03-12</ns0:InvStartDate>
+</ns0:Item>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/item?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..r7Z18FtxGMHe9ku48AnnBQ.RvIvy6gQifPWF0DyfcjKTukZMEk6MCjTycX8pUmjLt3yitic6jkqoWYzx6o3YlKqyPQyh8PV-RLOp9y9vE08Hlrocnit9afpH--2nwarmkodvm-9QDXImR-MikDhdeIeH_OxbwRNab-kNv4MIadjp7ZZ-bg5VejmCPMj6m4AowO-lInNJAqi4UQGjl-HH1_T-AW-ACVsxMI34IlF-dEfm_QHMuorfxv2PoNyZlC9v1q9lXbFlzIxnmNSt-uNtX7Dszvf-vjxonbze8yzGDfuxVQMvUe0zca3ryho-e1QgT17DJoYpEjLb_Tc43pzieEkuhYkTNYHSsSt0CQaPhSeQP7zt_NnflJ9DWjTLq7XITxHdyi-JS7o6cBsl1HT1nRd3dTpg2Vxj2vw2GRbT_d498lpqdiAgbB-p62cIm5n1qDOIIbj0jt0SlqNP7mHsnGyoimpq4S2SVaPpQ30ZgStcNvf81Ilj-KCotJuy0rVG_xGgBNPLjn6M5asF7DBFzF7bsiW_bw_XdHMkGsG3CjmYTG2LcTn5yXp4HKEorVQB9CTvEC7-sUMiSztF9DNy6CvgZL2u02GL_hlkThZyLhCQTk15NYo1m_mTKj5VNH1_YsPIdYoJyvjKzlxliSsT-K6qfy_eYuIz-kdmw46rEA_b1-WWTNk0vD4bbbGDA3xijE.DaxOLfJNM4j95xSYryvYTg
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 546
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Item xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:Description>Wide Format    1 Cover  , </ns0:Description>
+  <ns0:Active>true</ns0:Active>
+  <ns0:SubItem>true</ns0:SubItem>
+  <ns0:ParentRef>520</ns0:ParentRef>
+  <ns0:Taxable>false</ns0:Taxable>
+  <ns0:UnitPrice>145.00</ns0:UnitPrice>
+  <ns0:Type>Service</ns0:Type>
+  <ns0:IncomeAccountRef name="Sales">156</ns0:IncomeAccountRef>
+  <ns0:TrackQtyOnHand>false</ns0:TrackQtyOnHand>
+  <ns0:InvStartDate>2020-03-12</ns0:InvStartDate>
+</ns0:Item>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/item?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..HkbkeafGvKv2YtCF9iJ0sA.XTd6-eoH0uHdcTRzK34qf9yMkWuhJTznm9w2Ri8km0P7dbP9JRGMFyZQDKSKHz290Y0e5Z-1aNjLzL7xRv0S6zAa-j0ukb_w8XiUrP89FU0fSPAf2xKu2kD8sJMSU2sZXy7Y1P6BPgO5lUElCoSWVIXKqseTUNcQDK614koCmIMLRnLNUnCbbLpktqxZZ_3kqrATKJR4YbPTn7iuqSybtrC6t5rLMVy2z0Qg50FuJVnqdvuFDuUax9vqXgYqKKKFFzTX9IADoXKUMu_s4b920sgaTbdDg_ug-g5c5wOMZWfXBo0tbqkG9cgl07ZSY92snB7Unkv2l6MuNHiyZSJn7Oh9_5hvHkCT5J-X5RwVkzDWM7-On3Qrj_mMtoKS4ZMRyefrLDQH7w-IDqi5NLh8VCK3DQJbZxcPlkSUFFyaAaGQ0NrXKFF3idJo5B4JNXgDb_FEPZyXJiSSTTVuTCVgBomzdLZ_cl4fTLXMjfnlDB_IejOgMdgWJym9FxphhWMxpNUFBsjJpAgTEfZ7D1waxoBJaMker4125nd9Od7R7xA7cKWTN5NbYfhC2pxNR1vQ4vTKpNeTI4omR8z2icGk0yWYnQ1OmSr_TkHJx-EuUKiPHHpC8hUAfGv3YGVytIVEhvanNEVHm7D7CsNtKIxXtCyX7-BT0sSw51UGpZI5tNA.XLZcmjkszohkKeqlzWTBww
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 544
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Item xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:Description>Wide Format    1 Cover  , </ns0:Description>
+  <ns0:Active>true</ns0:Active>
+  <ns0:SubItem>true</ns0:SubItem>
+  <ns0:ParentRef>520</ns0:ParentRef>
+  <ns0:Taxable>false</ns0:Taxable>
+  <ns0:UnitPrice>0.00</ns0:UnitPrice>
+  <ns0:Type>Service</ns0:Type>
+  <ns0:IncomeAccountRef name="Sales">156</ns0:IncomeAccountRef>
+  <ns0:TrackQtyOnHand>false</ns0:TrackQtyOnHand>
+  <ns0:InvStartDate>2020-03-17</ns0:InvStartDate>
+</ns0:Item>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/item?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..b4TUOAPO2DeLsBfND9UPbA.KjiDHLXHkkGj8Cp9inrSIIkrAnTOgUR8A2S5uE-OuqeASj2hal740T--h1c6RyGn_QpRP2_hX2wZqVpXIdzQdjL9ujR1pr3dMRFOW-D6QvuNwG4VDI2h5UDAuzTzD2IaVB5Co2YuOJzCFw1usXiWaZGyBVcofF_8GmCGJoWa8zSvakMksSBZX_dayyFdUNGCz2MqN6yJfLQjQeGYyWKmIAskS3X4F7dGCGMks9Ynq3ZmuhYSwRuWj2ZOeGrhwLGWSYaiZX40B6Py0ioVOaGBw9SG93-8KeaWT1rcjy11jHyfYFIJeAk_R_KIWjJPrxlvGT00t5vm2V-4MD4A9WXN2cI_VuOGSP52KIsGbb6oj-DEVJcJljbwQ1q13VHqBaPzZVa0f9YpOLZVjVQSW7owgxsllEvbt9RinBnPGJtud7u45Vpkv3poO2hvafrMihs6B-rdCPGijUy0nsygvOzzHNpHbuASsOP-VPAfbYGS4BMlcym5_f1vr8H-P34OfhXk6HZp9Uzdzwkxjujbko8EYyQrTrmrQP4GK_XM3crvgfuLElniSG1O7L6ISlwgpGujaRMacdjB_gTyvRylyEP9vMuDv-6ld52WdqBSQAKdr5ihzvZEwwYK4HMP8lEycurm2tidBMO0WQvzmPu89ulXwCNkkSr6LvBj7yUxZEfNxNw.S3mcj3wMlpFr3YzNQCz9hw
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 546
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Item xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:Description>Wide Format    1 Cover  , </ns0:Description>
+  <ns0:Active>true</ns0:Active>
+  <ns0:SubItem>true</ns0:SubItem>
+  <ns0:ParentRef>520</ns0:ParentRef>
+  <ns0:Taxable>false</ns0:Taxable>
+  <ns0:UnitPrice>145.00</ns0:UnitPrice>
+  <ns0:Type>Service</ns0:Type>
+  <ns0:IncomeAccountRef name="Sales">156</ns0:IncomeAccountRef>
+  <ns0:TrackQtyOnHand>false</ns0:TrackQtyOnHand>
+  <ns0:InvStartDate>2020-03-17</ns0:InvStartDate>
+</ns0:Item>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/item?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..DRiQh1rJmRQkyMpt7U78Wg.uab7MVt5Tll86VYG0Ft_sn2NpKmlRgQJcsJ_id-Nv-wZ5GbcKIEfTnpWS229uiKgiQUODiYIPmHCZOxvueBklTmyCKKX3l85zRnjVyz6bz__eBJYCeInqnyEodMdEuQnzDJEIqc57ha7V2aUuCbZzyHu-e9b-Ss0NC18IExjF3qkIqLDVn33xlNblWB_NR77Hg4oRnmZvBVfMVJQ9zwkcBAwo0kmUBxWr8LfyCiwnTsMc7Tcs9anO7OH3QUcB3x6xP7ImYs3lhYg7RtdmxfILhgeNQ7QaIlw9JgJWdh5yWAdC2ybTwVpYJm4sKKeU4oortV0hoMi2nR-0tFj0gxBJJR4j7qtJFAlcs7Lh-4MEXl5_ERiFoU0Hq58hWXDxtur9-F1NhjYGcueuOg6GprB34cz6CzJHnQd4HUw6hLj8eziyQs6yTHT_fVOwLEP9lpYuRASpOMZSFd7L6kxgaS-4q0xxJd5UDcJvBw8UPiynWyhb5CCd2bmN8_dFxhPkE-2GK_Rem-ModZvxCvPp_qOLHkT7u6xH4xxl4MmLBZ6fV0dQ0gXm7zD5-BwO890-MFvAMpfxFCKSUsTMzJSfNev_duNRxzhXVjFVL_UcFFTNKm3g1iQ1N0coiJQ7tbB_C1bO9_sIUMNOw3zRLd7eaDlOoj8QYZth0i0WHlI2HMvz6k.jovtfK-e0yBS719wdjWBCg
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 546
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Item xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:Description>Wide Format    1 Cover  , </ns0:Description>
+  <ns0:Active>true</ns0:Active>
+  <ns0:SubItem>true</ns0:SubItem>
+  <ns0:ParentRef>520</ns0:ParentRef>
+  <ns0:Taxable>false</ns0:Taxable>
+  <ns0:UnitPrice>145.00</ns0:UnitPrice>
+  <ns0:Type>Service</ns0:Type>
+  <ns0:IncomeAccountRef name="Sales">156</ns0:IncomeAccountRef>
+  <ns0:TrackQtyOnHand>false</ns0:TrackQtyOnHand>
+  <ns0:InvStartDate>2020-03-17</ns0:InvStartDate>
+</ns0:Item>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/item?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..0zkbJUcxBWRp_kfHfiWvHA.WIjn1fFYixPLd26Bqe7Jg5NocdLVyBGtUQeanhHAyuXMTD9XDa_gqN4lziT79jLa1bxZPk9QpRpvjaKCO_P4ESPOEUpKDnCGLUrPgiGPjCTTNy3Z6E7izmWMSK9p1ZJoJB4HxttaRtILpi1KBmsNiSPf1RlP1yXeEZgDpJ-iu1kYa4V9kU72L9LCehXOb5JKTASSl6PbjUlb3O7w1T20fr5G-tVWafsnqfSDlA9XTJebO3bT098wM-crUOGxslE549RA7KOCRuIBB0IhCfEtJFmGBIDdEzQ3yWFaAPD6M32erzqSoiUGZTrUx8nFMEUSxqh6MRtpmeygOJhQPoUrBUisLrpKjLva9kcxql9TdONZ3iBxGmVax18wiCnpoFQWxg_MH_DvZJDGSBRRzZfVe-a9jqE57SfHbCnLcsGe17vFKJ9YfMTrcZIFefjRskXrFaLBX_ufmpk-7_Dv_kk8GX4Bn-KDX3fXkQIgFdo27xrV-jSiwVBgZK40odpAj0lxhlmhIvIVovJwqt5d_cP-9zC_wxm3VpHCQZkpXji02lgoAzP-ArA2__viFExrzVEQCbL07Csq72kNOk0ZwXZI3u6WMHZSZ8RHvkctTc-X3rciFjF0KaZ0r7cDf0tfFHb45KI4G_k6qAhmvrvcBg1wTAedP7gQ33_T5KGlM-uaRKk.w97_Z4T7sFdvl2PIwQ7BNQ
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 546
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Item xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:Description>Wide Format    1 Cover  , </ns0:Description>
+  <ns0:Active>true</ns0:Active>
+  <ns0:SubItem>true</ns0:SubItem>
+  <ns0:ParentRef>520</ns0:ParentRef>
+  <ns0:Taxable>false</ns0:Taxable>
+  <ns0:UnitPrice>145.00</ns0:UnitPrice>
+  <ns0:Type>Service</ns0:Type>
+  <ns0:IncomeAccountRef name="Sales">156</ns0:IncomeAccountRef>
+  <ns0:TrackQtyOnHand>false</ns0:TrackQtyOnHand>
+  <ns0:InvStartDate>2020-03-17</ns0:InvStartDate>
+</ns0:Item>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/customer?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..5vWpK-QJuf3WYYGYpwHmzA.WptPPlzxRgUhMT5Pc5XP30aDPC8FtyemyIBwMNqK1gVwcX0hsbES-kiXfGYQwd2G1CAi2Id8sMLRlPf8tqLLnuI5YOnUNaYQbceEqUoWdbjqidICUnncgnD4c-G_wyHivpf4U8M-zWCkR7G1SZBF1gF4p623BYkzFHPce45T3CBul-wOMXCqdNLw55PZiHEu258WLYuWguDNrLqj1Awv87NN8oLQW2sDJO8vQlgogIFwN0vHwMqiOz0kxpt9B8L6lVS0DorASRHyjoqFKnLy2Z_2C1WAFp7U3nmqgi0HXUqpl9pi2-uxdUziSJm4v0v-zjnwUZ4v7vBNAKFsAHAMclKL3jjT1OR-yILMnSYvPnUUWOJQ-q8mqoeZOQK-8whWSOafR4xQKXrMPwVBlzqZWMhAKwYS6aoZ18oX6bf2zLcCovAf48Oo-Zq26UfWH3a0V1YE42hwM2BnaQ6N9CLNDG71nYVGJJIoo9SIU58bKeE1t7vEA5F8RXd71Xn8Q6Gq409DYETsHpGMaWWxHl1xLMOphTaGoJFJlKSEbgN4yBvfsa6C5oJ--tU7f_4uhMKl2R8KM96nFEm1rojrWVfH5kA2RVJDAL2PCEES6IJFKP_ycPmJtkGw_se0v14IBt74S97e3KnDJjp4QipPtDvv2ToLKJQCQDTGLb2nBm8rABI.OAkpNrb3Fe-qqq4lf5Pcuw
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 790
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Customer xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:GivenName>Stephen</ns0:GivenName>
+  <ns0:FamilyName>Bush</ns0:FamilyName>
+  <ns0:CompanyName>University of the Third age</ns0:CompanyName>
+  <ns0:DisplayName>University of the Third age</ns0:DisplayName>
+  <ns0:PrimaryPhone>
+    <ns0:FreeFormNumber>01622 693312</ns0:FreeFormNumber>
+  </ns0:PrimaryPhone>
+  <ns0:PrimaryEmailAddr>
+    <ns0:Address>stephen@morwich.com</ns0:Address>
+  </ns0:PrimaryEmailAddr>
+  <ns0:BillAddr>
+    <ns0:Line1>Mr Brian White</ns0:Line1>
+    <ns0:Line2>118 Courtenay Road</ns0:Line2>
+    <ns0:City>Maidstone</ns0:City>
+    <ns0:Country>Kent</ns0:Country>
+    <ns0:PostalCode>Me15 6UN</ns0:PostalCode>
+  </ns0:BillAddr>
+  <ns0:ShipAddr/>
+</ns0:Customer>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/item?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..ayOdZxRl7PfAM2XHQ-qm4A.YrKj3R_jaZPmSWORNBHnZVM9JoTmK7aU0nbu0_M_B-Tok4kB1IXMKB9yfZoUqFrAYiBX7PmPApJqyGo5YonEkNsjddHOB_cagW2wXVShM75qEKftFJTArwg5L-u3c0gaNJAylqv4A29e2gy9bO5-ov_VeyraRRBGJjkaFq2CRr-ZD-G7nsNOo0L3QL_gzKFSfdq39kf0bJBG0y9tKIrpHk9AjLZ09fnii3ZAdXykgJeJS2IW5MHI31snjdQ9cuyRRp_qoUVcLz0VEtIbdeTLhU2seV1JRIBITwS9c4UnPbg1bRk9lI5ZQRJ0aKLvxO7QkQ2f5WB0qIopvcAi3gFbFC9pbagxKf6hbGS07Q5QsjOzaS1pphe_7FbTB5zSqL9R5socA99oLQPb0mx2ILh1ZQ5XHQcJfWmX8k7HEAPMPC25_d12HHXu782jFuNJLxMsx8Iqge5ncsR7dEi6T55SMjArvxmHEw0TzosvsI_3MZjAVyw_xI6YAonSJYUJIEfMBR660ibS2MuSrQPTyG2w6D7vN7YtNk4SVI2LZ6b3yEIJMGrXY8FfjCpCixUqIhLMy7MYDFboRlVQwUHQhW9jaBs6rMIA7zoVIoNyj8arxx6hURmtUok-c0Ba2rBHz_uqKwTNJKx1ZkPsPgaOoRliXhOBCUtc_f8s5Zd7kgXHi6Q.rjMDHZn4VnjrKeqpVmPT1w
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 541
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Item xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:Description>Design  A5 Double sided</ns0:Description>
+  <ns0:Active>true</ns0:Active>
+  <ns0:SubItem>true</ns0:SubItem>
+  <ns0:ParentRef>78</ns0:ParentRef>
+  <ns0:Taxable>false</ns0:Taxable>
+  <ns0:UnitPrice>95.00</ns0:UnitPrice>
+  <ns0:Type>Service</ns0:Type>
+  <ns0:IncomeAccountRef name="Sales">156</ns0:IncomeAccountRef>
+  <ns0:TrackQtyOnHand>false</ns0:TrackQtyOnHand>
+  <ns0:InvStartDate>2020-03-19</ns0:InvStartDate>
+</ns0:Item>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/item?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..IVAx5DQwv8kp3rneYfnb4g.VShbGoH2PnljiBy3pTl59Md81XBmdJnI9Lha7gCkupTLRPcTPsiZ2b6Drj4AAHjcd7fId1Xo61njly5czbPpw1FlAL1MZcMjgHNN5wePwDzh1fAfra38AnEfjFyH89z8KJ1et9mzbfMTPbda32kb2Uubo5t5Y5kgnFomRmlXQIDcLPeTU-xfi9jR9WORas9y3zNHwkVOCSxDg8Tn96N7w76BxSg72v5oTBIRUcL2cVtWC_NMW6Z5cuk5shAsLhjRgn83eazCFZfAOFkkhbwOto8G9mUA8hsGGvocCxfFW3nt_tDEtX_4G5TL1SdiMJ8XVZoRKkdHlApJjI_MATH0psR-udnOtbMEmZeqsCYPOTtm5YfFNtOFlB4Bmj6sod6-3V6jLEQvjcujyi-g7WNPns-QuovcI2zP669fCwwQJgTy9hcemwL4p-UmR9YcLT7q7rKhtuOHVpDr6AkEs4g3GVJ87DgUyAzrSKbef8_1jQfVPcxN3f58OVc_Ud6TccNGsv41XWJpw8Wn-UVMznZO9NuMoBCri1gp4U8gK6r7LTTJ8GMcOBHhD1Lt9Pr4f-xh9KzsaUFq0k71X3Kck8jTq0gPOIJyGKqR-_Pe5hflsajlXCXPiBaXfwkKXKKRyQ165QP86eiuB8fyg_VX1PxSEeGvGetFPoL-yVFzKMsMJEU.4uV9CLSiDceZPWfNNVs2nQ
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 541
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Item xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:Description>Design  Mixed Throughout</ns0:Description>
+  <ns0:Active>true</ns0:Active>
+  <ns0:SubItem>true</ns0:SubItem>
+  <ns0:ParentRef>78</ns0:ParentRef>
+  <ns0:Taxable>false</ns0:Taxable>
+  <ns0:UnitPrice>0.00</ns0:UnitPrice>
+  <ns0:Type>Service</ns0:Type>
+  <ns0:IncomeAccountRef name="Sales">156</ns0:IncomeAccountRef>
+  <ns0:TrackQtyOnHand>false</ns0:TrackQtyOnHand>
+  <ns0:InvStartDate>2020-03-19</ns0:InvStartDate>
+</ns0:Item>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/item?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..NOfj4Iz4e9PhtDW_38yPug.9E38F6SOY3LgeCNSjkJQsv_0pW-DDbyNkjMdGofNjXZhIXqtxiUPy6CQpBIPW-ggN61h9u_f6_qIUolycNScx-RsdlqHRJoqPpHbpSo8S1pYHVCLZ2GVlzC6beR-lK0dH-ewwtmXyBPQsNdoIL0wJxoccsykACwHjkGxkBZ1yaVBicr1fs_kqnknIiJ8dSF48r0iHTB2Y06I6PME5Si-MZsj_0woBjBHWvJYFBk51XxOuNrJXOGpmAVPRHSxaQ0mzNltgGBWwhJZSNu7FZj998we7OPieg8Bf1tgNPfxUHAihr0ZhBgDn8jFjVkKO1gwUQU7AeewwjGx7C3xLiBTgTZ-ALWhRb0BOpxKKRxMTZYjb49Fn129eADNSkpBu2iaI8eXtNgBPfUh4XuUdUlIWnjsfdQ2H8ljlS4EQpumuyYm3AQZM331EOm2CLBbhs8Z7RoEu7VIXVXITVtyIT2gf5Whzh55XRVgpE58356OpzoVPfEXnoY41A1iwmz4tYHC2AJV5FQ4-mpj0ql3lzDbKYiHLadHoEQUP6HxDU-LiNkJqfh5zC9W3I-tYqU_20KIZxFYliUhuSVfB2l0q6bjzaXP_lM6w73HS7fBnElEpFJV8HcA8bvKkwyYQnoqupZNzzJPRsYNa8XwachthW6UjvHE70KJMXN4JozizZa1AUU.6xsBf4OcFX8PJsVvvZYpFA
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 541
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Item xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:Description>Design  A5 Double sided</ns0:Description>
+  <ns0:Active>true</ns0:Active>
+  <ns0:SubItem>true</ns0:SubItem>
+  <ns0:ParentRef>78</ns0:ParentRef>
+  <ns0:Taxable>false</ns0:Taxable>
+  <ns0:UnitPrice>15.00</ns0:UnitPrice>
+  <ns0:Type>Service</ns0:Type>
+  <ns0:IncomeAccountRef name="Sales">156</ns0:IncomeAccountRef>
+  <ns0:TrackQtyOnHand>false</ns0:TrackQtyOnHand>
+  <ns0:InvStartDate>2020-03-26</ns0:InvStartDate>
+</ns0:Item>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/1419738750/item/647?minorversion=8
+GET
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..QJuwF5NwpR6UoJSxkd1geA.dm5AozL0ZEg-gJMiX_daTzOBGbBFAS7cczIfiSgWHlebFVPb145bhATaAoBd7zrqi_z4rAnOyO7inxjF37HdD1IdF7mDErd7oIR2-8h9qb2F6yisH1Hz4BxnBAD4FrLPTfe5AVMmiD4pmuyEIrbuVHMfk3ol4zg4mCvYMee4EIvgx5YJu6Z-kQV_oEJxUeH-4jhytblS9O3Bgn1vG5WjqWUMpd3WXwQpWP_0vvfIVzzyHq-Ch5e0kAcp1KKzfiYoBmeoACjKysivFIV1VcauWCRR0KBscU6n--DRFF6Rd9fUgG01sZGis7cbYQywKUSBcCViNBGUoKoDmviqEF8Ttz-YJTe_sVcHpZAb6WrjAJAyCb3hcbn6TS1SmnHbQYIYAAAR18SUExpjgPxJNcQgb_s9-Kd3onYcR1CdFwJSPy6lp6L25TKRTWNrS3u_VTkhd4H6n6LPZNILrZ9bZvUTd1GGIP_0lIQfIhAo2z_qq3gsoViZ8vte7XPocn4p3o1Te_Fm5wRahBI2x5LZnFw0bNaZNOjQYB_ne_zR5JN2ho6YGmh9Fdi7CqEA5idE8cox_sHO4cpu1UDJQu2tIgJF6WS68HbCENiLHESb_jARqL1SZoMa3YPK65Y4RPYDmp_FzMDLL2etEm6mnZNSndSpsBjxj2IB_i45AcrY8EHOu8c.6x5eC40_63mFlCyFGjj27Q
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 0
+)
+
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/item?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..uRMmPeKXo5DGYj7KkPICrA.q__EoY7CLX-o2vFWAq-CF1dLURBH3NkPmYUKEgmmSfSYx69A7j3Qcf4cP1BOnD4bullbegRxUq6_rknAr-x0-4dGOoXhickc9ilVz7Cl_2wUvftpUUQXCNpOtuPR4LaiRaJG_brfsPXbyQgL4CflvbE2oCql_UD0E4NjBIGGI6xb_1CvABNTJu5X4WqVVoTustF0JEo5oZ5MdzK0ux9CTUb68Q9CtQspn0Cyw1GoslMagmhmbxbKmGfj9mP28zoGOriGnl9erfe4L_J0Q5xSPMI9rKfEa3DX8llr_qR-nMGEFa9-_cOBrNiTI1mqG3W0TCYwNvGbFrjKtEguawLY58JVYyfUHn0mDu5oXvpRLdKKAvfqa2xTfuIP5C4Xzlaf0Xah1ZnenETtkV-2UaUZ6KAUU4eUMRzUUFPIgo7XJPJkXh_0c8WmpFkabTPhvDi3xo3NXYn4t3oijG-jSfYU5E9fyvwQdW2PAjN5uod2Rd6ie1FvGx8q_hYaAeMeY6qEaM2SPrG53vdzulAX7Ml7Nhr1AAH9Om0dsUkDzuQeD4Dg96JksRm1PeXdKVY3EqTGeL1Hy36s9g3EmrWx2eulnC9RRVkh3SIm5EbIeiJgkm6hHiB2GZbOprPKstPf5jwmmk7X4hcXFZaZjo0kdfyffQu35-K6SjHAFzOUtbJc_r4.tmdSIYmOZqNM8oYTAZUzfA
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 606
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Item xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:Description>Wide Format  A3 Full Colour 1pp 1 Type Canvas 200gsm, Wrapped on to a 45mm wooden frame</ns0:Description>
+  <ns0:Active>true</ns0:Active>
+  <ns0:SubItem>true</ns0:SubItem>
+  <ns0:ParentRef>520</ns0:ParentRef>
+  <ns0:Taxable>false</ns0:Taxable>
+  <ns0:UnitPrice>30.00</ns0:UnitPrice>
+  <ns0:Type>Service</ns0:Type>
+  <ns0:IncomeAccountRef name="Sales">156</ns0:IncomeAccountRef>
+  <ns0:TrackQtyOnHand>false</ns0:TrackQtyOnHand>
+  <ns0:InvStartDate>2020-05-13</ns0:InvStartDate>
+</ns0:Item>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/item?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..pxSy9A1bFEFFTlAsgjfXXQ.Pyj-IsVqI-rmcYN9L65wyl0ZVHWT4t7-1lHthow8KGdm93l4eN83kQMfhHU7u1qbAgFeKrsi4iJQNDGHCJUzbmnlYKHwugRpQL596UyT8whO8VMcy2zcjbaHJYD2jI-K_BC1dojdoJqiGRg48jWChP5PA--NcJ04cC7eZCBaCoUqhI4x7qelYBP9GvzmHSvPMdDluGS2MBXYsB0lMs8xrDUal_4KwYNUtX1HQj_gBuTxTj0xjUuZWr_DAJMsNnHyf1Ev22uVFzsPXwFmVxyGFRhqH-UwsgD0Z_KCBr1ZL3kJpJERiBztT4d2GrGf0L3onjBpTZBag27W5988Kx-QIWXuTPxzqk1sjaufXI8sU_JV3mQfmDcq3s0ymn3niJr9MCKlInOxmS8bMj_IT_GtNQxYwOq_LN0UZJnrZVTu_j_3yi22alJgG9n7DIQ2g1Z-MFDcLuySNheBRO-hyKGY4Hxw-mJ10ZbdG1Ql-h81BRKPjr_AIN2nBt6LSiaE-kBmQO4ZNFfqtqsy0wqauKdeWV_FX-awHRQ6fvI-ETsQDdptBjNESNCNdYo9XpRl-eJsNkZrdv64sH9ZXKy9g-JC2fvC8tlfzC8pjGovFbGLU5MdHqHtJR6e2r6aCkGwfuhgqJ-i8oOUxi7_2R0-d5VzmyVfbsxqWQQc3fhIsFc-qa4.EPXXMGbhwWYcyj_8uL7MGQ
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 616
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Item xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:Description>Printing  A4 Single sided Full Colour 2pp 100 Cover NCR CB W 80gsm, Cover NCR CF B 80gsm, Padding</ns0:Description>
+  <ns0:Active>true</ns0:Active>
+  <ns0:SubItem>true</ns0:SubItem>
+  <ns0:ParentRef>366</ns0:ParentRef>
+  <ns0:Taxable>false</ns0:Taxable>
+  <ns0:UnitPrice>70.00</ns0:UnitPrice>
+  <ns0:Type>Service</ns0:Type>
+  <ns0:IncomeAccountRef name="Sales">156</ns0:IncomeAccountRef>
+  <ns0:TrackQtyOnHand>false</ns0:TrackQtyOnHand>
+  <ns0:InvStartDate>2020-06-04</ns0:InvStartDate>
+</ns0:Item>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/item?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..TbdKniyvxbJvZU7xRMBbnw.SebqlmJfO9dm1qBe-9VgIhviJFF8gSQ1iUPig4EktvPaEFCu_9EkUiBeAO3pYIsR_17dDwn1t7SWtab0Fl8qu1ewV5UaswMAi8Ve9XjSAzF3-9O7brCKBMrjuD3_Q7ZejEMSKIlccrM5_0MziMYCLyac0VF55p-y7DmPatAb4precePs2gBJOFlzB8b9VBMjU4vW90bAwqHj1vQ_ZY4odzPKpmI0M-iP3GtCooJjTfYglRdmhbGSkOgUKUXAPC972zTrQDhLAQcnwv0WxDDRKfs_8cPVtDjnaTu0gyMYbVU2l-CBXLKPqFofxa2fT6XAFftdKLNai5b7ZMMScmmUfkcFff7w43cV26_q4_86YTdpkp-ZfDYwmrlfJ5LeTq7ZXddt1Lyllan0p64sFER9_YzxSVeSfJ9LZ75oO0HU4RLCAhd2A5a4s-WqPPuk1AEwGgYUOXdY5KETimviJJBgL67O2KmSSwQ2tOxtUX1okuE_W07NPDDIIAeUVTbwbV__rp_Urj_L1n42vxk2Px1MD8sBkCudnZFp8-EPGwOF9jILq7cFJ2jwPhwcfPShcfiqrCqpGmUdOhAbTWuYmb3YExK4mSPV5TppSfz5YA9eII_0zdvEwCnoZCzL5Yic6tOIeuXhbnQXIRlC9IO4Pfpzut46KnJZMJu4x44FWGjob3o.bZ8tOlONY2cPKLjh-jDQ9A
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 541
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Item xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:Description>Design  A4 Double sided</ns0:Description>
+  <ns0:Active>true</ns0:Active>
+  <ns0:SubItem>true</ns0:SubItem>
+  <ns0:ParentRef>78</ns0:ParentRef>
+  <ns0:Taxable>false</ns0:Taxable>
+  <ns0:UnitPrice>49.00</ns0:UnitPrice>
+  <ns0:Type>Service</ns0:Type>
+  <ns0:IncomeAccountRef name="Sales">156</ns0:IncomeAccountRef>
+  <ns0:TrackQtyOnHand>false</ns0:TrackQtyOnHand>
+  <ns0:InvStartDate>2020-06-10</ns0:InvStartDate>
+</ns0:Item>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/customer?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..lKcRBQ9sEM8aCMWsYRz-mg.bLMzgZB7VUi6PZTvllEmTbrROmJATZtCNdBOWKWvePd1zs1AU2Gx-QHl6ktGTQKIFCsvHkatqaBANroassa04nbAnH5NxtIaVZzgcVZy30a-XMnriDjA271Gls-0aLk5XHf8LY9ygjskmfHeBdPnExhWTrOY1ZvPCIFlleg-ApgqYWNB-iEkzIzxLNedxf604YCULjpUlprmpzkBaAhCMWXzK9GgnvgxOfT5WEMKKz2UdtUWKxuNYhXfZa6lTYYdhHI3cXbTu4rpAG-o8P_cTen2jmZsHuB9LNCrT9mpPwwA-jv8Sbxypb4yzMeoalkh_6_6hTHBclSeu1xfhnHISKlF7qAsadxUb_p8uCT61UTEB4ipyWt5p3dXf3UU2IpdzYKrBGucvtp2NQxPBXeBCoqb0WkTVmBQcqqeA5AIOmn55_N7kF8WJW3L-7MrIi9q3xeC2Zo3XIcuLqNTuFIJ-5ODQT968DRJXwoRKqZJGnRIjFm0chMCkAt1QTXPaK387ywRxGIFQ4O5hoK2fynXU3cSF6kTn_--EtmtX9cGcznzYR4MJW8dA0LulpslzCwTSNG_GfxbzuIHMyWXWqY-JfbREwiy6MpTK3jMVKW3V7NzR7Rlrf69XJC9qKUR_pAq0R0AnAQSk8ix0T_Lf0tNmdaNqbFoBoyV1dA1uZ6IpLE.XVtP9EDDFdEFHbDjIHsjgg
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 995
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Customer xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:GivenName>Vanessa</ns0:GivenName>
+  <ns0:FamilyName>Varoujian</ns0:FamilyName>
+  <ns0:CompanyName>Therapy Partners</ns0:CompanyName>
+  <ns0:DisplayName>Therapy Partners</ns0:DisplayName>
+  <ns0:PrimaryPhone>
+    <ns0:FreeFormNumber>0845 527 4809</ns0:FreeFormNumber>
+  </ns0:PrimaryPhone>
+  <ns0:PrimaryEmailAddr>
+    <ns0:Address>vanessavaroujian@therapypartners.co.uk</ns0:Address>
+  </ns0:PrimaryEmailAddr>
+  <ns0:BillAddr>
+    <ns0:Line1>39-48 Marsham Street</ns0:Line1>
+    <ns0:City>Maidstone</ns0:City>
+    <ns0:CountrySubDivisionCode>Kent</ns0:CountrySubDivisionCode>
+    <ns0:PostalCode>ME14 1HH</ns0:PostalCode>
+  </ns0:BillAddr>
+  <ns0:ShipAddr>
+    <ns0:Line1>39-48 Marsham Street</ns0:Line1>
+    <ns0:City>Maidstone</ns0:City>
+    <ns0:CountrySubDivisionCode>Kent</ns0:CountrySubDivisionCode>
+    <ns0:PostalCode>ME14 1HH</ns0:PostalCode>
+  </ns0:ShipAddr>
+</ns0:Customer>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/item?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..26vSS7qufu5T6ptauYd-YA.lxp6xXdJROKZ2vbNVsUvg_Ou2xTgh2qQaAdiIU6cGhx0T7sW0wZ3aQ3b1TQjCB0przk5B0eqLEdfQReUPaC1-Psg1NTlnbQ7BRSF4j4EiPrGYFdXchOpFuK_-OfNGevETxNygyyis393-674tDy2ruW9NuGsK5JF8iPjC-TAbLUjKgJothtgp7xZ6gYTdmMc6uGRsy6ix9szS-q_MevUkxTHcKe9vW8jsk0R2j0wAxrT79DKWdnYZKFqELMojzuImszUAgwjwTv1PIyWgYiquh8v-cpdcwQG9eM08fh0CDe0CmgubAXJ2zuxtQtWmdXT34pb_12fN7GUVri2uMnbaKLne7v38YppndWuatIBUK8LvkHZJh50ZSC7tK6PKb3ewgrq5NvJ54RDH8ssoq1I6yfgNqWeEbgjudJHOxy5yle8GUYmE0y6LHj4t-wlN5xCTKAK7W7CdmX-xo2L3io_z0UYpfdQpy1l0cJXB-PImB1x3UQcWrd7cU5VR8-ZSesh_s5x7V_umcAZeirCV5F4VaQ4bv_E_DITNbIaWTOlxTXeaQafd1VZtETc9qAG7it1ITE1DRyVmZikmHb6X1cTdGX2ftCEQ2fRYyyOrO5cIvAhY6i8Oz2jxelDcFYY4A7H8Flh87Tfb6WLNlnIzkc_VhiIc0LJKI9DIPoiC4WXimw.flG0jqIEfNTlni3VWAuyqQ
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 543
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Item xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:Description>Design  Mixed Throughout</ns0:Description>
+  <ns0:Active>true</ns0:Active>
+  <ns0:SubItem>true</ns0:SubItem>
+  <ns0:ParentRef>78</ns0:ParentRef>
+  <ns0:Taxable>false</ns0:Taxable>
+  <ns0:UnitPrice>200.00</ns0:UnitPrice>
+  <ns0:Type>Service</ns0:Type>
+  <ns0:IncomeAccountRef name="Sales">156</ns0:IncomeAccountRef>
+  <ns0:TrackQtyOnHand>false</ns0:TrackQtyOnHand>
+  <ns0:InvStartDate>2020-06-15</ns0:InvStartDate>
+</ns0:Item>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/query?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..vM-onVCHkmWZMw1-qbwDkQ.fbmC5HPqh8zjZ3QQvMgyEArBw03AUoCy3L-kmGAxIbr9d7ArvCySTGxLC3mBQ1xYTfq_k_8ACyK9D8Lt-Q6D2SgT_cghZqBfU4BFLlfrBkkP8RSUwL2indVoMoOkVObX9tcve54-7I_YT-HjrBIuwnYEVtdHz-rVXRrjByWnxw2R_gkVnWFj9XLdE4jr6NZgJNy-U2mWa-dbRaxCTnqzqkRjh8XSg1E3DLhCtx2bY771WbUQn9SMZzmA1SpTArfEui0KlrRvid0y0GtmPp2o6n7TJ3ZgFBvmGbfqRJPR5UbJegOYxqlmpdDACwY2aHPLThv-yQ5kAK3hA7XkJl92gGk7c9nSNbRf5JM-HiIkqT35d5gx-4VJ_lUX0_kcPBwlKFFAB6XvGM0eJCKp0C4suMcWaVtVdKKLl8ThELFnLq3_w_tAzj5pOi3k5K74x5J4bgAE5XMyD7YElBMxdiK86U8h7905jJ9pvVo1eGuNZ-IYzbMOfsVKskJrIlvloIEnHAQRIIbBTFQt0Ul3Qs37_JcTiw6HqAq9hYedlIw93UICtcTOl-ng_iXDgBz5l_DLYOjkE3GiT0M91BpPbYK3qVHq0kgpV_4umf7OAdi54fr_kEs5drFHPeSzNd-DHALiOzFD1dNpsU1jvkAkVLV_l6ssuss5SJSzLXiMdpb6_l0.1P2MQVtacsPLXGXHXrQz4w
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => */*
+    [connection] => close
+    [content-type] => application/text
+    [content-length] => 29
+)
+
+select * from Customer where 
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/query?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..6RoyEYpDWdT-nkpsPMT5JQ.aB-Gk4cnmik0rptsO_eKdm7UBL5OvCsBPPCHXYBCRbkawBuIfHu1J5UCbQuIH8SkoI3cpTzdA38rJAewnIYX_MVFRB_Ep5nhVOrD5JtayaLo80BwYfaMcFYpXUE1bTOjYQ0LRBhvUdhuX8Uxo5_7MAxxK0f1zHbbS0NpHo_nGYL2SRjU4GX72pi_dy6oTccDaVAVVWwDG6pI6A3CYhwYu7F3LWY0Ve-8UPBoQm8HBYeYwZB7yR1__fySsfPNpnxWTjx0Ve5a054epuh73oQpcdpthQG5pNTwEtE3xmoiKgFXTBNO4XjpM74R7WFQEMfXe9akn5gJGGyP8zHEdt9zof_h0Mc_bVJmiffOLP6D9_8RGT7nFXF4AthEZ6EREm3Nf2eJaPwiWpKaA3AKX-gPqv9tGF91kasu79SaG21xB-mdlwH3cZneSxezapQ4LPheMUErD2JogOk1qsf0absOmHG_Uus9GW6aN5lylh9S6VtH3iA0rI9rQ641p4Q-8FsLEzexP2ffdonlwRptnfSFAxhBPKTM9XTxbGfd4fKBkOVAjjg7Qyh3R_61-K0yao3BB8kZ0hqjQ8CFTGa1li4O2-yrkWSWBk3NYq4zgBAobk-M2HeD3NvW6Own7cMs7czR-IvzfSFd3-w6LA1uJeUQHyEr-aa5-35KKq5gxHS6Bng.IPmsJbrtmD2NZNnGfHCdAg
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => */*
+    [connection] => close
+    [content-type] => application/text
+    [content-length] => 29
+)
+
+select * from Customer where 
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/item?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..0fzTPxw37cfKUICtp17hyw.XVOH2a-m9bUqyx2jyhrEBgCPd5WQ10y2Sj3GFSMziO9CXi99ZsCR8evwiA0vBW83B5pJMOW4uMCFp3MzMJxIWZ4Nl6IHA5cl4eA5nj104OJwizMf_rozti2OCh8lx77PyF7QrIyrPhLgU4TnGCcj4MW72Y8njZ7k0e_sWVJrVI1egcbNnPdoP2HNu79XtfiRIE2vqWr8V-58b6JNkirBYKX4w7kfBFAtUF7SuD1E2kR0S0ZtL0DKBdiRY52MgSEm4oD2aID1PPnytVRUukjo9Cxx1gvdWQZ4w4z9p1mfUz0gY0PRLJXwWfM7Ktb8z7MgLDBfk_3mvtDMpTsfaTjZOh0_3sqKatlSXW3gcRDSGZcOSo9CxVupBtZfjOHfFiNvnRko-7GGPQWlzs3X0mbDUHq8XAbncUXRdzktcC-4b-yYWp3VjBEzGeRhqs9Wd4zvP0VROWMF2ru6PH1i43XCh4KYApDitDdZ1Xf8Yq2JlUeUouNa8TfYKsprM9ZGoVAzVcAYDB6TZu53OoEEEuk1GK4PKTo4DDD1kEXH-JVfPN0DgH-QoMuCiBH1LIVAiPXZ7vspyhTRbj9L_3W08x1uR2hsHAHmhGtfyhDNGv3-VHtxmhSA1PzK-LrJEBqJBNNRdopLslKXXop9yI6qgFJN7S8zwfRaxHuJACKQx-BfVMg.YuI1n-Ugn58aFmJylAe6WA
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 623
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Item xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:Description>Printing  A5 Single sided Black 1pp 1000 Cover NCR CB W 80gsm, Cover NCR CF B 80gsm, Padding, Numbering</ns0:Description>
+  <ns0:Active>true</ns0:Active>
+  <ns0:SubItem>true</ns0:SubItem>
+  <ns0:ParentRef>366</ns0:ParentRef>
+  <ns0:Taxable>false</ns0:Taxable>
+  <ns0:UnitPrice>109.00</ns0:UnitPrice>
+  <ns0:Type>Service</ns0:Type>
+  <ns0:IncomeAccountRef name="Sales">156</ns0:IncomeAccountRef>
+  <ns0:TrackQtyOnHand>false</ns0:TrackQtyOnHand>
+  <ns0:InvStartDate>2020-06-25</ns0:InvStartDate>
+</ns0:Item>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/item?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..4clHXuZ6vpVoB-NnL68itw.vGQwexROpnk5x7ikAYHXYgA30tN2uGXoNuYs9UtsfenN8L8D4POKVIaXgaxXxb-EwzbHMrbUjwLNWnGmGJJuGeW-uj6c4RlmtuwSHWxkBfeSAd4kFCgEq9q9_pfmF3hr0KTG9BFyqlLQ6R8vKSfjCYO1s3jY8EQsvCdIZEEYhVhY164bn2JPyVqkazPMeP3BFwgVkS-DnYvNuTvVnROOGAtMCD29Ukmmq8lJyeNyDPC46ky522k9lnhdATnrG5fYGHZT1ph-v0oqqnOl1MoowwPM7oBSVM2Z9qXkLJef0SpcQ5xJRORMOq2qe-SPRfncvaMOQlr8b6JroEnjlbBrWlZIVD9TZ-pDVvhU2c5Se_fMhzqlUmnNlULSatudPfLsx8odDGJBrn5I4sNBOy3VSnPYmtsJS5JTkxYtLox1OGO3AiMo45nYfutaPE7F6wTCWw6MfQk2DMDnKc_9vSvjqYe9-a-Gp-WWVfD5OefsC-Aw04IzYEcIv4wcKi39l0xFMFppPGg7fLUPKJYfw4CLI16_6jQ-rjqgO5TbeDatRs0XmCzrSUSDhWvhDOvu3PBGhyBeFsLtGKRSHV2MkYfJz79qbXAiIMziOBAh02OT-yANc0D-nYjzNiof15WEEu1UuQPgmgrDt4QUi_vfhm-WhyEHC9beWulOEJEAb0srSg8.he2yLd1za2SvM9reAyFFFA
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 623
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Item xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:Description>Printing  A5 Single sided Black 1pp 1000 Cover NCR CB W 80gsm, Cover NCR CF B 80gsm, Padding, Numbering</ns0:Description>
+  <ns0:Active>true</ns0:Active>
+  <ns0:SubItem>true</ns0:SubItem>
+  <ns0:ParentRef>366</ns0:ParentRef>
+  <ns0:Taxable>false</ns0:Taxable>
+  <ns0:UnitPrice>109.00</ns0:UnitPrice>
+  <ns0:Type>Service</ns0:Type>
+  <ns0:IncomeAccountRef name="Sales">156</ns0:IncomeAccountRef>
+  <ns0:TrackQtyOnHand>false</ns0:TrackQtyOnHand>
+  <ns0:InvStartDate>2020-06-25</ns0:InvStartDate>
+</ns0:Item>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/item?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..hVzWLUjUgyVCTYmPvH2uGg.-6zsobStkAXE7udN8gsdMFMblkj8A5UFglbf9LMEPZl-IyXFzxJcHxt_X6A0SEJDKu9PwB2rrHuliKFD931KSe8ZuQmBuTjM7matTqg9VPD1HMeEh_pTI7bHfwNtjwf3aCmOhigHmtknSiRv7pEDmO_hqBcnhX9xsY-wQJzeXlUgEg_cnQjqjjok9b-dQY0vlssNcIa9dGW7S3_n78qw_yRIvmDBBvz-zPiQm8w3ZDDCuURxpcIUL55HhcHayyjz3WlBFwGCFRqNVP4hwwVO3leepZUFUtv1ZmQ7OxmT33PPfzSmOSX73uF_VRkmmAt9pBfeUHJXzZSOO8nmiSlVL7N2Z4GjxcMWLoKayCH_TZw6Mibn4H264A5ZaP2ofPSXWrau_by9MLHm_T8nbleE1CcUBUcCxq-DrXOo48FUBMgwwf6Jx4zaCyWuRRU0mXo0FlQVIeQMod6uJZx8LTk5rbIpNKrR8qavqjoKQGEJhIyE_VABWeQsi-kb7R6DPDeLjdtHc4Z-VOz542m1vFb0nxdZS-JuG_X0I9FQlpKqkKmgFQk6hbdaWzMag4v09PCd8rlubvKejMFtzKLTlseXvxlX2ZX1G_zxqbyiqeJ4u5qnTk2brOLBImMkJ6GsjQW75kkJhdZbMCHNosIbVQpJAdj20_7ioQZE1F7XMJxNeZY.XkPgOa4H8wRAzUzohW8C_g
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 623
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Item xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:Description>Printing  A5 Single sided Black 1pp 1000 Cover NCR CB W 80gsm, Cover NCR CF B 80gsm, Padding, Numbering</ns0:Description>
+  <ns0:Active>true</ns0:Active>
+  <ns0:SubItem>true</ns0:SubItem>
+  <ns0:ParentRef>366</ns0:ParentRef>
+  <ns0:Taxable>false</ns0:Taxable>
+  <ns0:UnitPrice>109.00</ns0:UnitPrice>
+  <ns0:Type>Service</ns0:Type>
+  <ns0:IncomeAccountRef name="Sales">156</ns0:IncomeAccountRef>
+  <ns0:TrackQtyOnHand>false</ns0:TrackQtyOnHand>
+  <ns0:InvStartDate>2020-06-25</ns0:InvStartDate>
+</ns0:Item>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/item?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..h4Qtk4f4bRpG1ibjMZ9Ihg.7YPf3O0wQer8nXSuGYWXbKikKF1GFgUFBfKAwYc-GCw5obEQiGidIuQBAHuK7LNrGerL3bZi0Tv-zRQttYiatGf4nlD1eazbQo4sj1UG9sGY1BvHH8mUetUjRX_ShZa6f5rJjUvRC7Vo3QyCsDtCa0OIMBiNOfhv7wkUm6ldM-UXM6STTZbJ3BS1ZofNxd5ugU7rripqowTGfXCMezX3lyWLAaQbYqWSF3ZlzBQSHMelwmpZ61oGe_LwuovqXKpEWzDGJPchQSh5Qn2CwPjBnk8zP8iY0gkY_-m9vinpxvre-m138mT7z6OwI-laPBneFc2i-LV1U7o2gUi2SkypJcSvAL6MT0d3qcMpIjeoEjrDqh6WjV02FNZbt2IxM2sUuq3b5ZpI1i07Pytz5gNeKUsE3gLvBF8D5gMNr4BFeA5ANhm5BVv1gkmfD98jwvf-7CdeJP8KeuIAx_POehhHb4_w9NnOIAOwkI3mb2LzWtegBmHMK9vOS1y-WyFp_fZ5zQJoQun5PCch16qEGB5MM3VJ8XtSSv9vt8AHImlnT9aWRU7cYIN5g_zY99edk2s1mw-uLTws3UcSLC3yYGh8n0_xQ0D873EFzLIn04YrU9vsoj8P09KHcGwcp_rt4IRueaqnfZAh10FGdk3ufytuSUKr3ZGEIVzdP5tQjIfM23Q.3fpr7ZrxbTZBx_UXi9AoDA
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 546
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Item xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:Description>Wide Format    1 Cover  , </ns0:Description>
+  <ns0:Active>true</ns0:Active>
+  <ns0:SubItem>true</ns0:SubItem>
+  <ns0:ParentRef>520</ns0:ParentRef>
+  <ns0:Taxable>false</ns0:Taxable>
+  <ns0:UnitPrice>145.00</ns0:UnitPrice>
+  <ns0:Type>Service</ns0:Type>
+  <ns0:IncomeAccountRef name="Sales">156</ns0:IncomeAccountRef>
+  <ns0:TrackQtyOnHand>false</ns0:TrackQtyOnHand>
+  <ns0:InvStartDate>2020-07-02</ns0:InvStartDate>
+</ns0:Item>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/item?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..iaUh5R8A4QMx0wDudRs1PA.toEV9Orr8LPYiuj30WNT3dTNNN5kTg0QWXWQfJsu9ekqEKhk3FOc7TNU5tscq-LdiaDeACmjAHAdhmiDi_6yjW445WXIB2FVEqJtOETeYzErYpLyOrktjB0iJy8EHyJ_zjFh-LRAHH5le8dplTDx0heCgkVStNQGT0-0jM5iI3fkM36OqVJFUlct6xCisxVnEDm4wwjctnECKvooaNOcUo6SyLanTeREu2WphrgqKN4pEIuu79LCE_3lDXCl52aYzqddXfy0gJ-i3TEzSEki2f_a-IVckJtC3I_FXMhaD7k7lLBJjdqcwkbIWX_BPrJc5jJ7hUyd2awELVSLdQArauznPdQJNVrSBrgANrA66JTb5RnhU-TFRCOe9VctYvqAV-8_URGuCWxr8dsNwQzcxyAafEkFI6MOAgRrENPA4g8d3QCO1r4rFxoRgNElkr0GyI0pX8YiqQU8j5uAw_TtHHHd7hDdmcl3B0ApMdan8FEhP-bclH_mZGFrIrXoz-wvCVtJ2Rh8wQp0gPMefBQ7hxgt4glCDn9hrIUZlQMV7r2qFCp5wIzWZYXQxLqOBZs-vOmDof3R-GS74vwDuPWZotxiA3gzW6TM9JR-fIVsmyRAkDESOPIcPbcPOGvBy6NOqFMaM-Uv6VkfZWEiLEAcEtMfEl_X5pdi6Ta8D4ldxPQ.3fQPA2ypp3-ZlrfuT7NJ_w
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 633
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Item xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:Description>Printing  A5 Single sided Black 50pp 20 Type NCR CB W 80gsm, Type NCR CFB Y 80gsm, Type NCR CF P 80gsm, Padding, </ns0:Description>
+  <ns0:Active>true</ns0:Active>
+  <ns0:SubItem>true</ns0:SubItem>
+  <ns0:ParentRef>366</ns0:ParentRef>
+  <ns0:Taxable>false</ns0:Taxable>
+  <ns0:UnitPrice>203.50</ns0:UnitPrice>
+  <ns0:Type>Service</ns0:Type>
+  <ns0:IncomeAccountRef name="Sales">156</ns0:IncomeAccountRef>
+  <ns0:TrackQtyOnHand>false</ns0:TrackQtyOnHand>
+  <ns0:InvStartDate>2020-07-02</ns0:InvStartDate>
+</ns0:Item>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/item?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..Iz-u_G_CMZg2RVv6YgrdHQ.CVA1YeqsxbZXhJLNwS8lrGpk2HEyUxEW3_kegg58luYjm0DgO8veYIj4mzljt4ZUAB84PZK6xO0uuh_lR8waqWIMkV6L-Guvk-Wx69BKv6Q8r2gcw2aycbMWS4Tz--aBGQV3UeaqI8dpEIxhrfpOeyTCS6MpUrLLQNYaogdXAWH_rO9S36oPDqdl0cMZ_QwN573_bSKtFGI3sG3MtW0NZiuMVTiXv5pMoiQxf7IQZh608vIlhSFZjT5MB2Q8pHrGaaFBoCyrwIeDu60izVgoK0e6HKHireWFH4ShZhmuZP7EZL6HPqfWTq4tAOiKGI0voy9MyXzOTOGh_jE7-lXLaN0X4EsEdVT6-QnWAzLWaKnuJM043TtNAg-_6Pkbz2t3lHGHKO-feK-jIANBEDn9QN3Fd7vSm8HbRnNaWe4yO_9Z06whYTVzc75vOOQJzFeMj304JJehcenTejieKjTYZKhZsEJcqPk6cvguJ4hUnDx3BYODrGowTjLddWUN2zow0R753BTnqCrAbq1fkwqaWorgVJbw9_mtxh-yMPzMusNeTofNDhOZbVD7vt0AoV_UV6QvM32M_T7HqP_aMzMzhRl_CZR9PuoHqjtr6DtoWsizGS2SESQE6Y3z9wvjrTCDwc94GtE4DKXQxQ9AyGtF4XQFWXJT36-iMARXZuQxkJs.y1XG_yhAIhRRQRVIQfJ5kw
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 527
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Item xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:Description>Design   </ns0:Description>
+  <ns0:Active>true</ns0:Active>
+  <ns0:SubItem>true</ns0:SubItem>
+  <ns0:ParentRef>78</ns0:ParentRef>
+  <ns0:Taxable>false</ns0:Taxable>
+  <ns0:UnitPrice>25.00</ns0:UnitPrice>
+  <ns0:Type>Service</ns0:Type>
+  <ns0:IncomeAccountRef name="Sales">156</ns0:IncomeAccountRef>
+  <ns0:TrackQtyOnHand>false</ns0:TrackQtyOnHand>
+  <ns0:InvStartDate>2020-07-02</ns0:InvStartDate>
+</ns0:Item>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/item?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..y9ZhfOto-CUJaoX-FiVA-Q.--v26rs59QI9vP0UCQU6tMnozn7CWA1mLGW9I-uALWPHWVYpplefst5GTdCWnqjH-Zc9LQ9DrvgCVHHLZTlhgQ4bfg2tEDF6f9SdAHfo8GLzsgh7POh2_zmtuhnm6SAVPfcDtBQ2YnVdPkHEuOvzlsNc6HBWL8e6i9nKupU7isStbOU0T6lKGUJ6HcgrmR-nr5OTqm_dNksbOxN6TKZdTHYB3jA96s5boEX7mYzdhvBHuES4Ck3HbmmD8jyUnt9QISmryVRNWyyj1YWtkywKJbVgxvITe_-mLaFDRLkZM3fbHa2Lz09r2K3QE25AyeWXZ8a3C64GI5VbyyOZ4GUYCcIrZHoB646Hkt3cN2vSdqw1NLvCGZuniVf5XG4b6WndIRDVthzsj5R2pj98C56sA0nwnbssub1obiXpf9Nk3b8YgoZXefVGQvCVWp87ToZjGmu07QPvL1DHnryRm3taTIAsGgnGgB9f8yDjrQu2YeGWjc9yjsSiTZRLlCn07pG_xJN12KFBbXUAIGWje49Jmqsc-1hT9pz88tVF-HySeRngP-nd8uut0s6bPKhX-n6nWApb8GAmxu2GYy5eSD3jM7SY8wekDAdlfd8hF5qdCDjvbEgdMFttmnKOhi0d3z-LAjgMNonyXD1ifnlMjxJmgn3uGkp2_zTiJV3MrIFoGWc.BLLj47nGldT9hrmSy2obJA
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 527
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Item xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:Description>Design   </ns0:Description>
+  <ns0:Active>true</ns0:Active>
+  <ns0:SubItem>true</ns0:SubItem>
+  <ns0:ParentRef>78</ns0:ParentRef>
+  <ns0:Taxable>false</ns0:Taxable>
+  <ns0:UnitPrice>25.00</ns0:UnitPrice>
+  <ns0:Type>Service</ns0:Type>
+  <ns0:IncomeAccountRef name="Sales">156</ns0:IncomeAccountRef>
+  <ns0:TrackQtyOnHand>false</ns0:TrackQtyOnHand>
+  <ns0:InvStartDate>2020-07-02</ns0:InvStartDate>
+</ns0:Item>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/item?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..y3Dg3Ska3FoaIHLBNF1oFA.-1wyrVyIlYSGoywywcHwc7gnltqjq2Jcgne8qu-JfgJ--UCnkIeR2DDPjLE3MujROGGk7_iX4FTX1Gh8vy7XShT9UjoWXffEYKLswb0Zl0y4ZM5PfymHKua-NJO6M7DAMhZ-_1ZbTxUH0B7jJV7IIXdNHCD3_UWAPxIJ-p7n4HMQeikZmTGLhBn-KfsyzFN4eUvkmfB_xI6PX9yS4sBvhJutI7kdtR4pEeOKMylpnTh4j32he2oYTuCiiMThF6axw3c4UHexh2crk8Jh7LyD6WnXZsnmxSN3qZd-oZD8zleOEeanv94jLLxYkhmlZ05at7OBeD9KhUq4av_-PbwRSjF4f-bTwIRHxELyQrSM26czmrFvu9Lbgggmv9b1o7ZBKRxt_VaczK0WWVfVTM_MIriGxfxbUytnDGxg2QVKowtn40VNLiD6EBLO8fZCmDooNRkYe6qGf9V8Mqj8H-zJm0kD2ro26uaaia9cM_82PmDFRjjWy_vrVr6m5jMQykrQL-qh_g9Knad2n-iM1SkxPZ3WIjGsCtR9wKum_Px02v7AEuEekIeDlXM2OGaAQoLwN5Bupk7nkq0yeWz54wgmJ8muYi1vjSv5w60NzILrmoeiferH8Bi_-silnl47L--4IX8xmZAkDyTPlyhJK8CPaw7h5LGvfkjJUdQ49jaVw6c.PRrdxmOlDZw9ijw8brpBmg
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 546
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Item xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:Description>Wide Format    1 Cover  , </ns0:Description>
+  <ns0:Active>true</ns0:Active>
+  <ns0:SubItem>true</ns0:SubItem>
+  <ns0:ParentRef>520</ns0:ParentRef>
+  <ns0:Taxable>false</ns0:Taxable>
+  <ns0:UnitPrice>145.00</ns0:UnitPrice>
+  <ns0:Type>Service</ns0:Type>
+  <ns0:IncomeAccountRef name="Sales">156</ns0:IncomeAccountRef>
+  <ns0:TrackQtyOnHand>false</ns0:TrackQtyOnHand>
+  <ns0:InvStartDate>2020-07-02</ns0:InvStartDate>
+</ns0:Item>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/item?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..NaP9-tc-d8aXOUIr7q2Ydg.AtRjNo07yrIz-4MRuVDsosjxGXpXAS6X2Wa7UD0Xu4GlvJSGVcd2xrZ8MVqDWhG4UFnVI6AMD5yzeLG0uxLMPdkAR1GKL-trEnSTK_utWfL-ZMRDmajYEILDgELfoIt1-Dvkxh_RFtVI2J23bKmIAPRL0NeKFkQPSBQMnFAhfNByriJgC_7-Ew2zX1FPznlWFvVluoys9JdE99zygrDyybvzhn4fvPb_rNoBPKH2F8q3FxyutB3_fy395g1oAzFDbL5RwXUvjm-Ezy6Evd_ZneykRrDl15m0DzXNGNKsGigJX1hsZWj9gGYF4ooW1uD26pCQsgRh018qOtpD7Wl1EuMGks0cEL99RJ3pjiSDkl0pemUQVSFi6XAmrv6kiqF-Et6vRxboIcbrIlgCOjakAFMBM7h1DTEi9-s66rAXjVd_NEaH2KvNZdxo4lp3Jxduz-8iOUMORw-l6lU_pyklpQLuB7rdwexftxk-x7XEbpeLHVsnrgBkC78a0y4QjhJZnIMkEDcmwa5yG1-P2Oo-tIntrJdSfG7j_-iTPv7ExT79g4Wmsh3drI_ryimvfslmM77reZxaTgRjIpvucnkSBBwTDTl8PZl_N_Tq_soGcormlJnXXVeyhtSYAcjhbPQUA_7-xA0lzOqKNpg-NsNL8TqE5aGpVOmeh4bhVNEB_JU.YgE4eNUjuR629LSDBg7tuQ
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 562
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Item xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:Description>Wide Format    1 Cover  , Half Day Install</ns0:Description>
+  <ns0:Active>true</ns0:Active>
+  <ns0:SubItem>true</ns0:SubItem>
+  <ns0:ParentRef>520</ns0:ParentRef>
+  <ns0:Taxable>false</ns0:Taxable>
+  <ns0:UnitPrice>145.00</ns0:UnitPrice>
+  <ns0:Type>Service</ns0:Type>
+  <ns0:IncomeAccountRef name="Sales">156</ns0:IncomeAccountRef>
+  <ns0:TrackQtyOnHand>false</ns0:TrackQtyOnHand>
+  <ns0:InvStartDate>2020-07-03</ns0:InvStartDate>
+</ns0:Item>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/item?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..FtSWPo1yc2c7ZIwauSnepQ.DWkQZeDtB5FHPCSuXmn2qr_W9NISsmJhVKdZ9pGIgQ794DPVzdMF_oHbH7Tlltb6gkhVI5pPJC6WVL4zl597Ro5HcJH7RxTbVvpxQfqFc3vdspbZTC2SjnMH-56nOEyItfc6pcUm4VrlgYe63EiovhmA75rxvcvRXT7W_m6k-IhrPpKZ3qHTvP49_veFP-FC6uv-oPSSe705F91eGHBq0mpUe4RR-Q5X1tRUv0i4owqCcQjUFeXLd9y6IEl_JciLfIdT92DdXNmwAaCPVKUffncAH82uzvWsv_RRcKOPJKKzO7270NPfzOOw6DyLy9uYIpfo477ZH4TljZr4N04-zepOpUpKnrt9ivlY7pQ-Lk4uL4gd7JA38hKYXekz7bxJ2m0CRx8KFVMbcN6KLeepLPRSCPBGMpYed0PMiMTJI9u33RmnKZGKKczT_un_07rKbz2iGeEY74SFY3ztaxY619UIWEFOEb8aD9MvAkzyPoMnz47UMWvhI8YuTmwM4xKRip6d54aO4SouG2HA5CS_JQc7vtizVABs945UCWBgTE-0luQ2ld2detsXZRhRB7bxZf7Q4E9OWr2d7PrXkyTvrGkgW7X6XYL1bbkiAizCtkm8TJyPRitVZJbny6TCRMKTRRLl2cuFSQj290kHtFNo4kWyiCVCky4r7TSan0vTcq8.wRMNZg-uESjR1HIaWfI3SQ
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 541
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Item xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:Description>Design  A5 Single sided</ns0:Description>
+  <ns0:Active>true</ns0:Active>
+  <ns0:SubItem>true</ns0:SubItem>
+  <ns0:ParentRef>78</ns0:ParentRef>
+  <ns0:Taxable>false</ns0:Taxable>
+  <ns0:UnitPrice>25.00</ns0:UnitPrice>
+  <ns0:Type>Service</ns0:Type>
+  <ns0:IncomeAccountRef name="Sales">156</ns0:IncomeAccountRef>
+  <ns0:TrackQtyOnHand>false</ns0:TrackQtyOnHand>
+  <ns0:InvStartDate>2020-07-03</ns0:InvStartDate>
+</ns0:Item>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/item?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..O1vxqCoVkl3wd2QMYIB5Wg.8W06ngme0_eVUSh8zHfgfiKU0AjrwjYivPmZbmqqdCnFirg1daHjvCuFFzoVnVflT5NjNND7n_4KmKKATAiC-TLRW3UuiNp9bMlYT95t81uiuIrrGGM7F0iNsLLNgHi66lxoU_tyyPZJ3oIiHAU22eELAw0ySjNAm-iqhhXc3dBcxOK4H_T9Yhl6PtkMej_2bbmI6THUYRHpN2QpAyWgeTZ2hVqASqyRhhrvTCdcTO5QXyOsRv_gK9SGfw3QvpWclx2PdbLHGMXPk4DwSBgwRmAtSgsm0p9a8BBcgKTrjvIlGWc9H7uWBA6lk2n6vUo0ynBEh_olFcBBJHoujkpQYJfvTR-gKf7kTyFD6Cw-BIGAznBkJ9gsEQjzEbovQWXX952EWzg_lAijhZy7bPvZwg8ZlHkATY_lRj07mhev9W_Jz-tg62tiobyj8h4rXA1nB9HKSyo4wbD-hyv5xsQ7Nxy2W_YfeDF7bGv_tkSo6G9A6N2Qulnp-IgOpOwGVNlJIO6ux4d65AFTrhhGP54trsdAiwgvbL_9YbuKoOqXsuOV78-dwVCMaL1SIcJoN5YrK48hZ9RMfJbj_h5d6-J-taSBmmEN710ka2bfuyCV_z58Al4rvYo9Z2Je5VtdSgpGOPnQ09PJNPll8wUxEvHh8MzkcsIv6n4Qq683xv2_Ttw.__rdshYt8HKhg-aMg-ZCtw
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 592
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Item xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:Description>Wide Format  Bespoke Full Colour 1pp 1  5mm Foamex Board , Vinyl Mounting</ns0:Description>
+  <ns0:Active>true</ns0:Active>
+  <ns0:SubItem>true</ns0:SubItem>
+  <ns0:ParentRef>520</ns0:ParentRef>
+  <ns0:Taxable>false</ns0:Taxable>
+  <ns0:UnitPrice>45.00</ns0:UnitPrice>
+  <ns0:Type>Service</ns0:Type>
+  <ns0:IncomeAccountRef name="Sales">156</ns0:IncomeAccountRef>
+  <ns0:TrackQtyOnHand>false</ns0:TrackQtyOnHand>
+  <ns0:InvStartDate>2020-07-07</ns0:InvStartDate>
+</ns0:Item>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/item?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..srSiLzYLFPH3v07Th3lQbQ.5GZXx9Mduvk7ZoMn788U6yXzKJ0XvtNMB1eDMEalVbZjG_LiZEpJpgKQ4_vieMBMqhBrzXNNqgxUn809zAFLmjQd1fN8oe0S0ufT0ELYDVv46ForwER3aoRC_odFpXpUX-joH12xwRyMSgn0vX-emifPivCNUqi5LjhPbIGQVxohvLP4ySJ9-sfcp6hS-_g-TTnLny-jMcqJshBL_7H_T3iEHW9LC4_yv6CmS9AnCD99OSuET9hXK2I0JYF2epYwP5l8ELwp38ielEilrjyyO0X3VBfm1zt-vPPUK1en5Hwz97S9iGxR9vVPB8aLdWjT69Qexvr4FGp5LuHx6uq__D-XDrfZldW_Ywi5jBMrUPQHDD9hL8CFdb1pQ5xIuDL6wkBIPQWHZt_hy-pY-W18j6xDIH3WDbnTebsjxVCLVtrtAh5FF6fv9oBdVmGAfRYfC9qSFH-JwI2Qn54R828hpa3IQvsj6eyduZSiCHUTJp_GBgOehaCEQD5lLHXvOLqhj0Zvj_WTLS5Dm41gaTV9GqDUnwdswlZyPMVJGAdaLeNkaCgR6J6BsRbAI7yaXkVLol3NWdI55szrv5AI8WnE4ZcXfmWyD86G8OA_qY-TibcuY3Ym7DzjgWvCyUGY8Ho3speopDoV9gBBFRa4EBeu1NTydg_0teZpbRIGNTb8aS8.keBiycjuE0D6Qugiq6Kp-w
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 592
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Item xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:Description>Wide Format  Bespoke Full Colour 1pp 1  5mm Foamex Board , Vinyl Mounting</ns0:Description>
+  <ns0:Active>true</ns0:Active>
+  <ns0:SubItem>true</ns0:SubItem>
+  <ns0:ParentRef>520</ns0:ParentRef>
+  <ns0:Taxable>false</ns0:Taxable>
+  <ns0:UnitPrice>45.00</ns0:UnitPrice>
+  <ns0:Type>Service</ns0:Type>
+  <ns0:IncomeAccountRef name="Sales">156</ns0:IncomeAccountRef>
+  <ns0:TrackQtyOnHand>false</ns0:TrackQtyOnHand>
+  <ns0:InvStartDate>2020-07-07</ns0:InvStartDate>
+</ns0:Item>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/item?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..XBgW04OXKHjmpTy1z1HrTg.ZpVMMeIlc_6YDmpcTZ0khQdShy5Nzjc7nSTa3wBt8XTWMIkIdjJ2yK5maJ-RrAVLgX9CRuh8rXTpVxIN-SPKgFgCtGZBODej0B5Z4mukGcdyBfDELztmdB-S8hjam-nxj2dCMMUrU4Q__JHoyb9SWeYGrpx4kTeaz4fJW29_rbIoL6rOIsuTYptEKEF2XjvMlNjOp60_tnoovsF-lmzNR_BPplTqUItpdYdolK5Jz9e3KburjkpHI2UbSGMs-zPs3LpZZ_lpHM54f7qIrM1LndGEDz2g1vpmD0mA_VZqA8r9_ZWVIbWiK41XrO5V4qvhsvCx5D58iRvRwZkeysB6pq2noQFAEEckPFmrSuMJbHBWEF7B2lVVhcR_AGkdDMUUZSJxttCSR4EdkNii8FRxM8a0QS_9eqD7EfYwXyiZTo68smdFUhdQH8zirCdnRmywjqia198SLTyL82Ek1Q42H_s_BB6o9aB0U2mLqaKteIUeFumYLKxYet1H92KV049H9ENTm5Hg8DCjSNaEtK5rKr53z9B35FqZ3p0ygSHBbOnFabugtHyDqv8b87hIkqmbZOXkKhL9aIvw7BdJQ2DXSdg615wCqGYOZSBfrVCoCVAB4kq5Qytd3NKCa7c__XP-2A9ODmDDCKIe76fTjtMyhIWDv-N_x2bgo6XkOdc2lO0.OZbqrvx08xtnbTxzjFH7qg
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 592
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Item xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:Description>Wide Format  Bespoke Full Colour 1pp 1  5mm Foamex Board , Vinyl Mounting</ns0:Description>
+  <ns0:Active>true</ns0:Active>
+  <ns0:SubItem>true</ns0:SubItem>
+  <ns0:ParentRef>520</ns0:ParentRef>
+  <ns0:Taxable>false</ns0:Taxable>
+  <ns0:UnitPrice>45.00</ns0:UnitPrice>
+  <ns0:Type>Service</ns0:Type>
+  <ns0:IncomeAccountRef name="Sales">156</ns0:IncomeAccountRef>
+  <ns0:TrackQtyOnHand>false</ns0:TrackQtyOnHand>
+  <ns0:InvStartDate>2020-07-07</ns0:InvStartDate>
+</ns0:Item>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/item?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..obhOMOTZI0H01MjixB42nQ.Ozkf1AfSxk6QbndAuxJPXE2pcECkYwNeby7ChFYkKbwlSQdhsEgUT-aPhpm-HG1wzmQxCqpXlc5WQetVgwyrf52KHo-MUr-_O7diK0Nu9qHiMdZvH6RB4WY8bfH576CW44sZOfFVu0M5zOSsOSLPZ3O8FWNbXkQ7qBPJ8bu6StfXTh3bVIQzImoLPtJJ_B8T3bW5yZhSL2ZUFSZyT8f2D5Ry3mvMsR7rZTNAsftZGpmPvaH9wuvNJ4B9V13KG4e4n45Smqeoqla7udHygQ7NSm5gV6wCkwvQMQBQlcfzMTUL2NhdBN0DiLuRWMpse99dZ9IrakiQ004Q3QaOEvAJ2le5SJElKAiMpYYyr1ieZyl7t4DdNlBquZlnikJ-7C7J--L1LVDpAKi83VQJesY-0rvu9k_HkaRbXQOG6eMCXkjd9wc24laOvT_LMn121v4M2dbf-QxAJftpPs2gzSZ9mqdzzfZlY6pOLNXHLFO8idK17fYtN5Nt1MPycO8_baA7QX6YUqKuD1Rrh_yI-_HMezzyD1xBbpf9sD4t9YL99M4Z-ocBwLudU7izv49QjLdj1b2w8B3VoAsql4n_E-wfycESFY8kjpFu2vs9J1GomrwvV3KzOdfbQy-xjrtFjNCqhjGzzPNyGQ9uengNJtuQSe48l1rp-8qkJxHnC-ag3ZY.O5AQPUj_zEJzyNB31gPCYA
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 541
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Item xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:Description>Design  A5 Double sided</ns0:Description>
+  <ns0:Active>true</ns0:Active>
+  <ns0:SubItem>true</ns0:SubItem>
+  <ns0:ParentRef>78</ns0:ParentRef>
+  <ns0:Taxable>false</ns0:Taxable>
+  <ns0:UnitPrice>95.00</ns0:UnitPrice>
+  <ns0:Type>Service</ns0:Type>
+  <ns0:IncomeAccountRef name="Sales">156</ns0:IncomeAccountRef>
+  <ns0:TrackQtyOnHand>false</ns0:TrackQtyOnHand>
+  <ns0:InvStartDate>2020-07-09</ns0:InvStartDate>
+</ns0:Item>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/item?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..QoqmQhbvwe4kjIm5tM7zag.j-6u9iNgd5sl8NwiWmnYtvdJodmYikOJhvR6FngAZ56rW5r7-NGJG0_7Mne099EWpWGeeWAOwy4ZPHrmHlbKsZbZrq3n-gB-Z3O_166XA8hDwU91h-DZQIw-fz-DGXvS4Oa095cpngLZFTXIZjX2QGVhSV3lFfEwMXcDgovMOaJlm0rcNsi3s5xDiYBr1IaVp_cP7zG3FqEouDRe5rwyinVREQrTnYZY9fanupvgxNbwyLMK3nRw5YxcK_BSfjXcBjYuZrNu1zxWRT0JNTmAe_1V5M7J7jFITjHsmZBo4zGq5izAei6JelYkVUOneKWNNDpSq7wRCYiaaI7dtjb4dlPavmkWwR7MDidH-0IyM01KL4Ftw8Y3Js_xylnz0_VHo32mhqOHlln-kJRaBaNWRZGd5UbZ9GJf0em9O5BdDn_XHg-sPRb7-qOGYDaPCWsXAhMlO5l72DRp1tD6IEZtsxNbtwmBEdmvCccN1gWWVMYQm_Mu7LrRhf-if3XYDj25oKm6rDyEPuCKSRci-sTrzwRhptipXlSFuXNzsRNxwAXnNnINebehmxpsEktF5SdvCSUjUEk95H9p9WxbQv-orybkUZmi04Q-MbMBJJ4CkRfINQHNtbluIvVy4sCU-4NqD9ojZmpxezpjoDHX_FT1WcjZPXUEd7ledU6PomT4hLw.01FyrybEvzBhh9gjbooaOg
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 541
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Item xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:Description>Design  A5 Double sided</ns0:Description>
+  <ns0:Active>true</ns0:Active>
+  <ns0:SubItem>true</ns0:SubItem>
+  <ns0:ParentRef>78</ns0:ParentRef>
+  <ns0:Taxable>false</ns0:Taxable>
+  <ns0:UnitPrice>95.00</ns0:UnitPrice>
+  <ns0:Type>Service</ns0:Type>
+  <ns0:IncomeAccountRef name="Sales">156</ns0:IncomeAccountRef>
+  <ns0:TrackQtyOnHand>false</ns0:TrackQtyOnHand>
+  <ns0:InvStartDate>2020-07-09</ns0:InvStartDate>
+</ns0:Item>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/item?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..WQ7_bwki95W41cNUetFJOw.WNY4diwNuUGD8XeDMuLKbktuCIniITX7x5XhjSIeGWQD82ssSCbME4pQmDSv2A5Y2dzBs5H-0w9afP9YJS6briqC5pfGEnaNzBfWwH8nKz9vTwcY2nEA2vD864fWsCaOXghkvYMwIbG2Okw-KTwN4dQUelo1A4A_DrRXwmPiGX3-6H9Ah2zYihN1OX_InUMRgroF0TI3UOo5wbHE1oXAx7t4pUs8MQtyMG8SB5ZmJH-IGibvcPt7ga37KHQ_vJHI7iXKbn2b4XnzwG0gCekb3mxO7NdgKlD6zh1qzDv-BBjqrMtxEdwmsPV8MNt7FtCj9MZydXYwMzl-hmau1GOzBCNMzZpKNmZOHiXByxDbkeWDWiW3OroCHTj91_gd4yfRcet_v_L4E8_BNO1Zq-5lrSBeBioDExMuHTRmQf8Evh--wQu_d8glElLdB-1MeIAndGWmCIuagJaiwKlmAyGZndcLEDPfpjk_q2O0QJ6D9mH40v9TtGhVH4j0e_rqhPW925FeCtNhMPB2RWiXTJ3u8BTJ_VsG7dIwEO_73qhwXbEA3iVrkRmspjNFnbsxU6oyL04MXngerCGzm2-2jdC7f-NXN_mV2ukL3w5jXzSHUlFmEQVOj0XVeEYkA9oav9-Zf6lD4LorqW4-W7EqtS8NMmAkIQAwlUrARiA44EsOiUU.W5DV4ekzLDD6G33KmOy3qw
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 541
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Item xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:Description>Design  A5 Double sided</ns0:Description>
+  <ns0:Active>true</ns0:Active>
+  <ns0:SubItem>true</ns0:SubItem>
+  <ns0:ParentRef>78</ns0:ParentRef>
+  <ns0:Taxable>false</ns0:Taxable>
+  <ns0:UnitPrice>95.00</ns0:UnitPrice>
+  <ns0:Type>Service</ns0:Type>
+  <ns0:IncomeAccountRef name="Sales">156</ns0:IncomeAccountRef>
+  <ns0:TrackQtyOnHand>false</ns0:TrackQtyOnHand>
+  <ns0:InvStartDate>2020-07-09</ns0:InvStartDate>
+</ns0:Item>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/item?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..l3eNa6Sgg3_OVGTVbUcKOA.5E4j6htPkkix_VIIztesibDN8E-wA2L4ufST44TQHUfUmHWNCZLh_hhs_Q65TQ3TDPLdZ6RIV2WhAA--UYc30PzRKdHTbp8TPIC-eYCn6r5w20WOlB67xZDInhU1TePLcXPuUnBOG1qjPe5hhX7uZMlbz8BADUJgR1KZLCzMPyCBtdECk-6ZjHyo-SsBtGOxxeqSewoJ26daaeix9Ug55T1pz91m3WTt1NAjxM8AkGVLh64TbCEzUL5ViS0NyE7SuhfJwkhZRNGoiv2igQvpGrOB3IspYAFLH101WNUpFjXqSAF-KNI8aap_eqK3tNgchZXnvc8GPMqWwdIN0yjtg2CF7gk9C49_-_DjKE7jXaoDcCCzE28JjRW3aZOSvJx9KeomBKrbAhOiaM-WO18NhBC8r67XL0tCkUYeEizROed7-BDgipUolBTHkgA9TlDtrhIzinfINF8gV51lKJ8-_G7_sdw2t9zEcQoBJInTISfzIvSTG-fVwir7W0KgSab0kRBh0xPWiJW2dLa-Qw6m4qdHyngCEPpjcDsLFWAkRUlka3qo8PC4QiqNuHRdqGP4SbhRegjqbxbVEy5_A9dT5IDB-G0NkR27rJXktbJmsik3Lq-ykX1KNEwlc4D_8GD2dbgBGC7wf2yM_Qtd2NNNw_yPeenNfh3UM0y6_dn9nWw.9aQyL3FkJ2oaCPlzpaz0Hw
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 562
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Item xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:Description>Wide Format    1 Cover  , Full Day Install</ns0:Description>
+  <ns0:Active>true</ns0:Active>
+  <ns0:SubItem>true</ns0:SubItem>
+  <ns0:ParentRef>520</ns0:ParentRef>
+  <ns0:Taxable>false</ns0:Taxable>
+  <ns0:UnitPrice>550.00</ns0:UnitPrice>
+  <ns0:Type>Service</ns0:Type>
+  <ns0:IncomeAccountRef name="Sales">156</ns0:IncomeAccountRef>
+  <ns0:TrackQtyOnHand>false</ns0:TrackQtyOnHand>
+  <ns0:InvStartDate>2020-07-16</ns0:InvStartDate>
+</ns0:Item>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/item?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..Qdubwc1-eCLXCU5KEqCKbg.PkQ3BwJE06KjG17FSA6EbHXcYds6-gsKVR7Xu9ckVkqFQGgmXllJi2pI3jbEJc1R4T9_nnE7xPoSzNGYgiFtYA93nv9p32gK2ef_EqpoMeZVFUmwHmSxzR_dC6C4WuB2avybnTaZTWML1FhxT8PN-RWxkWF9PP2pbspVG906ptCcyHuoO3VsIE62a8Uf7s5NLw9sA1o9QcJV34Cg3cTfxnOlf4ZQElZTurpQmDSHSqJyOn8OsytIOCEawpzw51fxIoDl7ATksjch9yK5FKeu35jSkJnzgiMvTmpCTsRn5mK_Zlki91EFRZIYl7kLfuSLKyRN9oVSaaM7bZnIr8-rPipUhrJTPQT4pRPpqPOjtZaBxzkhmPQMEMcsF9uU8KOBacGEk4f0Vx0vHqx5l9ZUkr4nqV0L4cMj9PfTe_PhbTA2W65QvDPKjIP2eTTjyj40OYR8PblhcztEjf_k9t6PxQCmIrS_sT6KTi0qKzJxOVwLwvZCwvZqBUM_jp-rLaWJbH-aJcBZ_xmnZORs5ehN7iVHKiOoi1qOIubx7M7RWi7a-COnlIz9F2aelWQPti42nuXTXdW6BSJ95Z_O6Ntif5e4qZ5UYMV4OMKLjDUKsw_ZproKc7kRlRL3JuVYFlUogcVmnGqqPc5tuO1M15eOceGb3pS6Pm5qi6E9lJsEmkk.QepubVi5bQC47ZuMG5pk_w
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 562
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Item xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:Description>Wide Format    1 Cover  , Full Day Install</ns0:Description>
+  <ns0:Active>true</ns0:Active>
+  <ns0:SubItem>true</ns0:SubItem>
+  <ns0:ParentRef>520</ns0:ParentRef>
+  <ns0:Taxable>false</ns0:Taxable>
+  <ns0:UnitPrice>550.00</ns0:UnitPrice>
+  <ns0:Type>Service</ns0:Type>
+  <ns0:IncomeAccountRef name="Sales">156</ns0:IncomeAccountRef>
+  <ns0:TrackQtyOnHand>false</ns0:TrackQtyOnHand>
+  <ns0:InvStartDate>2020-07-16</ns0:InvStartDate>
+</ns0:Item>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/item?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..0WWzyRLiMs53tODvmcexaA.HaW2hSQZxJQVAB34uGz8Urn8TQBBdhxpaHeq7jkjqVOzWqdSRBe7z-l9VPvzud3XMuVTnRDBv3RtgA8mcBlJvxKpByvIhW3Kg2nSIU2J8NX_W-moXAlCS1-lHC2Xzb9eJTrxQskFWdRBcK9ABhaNtXuFHzFpgaQKa45oHihe6ChDijk2-aXtNTJxJzmVeZlid4rvIn-KQomLDoQRNI2LHbQYOB6IMaX46-HX1ymZsOt0IicsSPU2EPLZZIZQ1ZBdzh9mWvI2qJM2TEYJmrrzPqbll1jAsj1IoTFuOrctoq5Z6T_qMSlwZSywcLrgOsiY7D7NHjvYZ9c5jy08pbRBePexDm_B2MjLVHZ7AcTuy75HfF5b5NqH8zfMuKadW5It3ziLZkSOS3lCBpVELNg79MPDVkokLGv8d2suYxOLmGaIjD4thWFWlAWkfaIjvjKufehx2ATuPuTIPc2tza0H0RrtxHJO4TnDgYjtF8BOh46JBPcB0eIQhLGCNN03d4Umta0vfzo9QrwA83bM86Hs6xBRTCQZ4foT8PPQydDtAYnu6se0JkmtbEk7YRu9mqkILqmAwwmh-Umj9KNhJoM2B8y7RWvgwXL4nTcH7WinW_tJNIFFjfolypJLGRiwpNNjvFCzFPqHufsMA10VWGxkrfYEzZ5q2V3sUomK8iYbJ3Q.AxX-Ya9QdvwpiZ5nDzv4OA
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 618
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Item xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:Description>Wide Format  1000 x 600mm Full Colour 1pp 5 Cover Canvas 200gsm, Wrapped on to a 45mm wooden frame</ns0:Description>
+  <ns0:Active>true</ns0:Active>
+  <ns0:SubItem>true</ns0:SubItem>
+  <ns0:ParentRef>520</ns0:ParentRef>
+  <ns0:Taxable>false</ns0:Taxable>
+  <ns0:UnitPrice>350.00</ns0:UnitPrice>
+  <ns0:Type>Service</ns0:Type>
+  <ns0:IncomeAccountRef name="Sales">156</ns0:IncomeAccountRef>
+  <ns0:TrackQtyOnHand>false</ns0:TrackQtyOnHand>
+  <ns0:InvStartDate>2020-07-16</ns0:InvStartDate>
+</ns0:Item>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/item?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..vopJCOs_7faVvBZBsBILiw.m7BO1emJy82RCl93rj2qaL10_e4PwqI5O8TQAOHOC0c9QAmXsUbXEzhuXG_7LdkeT3nFn2nF0pzm8kd6RFVmtyBLxXbUO7JLRqZ59vK6M_2RlRh9mIP9AGRB2d_4lByUzYwU0OSpcn-YnEqnQQmo0Q7pj1iOC0vldqf9UgLsmtbLK7fc8ofELYQBFB5sj_R1rnnwFo9e9NOnpM61d1IaLwzWqqwDzLlsgjDPbRDDw8l_5CeZdT0zFT_r4E6Go_eRaN1xO0OI1EZAN1X8aTkC7h3crY4hOZ2PfAuA7aCHQi3oUsqdEX7XF4-zGmyaoyKHsANQNDylCvZSdz51d_nm2eFBEuPpIvXA9gr6kYABYuuWJ-YNHNn5RaGKpUKUPLjs12j5B7bv8m9zZCGhPFJotJqjWTqU492ky9d7IONLMn6kkif5riEwIYR1Bz6La0RHgDS6Z4CNLtnoMEWCAhGXJ_hKPYk7uC_oQjyqgFnpm-VWOy-gN_DMJF_38Eb0zEoL-ed5nN98Q3Wj7YCSKBO5sQeltT2gz1zvUz-YRvJ8wALQ0yWDLqYfGnaks1xP3Dzsa83j7O4V5UDBQ3M47541Po8x01OjXPlBOQvOASys6f-OPX0XSkNVm8Dfl18DSguE3oxoJJ1-1Iu6CGUkNldBDVPADUcbSTwaNp7KRqM_Kdw.m8Ecyaz0rbA53DN70HevAg
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 562
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Item xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:Description>Wide Format    1 Cover  , Half Day Install</ns0:Description>
+  <ns0:Active>true</ns0:Active>
+  <ns0:SubItem>true</ns0:SubItem>
+  <ns0:ParentRef>520</ns0:ParentRef>
+  <ns0:Taxable>false</ns0:Taxable>
+  <ns0:UnitPrice>145.00</ns0:UnitPrice>
+  <ns0:Type>Service</ns0:Type>
+  <ns0:IncomeAccountRef name="Sales">156</ns0:IncomeAccountRef>
+  <ns0:TrackQtyOnHand>false</ns0:TrackQtyOnHand>
+  <ns0:InvStartDate>2020-07-22</ns0:InvStartDate>
+</ns0:Item>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/item?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..VJHzKQaOCcBAAFKC0R7xiA.fL4JMCg3aO1GobiFLyh2qdYIAi0SArhYtPhfSTY2eAUhTB4IF1S_l5tRruluo51_hw3VSx0BfuIjG_Pgfc9opPNZtkVXaMcbF6C9qdXo5NVP1TZElcD7MgOB5qedJix1JdqqQEAQj8sYeKEU5LQCa9kZgXO49oHMiMu_zNkMDNGu2Nchh6ybYONDmAFP_HHXPqgMWvHIU92AfN8XEeiYH0po2zQrr-EYjgzVsXlc_8F2cnFXr5Fbz7vxzcmxPFoLksH1gkgKaizFtjMVvdqy-x0Y1-khpVH9J3EZOZ00PGu2eb5twEh3l2rIGvNs9jYQGFCNarnP-NWS0dIUMMz2rglQB3seaXFq-YO7PVz4x7S5j5-1jBLXLXevPDIOadNY2f58JTlZ2g01GhrWQGQg5U7GxGaQ3KEVSAVsQJE9eiaQB01LR052sxD0pJqs0KS3A3KUrVZfXhn-cy2y-aTkH1LDZtz86yPYVk6Xxx27TATqlxFjncz8p16KmudQSF7eDyHTiTvWDbq1kx7Yfn9TzrhH7PZE2OPPLd6TewAgTpUvpWmTX_HF-uv-FBqfLSkhXn2eUjyCUoVmSkPcXFshTLwxznJV0Pu41udVLRzNTwL1UUwSUQpJIhbto4OlQyLx431e3HgxAYWi987CFXvaHZ8d318KkeZUX7EM4KljxmE.pH2I1F97_c4vLjgMrewWlg
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 562
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Item xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:Description>Wide Format    1 Cover  , Half Day Install</ns0:Description>
+  <ns0:Active>true</ns0:Active>
+  <ns0:SubItem>true</ns0:SubItem>
+  <ns0:ParentRef>520</ns0:ParentRef>
+  <ns0:Taxable>false</ns0:Taxable>
+  <ns0:UnitPrice>145.00</ns0:UnitPrice>
+  <ns0:Type>Service</ns0:Type>
+  <ns0:IncomeAccountRef name="Sales">156</ns0:IncomeAccountRef>
+  <ns0:TrackQtyOnHand>false</ns0:TrackQtyOnHand>
+  <ns0:InvStartDate>2020-07-22</ns0:InvStartDate>
+</ns0:Item>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/item?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..8c6Ild53oU6fBFnjL0hfVw.QMEgqyFucRs4mOUMknP03PODdsZO0N7RshWzIw_OgCmt_bkccuovDSq7sEVmVYsketH3wR93Y9ij6k8Nt89r9jDGDqVx-VIijT1e_XhCgv0FZ1vmKSyID--hdmta_OvVqihScpfC1o6oNOxkPTfbS_afFPcPO5P4r_Ml92Z-A7UbWLCskfta4SSIGhaFbwjicrFJvPRDgbmzpcT3VbdOwF69nFYbV25o1KEUjGgZPVEy_X1fOwfEvEawOshxaLzQglxYwM6jMUptiKQ2YlwQ4fMPmvsWygZf8vyDzJTaG6SJLXgfwYq3nDoFLF3Ygq37nPXgttGlTjyMEW5YbeUYrDp8yZI_OAo6IueuYpL1URpcuQpvdXa21SZ62jfk_T36jH9uChiTzLn0_68IGbAsGa6ge1CW9dMQJlM9NlABFkTQjInP-JW_ihE6ns2I3lHSUAKI2gsGbpikIgdlIDHL9BFEH_A7JiFLFQRlhC4ZbeQcm1V5tP3lNbmH7lybBtv1CUzcelzkCGYgg2oiRvyRZmO3rKJmPXSeQq73TKmuBunBfhAyOQNGedFXcP8CN7Z9OD3Wy6yY6VqYr9gb1-Wa77tmzqO44285eBrt4POkNGvPbMHDS41qBqMAc0toelrUeXb-8ArglfWwCawAhpR9I15YM3_SNJrshGhpwmE9XeA.twuI4oMzbvh6LYS4q_cosA
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 562
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Item xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:Description>Wide Format    1 Cover  , Half Day Install</ns0:Description>
+  <ns0:Active>true</ns0:Active>
+  <ns0:SubItem>true</ns0:SubItem>
+  <ns0:ParentRef>520</ns0:ParentRef>
+  <ns0:Taxable>false</ns0:Taxable>
+  <ns0:UnitPrice>145.00</ns0:UnitPrice>
+  <ns0:Type>Service</ns0:Type>
+  <ns0:IncomeAccountRef name="Sales">156</ns0:IncomeAccountRef>
+  <ns0:TrackQtyOnHand>false</ns0:TrackQtyOnHand>
+  <ns0:InvStartDate>2020-07-22</ns0:InvStartDate>
+</ns0:Item>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/query?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..SSglcjch_AOg5isI7_GZ4w.o1Umd-ssVVDXcNQT3nofjhIZxCwPxhm9vkE3NouBpgooc9HEh4wp7cqKKLYirHeh-P6Qf47utQyz0t4uDYpyiHg7aBCHuXe1vQYG6bawta4qt6-Fs0wqOOH9QUGHFtK-LpzeFZX35WJMtU3sRQytxRMd8IqD2yRyTO6FEH5iRSsKRbPymr1Xd6Q_6eoukfhJ5yGRCMgia8h0Jvj62YO6e_PMN7IShAwckh4psFzkM7a7qb-GQ2GeIK5pYHDlqqEd_VlMpvOJ5LbeQ_cFRHda7wKHcG5zh_IQG3S69G--xxKZwCaB73LzS3E_Pi6MZbW0TVamPbc2xcH6JCjDTMdrOQ_2-l2ixXSoEBwVXXLHjFNnaHR7i8G665iSVI8c7cYHuiDnY1uFZyE-5Atlshheq1Lk_RQxEHioQ4gP4clbn3kirU0KiGJUvy1Gpnpvz2VvOdMqgFf2t0FrUTzRABUCcPWpZZqcHwJubVFEH16n2gSlDprpJ_As-X0TjGAwi6yO-vnS7LfBfYAj890s0PDY7v6VN2jp_ziynzOD3quTp_4zgJt4I0Sbt94dfcKw8oFusiKLO8uMTjHB9OsQwtwSFnyeZZsFYIXAiSCtrQBwIMO0afGwaTEXCuJVNFFFN28mK6M7_HEdGVLsdNOSg_gT8mBeAy3ChT9zgpiKDN-3jqQ.FQm7yGF1JMIG9eLlSHXvRw
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => */*
+    [connection] => close
+    [content-type] => application/text
+    [content-length] => 29
+)
+
+select * from Customer where 
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/item?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..C1jxhI4yMU5iEQ6BGpx9_g.YzsugjQrlnw0vB6tkQmWjzKf1km38Fktbj2CXz1R_wutdS7hw3LE-gIyI3j_XIfT1W0Dw_iE6ZrHgev8HQY7kkWLOLYE5tkIPE2Nl92_a8ruyWjsjWHIWfdRlGs9mfX33F2s5SiBVEPKbhV1JvSKmE0lxGWP9R4cIey6WwUn6qVbNcNxiXbtwTOAj_zuIvvrnkBJyjES_9n0Ewr9jvWzsfCvw70qUFam_fzWHs8-u6DAYJXyif1D_L1tU3pIC-_h2mXcWQo_dyyY55Wnpgm2nYL70ks06vnFzvuT-Z_3ARF2cFZZHkpb8975PaFgVTKuDpUTCm3XBspz9t2mBVsA3GLByVm1lDmmZ-u0JDox3QK9Fapc2lLYKnVumRiM1hbFhv0LPFLKsiCtBSuQOGIAtlvtfum3r_XbnC80_7cZ2tz6jasaAcHo4l81650LvEo_3Cs6WWJyN3S1x2ozpDO_wGx-sJowX_lu-CXji0C_LGYepYaGtdHPgoli6qWCUXLCujRVYyRdAib15kkCTRi7O3YWh_tKlNthbqFMgIPJ8s9sVEK7938PVyMMKjMwvqw4Cj05tFnYmpj1Oj87FS9VUv4bPEOo4ljHG6hqlPohuFNLKWlwfdgbyacR39oQ2MxsUJ3ERZ55w_I5U67M_heRWwqOQbItlJrg89GnsTOra1U.pgPpbKHXsCsP668XwtV7bA
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 641
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Item xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:Description>Printing  A4 Single sided Full Colour 50pp 20 Cover NCR CB W 80gsm, Cover NCR CF P 80gsm, Padding, Numbering, Perforating</ns0:Description>
+  <ns0:Active>true</ns0:Active>
+  <ns0:SubItem>true</ns0:SubItem>
+  <ns0:ParentRef>366</ns0:ParentRef>
+  <ns0:Taxable>false</ns0:Taxable>
+  <ns0:UnitPrice>135.00</ns0:UnitPrice>
+  <ns0:Type>Service</ns0:Type>
+  <ns0:IncomeAccountRef name="Sales">156</ns0:IncomeAccountRef>
+  <ns0:TrackQtyOnHand>false</ns0:TrackQtyOnHand>
+  <ns0:InvStartDate>2020-07-30</ns0:InvStartDate>
+</ns0:Item>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/item?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..rT0e1uab0rkZXjeXdcwWNA.zOG6eM8ZPbM-raxeeGXYM7mWL5PBFLDV8Oj9EIEFV5Z1_4yscnUo3FLZWEYiijrk9Vc5HYn6w9jr9P5bAmJRFt7-NIyfHWgjAoz4APsSQs7RFWSNkbbZ2MF6F7S6jcFlfwmxL1urIUGf1YG1fKA8sX94Lt4gDFfaQqD8iDxWXISRW6p4_sDiGsfb0RuJRWnPSQ04KafNhorOH9ATKoX3KQ7SxEEQDSgCMgVgJmJQfx7khUgwET21CefAzCjCc-Nn4TdCVKAglBiDTXhX5NkgPKU-Q01jt1NSbdTsDNUv-tTrju0KOivO9F7hkl0jYFeNSnZixtia3YuTWWZREbcA1KzPvXhL1SHwtrZ8SLRwNev53DHQdCE_heY43bdo5ciQ2GLJ5Q9-euasZWNCMCFVdZiuKowSuEgiyQrvXjYysQh3UtL0uXN9VD_liOJtGoLE4EqUDqv1KCurOtnR4jtpxz_xzSJHrVh0Vf-3ripQ8TyCAQEFALX8cy0dKfn-y827OsBaBLQ-UcHMjHloBcw8ZCnRuvhWMEEqORbp-VujLaa6-94en7o2PxaavFOa7iy32Li4QakIkQhzLgF--TmUCy-lLyT02maUvJx_kEhnUqMEHhKdYK1HFURVqeEuJQCmQeVONIl-zJt8visrhn2umZ8WXZEOou6Bo4EsWNrrsxQ.li53KPOFRQjAZIYuUFBAuA
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 546
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Item xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:Description>Design  Bespoke Single sided</ns0:Description>
+  <ns0:Active>true</ns0:Active>
+  <ns0:SubItem>true</ns0:SubItem>
+  <ns0:ParentRef>78</ns0:ParentRef>
+  <ns0:Taxable>false</ns0:Taxable>
+  <ns0:UnitPrice>49.00</ns0:UnitPrice>
+  <ns0:Type>Service</ns0:Type>
+  <ns0:IncomeAccountRef name="Sales">156</ns0:IncomeAccountRef>
+  <ns0:TrackQtyOnHand>false</ns0:TrackQtyOnHand>
+  <ns0:InvStartDate>2020-07-30</ns0:InvStartDate>
+</ns0:Item>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/item?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..A4-hzPzrzd_HLNf0WjiF-A.X-1jlQZLbXpaFxcBnJc1Uhi5WM1hWtz2D9niAdFAUDy1-P0RGWnk5F50LkfRVSBxsFnwzRJoXRR1j7nozIGzbG1KIj8cjsesHqWyulmGU0QG6WAh7TEY7Mu6bmkBN4Cv5BAvuJrM1HKrDqD--igk8C5ijbGaliZHTOu9nzaTIKlT5VnW1uH6ktIwMKpThWt5k840pNRsZIWLXrwUDV2r8Hmi_-bxBxrqRpeWkhXq4dDDYJkqOfBDeFYb3tRStdx38q6excmbad84TliUVL2ZvQUqHzyAvZS1OG5LH2ckZyFjhaTn4yfqreDSnJ1gbHV9Z4O0tnBfjc2byHSOOC09wN8HcLdjUW5PUKUvbkS5mLUduj41ag1AgaaJB_3DqJAUsoPp0G6pMocqssTIlOQBHcsrMtHgMm9C5nECGXYiRkcF7NvcFNgUYCueZLdXybYpm97gE_KW9JIZo_JqOfxeiLjA_g14AwOGneLKvwWej7F9kS5hvO-iFSEPq9P4p73NJ6UKyg-_9MaYaq7j5XlUPk5-6TNZr84DQipvq4siFdtRd5i4wRi0oa6jwHPmdRJIBz6YfsPW6_f4zSpCIKzkvfRx-ePJRPzuh9dPfoup4tqTW2bcrKRPVPw1caGAVG9sLyKfbnJxtJk5T22i989ep15M9QDOay0FpT-lAMwVUBQ.fi0RJvcrxZqn_OsqRadRqQ
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 541
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Item xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:Description>Design  A4 Double sided</ns0:Description>
+  <ns0:Active>true</ns0:Active>
+  <ns0:SubItem>true</ns0:SubItem>
+  <ns0:ParentRef>78</ns0:ParentRef>
+  <ns0:Taxable>false</ns0:Taxable>
+  <ns0:UnitPrice>49.00</ns0:UnitPrice>
+  <ns0:Type>Service</ns0:Type>
+  <ns0:IncomeAccountRef name="Sales">156</ns0:IncomeAccountRef>
+  <ns0:TrackQtyOnHand>false</ns0:TrackQtyOnHand>
+  <ns0:InvStartDate>2020-07-30</ns0:InvStartDate>
+</ns0:Item>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/item?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..gEbmDEkIy4Jfvwa3MVoo_Q.k0TnjIf5vgjusckACjdK5fqXvH5IiTW3-n8egmla_IONgzXMxUncQMUNflMOTCUadmu7BMMtIlyXjNAduUTmi8aibceXcFhQqHqdnkO6yKPU_jQBuG0mzLU3-92lAKoV-gldywRnWvCdY95-IRa6oIxxDH232fOHUa3JzL0dF6UMigVmBK91YbQohVx3BPcl10q_s5TmZVJm5HwSwoZkjJMYp24MFShYeIpNB1gS8_rabBgXcI8Jx0roCMIArpQQSQZvv-IoXqQ1rBDNyNRyaIpm5MGCiRmLgpQyScG5YP9Zp3ZppcTvpxziUxQ4aXLFnsvUCr89QRa1sOfKPFrpHQGyldB_8BOWo_frNV0TRMi10AhY_4T4BCU46ihlUn_T1fteBiqRwEfA6cJUBs3lq9_DyUI4uuFUgHKiCg7s09s2viWqXH6EK7uoY1Z8YP4bydglzOoW2TlexA6pgopoCr44JvhkAJKAf1g0ANrUxHRVWUY-tHx6iMDZHD3hlbdNvb9MBu6eqC2b_1mcRwa0LvGr_zec7zcwFauvQIhlb_Tt3C61MTarPnUAeqTNAaxi49OFLRAZvi3RRnohhWLIjyEJ3iQoWna-iDdkbhoe-JelIneoIv_S1cpvMYn05HnEfv5XMAR_oYFGqyR8y0wctXrHHE6OYBXGrlRUO6dWhkM.SrXSKkRRtS4EsFaXDx8B3g
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 553
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Item xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:Description>Wide Format  Bespoke  1 Cover  , </ns0:Description>
+  <ns0:Active>true</ns0:Active>
+  <ns0:SubItem>true</ns0:SubItem>
+  <ns0:ParentRef>520</ns0:ParentRef>
+  <ns0:Taxable>false</ns0:Taxable>
+  <ns0:UnitPrice>660.00</ns0:UnitPrice>
+  <ns0:Type>Service</ns0:Type>
+  <ns0:IncomeAccountRef name="Sales">156</ns0:IncomeAccountRef>
+  <ns0:TrackQtyOnHand>false</ns0:TrackQtyOnHand>
+  <ns0:InvStartDate>2020-08-10</ns0:InvStartDate>
+</ns0:Item>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/item?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..BVrgScD6otzzcrlzgm_qJA.ldDBMhmfygE6NsT5ss5UrzQMFXDoZHLwNvcG51oSepAc3D_FQDWiytebBL3qjM-AeVqRRqASrdfbmmHQi2STwrFMZas3hPYkr-vER4NVGlt6vK1CKearUIui7BZiGyottq_H19hdeVnVYjcNL34oSqtmEo0JpE1uVbaNhbcGbBNHhjF0bHCln3TOJQqfKmwf-KdXQMZKHn8vtKJh5W8wwSix4ZaVgKM-Yqrld-GiNWrTtfvLOLcfoVgcsCkq430gxcitNsFo4ySD0wU4sQW7gWDRVlr-8-mAOyeAowRpVl4GoBneXZYlenQKjxAjNm4cNyYShbUeJosojEEXmbmcFoXLG8iBUTdoVTB7o2hjqjSW1w-SmU5_h2LpwQwjd86jC8e126dHCifunWkCJlGg2DokUD2IOVonDR60X9U3X1peAF1iwIeI_bqOpNY6t1cYhpkoFXhNV2rlwTfefND6lWvIlGvQSlMQOsaS7Dq8tqvx7pDGwRgJjdbKPjSns3KzUhAwpkyfryQFWLKYJDqp5Rqu5NQrz16A_oEbrOClbZcvElJozUinfCpmkMf_bMg3uZTT20TTmT7w4R6PX9QzjqMuXAXfX7CA_VH6kaK8Cds9aSclgqPn96-r3g4mBDBdS89ga_a5Wj553YLXra7HSM0zeasolpTWGX7RJc-72ZE.MOSqplRTm0Kq2rshCS3hGg
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 610
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Item xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:Description>Printing  DL Single sided Black 50pp 25 Cover NCR CB W 80gsm, Cover NCR CF B 80gsm, Padding</ns0:Description>
+  <ns0:Active>true</ns0:Active>
+  <ns0:SubItem>true</ns0:SubItem>
+  <ns0:ParentRef>366</ns0:ParentRef>
+  <ns0:Taxable>false</ns0:Taxable>
+  <ns0:UnitPrice>90.00</ns0:UnitPrice>
+  <ns0:Type>Service</ns0:Type>
+  <ns0:IncomeAccountRef name="Sales">156</ns0:IncomeAccountRef>
+  <ns0:TrackQtyOnHand>false</ns0:TrackQtyOnHand>
+  <ns0:InvStartDate>2020-08-27</ns0:InvStartDate>
+</ns0:Item>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/item?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..gZkMAWB9lTWLd7bDLvPEsg.lUNQRvuoU2WOxRRVzzNkhBv-MzWeLGQo6oRUckyZAVvrCZadl44caRy4PiT8pjfkBso6zX_CtVUjlvYERsHnfb-ccDwNSNF3yMfJni47YTfbQMpXMOmVEzw2raxDjN6THiqh8K_qHVMhAI-wbcR0gJvAeE2K3NQvLyJ5E5KFcj4vgSlIR1mBVy_92-JN2g2aLVJ3OJCucwL3Ia_TillE10Br-OYeilc109qkZ-MNty964E9b0QQihWFnZhV83EeKmk4ZIaMe8PAhICZVBPCJuDAM5VlNrZ1gugIUnYBaU73w-j4ecVxbcJ_VNGY39PQyv16nd7T8YVKBA10NzhNPo2CsqqeKNeu3yNsiDSgiU3WU-xXiWvJCcX0Nt4iWDWdz3mYsOiyZeof-cl6LneuVrP7Sqv4Gz6MbzHoWijBm_X7i36nfnp5My599-ofc7Uylaw0BZKPgv9Wv3XcwN6THtiAo4_nNxo4msMfIchuopB2E1-922nSP3Q7Q3KTcENc6_ZXEJovP1_oXl7lWKILVzeejCIjc-aVeiUjoQdXSuSyhXbZYab12RFteqKZvh6zQZPLXzhXoHrqwRwPowTH0zs3CFMAEsjLZ9-5nINHCo07uu4YRGxr8CHR34M8ldOLCNO67-roSPyso4aU9a15SlrfZYcxnL1kqn-6VQXPuhtc.02E0L4XckT-EfqulgrVgKQ
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 610
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Item xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:Description>Printing  DL Single sided Black 50pp 25 Cover NCR CB W 80gsm, Cover NCR CF B 80gsm, Padding</ns0:Description>
+  <ns0:Active>true</ns0:Active>
+  <ns0:SubItem>true</ns0:SubItem>
+  <ns0:ParentRef>366</ns0:ParentRef>
+  <ns0:Taxable>false</ns0:Taxable>
+  <ns0:UnitPrice>90.00</ns0:UnitPrice>
+  <ns0:Type>Service</ns0:Type>
+  <ns0:IncomeAccountRef name="Sales">156</ns0:IncomeAccountRef>
+  <ns0:TrackQtyOnHand>false</ns0:TrackQtyOnHand>
+  <ns0:InvStartDate>2020-08-27</ns0:InvStartDate>
+</ns0:Item>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/item?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..jMBJvhdJbN1jR3lcKrxNxw.B_j2CRZWBcoMYSmI8wCFKJQWJzwlYnjlqM1XgItfF-dB2Y4f86Bc-rzlfeHRXspEBKF7Nm6BFXCFiasQaj4o5ShqJy23gwbtiP6bGE5BbhoxrB0gZG5qoydcgj9SS5Ldq2CiuXn31P83msR6-3TDqCtgoVjf_G9sIwD6iJS3GeCRYrAyNQgoGoACHjob2aM64d3TOTDZQJ03hSN2Th-pRuVYSBEbrwj9qViIVbZOHiw97hhDk2P8ZtHdNKAxzDDKkGzVcCHRbG0HiQ7pWQRweyD1AksgA7xV61BnDKzUDKUe1keEwM4VF78IV8uvs1M4zNJ_BUD8Rv4oa6J1p7NlCp_eZV8vNsGrz6URhRzFAHth2S1oG_TdArwMight93qnKGsdXdCTaXtqrKaNZg385X3Y3EcOyoLyp25U4j3EgQy_JE_U9gP94rHxzcrILtmuZ0urHutj95U7vwHp5SIzt8gBX23ETv4qC_piXpgx4OD6MCM2MVru9o8XnqEODcBydyISKvD9UXbKfS4bN-py8g5c74yfhbyNvJbKdzcKMAuGBh-VFUSy2SRTfrVsRkiVQ2siFoq5YiIdMSMS4hy1JAjswC_zBPXBvajYKe5aWvlVM0yJQXSrFouCehMrkBSt6xGJPDM8bt8ywa03XRF3qpnMm0Gd5NOHfuv7GmITtA4.nF_apDYRR_MxlBSv_hrxrQ
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 538
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Item xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:Description>Printing     1   , </ns0:Description>
+  <ns0:Active>true</ns0:Active>
+  <ns0:SubItem>true</ns0:SubItem>
+  <ns0:ParentRef>366</ns0:ParentRef>
+  <ns0:Taxable>false</ns0:Taxable>
+  <ns0:UnitPrice>10.00</ns0:UnitPrice>
+  <ns0:Type>Service</ns0:Type>
+  <ns0:IncomeAccountRef name="Sales">156</ns0:IncomeAccountRef>
+  <ns0:TrackQtyOnHand>false</ns0:TrackQtyOnHand>
+  <ns0:InvStartDate>2020-08-27</ns0:InvStartDate>
+</ns0:Item>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/customer?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..Y9BzMztM2orKtpwZ1EW35g.a4bKF8TxAF5V-Qs8WXQS4yNg-pvzwc_d14YHikVUgpczxr3NcH5gVoObUN4mE9JPdcqLDie5Rx02ij6JFEhMzjJKD6YS44OjuRuVEef_w6C3DsjAhDLlqxMYagPwYolBxAOle9A8V_QTghI4GMRTF7B1EUqzXe-fidHiLIYnZtBA0mKXDs-6OL5zUAFeGtdSBaKg6RC59L9T5IQBfLXqs8oSpJuwSroilUuQ7LbdEpvyV1f1oDxHZdzwGKxqfLPYSTZt9iaUzhUI6nr7pPsEsKL94AYGrnnu4GTm-Ru2C4A24XrWkdevUtFDcGUCbWgOm-fbUdfVlTGAaj_cYnm63nI1pUJAIuxO41qOLXcXISFFheIbxp8o70WoiMvGi0scJhQ3vWQqpS9uIAgr2yvpF5JKVxlMpQsHaGgUi2Hc7IRfiXpoXE38ZiUhC3UapDOtQwffi6qML61P58WWk6nxqb4NUQaP4UKTToj4OGaG9TPoCEeFvICKpAXxEZiQabe7q-1p6NqDMCxFoMGtxlOjBa0ft-1hRBfFc4MR534GxMasKO_uzvE6CdCQujyFHZ6u50ICgRyUywZf1YAqIbe0f1DSLTYd0RIP3np_XOzPym2NCB9kDQxilDsYbep9WIjdeqjx4NIX6iy8i60HrtH6r-yaXQcrqZ54R9UrpHZQ0_M.0d7qVUrzVHt2XpAh8ULjVQ
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 790
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Customer xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:GivenName>Stephen</ns0:GivenName>
+  <ns0:FamilyName>Bush</ns0:FamilyName>
+  <ns0:CompanyName>University of the Third age</ns0:CompanyName>
+  <ns0:DisplayName>University of the Third age</ns0:DisplayName>
+  <ns0:PrimaryPhone>
+    <ns0:FreeFormNumber>01622 693312</ns0:FreeFormNumber>
+  </ns0:PrimaryPhone>
+  <ns0:PrimaryEmailAddr>
+    <ns0:Address>stephen@morwich.com</ns0:Address>
+  </ns0:PrimaryEmailAddr>
+  <ns0:BillAddr>
+    <ns0:Line1>Mr Brian White</ns0:Line1>
+    <ns0:Line2>118 Courtenay Road</ns0:Line2>
+    <ns0:City>Maidstone</ns0:City>
+    <ns0:Country>Kent</ns0:Country>
+    <ns0:PostalCode>Me15 6UN</ns0:PostalCode>
+  </ns0:BillAddr>
+  <ns0:ShipAddr/>
+</ns0:Customer>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/customer?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..1mCfpRGY1pHUkoMKwV05EA.UlcctCRcH0DJpozcH9HdK2P8OOOKzO8_GEnlf928mpSkxE4K_SyqXPlh3s4cQhDA9nrtKObIjOv_kypp-HM4RPkCNJCE4manjsMXLFZVhZC6QCUaF_n8_uX5E3TyTbK_XPjl5zv42RouaZg59BfplwdW7ONYtPDj9ZfPQqHYbMSvSXs3Qp09Pym8lsD2FqRHHx_5d8BQnp_Lj4q-TpFvudX6WpvS1YKvQBBDXo3-U9c2zV4xhv3OH7WMPG5XxkKD0cMq-R1_8tfYciOurflv18xd0cf0RO_0Cke3r36VSiH8NxZp4oWsV0wp2Fgg4f0h1UK6wTFDGGU8wz3VCquZ3JoI6lQGBAvqI4jeHExJr6UhlQUqFyVPDnt-EEdVn9AWcpI65Us3yem0DDYdXjm0Wz5JcdwZdmtlPg8OYRbGTm-f29pBo63nWKYmZLXwADUFn6pDwoHInC1jL8cy7hcpivlT-PLGhzmLx9RKEfDszHI6_0dCE5x4XNKzgxuCdbV133JDa7R7AO61GSMyOkvEBBHlwBsjpr2PoynQy4Cwh3dSw8kWAoJtBdyOqkhe7RnwnrEsPDuJtKjPqBvWbAel1CTVEGsqBLQl5QpHLDICIaKLmkIgFb-xHUY-81OJJ3Uw7CXSZqMykxWw4MxGGnnYBcThCKWex1CpH5vbhzV-_4U.prn8lQS3dCsmEHgEBeCiCg
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 790
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Customer xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:GivenName>Stephen</ns0:GivenName>
+  <ns0:FamilyName>Bush</ns0:FamilyName>
+  <ns0:CompanyName>University of the Third age</ns0:CompanyName>
+  <ns0:DisplayName>University of the Third age</ns0:DisplayName>
+  <ns0:PrimaryPhone>
+    <ns0:FreeFormNumber>01622 693312</ns0:FreeFormNumber>
+  </ns0:PrimaryPhone>
+  <ns0:PrimaryEmailAddr>
+    <ns0:Address>stephen@morwich.com</ns0:Address>
+  </ns0:PrimaryEmailAddr>
+  <ns0:BillAddr>
+    <ns0:Line1>Mr Brian White</ns0:Line1>
+    <ns0:Line2>118 Courtenay Road</ns0:Line2>
+    <ns0:City>Maidstone</ns0:City>
+    <ns0:Country>Kent</ns0:Country>
+    <ns0:PostalCode>Me15 6UN</ns0:PostalCode>
+  </ns0:BillAddr>
+  <ns0:ShipAddr/>
+</ns0:Customer>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/customer?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0.._ut6IgEsUE_Sb4Bm-gRHtg.725aSZHGvcFkv6dkJqOIdYf0Knr0mpplG8wq_lZyRQOg_2y-bINg3lB4xK0-ofFv5ghY5NxQR33NGrluaZDiylKSN5gYJM2Mq_rZ0qXE2Is7OmEFRmJZkOdpF9PZ4Eub6OOK6FyQ7mtBccJbgYab4abQMVLxyG3416GGMDrqCzFlX5tmHrehbIjEtc99qanmX2S1Wo2gNg9WUqXn61UjpYe2oYTTiEtjuEQJunQDibSms6YbGwc-gurvaJuQ8YMexJHARYEFvS4adf2N0jqYXGkNi1GWwCq0UmGNkkDLF4mjYS5hVAQmIoum4RB-G1yKg8qSIJc-XRkE6kJ8SP_sBhKHZaakf31t8WZPsEHliMEOB0JLBJpsf3OXNT75zdfGBJ0_uDilOFo9L-eHXHeBymujj3LukEy_fLQlaxEDw7Z_fSRM2rH0URPTIRRkBYeevA2Yq16s-pyRPTNOFXloJy3e0Wtrv0aZgD77oq_vraa0MZpmN95DBBZ-TyRK6xA0EkJQdqhcfP_CXtUtUnor1mAv9_4Jl5B1HgQUDMyXFGu8nDd5EdrKlzyfK6Q32GGL1yTht0NGvrpoJRhWWYJ8NEfIvASqABK8f7kM86Umc8kPtIPdEfLOsNFhJUm3xbiUwmB8r9qkTOmgnCK0_18uVNs2D-KY2vzIWBSMIZUwyTQ.hp4fEQ_PfTrv8bjQQ4bVzw
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 790
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Customer xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:GivenName>Stephen</ns0:GivenName>
+  <ns0:FamilyName>Bush</ns0:FamilyName>
+  <ns0:CompanyName>University of the Third age</ns0:CompanyName>
+  <ns0:DisplayName>University of the Third age</ns0:DisplayName>
+  <ns0:PrimaryPhone>
+    <ns0:FreeFormNumber>01622 693312</ns0:FreeFormNumber>
+  </ns0:PrimaryPhone>
+  <ns0:PrimaryEmailAddr>
+    <ns0:Address>stephen@morwich.com</ns0:Address>
+  </ns0:PrimaryEmailAddr>
+  <ns0:BillAddr>
+    <ns0:Line1>Mr Brian White</ns0:Line1>
+    <ns0:Line2>118 Courtenay Road</ns0:Line2>
+    <ns0:City>Maidstone</ns0:City>
+    <ns0:Country>Kent</ns0:Country>
+    <ns0:PostalCode>Me15 6UN</ns0:PostalCode>
+  </ns0:BillAddr>
+  <ns0:ShipAddr/>
+</ns0:Customer>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/item?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..Xa1OesX1BEEa8o_Aeq1deg.n_1sk4y1lWxBHgmpw-4VokUV7hz3jjJwJEiN9AHG8OZ4ikgFdfzbX7Nd8ol2ni-KIkl6dAWMXrW3bE1RMP90S35GYDDsc2fWwGzxEuMX0gQxqR7gWEJLIHfH8TJe5FLUEsJJ9TgMIwVOG2WotHBh4S-WwbtBTTkUVxwtbpMsAPb02eNwv_gHcvL1nlokL-yHqDoo9X8Z04vJqkTGzkWxjbGfsJP2JKrn8qAsVwIrp0ruk6mmnESfYqvz18qanJqWJKDKrLs7WbFmcEXBZSSvKJNdCFK1tsJ8hNd-j5PKZkNTBGIfzU6bHgruLLzM7MZoSAyIff_cK8-VGasxTzxYYuY0R1ONZXrNW2yl4lUyBhlfB0aE1ydIvlTfICmLF6Zs4ZijkYhC932_dBRXQ5bb6cZMhyR7OhI5Eu4cnSFXXNhVlhD4PkOxxKlnCl6Fuz7Pqcyp1q7n66GBa46ftzULdgcJpzahMS6h0rZhcAEzJqd820X7N7K96mzPa8ThrVE6Iwrrsvb_I2XsbPnB0-EA5gn60C0Z4aUxhyH90bsZkDqaxY8dtzq5hhu4fPjzq5gq382oCLCm19-RiEYnumOYlWnyG4J4np-y00wYleIFhlfJp4giMCf52dxrTlWkEUQG7NcvJ3OKKh6GBznGhd4uATLcgbernwNuS5YdJ_2iH_Y.N6JnIlVhsW1gzUxRl_ZDwQ
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 753
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Item xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:CustomField>
+    <ns0:DefinitionId>5</ns0:DefinitionId>
+    <ns0:Name>Suppliers</ns0:Name>
+    <ns0:Type>StringType</ns0:Type>
+  </ns0:CustomField>
+  <ns0:Description>Printing  945 x 875mm Single sided Full Colour 1pp 3 Cover SAV 170gsm, Cad Cut</ns0:Description>
+  <ns0:Active>true</ns0:Active>
+  <ns0:SubItem>true</ns0:SubItem>
+  <ns0:ParentRef>519</ns0:ParentRef>
+  <ns0:Taxable>false</ns0:Taxable>
+  <ns0:UnitPrice>169.00</ns0:UnitPrice>
+  <ns0:Type>Service</ns0:Type>
+  <ns0:IncomeAccountRef name="Sales">156</ns0:IncomeAccountRef>
+  <ns0:TrackQtyOnHand>false</ns0:TrackQtyOnHand>
+  <ns0:InvStartDate>2020-09-03</ns0:InvStartDate>
+</ns0:Item>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/item?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..hWj8tSR8I-lljtZEy6CkrQ.YY13yoJTHVPmH9Yxmfh-wqnuHF3YTzVchvCRWD5vcdPUPwnOIwuJ-P0nmJgQstHbAJSNKlGbdVdi5Pyfi50C-6ifJk8FDa1WA82NN0-QIgFhL8gxoyb6CuE3ppWvLoKDLj_438zHSooCS3BJ-fo_28ZgsFOPp90u1bRfCkP3Oc-acPs7p-yNEAm2lAsvYCQMq1E6_9FX5Ro78N-dTs21hwKh39ew3pvboItMmrLHal8Hgt2oDoHpgoKf-f-cgCh3uTsx51l0YtiM0QKj2cJIFd-5-8yW7opSLOP6jiq1nLfToa4zEtMoWgtBkO4QhzSoS6sACt8_RATe_6twnA8uxVNaTha_hpjI05KqLfQb9XhxJBwRqthK0N99a-GM2sBql__DoTpZEPT7Ku0_cWWUIPYasZ63kki1_bia_aBlZgorcaRRvQ_PgoOb-bNFiXeNUptq2sWaL0satiQMEm0-Ob6EVwNBuDK0K3MP01_zKw_WxOIi1oyetxqIJhCkBZFmo_cVfgWWXevUaWOtnEOVNIdHT-xGGB86f5RgkjnodirT2EuZ-RfZXIKIZJjUNcUd88b8sB5Lol1qkIzseh3X0gpd5DjUQczDwtQe1qckTVDiJOYopDtqay-GzlJgdgGmiIy7ZAIz_qLGl0-a96_l_6vdEn1bX45g15WZaF3-x3g.8g2fzByJitOhI4TQK00MKg
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 639
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Item xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:Description>Printing  Bespoke Single sided Full Colour 50pp 5 Cover Silk 300gsm, Inner NCR CB W 80gsm, Cover NCR CF B 80gsm, Padding</ns0:Description>
+  <ns0:Active>true</ns0:Active>
+  <ns0:SubItem>true</ns0:SubItem>
+  <ns0:ParentRef>366</ns0:ParentRef>
+  <ns0:Taxable>false</ns0:Taxable>
+  <ns0:UnitPrice>50.00</ns0:UnitPrice>
+  <ns0:Type>Service</ns0:Type>
+  <ns0:IncomeAccountRef name="Sales">156</ns0:IncomeAccountRef>
+  <ns0:TrackQtyOnHand>false</ns0:TrackQtyOnHand>
+  <ns0:InvStartDate>2020-09-09</ns0:InvStartDate>
+</ns0:Item>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/item?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..JMxc14K85Wux9nP5lefuQA.h9p9mJEGfmib29OsM2Cl7OunJkWmJxkaWRDM-1qk67neG30xzvDZTu2zn7jVDGr_QrbQC3AiK7Ndy7Qi_OMbww72auhdQ4G10y3XvU1QD3F-5wo_BE1BZRE_ik7FcMRDPeeK4aJ6_a3t7p5xdHtY1K9i1ANkOKVYMQ14v_bebHyUJTHThvCJ90bKFpAsATQrLe9rqz2sw4GTvZ4nBR-Wh_nc3kiuh-vzcHdhfq9AXt6OiKcpqYHHubwJ47MJf2l9wuYkSLFszdTHVxLUr6YbR0kCXNbRHwSrvDXDkfwudZ7oSwWHipdakO6PFchIhmRFv-fSBcc4OKow9nLkzQNvwMx9kMGiZqf4S2RuP5iBU-wob4PfbdayaoUnyOgr7Jvjkd61TPE_ePLo1UTPVVTAIw9LOqd5SC6bw-iMXXMzPyKuq0KulRFvQh9eFxOtaEBtGRvLdppdxKsVpMalZBbROJA-Y7iJQ17t0ZNdxSLu7iBkl4to8Scyrd6WvDm4lFFVI2a0EIUuVdqpQwGDtRXw9jTwQ_px4w6wQ3urG1w150UqVRNCkAj3RpAcE0CI-R62ASBbfplZSba17V88t0G4LlhrEnlrBuhi3ciE6BYTqNBdQ39ADtsO-UNciV02ygRGNL5CQWKLWDm2wOJ1Yz_coRkDBeM1cVsR-ux20BbKc10.XGML0zHY6E1cTTlVPJV3CA
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 639
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Item xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:Description>Printing  Bespoke Single sided Full Colour 50pp 5 Cover Silk 300gsm, Inner NCR CB W 80gsm, Cover NCR CF B 80gsm, Padding</ns0:Description>
+  <ns0:Active>true</ns0:Active>
+  <ns0:SubItem>true</ns0:SubItem>
+  <ns0:ParentRef>366</ns0:ParentRef>
+  <ns0:Taxable>false</ns0:Taxable>
+  <ns0:UnitPrice>50.00</ns0:UnitPrice>
+  <ns0:Type>Service</ns0:Type>
+  <ns0:IncomeAccountRef name="Sales">156</ns0:IncomeAccountRef>
+  <ns0:TrackQtyOnHand>false</ns0:TrackQtyOnHand>
+  <ns0:InvStartDate>2020-09-09</ns0:InvStartDate>
+</ns0:Item>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/item?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..qKdrCeycXSlfiVpfGWqleA.dibpU0CpAw6sDRVt69pp6xqU6i1rRoiYs9VV5mmlJ-HdbXU__6e1StgPFHVYeK1NKJfwU8M1Co_Hav-655m0FU8zEJW0cMmI6hi1AUUMxUz35PDNsATJ0a-xKkyO0jZi1Kvpp08gcn_UZcmtwssViL_-TGMR_Obtd_UToAETY5G3XUKnL0nzqoHKlqy0tNWjrMpoEZGZDLWMY6xigWbVPp2VO39zW5sfj4Ayh--qljoLM_IaMNDdO40j0E58dT9QHkU2cAQZ27D4f_h_l6xQH4TsORgq0q8NpbWWM3mZXkUTfg4fPlhVQd4FTv4cDUXBG-HpnpC91XW3c6lKxKl0BXc7cYvu6ZPCgNl5owm1H1xAL_ePLUQWociC3nqruX0InFBgLb-P_bYrHeqhaa4UvpvvLb4f55d98sNjTZZyG8OEx-R2RoRDUcnqpu1YQPuGRLY18Tb8DYMmSYY3JOeMFddPA1nFbYZI0a_32Eg_XjtZzi3JC03K5r32gQIb_XGv9oc3QCfSJe1OqeeC7WEwHxUbjFDqHBZYFxkO4b4PSmNgWZkrTdNYmNWXHC3P1PKTWKNijFf2ri7tGBE2JHvOcZ5sMOAlyRiVXZD9-CPBabQxtiojN1dQehptHm6IiVerjc_Lx8fIKq4oooE7lQBNiclqJp1glYdkXnmj3Qru_Wk.nhGrUA7_YiwiB1O75PQyDw
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 641
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Item xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:Description>Printing  A4 Single sided Full Colour 50pp 5 Cover NCR CB W 80gsm, Cover NCR CFB Y 80gsm, Cover NCR CF B 80gsm, , Padding</ns0:Description>
+  <ns0:Active>true</ns0:Active>
+  <ns0:SubItem>true</ns0:SubItem>
+  <ns0:ParentRef>366</ns0:ParentRef>
+  <ns0:Taxable>false</ns0:Taxable>
+  <ns0:UnitPrice>120.00</ns0:UnitPrice>
+  <ns0:Type>Service</ns0:Type>
+  <ns0:IncomeAccountRef name="Sales">156</ns0:IncomeAccountRef>
+  <ns0:TrackQtyOnHand>false</ns0:TrackQtyOnHand>
+  <ns0:InvStartDate>2020-09-17</ns0:InvStartDate>
+</ns0:Item>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/item?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..f2X0W3QzxFqsPTu3geiIlQ.qaCxg1PtfqtRVpg_cLlFHB4e0B_dM1Ba8FISwYWEyR5h61EbXMtWkQ3s1fI1_wKeQVtSlOH-89Cd_euKz8SEPFnBHg5RmxitR1Oclq1CFCKtsA1n7QrpjImx0CZTKmWXSVxI7Ow4LIHWixDCM-oerR0LthSTqBRzQGmgbgpMKB-_nAvLSVsVn2Z9DevNIsfhBUXCQsljFfEQEYqKVvOdw8u9wLkEZt8_Yc5P8QnJp_lY9Z6RJ7ZCWw17yGl76tCK2pR-00n2cTRXpm0WZwqwQ3AcmPRLNej8846Oc-0IJL95r30SFkrxVms6_j1yaSiKm1u7olZVFbuIf6pzu-LLrD_2hLD36TDSz-d7_5OOGZDAonKhRTYMmBXEcrrZrfj2eYDRYascXk65SWccFWLmYMJ9r4QA2TQj0yYXmvpeeD7-fEeuakR_i0Dgc67K2EvrETOwKnzJ6qoU9DXhrzU29GA8zY_5LiZSkCYu6vNJAIWGwgBElZBl1OPjxe-_wn8aJ5m66ukrNNndjQBq5z3_k4zGq39in9VD4stXHpsdE_fzXEjQZGD1BLbwTBbaa11Rrtu12dytb_j1JQNzybFvU6PfXXWKuyGyc0lpUb8gettAIfQRdSQsPxGklPpjcD1iJ1jaONF6ARa3ljFnoVHOVntywQc59G04zf64eRex9fM.5Pi8C7zyn1GnBlbwOm9nUw
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 641
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Item xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:Description>Printing  A4 Single sided Full Colour 50pp 5 Cover NCR CB W 80gsm, Cover NCR CFB Y 80gsm, Cover NCR CF B 80gsm, , Padding</ns0:Description>
+  <ns0:Active>true</ns0:Active>
+  <ns0:SubItem>true</ns0:SubItem>
+  <ns0:ParentRef>366</ns0:ParentRef>
+  <ns0:Taxable>false</ns0:Taxable>
+  <ns0:UnitPrice>120.00</ns0:UnitPrice>
+  <ns0:Type>Service</ns0:Type>
+  <ns0:IncomeAccountRef name="Sales">156</ns0:IncomeAccountRef>
+  <ns0:TrackQtyOnHand>false</ns0:TrackQtyOnHand>
+  <ns0:InvStartDate>2020-09-17</ns0:InvStartDate>
+</ns0:Item>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/item?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..FgzOC6qpA8HkwfRtWgw8pw.IRbJn-MT3cHp6rz-0cM2rvoMCLkdCdsTuP65u8VRb0RhdN9k4Us4GHFo8pA0ZKnpbht5-VmyCK6NJLokyLLhlGTYlqEfWlFxIKEfQ14FiiifKsGpFn2Md_BONnV5F7dnIvIXUD2BBQA03rnU7qWSxm7gKmvHD7G8ttbhQqSPqnHOtT8Mqwpkz2iT10NhigA45jqaeKvHshcDNTmh8BQUdLuNqOaC-qj7yP7-mUqSI7Q07ZGB1XGaZRFz0cqfSM2Nn94xQ533c8GXCxcjfDnweJOXxdVrFquIdDADW7Bs5zU-iuVNNFakvek0GFmuNWCUraP63ME7CQbnFzF78gLIEFTOCWpeNuYnY0X3PizHxGdhRO2Gf7hDtztr4YooUuw4W8m5sGW9GXK1-Fq7tNE90soIWldkE_KMai2nw0D540lOxEHJWOUxwzlgjOvBvs-Vq8SB-ZXNaoKStcX16yRTt8JeqE0T6qS1RJ3o90Dqh7KVX8ahEsqk5bBhRuUfoK2U0W7Stx6ZoGmwp4-wr48zGAszyxYlN6Vjc4XkV-844T8Sfm5COUWjD_n99d30jf3wtTXZ3yzv74zIEgOXOboobiGdxoiy-sijvsQ9XxI5RjPnbJ7X8iNqJ5U1c1FJkFZyj0vmoTmGy0q95xKqU5NL3vLQ7gA4cfngre9h1jcU76Y.mPxaGTq0xoLIxJ3S-rOjmg
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 641
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Item xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:Description>Printing  A4 Single sided Full Colour 50pp 5 Cover NCR CB W 80gsm, Cover NCR CFB Y 80gsm, Cover NCR CF B 80gsm, , Padding</ns0:Description>
+  <ns0:Active>true</ns0:Active>
+  <ns0:SubItem>true</ns0:SubItem>
+  <ns0:ParentRef>366</ns0:ParentRef>
+  <ns0:Taxable>false</ns0:Taxable>
+  <ns0:UnitPrice>120.00</ns0:UnitPrice>
+  <ns0:Type>Service</ns0:Type>
+  <ns0:IncomeAccountRef name="Sales">156</ns0:IncomeAccountRef>
+  <ns0:TrackQtyOnHand>false</ns0:TrackQtyOnHand>
+  <ns0:InvStartDate>2020-09-17</ns0:InvStartDate>
+</ns0:Item>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/item?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..6biAzh7jIVg1RIA7SBC3bQ.fjQgd8hnxoZ1X3KYNUqCstC-qr-6DGQIAaHQ6qNmlvcYzOdAWQKkm0qOz87KDarS5u1e3WtOc0gYAtFy8vIIHJ3kfvqtNIaNCY09quxbzcfhNpqR4A537UxIe8viMioGUFNiQS_Mia3x7-pXr9IHH1SKCXv81A-SRVpfNiyZvYv9JdzdmTQrPHyo-83vJ5Ld57nm5C1MGxfHk0ASEP9f-nUPYZZ9WOFNYq_WKVqTJlDSz17Ok3GX1K2XPx15X9zGgxJATZbwLfUJRWW7LB8pGRolsfwdZVZePZzRkrJL-O0k1kdogNLw24MqWDNg-4T8da_3O9sUz0h7cEMn30OWaqHQZFnJ1n3nKU1_lZyinYuptmWErkE6KZRSvIkw8TdBNBQu6aiQcctgQ53dcXLG_5Hgfu3XvCIxrp6HT1duDvCY4hL9P-A2-LIEVNoGjEcOKaC66OkVmo6gxecagBqEiy0zS8S6nYSWtf-XtXZbIR0438v3tO-WcTBmAy_a8Cqz_stpeYYgYIgj-VAv4XnoaQ2KU7VxJmTJ2PxEuP1AsM75aPDSyiqVaQeD_Wdm6pR4ywPoO5M-TBmfJjFdjv2IKGNYFoO8qhFlg2cNx9oENGgtJGw9ZjRgaeWvuDtCrMCFvUGa8vUyCGAH_F0tZ6TIqx1CUFxZdZqsZt7GYED0S4E.RCIvtMtxiIWlZFGndm5P_g
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 546
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Item xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:Description>Design  Bespoke Single sided</ns0:Description>
+  <ns0:Active>true</ns0:Active>
+  <ns0:SubItem>true</ns0:SubItem>
+  <ns0:ParentRef>78</ns0:ParentRef>
+  <ns0:Taxable>false</ns0:Taxable>
+  <ns0:UnitPrice>49.00</ns0:UnitPrice>
+  <ns0:Type>Service</ns0:Type>
+  <ns0:IncomeAccountRef name="Sales">156</ns0:IncomeAccountRef>
+  <ns0:TrackQtyOnHand>false</ns0:TrackQtyOnHand>
+  <ns0:InvStartDate>2020-09-17</ns0:InvStartDate>
+</ns0:Item>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/item?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..80UVtnS3bjpQ7yL_1jdmFw.CQfTkZwR_k-pYAAJYpfR11ngb5WOSAA8dnI3xQHbECdrl1rCzHy5DSGpp9PiLisiCPS-5axwtQ3HcOuIrYvhI_sy_x_y_TQC7_W5697fdix9qCWLisPvIXKIC_ZQBW6dcfjXoj9lKaldbciU4MjcsC0ye3X-wBeSzhsKwtC4NknYbcsHvEWmVbJbt2hh0dw6kxbW1IZ4blBTKC9Q1XWYwpdh_ee8nJsylfDxL3-gTls7uvEspJTg39AbZu7bIQzN7gf4MqSsCoV2iFlHbBLVqa5rcY7ICe__QmQDKGkBab8bsjtxZw4xipp_NXYOcvLy_3F2aLN-Dze5MXjXUlBJv6az2Xh31lAjm0cqv0IW-_DD8TejNAfTVH5HQKscgo4mVNiNj_e3m4EzxuFvItxbos1-HhZldA1iFdwdO3xEfsmTFQaKrOYc8Hvn9hRbpZ7HExjhln3d8czffPY52T78hZsEDNUc6ip8e28OyCKtLEyJ6IWn4_b3XU_5KpHP047SbVUJWfluO1IjUxqtSyPVVq0-K-1uhvliWjv_54qT_P0BjCiCjv36EuiwkBePPE7fwr1JLmdtz7KPznXGzkS89t4b_GggBNYTT2hr1LMwbe8FC51fNW3Mkh9vPwsweKBl7Go8POM1IXPq4o7ueUw3dm5zirvNc0v5Cb3dVUHmmIM.Az4gF9Uxi07f_PzP2ODcnA
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 546
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Item xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:Description>Design  Bespoke Single sided</ns0:Description>
+  <ns0:Active>true</ns0:Active>
+  <ns0:SubItem>true</ns0:SubItem>
+  <ns0:ParentRef>78</ns0:ParentRef>
+  <ns0:Taxable>false</ns0:Taxable>
+  <ns0:UnitPrice>49.00</ns0:UnitPrice>
+  <ns0:Type>Service</ns0:Type>
+  <ns0:IncomeAccountRef name="Sales">156</ns0:IncomeAccountRef>
+  <ns0:TrackQtyOnHand>false</ns0:TrackQtyOnHand>
+  <ns0:InvStartDate>2020-09-17</ns0:InvStartDate>
+</ns0:Item>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/item?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..fQmq8YSpqKcXsoTwrpwPNg.xSC71aylfMWG0T9Haoso6_EmU10h3CTYldZ0WKWt1GACxHYFsBW6bnx7Hn0St9EpnoaD2eN9BS6ej8UgztRyx4GCvbd4Q-53xDHe4JctC4rZlfzf24e_IC_2t2uMXSpPlDFzPhIVkAzkAZiaj1tJ2wUvlGySJ6nhWsgPZf1HG3g9yOTAP_B19wRP0pcSzDP-IYZpZKZVtb8c6AQmVC4cTMsO8N-nRr0Tlmd7zDAy-b6F9CZz8DksAbAvw16deqS23YfcjB7cjmEExJPU09DPEIItd9Kz1abDRPVCKDjE9pGaWUrW16KesIDIQm8zq4FqffYLKI8GdLvG5R6CMkjOXZ3gPzkZnOYvckSgizPEWem-yaL0AHRdQvk1qtNMh5acXwVxzcTWUu5zvGx4y4dUXil8-KTduRNjzISMn2T_ebQdG0vGISfn9j3WC6pP1LdbyO6u040mZkrrmqH3X50TJZMTr6MZ64mV0LbKDIOvs2mcHBqpRA9x2K-zQUsiwvHSk9ulTgnlax9XvzxHca3B0hEX_k7WxcW-tN8q69L1r04B4FGVs1HGKC5lgwUe7kNxeRid2WFkycPhJUDT8R7IewhLuX_FMr12sdleyUeBNgKP1GusOaTy20qd41WLcCjUpXIvNWh4Ej0T780RvPK7ceb7HdpKRtDznhY6OQGAU3I.cs-4WfBive_p7QRMSDNq9A
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 546
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Item xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:Description>Design  Bespoke Single sided</ns0:Description>
+  <ns0:Active>true</ns0:Active>
+  <ns0:SubItem>true</ns0:SubItem>
+  <ns0:ParentRef>78</ns0:ParentRef>
+  <ns0:Taxable>false</ns0:Taxable>
+  <ns0:UnitPrice>49.00</ns0:UnitPrice>
+  <ns0:Type>Service</ns0:Type>
+  <ns0:IncomeAccountRef name="Sales">156</ns0:IncomeAccountRef>
+  <ns0:TrackQtyOnHand>false</ns0:TrackQtyOnHand>
+  <ns0:InvStartDate>2020-09-17</ns0:InvStartDate>
+</ns0:Item>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/item?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..vbN78XyKq-ecC36-g-4nLA.xciF0hSS3I-33NFg0rZ7j4_XPqkVbj3j_dceqnTm0WGDJEX0U_yhp0lPx90ojLzGVwzFpK1ArrNg7ehooA797_DpYHxfW_TRwsDs_GuwECRTtCgpSjYlW7P0iop05BkIGdYRyHc3__9EJVq-HCfUReSg3HmzWj7Vi_pE03i3ggPnctoma-VWW2-CWVffD9XbaKbg9ExzQKDSi3p9r_jkumYVoez475_C0yM6PPCg1KpNRkQ6E8PIYHxOLN28msW6cMFxidOzFxql7RE8622xAUMYGfUCHnriaZCyNw52x5qDlaTtBltbCBUFNjJMlM371EvQOK6H6uW-gA3qFCupGpOR2BVfwlRHZwfHwqQX7b8b3FDRpZ2tnfCdh8SKKyRQJe9SjGa6dEBtjdaDfvzIJGpQAh25pgFDs6VJVH6ZrvlNt-FqyB48mnty-Yb25HJUi1n8HjyzvYFd1KjWnVs3sU93-syYu4q3FJhHA0tk7yCtgJ0iZmHGtFS1nZ-pIENpRtUtXMD9SEpChda5_auZAHFTNJ15Vu1Y97_ynBGUnWgbJH8FwgR5lEmS0nEIBx-gTAebIhwtek5dz07HFXIpjsy80bNPZanW4G676GWyI15fXPk_iHfiXDwV30yeS7K2H9xevfuPB21rkd-IwkmWadRTH6EN21Jhf5S_Jd-1mU4.O4unJfdqKM1eZqKxO_lY3A
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 542
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Item xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:Description>Design  A4 Double sided</ns0:Description>
+  <ns0:Active>true</ns0:Active>
+  <ns0:SubItem>true</ns0:SubItem>
+  <ns0:ParentRef>78</ns0:ParentRef>
+  <ns0:Taxable>false</ns0:Taxable>
+  <ns0:UnitPrice>155.00</ns0:UnitPrice>
+  <ns0:Type>Service</ns0:Type>
+  <ns0:IncomeAccountRef name="Sales">156</ns0:IncomeAccountRef>
+  <ns0:TrackQtyOnHand>false</ns0:TrackQtyOnHand>
+  <ns0:InvStartDate>2020-09-22</ns0:InvStartDate>
+</ns0:Item>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/item?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..isVnygyeEc-nSMspoDT6_g.G5-KnbJJ8SQy9L5eXR2jEAj7hrZe_ZJhaEpRlruly4NhNxaPVQnMz563iNJDmthUj2cuMsJSe3VGmobyjUq2PPbGvofwEFdSotCqYMP8wq8fjewMD5J6SEKku5jwImxvgCuGFAxGJJLdPV1zYrIhAYRANWxsvuR7In-3lmjY-gVFobP9PO83OYmYyLF82fVpPJsLYVggKFNB4uhOPutasEK7_zVYjZo4OPlDu2iO91u6w5RcND8U8TVkM9kR1VFsGq-a_j6RGfPgXEh1bVhnf-MMq2RFAUzX1MREc9Qwldj-aexb2IcIb0Imao4FGk9keEZQHPFn7V1JGJLRzkeOzViWxOih31FfoY0cNBi3E2lGB-wzdtfGlylL0bOryRshvuq-z1MhGURjND8r_4CmzvgyYz6aj--SwX5RaOrJZ9A76TOqkyZRvRiXV9xjJ79qNvz7Z2gfYx4qYANpWZ64A1qJhPxHhfd88Fgm_h7XqqOC_mhdkhdajHXmiBdfYGiNJRsR0EtxdIL8GjT2X1ScAthWj0f0Kf3T7ITziRrKAsTvEao0d68UQRu5-vjFBAF_-VdwUS_dJ8GAhZ2kauawr2VNU_kjVVnQBlFI71gUlZtP5_oPV6mWFyKg5leEA0RAzv248OuDMdMo5Hh7nbluX8VrpLuFSAqwqh2WFf8-Cjs.kZpxw8KOsjpydFLFlxIQCQ
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 542
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Item xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:Description>Design  A4 Double sided</ns0:Description>
+  <ns0:Active>true</ns0:Active>
+  <ns0:SubItem>true</ns0:SubItem>
+  <ns0:ParentRef>78</ns0:ParentRef>
+  <ns0:Taxable>false</ns0:Taxable>
+  <ns0:UnitPrice>155.00</ns0:UnitPrice>
+  <ns0:Type>Service</ns0:Type>
+  <ns0:IncomeAccountRef name="Sales">156</ns0:IncomeAccountRef>
+  <ns0:TrackQtyOnHand>false</ns0:TrackQtyOnHand>
+  <ns0:InvStartDate>2020-09-22</ns0:InvStartDate>
+</ns0:Item>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/item?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..mtKN1AiKvoeF2RWnwAg2Gg.ITDLS_-WuRO7r_uNRd7w2324RVM7fXCyLNzJl7SsuXiglaxQUdIEAXLew7L4VNEhfKc9tqfszQz3n5qXBPx6bGEOuyZiDOxWKBirL0PvoLzTiNYbimiwQKQBGsPffr4vvzapF_4jDVHnhHT4Z-OnFMlUFlhCNklmwxFH_23U2YFTDCYHjv0oxyRzAvdqIQW-WQFu3h_0hnuiAiAuel1zVlb93rdvnHquI3_kJJybqSpIWlgO8FF9FPwZFnvV9zV3rfq4SII5D1gMX5Yki3dNJXks5qdYWX6nJUnSn-zADLW5MjUDkFzaZzd2kaObdbhhMiQsqzcD53tKDtiEBeh3kt_biFUcnKgM3s2t_CR4YVpUF_OZC1Sm9QMF75p090CxQPNkdKeQQC9tn0wf-oaOYltoQ_mKoy796sJAVzBBDX5rWUSPU4v8PFv6ZawLLQpCrmDVpBEyGNqWjAp1WkbEplAoVhLBvTQpUmI6bKEeSaB0ACkh4XH32R8pY9EMY3QaTrfKct5SWloc_gdgarIOUjQAptm6HJyY2MgJZ6KSKWqyjYEdzeG0PvuVZ8tnvQpN31tvPTeNjHxgtcu3RvYq4NOrkQ9DhklsO5f0pccO7afr6Z7gnxGcR7LoNpodOjn8GwXBebgv8S8_BfrYaLdtp5fkFWFOJzJ53P7xzLRilfE.b_BJMgo7DgN-i9mxSGMMzA
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 618
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Item xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:Description>Wide Format  1000 x 600mm Full Colour 1pp 5 Cover Canvas 200gsm, Wrapped on to a 45mm wooden frame</ns0:Description>
+  <ns0:Active>true</ns0:Active>
+  <ns0:SubItem>true</ns0:SubItem>
+  <ns0:ParentRef>520</ns0:ParentRef>
+  <ns0:Taxable>false</ns0:Taxable>
+  <ns0:UnitPrice>350.00</ns0:UnitPrice>
+  <ns0:Type>Service</ns0:Type>
+  <ns0:IncomeAccountRef name="Sales">156</ns0:IncomeAccountRef>
+  <ns0:TrackQtyOnHand>false</ns0:TrackQtyOnHand>
+  <ns0:InvStartDate>2020-09-22</ns0:InvStartDate>
+</ns0:Item>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/item?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..ovrsQe34BHsTay3CJr5Ivg.4-jEAijfR9VeaXurx0zBPuOmAvkbjJaElR3inxRYGPm0VYiQQMIwaWQsBmXiIIMY_EKrah0h_iK4XnZtORX8wP8cJXVfFA5iFLTHFvyx_LrQZGzajmA0hDlfHldNbHST9gf2FZOu7uoOG3bGEW7xOuTT5uwPls2R3PpX_OMFiiuKPrFq5VKjZuN0uLWbvd6jtzHBhBkNGQwpuCjRGUpCGrhpfmLyZhVd6nGZf6ai0bXHsWvipRhb5XNZdabxcAJupdVLFaNzYtjCpfjrYil-ag-wKtplcuJV9sxzQ7JtIrMak3EvyOyScJrCJEXWnofZjgReJPye3_BYTWNbg0VlU3XQFRCQ54N7OP1AdH_CIabQ3GvLI_00k3_ddb3NOVyiDOzObbt37lp4QrRiY-70nmEpA31cxwFUglBuNICSEoS9y3ulpZKSqL2XtNsTCR3kEeybRBQIorH_jYSjAr_eWVpzf0Xn_GIYVp5zGcLW5XO86n4ehq0b1TJ4beyhGFmmfLEjtCLJfBkS3goB-S0xrSOggUFoNP2e0IZG1oA4qpavi__tXBjRark7dpkwRs8_KWQPtskZovM2AETSJQZtjFu3tqqRL3OGXtULmTel0VCx1vXWpEpVI6khHNIYR-wFAyQ3Wz_z071COxvyVCBGnlMagu0N2pjB6VxsXV6G0o4.QEHpoFHEypTYC1h2RnCGKw
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 618
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Item xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:Description>Wide Format  1000 x 600mm Full Colour 1pp 5 Cover Canvas 200gsm, Wrapped on to a 45mm wooden frame</ns0:Description>
+  <ns0:Active>true</ns0:Active>
+  <ns0:SubItem>true</ns0:SubItem>
+  <ns0:ParentRef>520</ns0:ParentRef>
+  <ns0:Taxable>false</ns0:Taxable>
+  <ns0:UnitPrice>350.00</ns0:UnitPrice>
+  <ns0:Type>Service</ns0:Type>
+  <ns0:IncomeAccountRef name="Sales">156</ns0:IncomeAccountRef>
+  <ns0:TrackQtyOnHand>false</ns0:TrackQtyOnHand>
+  <ns0:InvStartDate>2020-09-22</ns0:InvStartDate>
+</ns0:Item>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/customer?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..qASBHrslS8S1WC07pugfzA.QrjV_ogevEGHI8LHuEdJfnlPwRjA-_A5K95ux8ytn8wavEjUWbRgS4Odtp5oFVaH4FI_Vg1UB0BD0QcCYY6xqWDyEWzHIh_koR-KvEGBgc-ALst5OpH5pCqA5x60YnZwgOzyL71ieA-mN-Geyp2ejM0GDlAtILTgq4mfqX7iykh0quW6BmPK3oCEDt2F1HM2xmOlTvzMKauW4p_89Jv_hSpHCbpfDfZcF2tD-eOWwPGxkawk8a_kNDtdrHcBKdJYqFFRP6Lzr9uUYKZkeMVzGNAWdoK5boEU9kyOwaiRPjBM4jXW9YUMhg_A5szj-WG-fXDGyN-vqcdz2DEopnFQIWcVTSrAvDiAerYsRWkvj7oDZ-cy6eFtBELP0-82aveQKwSEFqBzmJvVerU--lAnWgjFtgtt0HxfhGd9TAGD74TMTtZHTHedtOo54IP-lhl7xzxAj9UTxdQfBrzOHkULoNzYm9jqRc9uiPQmfqZ2GnCFuimA1qm08t2F5x9f-l_2MJPz0GXxJa3ljHvNYeL42DgqjqEHTjNYe0QCKtsdfAYZ-tONcS6KtBWG_c97V42ejRQdP3SX87X2re6WUo9iXSUgEeIgtcuWB8KDyuPzG575Ap2wFUalxCeI6FE6pZ9L1PTpwg3OjNZkxYdrp5iAKO0vF-4CRQrNT3SJZZcSa34.uLZ9RbE7UiZLvnim_GQPjg
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 790
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Customer xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:GivenName>Stephen</ns0:GivenName>
+  <ns0:FamilyName>Bush</ns0:FamilyName>
+  <ns0:CompanyName>University of the Third age</ns0:CompanyName>
+  <ns0:DisplayName>University of the Third age</ns0:DisplayName>
+  <ns0:PrimaryPhone>
+    <ns0:FreeFormNumber>01622 693312</ns0:FreeFormNumber>
+  </ns0:PrimaryPhone>
+  <ns0:PrimaryEmailAddr>
+    <ns0:Address>stephen@morwich.com</ns0:Address>
+  </ns0:PrimaryEmailAddr>
+  <ns0:BillAddr>
+    <ns0:Line1>Mr Brian White</ns0:Line1>
+    <ns0:Line2>118 Courtenay Road</ns0:Line2>
+    <ns0:City>Maidstone</ns0:City>
+    <ns0:Country>Kent</ns0:Country>
+    <ns0:PostalCode>Me15 6UN</ns0:PostalCode>
+  </ns0:BillAddr>
+  <ns0:ShipAddr/>
+</ns0:Customer>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/customer?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..ctIlX--0Hpx6dhQ9XZL65g.zQ89fmbKKaqShD--daWbOKr4NReZtpij_HdwpWwPY_1vqZN-ph7EcVDZeXyhoDZuU8sWT2AFM8TCteQeUA90cCkyxlywlUWfXglkA3WvOurp3ff0ypfJsvG43KAxnOILwYoBcuq8tqFApUmb2kyIpQ2RL_RYl2e77l-Ia3y5G1O2WZxWVeFjOM2h1N4YQ8KVBYK06imV41EAvJ1ZKENNf6JPUSN0Kt-JY7Yu7FKOqKyfAbgv1s013jOyLSF-lMoRT3xsqsMG_Ns9xpessDUqw94Bf-QYJTJxIYCeqbdx5VXoaeUtZOIWZNonijlDpSVzjY3oIKjaOuqTBOkMt1dvX_EW_NjYketIwn5xaMGyGviZ40s895aYl-NEH2Vevat_DQinL3jE6bMIQ0XiQicBsGwIxjGoeYlDoH9uXX-TUscpVuoXc1GVSeSlAleZglJKHFMmspl6WkDhC8gqfFgvj5ZGcSAq3PfnR99Fyy3h_p98_PkxliHO4M4VLtchExC0Nvk8-0MXhaUQPdXLE26wCwQa5aDCc0PhHtyrdiYE-ACsGKbvuu3ib-iDUHsy2QaUjFE73OPvsLO2BDuid_LVFidjelDiMEqNkaNEGPf1J90qXWAHaaMeo9V8qEsOi2-3LHH_PPkmlAye7rLhjU550dkBkwaEhpo5qBJLyySyM88.O9x4WbLpJyLiurkZzF3oPQ
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 790
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Customer xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:GivenName>Stephen</ns0:GivenName>
+  <ns0:FamilyName>Bush</ns0:FamilyName>
+  <ns0:CompanyName>University of the Third age</ns0:CompanyName>
+  <ns0:DisplayName>University of the Third age</ns0:DisplayName>
+  <ns0:PrimaryPhone>
+    <ns0:FreeFormNumber>01622 693312</ns0:FreeFormNumber>
+  </ns0:PrimaryPhone>
+  <ns0:PrimaryEmailAddr>
+    <ns0:Address>stephen@morwich.com</ns0:Address>
+  </ns0:PrimaryEmailAddr>
+  <ns0:BillAddr>
+    <ns0:Line1>Mr Brian White</ns0:Line1>
+    <ns0:Line2>118 Courtenay Road</ns0:Line2>
+    <ns0:City>Maidstone</ns0:City>
+    <ns0:Country>Kent</ns0:Country>
+    <ns0:PostalCode>Me15 6UN</ns0:PostalCode>
+  </ns0:BillAddr>
+  <ns0:ShipAddr/>
+</ns0:Customer>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/item?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..Z6Ph2M4y-Jg5n1DNggZkPQ.gv5YX7fFmS-dWunV32_VsgXsu_nDOuTyX4RNmVk15l9cH0XLNUwOB6mfu10zOd_kRhnBbSIkGNayBCOGw_EldylXv-OZ8NRxi0iJPeBnIZqJPxEF1u4nMyFLJzhqQge0iVhjos45rEQGpxeBBaS7VO5Ne9YDLkearTeyoDDBNPxJsbDH-WyI7qMQWdSG9wLTLc488dEFN_6LltEWgkD-20okMvYp6sYaqJx8M7TzfkuaP5Lcehs005DKQBOJWIlzEVyGW7go-sYmCmCEHicUkqgqoJ_w562qFuQnRLWmWKFYb73YM0EeOQiuIDR8sE2FFKf1dqiP4s-8NwFZK4guvVXwxlaI8lC05XnI3otzmiO0FHMcHQO2MV-l3A-HBEHsYjhfVKbOSvs4uCRl5_ALqrjITdUyNN57pgeLOy_mZ8S_AkjsOxSXEcHQM1Ilpc3KfjPPPYTcW0rlVs6MYW5gUJwY2XXOQtD3SWEuN8bYEY2EBBuy_zf6plbcxNic0ALJ5_aUMlDubHiCgh2Hz_HHBXx32VfT5nnnbo96KtcB_XYnsugKTNaEExXLfZ1VlpK2Oj-6rTSy9y-hB22dypXZXwxv0UW64D-Ijsy2WW-JUnKGUjVaBdVzoV9c0475iGqivaTYCM6N-Jz5s3VWxXsjzSLKpKyNmu9qHWAL3kHbcRg.OxzCX7MwfruxjA7oQuc4SQ
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 541
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Item xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:Description>Design  A4 Double sided</ns0:Description>
+  <ns0:Active>true</ns0:Active>
+  <ns0:SubItem>true</ns0:SubItem>
+  <ns0:ParentRef>78</ns0:ParentRef>
+  <ns0:Taxable>false</ns0:Taxable>
+  <ns0:UnitPrice>49.00</ns0:UnitPrice>
+  <ns0:Type>Service</ns0:Type>
+  <ns0:IncomeAccountRef name="Sales">156</ns0:IncomeAccountRef>
+  <ns0:TrackQtyOnHand>false</ns0:TrackQtyOnHand>
+  <ns0:InvStartDate>2020-09-29</ns0:InvStartDate>
+</ns0:Item>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/item?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..ccf2V4ScyuZH19GETg0H3w.RdzStsf4aD64OvoUdPASil03b8lrG28YclIHbmtb8bUWF4XSJsUdzv_LCrtI1fMR0zslJdgCO6MEJldGM6bqgxHgNCg3d5zbmzQzg0KPtjTEJQiuLSTylcIqdoM7xaMr0WIrGaJARjGijUghq1n4Fnuz2spcIltDHsvrfuCUTN_KpmOUW5SOcYK_b1Uz8BYXYVbvtQGR-BpDQnUhHR0hCPQZ7Tlyodv707FHfYVfogJboS916lVlmpLJ5SrxW6kkbJjWfO7CDxxxDuhgRqeIz5dfqGIk5hLrIoGN86jQMNOOHcvKieVEiuw-iL77z5MWhHR-G8mgBJM6ltnXLsn_iMeN58NUwXM1R-T0iXKaa9j2_9QGyVT8oYhUfUcmR5J2xPgwSQIa-QFMPcyAhR4ipCq-lTtLQv9UtLdJiv98h2n2EMXpuUFHLLx4AtCMXoA-HRiyR5kLZiLRO9tE6RI609WjlF9jcFbCvybDKmJkQVYx0xxwj-SkKR6Cu3ysi0YdgJKtymToDIE4AToKpTcCaiPDPNvalWqC7ULYBSgrHzrRKd0Y1ncNnc734oj9NJhU5BcuJuvDIsRtU3ziKrLuKpm94ieIKMkkN5MDoKCfh2E_AgpOccTIZcmPBdLron-BtUf8BZJ4eg_ChNUTjTBCQd5BWm3VnlTuMhTTX6VBVoM.3Rb1S7Un2-LbHfvKmFVOHw
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 610
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Item xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:Description>Printing  A3 Double sided Black 50pp 50 Cover NCR CB W 80gsm, Cover NCR CF P 80gsm, Padding</ns0:Description>
+  <ns0:Active>true</ns0:Active>
+  <ns0:SubItem>true</ns0:SubItem>
+  <ns0:ParentRef>366</ns0:ParentRef>
+  <ns0:Taxable>false</ns0:Taxable>
+  <ns0:UnitPrice>60.00</ns0:UnitPrice>
+  <ns0:Type>Service</ns0:Type>
+  <ns0:IncomeAccountRef name="Sales">156</ns0:IncomeAccountRef>
+  <ns0:TrackQtyOnHand>false</ns0:TrackQtyOnHand>
+  <ns0:InvStartDate>2020-10-01</ns0:InvStartDate>
+</ns0:Item>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/item?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..jZVWUQfRluMstuDU3ZqyLg.nbl7G4e8EjQrwUqxK8skaMU30KkUCPMLDNFwJ0l87NZxMd9UXTS11e_w-Kk-lr7w_kTf_pAzIdKTY9AjUoJFiIOy4wGlc-x3xTI_c4F-O2w8ZPj5tlzs6ovOQGbASyL0KpC9EH0cYZap4CHvqGVgoivJBw_-hdrPCGpWVkEcoVyG33-UB4bF3vKsarPpUZLw2MADMefAdVfCADhb2r2gbzhYuzK70sAM8fmCT5kJFSbirR7sav1xpQI-nKXxJEavTqRbbHCAC7zqpz-e70wTAFNM3bMsKyjw9qUIT2aQD11omfmEWfAyXX1fQQA6EqSauskeVqjshL9XTGO0aQivzqQj6fr_X-h0jnNQODuUOqm_CYGP7l65TjDy-J2Red7rJh4-hrZ_7zjD-GQWePMIClDsydqc9E18VaHypZxQFj6D1CLCk36jr-_dgltDvTnQ6aD8NXVmJd7UmaHX8oi85kRd7V1OR5zXuqEhC7-4D3HlE9q87VvXcZuaZUbSYv9POW5ZeTds9SDvCfaJ1nmnFOJyT4uZ6Gjdstss9IzwaxCfXXdEy01mdWOfM8dPLEw8_ptRM5dmmcqqw2_rr1KbORstah2NoKSeB0_5bYsD3iXidHgUVFnPuSEyldwt05zhQk0pBJtH_DFMB_3xNCzcV7dhnEVV47qw2DaDTxR0IAE.sRcz5FK8Cja3NotraCEZhA
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 610
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Item xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:Description>Printing  A3 Double sided Black 50pp 50 Cover NCR CB W 80gsm, Cover NCR CF P 80gsm, Padding</ns0:Description>
+  <ns0:Active>true</ns0:Active>
+  <ns0:SubItem>true</ns0:SubItem>
+  <ns0:ParentRef>366</ns0:ParentRef>
+  <ns0:Taxable>false</ns0:Taxable>
+  <ns0:UnitPrice>60.00</ns0:UnitPrice>
+  <ns0:Type>Service</ns0:Type>
+  <ns0:IncomeAccountRef name="Sales">156</ns0:IncomeAccountRef>
+  <ns0:TrackQtyOnHand>false</ns0:TrackQtyOnHand>
+  <ns0:InvStartDate>2020-10-01</ns0:InvStartDate>
+</ns0:Item>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/item?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..7Z5ey1dB4tDDAruWDdgDyw.sQYgDoe1pNU3Uupr6CGhnICK4pc8dpjh466qi_lRVJOKQ8r1TWopW8uAFojdgrG6qxy4cj37OEr3AySo8O0c9e-8dMawHso7n4Z9NS3sFbtxlbibA7Rs3Wehjd3-eO275aWjbkUKVjIVcrFfPKETVbMo1KFN4k4_fZJgsmb6JbUTobV6oDZ1Ur8XajSIxjk4BasRcl4ttpMovVKn-wtbM_vp9bZKkKASW3wFQ4qcw1SIWNt2-qn1wOK74WEDCgXs87borumkZFg_Dlu6TZKZXYHtrljMSfU_wu-PQb-qYTVw4COvtqRDGKrGC447y-iS7D5mtxjACeTF2gNo4kqfQKOsq04M8KlKez7VCl_DslivrCCIGPq-NpiMmE-lqJfmFUDX1hyQVWuugkk9I34JP_-42S9q-1sX4kQvvoJNxY9lZb6JAWiCcGQXELsZvVpmIhz5Vl8OfIH-zRkOoTFZ9rmjAkATvKbwboFxnPGne_CWz8x3XFhc23_Vg22qGYZNoMWTP4HTKMfs2nIdfD3EwKtS6Yrtpn6XciKhBVLu6ZYlSo4zrrAONin7X7mr-AgcB-F7pZmEAd6j04shF9ccjpe5ymW7vjE7Z86qyxoT9j54Qi0axAhwqi0tFFNM0XutP_8YkKDl8KUMGpf_AEzbeS8oSpg_dDIb7eY6YJrs94A.gTm9gwf8i9_Gll_PUkia1A
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 568
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Item xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:Description>Wide Format  Bespoke Full Colour 1pp 1 Cover  , </ns0:Description>
+  <ns0:Active>true</ns0:Active>
+  <ns0:SubItem>true</ns0:SubItem>
+  <ns0:ParentRef>520</ns0:ParentRef>
+  <ns0:Taxable>false</ns0:Taxable>
+  <ns0:UnitPrice>145.00</ns0:UnitPrice>
+  <ns0:Type>Service</ns0:Type>
+  <ns0:IncomeAccountRef name="Sales">156</ns0:IncomeAccountRef>
+  <ns0:TrackQtyOnHand>false</ns0:TrackQtyOnHand>
+  <ns0:InvStartDate>2020-10-01</ns0:InvStartDate>
+</ns0:Item>
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/376453061/item?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..1yS7Ag2UhI_ISAtD9fKdrQ.jDu3dO2n3nHHQFNyWu_p-TSchttKttPDbukSx4i-cbCh_DdHwgjizhD9EIP4L4WghVhL5zHykCnNkAtNiMyq9Mp4tyTD5m6K2OL-YddArHjmKA70NTPigBCRoxSxagTTvtctgKE9xJPXCrgJKz3tnTkK6oI4z6p-vRNtJ9TMIrH_3b0jv_dPnLL8pzh9Xv8KaLRGr425L4wBhZUkWq9bRQ_wnQu0nBxgxBgC3Tx-sVEJicfPlDvsesZU8KAc8VUxYcsQZAx4q4bBu1V-9rSDg34cEvK24cZ3GRAELoChytEWjqgPuAtG8ScejwfcL8AC3FFKOWXwbtyIz22p8YoimTsGWZSayHzYozBDEoiBGtSYGosoG7OurQezvlCwV-7BX9JJp42F0zuFnnUo4zSqRRMdW4fOEA8l_Ksx87Jdl991YKPC_D-jJLRZIVTF0EQqjwOJol9605qvcMF_kbo96f-pdp4c-tOwGUtQARafvtks3fCk4L_K3bDNIfEpPobCDkmDTz_VA9ttZcGWaNDsLdGjtr5YFISjAw86ZB26qik1WIwaSB9FHU7Mo6cQAQFg72DFIVR5yqkuOSRhnU3gMPs8_a4lDqQ1p2N_oKIxoXqCyoMR7o4Efr2mQki_efUP2r7lfUv1_-w0BtJVGROE9kldSnblyKTFwZuXaFZyhTE._hbSLV_KXkN_yGBukaONcA
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 568
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Item xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:Description>Wide Format  Bespoke Full Colour 1pp 1 Cover  , </ns0:Description>
+  <ns0:Active>true</ns0:Active>
+  <ns0:SubItem>true</ns0:SubItem>
+  <ns0:ParentRef>520</ns0:ParentRef>
+  <ns0:Taxable>false</ns0:Taxable>
+  <ns0:UnitPrice>145.00</ns0:UnitPrice>
+  <ns0:Type>Service</ns0:Type>
+  <ns0:IncomeAccountRef name="Sales">156</ns0:IncomeAccountRef>
+  <ns0:TrackQtyOnHand>false</ns0:TrackQtyOnHand>
+  <ns0:InvStartDate>2020-10-01</ns0:InvStartDate>
+</ns0:Item>
+
+//////////////////////////////

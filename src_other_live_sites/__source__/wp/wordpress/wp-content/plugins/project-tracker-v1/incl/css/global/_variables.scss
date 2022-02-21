@@ -1,0 +1,74 @@
+// Variables and placeholders
+
+// Font Stack
+@font-face {
+    font-family: 'font-name';
+    src: url("../fonts/[path].eot");
+    src: url("../fonts/[path].eot?#iefix") format("embedded-opentype"), url("../fonts/[path].woff") format("woff"), url("../fonts/[path].ttf") format("truetype"), url("../fonts/[path].svg#font-name") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+// Google Web Font
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+
+// Colours
+$black: #090909;
+$white: #ffffff;
+$grey: #6E8D9F;
+$accent: #db3f5c;
+
+$ltgrey: #f5f7f9;
+$dkgrey: #f8f9fb;
+
+.black {
+    color: $black;
+}
+
+.white {
+    color: $white;
+}
+
+.grey {
+    color: $grey;
+}
+
+.bg-grey {
+    background-color: #f9f9f9;
+}
+
+/* <-- Change menu class based on background colour --> */
+
+.dark ul li a {
+    color: $white;
+
+    &:after {
+        border-color: $white;
+    }
+}
+
+.light ul li a {
+    color: $black;
+
+    &:after {
+        border-color: $black;
+    }
+}
+
+// Fonts
+
+$headings: "Varela Round", sans-serif;
+$body: "Varela Round", sans-serif;
+
+// Menu
+
+// Search
+
+$transition: all 0.5s ease;
+
+// Breakpoints
+$xs: "only screen and (min-width: 320px)";
+$xsl: "only screen and (min-width: 480px)";
+$sm: "only screen and (min-width: 768px)";
+$md: "only screen and (min-width: 1024px)";
+$lg: "only screen and (min-width: 1170px)";

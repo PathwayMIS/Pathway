@@ -1,0 +1,16 @@
+#preview-action {
+	display: none;
+}
+
+/* For wordpress >5.0 */
+.edit-post-header {
+	left: 275px ! important;
+}
+
+#wpcontent #wpadminbar #wp-admin-bar-top-secondary {
+	background: #ffffff !important;
+}
+
+.avatar {
+	display: none ! important;
+}

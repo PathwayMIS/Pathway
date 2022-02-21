@@ -1,0 +1,2201 @@
+<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" ftp_hostname="ftp://ftp.absolutecp.co.uk" ftp_rootfolder="/public_html" exportTarget="FTP" domain="absolutecp.co.uk" resolutions="1x" timestamp="1509375846743">
+  <folder name="css">
+    <file name="site_global.css" crc="4071292258"/>
+    <file name="master_master-page.css" crc="343938523" ref="what-we-do:design:index:privacy:packaging-files:students:say-hello!:customer-service:get-a-quote:about-us:print:quality:crop---bleed:artwork:terms:recommend:cookies:templates:portfolio"/>
+    <file name="nomq_preview_master_master-page.css" crc="4058436954" ref="what-we-do:design:index:privacy:packaging-files:students:say-hello!:customer-service:get-a-quote:about-us:print:quality:crop---bleed:artwork:terms:recommend:cookies:templates:portfolio"/>
+    <file name="what-we-do.css" crc="3901225795" ref="what-we-do"/>
+    <file name="nomq_what-we-do.css" crc="4268312780" ref="what-we-do"/>
+    <file name="design.css" crc="479604894" ref="design"/>
+    <file name="nomq_design.css" crc="297662244" ref="design"/>
+    <file name="index.css" crc="3758807126" ref="index"/>
+    <file name="nomq_index.css" crc="73294803" ref="index"/>
+    <file name="privacy.css" crc="3857220335" ref="privacy"/>
+    <file name="nomq_privacy.css" crc="276662545" ref="privacy"/>
+    <file name="packaging-files.css" crc="85220648" ref="packaging-files"/>
+    <file name="nomq_packaging-files.css" crc="4274647480" ref="packaging-files"/>
+    <file name="students.css" crc="69047273" ref="students"/>
+    <file name="nomq_students.css" crc="157640411" ref="students"/>
+    <file name="say-hello_.css" crc="3994904114" ref="say-hello!"/>
+    <file name="nomq_say-hello_.css" crc="516083879" ref="say-hello!"/>
+    <file name="customer-service.css" crc="106419647" ref="customer-service"/>
+    <file name="nomq_customer-service.css" crc="521963696" ref="customer-service"/>
+    <file name="get-a-quote.css" crc="73565401" ref="get-a-quote"/>
+    <file name="nomq_get-a-quote.css" crc="225622798" ref="get-a-quote"/>
+    <file name="about-us.css" crc="264247051" ref="about-us"/>
+    <file name="nomq_about-us.css" crc="4123083753" ref="about-us"/>
+    <file name="print.css" crc="239247252" ref="print"/>
+    <file name="nomq_print.css" crc="4006557609" ref="print"/>
+    <file name="quality.css" crc="93990920" ref="quality"/>
+    <file name="nomq_quality.css" crc="202709240" ref="quality"/>
+    <file name="crop---bleed.css" crc="372346351" ref="crop---bleed"/>
+    <file name="nomq_crop---bleed.css" crc="223413327" ref="crop---bleed"/>
+    <file name="artwork.css" crc="3952130034" ref="artwork"/>
+    <file name="nomq_artwork.css" crc="61697024" ref="artwork"/>
+    <file name="terms.css" crc="4178943369" ref="terms"/>
+    <file name="nomq_terms.css" crc="4253938459" ref="terms"/>
+    <file name="recommend.css" crc="3943574148" ref="recommend"/>
+    <file name="nomq_recommend.css" crc="4165766773" ref="recommend"/>
+    <file name="cookies.css" crc="4174876841" ref="cookies"/>
+    <file name="nomq_cookies.css" crc="345194281" ref="cookies"/>
+    <file name="templates.css" crc="4068909796" ref="templates"/>
+    <file name="nomq_templates.css" crc="4199639061" ref="templates"/>
+    <file name="portfolio.css" crc="4256408823" ref="portfolio"/>
+    <file name="nomq_portfolio.css" crc="3762632684" ref="portfolio"/>
+  </folder>
+  <folder name="assets">
+    <file name="acp_studentdiscountdownload_0617.pdf" crc="3785959181" seo="true" mt="1497369222000"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:about-us:portfolio:say-hello!:get-a-quote:what-we-do:print:design:terms:privacy:cookies:students:artwork:recommend:crop---bleed:packaging-files:templates:quality:customer-service"/>
+    <file name="museutils.js" crc="3803043152" ref="index:about-us:portfolio:say-hello!:get-a-quote:what-we-do:print:design:terms:privacy:cookies:students:artwork:recommend:crop---bleed:packaging-files:templates:quality:customer-service"/>
+    <file name="whatinput.js" crc="86476730" ref="index:about-us:portfolio:say-hello!:get-a-quote:what-we-do:print:design:terms:privacy:cookies:students:artwork:recommend:crop---bleed:packaging-files:templates:quality:customer-service"/>
+    <file name="museconfig.js" crc="4153641093" ref="index:about-us:portfolio:say-hello!:get-a-quote:what-we-do:print:design:terms:privacy:cookies:students:artwork:recommend:crop---bleed:packaging-files:templates:quality:customer-service"/>
+    <file name="jquery.musemenu.js" crc="3784699396" ref="index:about-us:portfolio:say-hello!:get-a-quote:what-we-do:print:design:terms:privacy:cookies:students:artwork:recommend:crop---bleed:packaging-files:templates:quality:customer-service"/>
+    <file name="jquery.watch.js" crc="99325471" ref="index:about-us:portfolio:say-hello!:get-a-quote:what-we-do:print:design:terms:privacy:cookies:students:artwork:recommend:crop---bleed:packaging-files:templates:quality:customer-service"/>
+    <file name="webpro.js" crc="242022427" ref="index:about-us:portfolio:say-hello!:get-a-quote:what-we-do:print:design:terms:privacy:cookies:students:artwork:recommend:crop---bleed:packaging-files:templates:quality:customer-service"/>
+    <file name="musewpslideshow.js" crc="457073769" ref="index:about-us:quality:customer-service"/>
+    <file name="jquery.museoverlay.js" crc="483674903" ref="index:about-us:quality:customer-service"/>
+    <file name="touchswipe.js" crc="4066113679" ref="index:about-us:quality:customer-service"/>
+    <file name="musewpdisclosure.js" crc="119288625" ref="index:about-us:portfolio:say-hello!:get-a-quote:what-we-do:print:design:terms:privacy:cookies:students:artwork:recommend:crop---bleed:packaging-files:templates:quality:customer-service"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index:about-us:portfolio:say-hello!:get-a-quote:what-we-do:print:design:terms:privacy:cookies:students:artwork:recommend:crop---bleed:packaging-files:templates:quality:customer-service"/>
+    <file name="jquery.museresponsive.js" crc="3955820958" ref="index:about-us:portfolio:say-hello!:get-a-quote:what-we-do:print:design:terms:privacy:cookies:students:artwork:recommend:crop---bleed:packaging-files:templates:quality:customer-service"/>
+    <file name="require.js" crc="4157109226" ref="index:about-us:portfolio:say-hello!:get-a-quote:what-we-do:print:design:terms:privacy:cookies:students:artwork:recommend:crop---bleed:packaging-files:templates:quality:customer-service"/>
+    <file name="form_check.php" crc="147359589" ref="get-a-quote"/>
+    <file name="form_throttle.php" crc="93986428" ref="get-a-quote"/>
+    <file name="form_process.php" crc="3851993751" ref="get-a-quote"/>
+    <file name="form-u25965.php" crc="107083143" ref="get-a-quote"/>
+    <file name="form-u30438.php" crc="4106320567" ref="templates"/>
+    <file name="form-u84608.php" crc="4208905947" ref="quality"/>
+    <file name="form-u92614.php" crc="4005283572" ref="customer-service"/>
+    <file name="form-u97906.php" crc="3760934012" ref="customer-service"/>
+    <file name="form-u99631.php" crc="98398492" ref="customer-service"/>
+    <file name="form-u101702.php" crc="111576877" ref="customer-service"/>
+  </folder>
+  <folder name="images">
+    <file name="favicon.ico" crc="4262991610" ref="index:portfolio"/>
+    <file name="absolutecreativeprint_newlogo.svg" crc="263876827" seo="true" ref="index:about-us:portfolio:say-hello!:get-a-quote:what-we-do:print:design:terms:privacy:cookies:students:artwork:recommend:crop---bleed:packaging-files:templates:quality:customer-service">
+      <caption webpage="portfolio" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="portfolio" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="portfolio" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="portfolio" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="portfolio" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="portfolio" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="portfolio" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="portfolio" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="about-us" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="about-us" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="about-us" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="about-us" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="about-us" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="about-us" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="about-us" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="about-us" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="privacy" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="privacy" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="privacy" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="privacy" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="privacy" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="privacy" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="privacy" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="privacy" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="artwork" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="artwork" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="artwork" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="artwork" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="artwork" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="artwork" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="artwork" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="artwork" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="crop---bleed" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="crop---bleed" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="crop---bleed" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="crop---bleed" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="crop---bleed" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="crop---bleed" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="crop---bleed" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="crop---bleed" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="index" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="index" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="index" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="index" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="index" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="index" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="index" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="index" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="cookies" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="cookies" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="cookies" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="cookies" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="cookies" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="cookies" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="cookies" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="cookies" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="what-we-do" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="what-we-do" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="what-we-do" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="what-we-do" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="what-we-do" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="what-we-do" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="what-we-do" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="what-we-do" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="recommend" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="recommend" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="recommend" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="recommend" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="recommend" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="recommend" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="recommend" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="recommend" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="print" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="print" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="print" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="print" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="print" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="print" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="print" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="print" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="terms" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="terms" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="terms" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="terms" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="terms" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="terms" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="terms" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="terms" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="packaging-files" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="packaging-files" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="packaging-files" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="packaging-files" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="packaging-files" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="packaging-files" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="packaging-files" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="packaging-files" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="customer-service" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="customer-service" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="customer-service" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="customer-service" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="customer-service" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="customer-service" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="customer-service" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="customer-service" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="students" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="students" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="students" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="students" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="students" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="students" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="students" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="students" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="quality" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="quality" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="quality" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="quality" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="quality" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="quality" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="quality" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="quality" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="say-hello!" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="say-hello!" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="say-hello!" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="say-hello!" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="say-hello!" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="say-hello!" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="say-hello!" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="say-hello!" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="design" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="design" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="design" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="design" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="design" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="design" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="design" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="design" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="get-a-quote" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="get-a-quote" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="get-a-quote" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="get-a-quote" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="get-a-quote" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="get-a-quote" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="get-a-quote" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="get-a-quote" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="get-a-quote" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="get-a-quote" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="templates" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="templates" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="templates" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="templates" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="templates" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="templates" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="templates" alt="Link to Absolute Creative Print Home"/>
+      <caption webpage="templates" alt="Link to Absolute Creative Print Home"/>
+    </file>
+    <file name="absolutecreativeprint_newlogo_poster_.png" crc="279268524" ref="index:portfolio"/>
+    <file name="acp_morethan.svg" crc="409248878" seo="true" ref="index:about-us:portfolio:say-hello!:get-a-quote:what-we-do:print:design:terms:privacy:cookies:students:artwork:recommend:crop---bleed:packaging-files:templates:quality:customer-service">
+      <caption webpage="portfolio" alt="Strapline"/>
+      <caption webpage="portfolio" alt="Strapline"/>
+      <caption webpage="about-us" alt="Strapline"/>
+      <caption webpage="about-us" alt="Strapline"/>
+      <caption webpage="privacy" alt="Strapline"/>
+      <caption webpage="privacy" alt="Strapline"/>
+      <caption webpage="artwork" alt="Strapline"/>
+      <caption webpage="artwork" alt="Strapline"/>
+      <caption webpage="crop---bleed" alt="Strapline"/>
+      <caption webpage="crop---bleed" alt="Strapline"/>
+      <caption webpage="index" alt="Strapline"/>
+      <caption webpage="index" alt="Strapline"/>
+      <caption webpage="cookies" alt="Strapline"/>
+      <caption webpage="cookies" alt="Strapline"/>
+      <caption webpage="what-we-do" alt="Strapline"/>
+      <caption webpage="what-we-do" alt="Strapline"/>
+      <caption webpage="recommend" alt="Strapline"/>
+      <caption webpage="recommend" alt="Strapline"/>
+      <caption webpage="print" alt="Strapline"/>
+      <caption webpage="print" alt="Strapline"/>
+      <caption webpage="terms" alt="Strapline"/>
+      <caption webpage="terms" alt="Strapline"/>
+      <caption webpage="packaging-files" alt="Strapline"/>
+      <caption webpage="packaging-files" alt="Strapline"/>
+      <caption webpage="customer-service" alt="Strapline"/>
+      <caption webpage="customer-service" alt="Strapline"/>
+      <caption webpage="students" alt="Strapline"/>
+      <caption webpage="students" alt="Strapline"/>
+      <caption webpage="quality" alt="Strapline"/>
+      <caption webpage="quality" alt="Strapline"/>
+      <caption webpage="say-hello!" alt="Strapline"/>
+      <caption webpage="say-hello!" alt="Strapline"/>
+      <caption webpage="design" alt="Strapline"/>
+      <caption webpage="design" alt="Strapline"/>
+      <caption webpage="get-a-quote" alt="Strapline"/>
+      <caption webpage="get-a-quote" alt="Strapline"/>
+      <caption webpage="get-a-quote" alt="Strapline"/>
+      <caption webpage="templates" alt="Strapline"/>
+      <caption webpage="templates" alt="Strapline"/>
+    </file>
+    <file name="acp_morethan_poster_.png" crc="3890603950" ref="index:portfolio"/>
+    <file name="acp_homepage_slideshow1.jpg" crc="153859959" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="blank.gif" crc="4208392903" ref="index:about-us:portfolio:say-hello!:get-a-quote:what-we-do:print:design:terms:privacy:cookies:students:artwork:recommend:crop---bleed:packaging-files:templates:quality:customer-service"/>
+    <file name="acp_homepage_slideshow2.png" crc="179583292" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="acp_homepage_slideshow3.jpg" crc="4006244401" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="acp_homepage_slideshow4.jpg" crc="3805139756" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="acp_homepage_slideshow5.png" crc="477198450" seo="true" ref="index">
+      <caption webpage="index" alt="Home Page Slideshow"/>
+      <caption webpage="index" alt="Home Page Slideshow"/>
+      <caption webpage="index" alt="Home Page Slideshow"/>
+      <caption webpage="index" alt="Home Page Slideshow"/>
+    </file>
+    <file name="loading.gif" crc="3815509949" ref="index"/>
+    <file name="acp_fullofbrightideas-front1.svg" crc="227003852" seo="true" ref="index">
+      <caption webpage="index" alt="Full of Bright Ideas"/>
+      <caption webpage="index" alt="Full of Bright Ideas"/>
+      <caption webpage="index" alt="Full of Bright Ideas"/>
+    </file>
+    <file name="acp_fullofbrightideas-front1_poster_.png" crc="3852816389" ref="index"/>
+    <file name="acp_homepage_downarrow.svg" crc="501620713" seo="true" ref="index">
+      <caption webpage="index" alt="Click to scroll down"/>
+    </file>
+    <file name="acp_homepage_downarrow_poster_.png" crc="221552616" ref="index"/>
+    <file name="acp_homepage_higheststandard.svg" crc="4056593870" seo="true" ref="index">
+      <caption webpage="index" alt="Printing to the highest standard"/>
+      <caption webpage="index" alt="Printing to the highest standard"/>
+      <caption webpage="index" alt="Printing to the highest standard"/>
+      <caption webpage="index" alt="Printing to the highest standard"/>
+    </file>
+    <file name="acp_homepage_higheststandard_poster_.png" crc="521498482" ref="index"/>
+    <file name="acp_homepage_customerservice.svg" crc="385396985" seo="true" ref="index">
+      <caption webpage="index" alt="Unrivalled customer service"/>
+      <caption webpage="index" alt="Unrivalled customer service"/>
+      <caption webpage="index" alt="Unrivalled customer service"/>
+      <caption webpage="index" alt="Unrivalled customer service"/>
+    </file>
+    <file name="acp_homepage_customerservice_poster_.png" crc="3800559715" ref="index"/>
+    <file name="acp_homepage_designers.svg" crc="195825098" seo="true" ref="index">
+      <caption webpage="index" alt="Creative team of designers"/>
+      <caption webpage="index" alt="Creative team of designers"/>
+      <caption webpage="index" alt="Creative team of designers"/>
+      <caption webpage="index" alt="Creative team of designers"/>
+    </file>
+    <file name="acp_homepage_designers_poster_.png" crc="268195518" ref="index"/>
+    <file name="dsc03703-wlsinvestment-1-crop-u58103.jpg" crc="488902024" seo="true" ref="index">
+      <caption webpage="index" alt="Link to Absolute Creative Print's Portfolio"/>
+    </file>
+    <file name="dsc03842-leedscastlepostcards-1-crop-u16113.jpg" crc="4024417495" seo="true" ref="index">
+      <caption webpage="index" alt="Link to Absolute Creative Print's Portfolio"/>
+    </file>
+    <file name="dsc03878-tigerrecruitment-1-crop-u16156.jpg" crc="41765527" seo="true" ref="index">
+      <caption webpage="index" alt="Link to Absolute Creative Print's Portfolio"/>
+    </file>
+    <file name="acp_homepage_callicon.svg" crc="271217797" seo="true" ref="index">
+      <caption webpage="index" alt="Give us a call!"/>
+      <caption webpage="index" alt="Give us a call!"/>
+    </file>
+    <file name="acp_homepage_callicon_poster_.png" crc="525884234" ref="index"/>
+    <file name="acp_homepage_emailicon.svg" crc="4234619557" seo="true" ref="index">
+      <caption webpage="index" alt="Drop us an email"/>
+      <caption webpage="index" alt="Drop us an email"/>
+    </file>
+    <file name="acp_homepage_emailicon_poster_.png" crc="4174217291" ref="index"/>
+    <file name="acp_homepage_meetingicon.svg" crc="78640133" seo="true" ref="index">
+      <caption webpage="index" alt="Come and visit us!"/>
+      <caption webpage="index" alt="Come and visit us!"/>
+    </file>
+    <file name="acp_homepage_meetingicon_poster_.png" crc="265238559" ref="index"/>
+    <file name="acp_footericons-student-notext.svg" crc="3788014545" seo="true" ref="index:about-us:portfolio:say-hello!:get-a-quote:what-we-do:print:design:terms:privacy:cookies:students:artwork:recommend:crop---bleed:packaging-files:templates:quality:customer-service">
+      <caption webpage="portfolio" alt="Link to Student Discount"/>
+      <caption webpage="portfolio" alt="Link to Student Discount"/>
+      <caption webpage="about-us" alt="Link to Student Discount"/>
+      <caption webpage="about-us" alt="Link to Student Discount"/>
+      <caption webpage="privacy" alt="Link to Student Discount"/>
+      <caption webpage="privacy" alt="Link to Student Discount"/>
+      <caption webpage="artwork" alt="Link to Student Discount"/>
+      <caption webpage="artwork" alt="Link to Student Discount"/>
+      <caption webpage="crop---bleed" alt="Link to Student Discount"/>
+      <caption webpage="crop---bleed" alt="Link to Student Discount"/>
+      <caption webpage="index" alt="Link to Student Discount"/>
+      <caption webpage="index" alt="Link to Student Discount"/>
+      <caption webpage="cookies" alt="Link to Student Discount"/>
+      <caption webpage="cookies" alt="Link to Student Discount"/>
+      <caption webpage="what-we-do" alt="Link to Student Discount"/>
+      <caption webpage="what-we-do" alt="Link to Student Discount"/>
+      <caption webpage="recommend" alt="Link to Student Discount"/>
+      <caption webpage="recommend" alt="Link to Student Discount"/>
+      <caption webpage="print" alt="Link to Student Discount"/>
+      <caption webpage="print" alt="Link to Student Discount"/>
+      <caption webpage="terms" alt="Link to Student Discount"/>
+      <caption webpage="terms" alt="Link to Student Discount"/>
+      <caption webpage="packaging-files" alt="Link to Student Discount"/>
+      <caption webpage="packaging-files" alt="Link to Student Discount"/>
+      <caption webpage="customer-service" alt="Link to Student Discount"/>
+      <caption webpage="customer-service" alt="Link to Student Discount"/>
+      <caption webpage="students" alt="Link to Student Discount"/>
+      <caption webpage="students" alt="Link to Student Discount"/>
+      <caption webpage="quality" alt="Link to Student Discount"/>
+      <caption webpage="quality" alt="Link to Student Discount"/>
+      <caption webpage="say-hello!" alt="Link to Student Discount"/>
+      <caption webpage="say-hello!" alt="Link to Student Discount"/>
+      <caption webpage="design" alt="Link to Student Discount"/>
+      <caption webpage="design" alt="Link to Student Discount"/>
+      <caption webpage="get-a-quote" alt="Link to Student Discount"/>
+      <caption webpage="get-a-quote" alt="Link to Student Discount"/>
+      <caption webpage="get-a-quote" alt="Link to Student Discount"/>
+      <caption webpage="templates" alt="Link to Student Discount"/>
+      <caption webpage="templates" alt="Link to Student Discount"/>
+    </file>
+    <file name="acp_footericons-student-notext_poster_.png" crc="428943358" ref="index:portfolio"/>
+    <file name="acp_footericons-artwork-notext.svg" crc="4106967238" seo="true" ref="index:about-us:portfolio:say-hello!:get-a-quote:what-we-do:print:design:terms:privacy:cookies:students:artwork:recommend:crop---bleed:packaging-files:templates:quality:customer-service">
+      <caption webpage="portfolio" alt="Link to Artwork Tips"/>
+      <caption webpage="portfolio" alt="Link to Artwork Tips"/>
+      <caption webpage="about-us" alt="Link to Artwork Tips"/>
+      <caption webpage="about-us" alt="Link to Artwork Tips"/>
+      <caption webpage="privacy" alt="Link to Artwork Tips"/>
+      <caption webpage="privacy" alt="Link to Artwork Tips"/>
+      <caption webpage="artwork" alt="Link to Artwork Tips"/>
+      <caption webpage="artwork" alt="Link to Artwork Tips"/>
+      <caption webpage="crop---bleed" alt="Link to Artwork Tips"/>
+      <caption webpage="crop---bleed" alt="Link to Artwork Tips"/>
+      <caption webpage="index" alt="Link to Artwork Tips"/>
+      <caption webpage="index" alt="Link to Artwork Tips"/>
+      <caption webpage="cookies" alt="Link to Artwork Tips"/>
+      <caption webpage="cookies" alt="Link to Artwork Tips"/>
+      <caption webpage="what-we-do" alt="Link to Artwork Tips"/>
+      <caption webpage="what-we-do" alt="Link to Artwork Tips"/>
+      <caption webpage="recommend" alt="Link to Artwork Tips"/>
+      <caption webpage="recommend" alt="Link to Artwork Tips"/>
+      <caption webpage="print" alt="Link to Artwork Tips"/>
+      <caption webpage="print" alt="Link to Artwork Tips"/>
+      <caption webpage="terms" alt="Link to Artwork Tips"/>
+      <caption webpage="terms" alt="Link to Artwork Tips"/>
+      <caption webpage="packaging-files" alt="Link to Artwork Tips"/>
+      <caption webpage="packaging-files" alt="Link to Artwork Tips"/>
+      <caption webpage="customer-service" alt="Link to Artwork Tips"/>
+      <caption webpage="customer-service" alt="Link to Artwork Tips"/>
+      <caption webpage="students" alt="Link to Artwork Tips"/>
+      <caption webpage="students" alt="Link to Artwork Tips"/>
+      <caption webpage="quality" alt="Link to Artwork Tips"/>
+      <caption webpage="quality" alt="Link to Artwork Tips"/>
+      <caption webpage="say-hello!" alt="Link to Artwork Tips"/>
+      <caption webpage="say-hello!" alt="Link to Artwork Tips"/>
+      <caption webpage="design" alt="Link to Artwork Tips"/>
+      <caption webpage="design" alt="Link to Artwork Tips"/>
+      <caption webpage="get-a-quote" alt="Link to Artwork Tips"/>
+      <caption webpage="get-a-quote" alt="Link to Artwork Tips"/>
+      <caption webpage="get-a-quote" alt="Link to Artwork Tips"/>
+      <caption webpage="templates" alt="Link to Artwork Tips"/>
+      <caption webpage="templates" alt="Link to Artwork Tips"/>
+    </file>
+    <file name="acp_footericons-artwork-notext_poster_.png" crc="4134934956" ref="index:portfolio"/>
+    <file name="acp_footericons-friend-notext.svg" crc="330604336" seo="true" ref="index:about-us:portfolio:say-hello!:get-a-quote:what-we-do:print:design:terms:privacy:cookies:students:artwork:recommend:crop---bleed:packaging-files:templates:quality:customer-service">
+      <caption webpage="portfolio" alt="Link to Recommend a Business"/>
+      <caption webpage="portfolio" alt="Link to Recommend a Business"/>
+      <caption webpage="about-us" alt="Link to Recommend a Business"/>
+      <caption webpage="about-us" alt="Link to Recommend a Business"/>
+      <caption webpage="privacy" alt="Link to Recommend a Business"/>
+      <caption webpage="privacy" alt="Link to Recommend a Business"/>
+      <caption webpage="artwork" alt="Link to Recommend a Business"/>
+      <caption webpage="artwork" alt="Link to Recommend a Business"/>
+      <caption webpage="crop---bleed" alt="Link to Recommend a Business"/>
+      <caption webpage="crop---bleed" alt="Link to Recommend a Business"/>
+      <caption webpage="index" alt="Link to Recommend a Business"/>
+      <caption webpage="index" alt="Link to Recommend a Business"/>
+      <caption webpage="cookies" alt="Link to Recommend a Business"/>
+      <caption webpage="cookies" alt="Link to Recommend a Business"/>
+      <caption webpage="what-we-do" alt="Link to Recommend a Business"/>
+      <caption webpage="what-we-do" alt="Link to Recommend a Business"/>
+      <caption webpage="recommend" alt="Link to Recommend a Business"/>
+      <caption webpage="recommend" alt="Link to Recommend a Business"/>
+      <caption webpage="print" alt="Link to Recommend a Business"/>
+      <caption webpage="print" alt="Link to Recommend a Business"/>
+      <caption webpage="terms" alt="Link to Recommend a Business"/>
+      <caption webpage="terms" alt="Link to Recommend a Business"/>
+      <caption webpage="packaging-files" alt="Link to Recommend a Business"/>
+      <caption webpage="packaging-files" alt="Link to Recommend a Business"/>
+      <caption webpage="customer-service" alt="Link to Recommend a Business"/>
+      <caption webpage="customer-service" alt="Link to Recommend a Business"/>
+      <caption webpage="students" alt="Link to Recommend a Business"/>
+      <caption webpage="students" alt="Link to Recommend a Business"/>
+      <caption webpage="quality" alt="Link to Recommend a Business"/>
+      <caption webpage="quality" alt="Link to Recommend a Business"/>
+      <caption webpage="say-hello!" alt="Link to Recommend a Business"/>
+      <caption webpage="say-hello!" alt="Link to Recommend a Business"/>
+      <caption webpage="design" alt="Link to Recommend a Business"/>
+      <caption webpage="design" alt="Link to Recommend a Business"/>
+      <caption webpage="get-a-quote" alt="Link to Recommend a Business"/>
+      <caption webpage="get-a-quote" alt="Link to Recommend a Business"/>
+      <caption webpage="get-a-quote" alt="Link to Recommend a Business"/>
+      <caption webpage="templates" alt="Link to Recommend a Business"/>
+      <caption webpage="templates" alt="Link to Recommend a Business"/>
+    </file>
+    <file name="acp_footericons-friend-notext_poster_.png" crc="109250261" ref="index:portfolio"/>
+    <file name="acp_facebooklogo.svg" crc="189775255" seo="true" ref="index:about-us:portfolio:say-hello!:get-a-quote:what-we-do:print:design:terms:privacy:cookies:students:artwork:recommend:crop---bleed:packaging-files:templates:quality:customer-service">
+      <caption webpage="portfolio" alt="Link to Absolute Creative Print Facebook"/>
+      <caption webpage="portfolio" alt="Link to Absolute Creative Print Facebook"/>
+      <caption webpage="portfolio" alt="Link to Absolute Creative Print Facebook"/>
+      <caption webpage="portfolio" alt="Link to Absolute Creative Print Facebook"/>
+      <caption webpage="about-us" alt="Link to Absolute Creative Print Facebook"/>
+      <caption webpage="about-us" alt="Link to Absolute Creative Print Facebook"/>
+      <caption webpage="about-us" alt="Link to Absolute Creative Print Facebook"/>
+      <caption webpage="about-us" alt="Link to Absolute Creative Print Facebook"/>
+      <caption webpage="privacy" alt="Link to Absolute Creative Print Facebook"/>
+      <caption webpage="privacy" alt="Link to Absolute Creative Print Facebook"/>
+      <caption webpage="privacy" alt="Link to Absolute Creative Print Facebook"/>
+      <caption webpage="privacy" alt="Link to Absolute Creative Print Facebook"/>
+      <caption webpage="artwork" alt="Link to Absolute Creative Print Facebook"/>
+      <caption webpage="artwork" alt="Link to Absolute Creative Print Facebook"/>
+      <caption webpage="artwork" alt="Link to Absolute Creative Print Facebook"/>
+      <caption webpage="artwork" alt="Link to Absolute Creative Print Facebook"/>
+      <caption webpage="crop---bleed" alt="Link to Absolute Creative Print Facebook"/>
+      <caption webpage="crop---bleed" alt="Link to Absolute Creative Print Facebook"/>
+      <caption webpage="crop---bleed" alt="Link to Absolute Creative Print Facebook"/>
+      <caption webpage="crop---bleed" alt="Link to Absolute Creative Print Facebook"/>
+      <caption webpage="index" alt="Link to Absolute Creative Print Facebook"/>
+      <caption webpage="index" alt="Link to Absolute Creative Print Facebook"/>
+      <caption webpage="index" alt="Link to Absolute Creative Print Facebook"/>
+      <caption webpage="index" alt="Link to Absolute Creative Print Facebook"/>
+      <caption webpage="cookies" alt="Link to Absolute Creative Print Facebook"/>
+      <caption webpage="cookies" alt="Link to Absolute Creative Print Facebook"/>
+      <caption webpage="cookies" alt="Link to Absolute Creative Print Facebook"/>
+      <caption webpage="cookies" alt="Link to Absolute Creative Print Facebook"/>
+      <caption webpage="what-we-do" alt="Link to Absolute Creative Print Facebook"/>
+      <caption webpage="what-we-do" alt="Link to Absolute Creative Print Facebook"/>
+      <caption webpage="what-we-do" alt="Link to Absolute Creative Print Facebook"/>
+      <caption webpage="what-we-do" alt="Link to Absolute Creative Print Facebook"/>
+      <caption webpage="recommend" alt="Link to Absolute Creative Print Facebook"/>
+      <caption webpage="recommend" alt="Link to Absolute Creative Print Facebook"/>
+      <caption webpage="recommend" alt="Link to Absolute Creative Print Facebook"/>
+      <caption webpage="recommend" alt="Link to Absolute Creative Print Facebook"/>
+      <caption webpage="print" alt="Link to Absolute Creative Print Facebook"/>
+      <caption webpage="print" alt="Link to Absolute Creative Print Facebook"/>
+      <caption webpage="print" alt="Link to Absolute Creative Print Facebook"/>
+      <caption webpage="print" alt="Link to Absolute Creative Print Facebook"/>
+      <caption webpage="terms" alt="Link to Absolute Creative Print Facebook"/>
+      <caption webpage="terms" alt="Link to Absolute Creative Print Facebook"/>
+      <caption webpage="terms" alt="Link to Absolute Creative Print Facebook"/>
+      <caption webpage="terms" alt="Link to Absolute Creative Print Facebook"/>
+      <caption webpage="packaging-files" alt="Link to Absolute Creative Print Facebook"/>
+      <caption webpage="packaging-files" alt="Link to Absolute Creative Print Facebook"/>
+      <caption webpage="packaging-files" alt="Link to Absolute Creative Print Facebook"/>
+      <caption webpage="packaging-files" alt="Link to Absolute Creative Print Facebook"/>
+      <caption webpage="customer-service" alt="Link to Absolute Creative Print Facebook"/>
+      <caption webpage="customer-service" alt="Link to Absolute Creative Print Facebook"/>
+      <caption webpage="customer-service" alt="Link to Absolute Creative Print Facebook"/>
+      <caption webpage="customer-service" alt="Link to Absolute Creative Print Facebook"/>
+      <caption webpage="students" alt="Link to Absolute Creative Print Facebook"/>
+      <caption webpage="students" alt="Link to Absolute Creative Print Facebook"/>
+      <caption webpage="students" alt="Link to Absolute Creative Print Facebook"/>
+      <caption webpage="students" alt="Link to Absolute Creative Print Facebook"/>
+      <caption webpage="quality" alt="Link to Absolute Creative Print Facebook"/>
+      <caption webpage="quality" alt="Link to Absolute Creative Print Facebook"/>
+      <caption webpage="quality" alt="Link to Absolute Creative Print Facebook"/>
+      <caption webpage="quality" alt="Link to Absolute Creative Print Facebook"/>
+      <caption webpage="say-hello!" alt="Link to Absolute Creative Print Facebook"/>
+      <caption webpage="say-hello!" alt="Link to Absolute Creative Print Facebook"/>
+      <caption webpage="say-hello!" alt="Link to Absolute Creative Print Facebook"/>
+      <caption webpage="say-hello!" alt="Link to Absolute Creative Print Facebook"/>
+      <caption webpage="design" alt="Link to Absolute Creative Print Facebook"/>
+      <caption webpage="design" alt="Link to Absolute Creative Print Facebook"/>
+      <caption webpage="design" alt="Link to Absolute Creative Print Facebook"/>
+      <caption webpage="design" alt="Link to Absolute Creative Print Facebook"/>
+      <caption webpage="get-a-quote" alt="Link to Absolute Creative Print Facebook"/>
+      <caption webpage="get-a-quote" alt="Link to Absolute Creative Print Facebook"/>
+      <caption webpage="get-a-quote" alt="Link to Absolute Creative Print Facebook"/>
+      <caption webpage="get-a-quote" alt="Link to Absolute Creative Print Facebook"/>
+      <caption webpage="get-a-quote" alt="Link to Absolute Creative Print Facebook"/>
+      <caption webpage="templates" alt="Link to Absolute Creative Print Facebook"/>
+      <caption webpage="templates" alt="Link to Absolute Creative Print Facebook"/>
+      <caption webpage="templates" alt="Link to Absolute Creative Print Facebook"/>
+      <caption webpage="templates" alt="Link to Absolute Creative Print Facebook"/>
+    </file>
+    <file name="acp_facebooklogo_poster_.png" crc="4186575153" ref="index:portfolio"/>
+    <file name="acp_instagramlogo.svg" crc="4129893842" seo="true" ref="index:about-us:portfolio:say-hello!:get-a-quote:what-we-do:print:design:terms:privacy:cookies:students:artwork:recommend:crop---bleed:packaging-files:templates:quality:customer-service">
+      <caption webpage="portfolio" alt="Link to Absolute Creative Print Instagram"/>
+      <caption webpage="portfolio" alt="Link to Absolute Creative Print Instagram"/>
+      <caption webpage="portfolio" alt="Link to Absolute Creative Print Instagram"/>
+      <caption webpage="portfolio" alt="Link to Absolute Creative Print Instagram"/>
+      <caption webpage="about-us" alt="Link to Absolute Creative Print Instagram"/>
+      <caption webpage="about-us" alt="Link to Absolute Creative Print Instagram"/>
+      <caption webpage="about-us" alt="Link to Absolute Creative Print Instagram"/>
+      <caption webpage="about-us" alt="Link to Absolute Creative Print Instagram"/>
+      <caption webpage="privacy" alt="Link to Absolute Creative Print Instagram"/>
+      <caption webpage="privacy" alt="Link to Absolute Creative Print Instagram"/>
+      <caption webpage="privacy" alt="Link to Absolute Creative Print Instagram"/>
+      <caption webpage="privacy" alt="Link to Absolute Creative Print Instagram"/>
+      <caption webpage="artwork" alt="Link to Absolute Creative Print Instagram"/>
+      <caption webpage="artwork" alt="Link to Absolute Creative Print Instagram"/>
+      <caption webpage="artwork" alt="Link to Absolute Creative Print Instagram"/>
+      <caption webpage="artwork" alt="Link to Absolute Creative Print Instagram"/>
+      <caption webpage="crop---bleed" alt="Link to Absolute Creative Print Instagram"/>
+      <caption webpage="crop---bleed" alt="Link to Absolute Creative Print Instagram"/>
+      <caption webpage="crop---bleed" alt="Link to Absolute Creative Print Instagram"/>
+      <caption webpage="crop---bleed" alt="Link to Absolute Creative Print Instagram"/>
+      <caption webpage="index" alt="Link to Absolute Creative Print Instagram"/>
+      <caption webpage="index" alt="Link to Absolute Creative Print Instagram"/>
+      <caption webpage="index" alt="Link to Absolute Creative Print Instagram"/>
+      <caption webpage="index" alt="Link to Absolute Creative Print Instagram"/>
+      <caption webpage="cookies" alt="Link to Absolute Creative Print Instagram"/>
+      <caption webpage="cookies" alt="Link to Absolute Creative Print Instagram"/>
+      <caption webpage="cookies" alt="Link to Absolute Creative Print Instagram"/>
+      <caption webpage="cookies" alt="Link to Absolute Creative Print Instagram"/>
+      <caption webpage="what-we-do" alt="Link to Absolute Creative Print Instagram"/>
+      <caption webpage="what-we-do" alt="Link to Absolute Creative Print Instagram"/>
+      <caption webpage="what-we-do" alt="Link to Absolute Creative Print Instagram"/>
+      <caption webpage="what-we-do" alt="Link to Absolute Creative Print Instagram"/>
+      <caption webpage="recommend" alt="Link to Absolute Creative Print Instagram"/>
+      <caption webpage="recommend" alt="Link to Absolute Creative Print Instagram"/>
+      <caption webpage="recommend" alt="Link to Absolute Creative Print Instagram"/>
+      <caption webpage="recommend" alt="Link to Absolute Creative Print Instagram"/>
+      <caption webpage="print" alt="Link to Absolute Creative Print Instagram"/>
+      <caption webpage="print" alt="Link to Absolute Creative Print Instagram"/>
+      <caption webpage="print" alt="Link to Absolute Creative Print Instagram"/>
+      <caption webpage="print" alt="Link to Absolute Creative Print Instagram"/>
+      <caption webpage="terms" alt="Link to Absolute Creative Print Instagram"/>
+      <caption webpage="terms" alt="Link to Absolute Creative Print Instagram"/>
+      <caption webpage="terms" alt="Link to Absolute Creative Print Instagram"/>
+      <caption webpage="terms" alt="Link to Absolute Creative Print Instagram"/>
+      <caption webpage="packaging-files" alt="Link to Absolute Creative Print Instagram"/>
+      <caption webpage="packaging-files" alt="Link to Absolute Creative Print Instagram"/>
+      <caption webpage="packaging-files" alt="Link to Absolute Creative Print Instagram"/>
+      <caption webpage="packaging-files" alt="Link to Absolute Creative Print Instagram"/>
+      <caption webpage="customer-service" alt="Link to Absolute Creative Print Instagram"/>
+      <caption webpage="customer-service" alt="Link to Absolute Creative Print Instagram"/>
+      <caption webpage="customer-service" alt="Link to Absolute Creative Print Instagram"/>
+      <caption webpage="customer-service" alt="Link to Absolute Creative Print Instagram"/>
+      <caption webpage="students" alt="Link to Absolute Creative Print Instagram"/>
+      <caption webpage="students" alt="Link to Absolute Creative Print Instagram"/>
+      <caption webpage="students" alt="Link to Absolute Creative Print Instagram"/>
+      <caption webpage="students" alt="Link to Absolute Creative Print Instagram"/>
+      <caption webpage="quality" alt="Link to Absolute Creative Print Instagram"/>
+      <caption webpage="quality" alt="Link to Absolute Creative Print Instagram"/>
+      <caption webpage="quality" alt="Link to Absolute Creative Print Instagram"/>
+      <caption webpage="quality" alt="Link to Absolute Creative Print Instagram"/>
+      <caption webpage="say-hello!" alt="Link to Absolute Creative Print Instagram"/>
+      <caption webpage="say-hello!" alt="Link to Absolute Creative Print Instagram"/>
+      <caption webpage="say-hello!" alt="Link to Absolute Creative Print Instagram"/>
+      <caption webpage="say-hello!" alt="Link to Absolute Creative Print Instagram"/>
+      <caption webpage="design" alt="Link to Absolute Creative Print Instagram"/>
+      <caption webpage="design" alt="Link to Absolute Creative Print Instagram"/>
+      <caption webpage="design" alt="Link to Absolute Creative Print Instagram"/>
+      <caption webpage="design" alt="Link to Absolute Creative Print Instagram"/>
+      <caption webpage="get-a-quote" alt="Link to Absolute Creative Print Instagram"/>
+      <caption webpage="get-a-quote" alt="Link to Absolute Creative Print Instagram"/>
+      <caption webpage="get-a-quote" alt="Link to Absolute Creative Print Instagram"/>
+      <caption webpage="get-a-quote" alt="Link to Absolute Creative Print Instagram"/>
+      <caption webpage="get-a-quote" alt="Link to Absolute Creative Print Instagram"/>
+      <caption webpage="templates" alt="Link to Absolute Creative Print Instagram"/>
+      <caption webpage="templates" alt="Link to Absolute Creative Print Instagram"/>
+      <caption webpage="templates" alt="Link to Absolute Creative Print Instagram"/>
+      <caption webpage="templates" alt="Link to Absolute Creative Print Instagram"/>
+    </file>
+    <file name="acp_instagramlogo_poster_.png" crc="63517331" ref="index:portfolio"/>
+    <file name="acp_twitterlogo.svg" crc="237164453" seo="true" ref="index:about-us:portfolio:say-hello!:get-a-quote:what-we-do:print:design:terms:privacy:cookies:students:artwork:recommend:crop---bleed:packaging-files:templates:quality:customer-service">
+      <caption webpage="portfolio" alt="Link to Absolute Creative Print Twitter"/>
+      <caption webpage="portfolio" alt="Link to Absolute Creative Print Twitter"/>
+      <caption webpage="portfolio" alt="Link to Absolute Creative Print Twitter"/>
+      <caption webpage="portfolio" alt="Link to Absolute Creative Print Twitter"/>
+      <caption webpage="about-us" alt="Link to Absolute Creative Print Twitter"/>
+      <caption webpage="about-us" alt="Link to Absolute Creative Print Twitter"/>
+      <caption webpage="about-us" alt="Link to Absolute Creative Print Twitter"/>
+      <caption webpage="about-us" alt="Link to Absolute Creative Print Twitter"/>
+      <caption webpage="privacy" alt="Link to Absolute Creative Print Twitter"/>
+      <caption webpage="privacy" alt="Link to Absolute Creative Print Twitter"/>
+      <caption webpage="privacy" alt="Link to Absolute Creative Print Twitter"/>
+      <caption webpage="privacy" alt="Link to Absolute Creative Print Twitter"/>
+      <caption webpage="artwork" alt="Link to Absolute Creative Print Twitter"/>
+      <caption webpage="artwork" alt="Link to Absolute Creative Print Twitter"/>
+      <caption webpage="artwork" alt="Link to Absolute Creative Print Twitter"/>
+      <caption webpage="artwork" alt="Link to Absolute Creative Print Twitter"/>
+      <caption webpage="crop---bleed" alt="Link to Absolute Creative Print Twitter"/>
+      <caption webpage="crop---bleed" alt="Link to Absolute Creative Print Twitter"/>
+      <caption webpage="crop---bleed" alt="Link to Absolute Creative Print Twitter"/>
+      <caption webpage="crop---bleed" alt="Link to Absolute Creative Print Twitter"/>
+      <caption webpage="index" alt="Link to Absolute Creative Print Twitter"/>
+      <caption webpage="index" alt="Link to Absolute Creative Print Twitter"/>
+      <caption webpage="index" alt="Link to Absolute Creative Print Twitter"/>
+      <caption webpage="index" alt="Link to Absolute Creative Print Twitter"/>
+      <caption webpage="cookies" alt="Link to Absolute Creative Print Twitter"/>
+      <caption webpage="cookies" alt="Link to Absolute Creative Print Twitter"/>
+      <caption webpage="cookies" alt="Link to Absolute Creative Print Twitter"/>
+      <caption webpage="cookies" alt="Link to Absolute Creative Print Twitter"/>
+      <caption webpage="what-we-do" alt="Link to Absolute Creative Print Twitter"/>
+      <caption webpage="what-we-do" alt="Link to Absolute Creative Print Twitter"/>
+      <caption webpage="what-we-do" alt="Link to Absolute Creative Print Twitter"/>
+      <caption webpage="what-we-do" alt="Link to Absolute Creative Print Twitter"/>
+      <caption webpage="recommend" alt="Link to Absolute Creative Print Twitter"/>
+      <caption webpage="recommend" alt="Link to Absolute Creative Print Twitter"/>
+      <caption webpage="recommend" alt="Link to Absolute Creative Print Twitter"/>
+      <caption webpage="recommend" alt="Link to Absolute Creative Print Twitter"/>
+      <caption webpage="print" alt="Link to Absolute Creative Print Twitter"/>
+      <caption webpage="print" alt="Link to Absolute Creative Print Twitter"/>
+      <caption webpage="print" alt="Link to Absolute Creative Print Twitter"/>
+      <caption webpage="print" alt="Link to Absolute Creative Print Twitter"/>
+      <caption webpage="terms" alt="Link to Absolute Creative Print Twitter"/>
+      <caption webpage="terms" alt="Link to Absolute Creative Print Twitter"/>
+      <caption webpage="terms" alt="Link to Absolute Creative Print Twitter"/>
+      <caption webpage="terms" alt="Link to Absolute Creative Print Twitter"/>
+      <caption webpage="packaging-files" alt="Link to Absolute Creative Print Twitter"/>
+      <caption webpage="packaging-files" alt="Link to Absolute Creative Print Twitter"/>
+      <caption webpage="packaging-files" alt="Link to Absolute Creative Print Twitter"/>
+      <caption webpage="packaging-files" alt="Link to Absolute Creative Print Twitter"/>
+      <caption webpage="customer-service" alt="Link to Absolute Creative Print Twitter"/>
+      <caption webpage="customer-service" alt="Link to Absolute Creative Print Twitter"/>
+      <caption webpage="customer-service" alt="Link to Absolute Creative Print Twitter"/>
+      <caption webpage="customer-service" alt="Link to Absolute Creative Print Twitter"/>
+      <caption webpage="students" alt="Link to Absolute Creative Print Twitter"/>
+      <caption webpage="students" alt="Link to Absolute Creative Print Twitter"/>
+      <caption webpage="students" alt="Link to Absolute Creative Print Twitter"/>
+      <caption webpage="students" alt="Link to Absolute Creative Print Twitter"/>
+      <caption webpage="quality" alt="Link to Absolute Creative Print Twitter"/>
+      <caption webpage="quality" alt="Link to Absolute Creative Print Twitter"/>
+      <caption webpage="quality" alt="Link to Absolute Creative Print Twitter"/>
+      <caption webpage="quality" alt="Link to Absolute Creative Print Twitter"/>
+      <caption webpage="say-hello!" alt="Link to Absolute Creative Print Twitter"/>
+      <caption webpage="say-hello!" alt="Link to Absolute Creative Print Twitter"/>
+      <caption webpage="say-hello!" alt="Link to Absolute Creative Print Twitter"/>
+      <caption webpage="say-hello!" alt="Link to Absolute Creative Print Twitter"/>
+      <caption webpage="design" alt="Link to Absolute Creative Print Twitter"/>
+      <caption webpage="design" alt="Link to Absolute Creative Print Twitter"/>
+      <caption webpage="design" alt="Link to Absolute Creative Print Twitter"/>
+      <caption webpage="design" alt="Link to Absolute Creative Print Twitter"/>
+      <caption webpage="get-a-quote" alt="Link to Absolute Creative Print Twitter"/>
+      <caption webpage="get-a-quote" alt="Link to Absolute Creative Print Twitter"/>
+      <caption webpage="get-a-quote" alt="Link to Absolute Creative Print Twitter"/>
+      <caption webpage="get-a-quote" alt="Link to Absolute Creative Print Twitter"/>
+      <caption webpage="get-a-quote" alt="Link to Absolute Creative Print Twitter"/>
+      <caption webpage="templates" alt="Link to Absolute Creative Print Twitter"/>
+      <caption webpage="templates" alt="Link to Absolute Creative Print Twitter"/>
+      <caption webpage="templates" alt="Link to Absolute Creative Print Twitter"/>
+      <caption webpage="templates" alt="Link to Absolute Creative Print Twitter"/>
+    </file>
+    <file name="acp_twitterlogo_poster_.png" crc="461855374" ref="index:portfolio"/>
+    <file name="acp_menuburger.svg" crc="235126380" ref="index:portfolio"/>
+    <file name="acp_menuburger_poster_u102626.png" crc="97854861" ref="index:portfolio"/>
+    <file name="acp_menuclose.svg" crc="205594616" ref="index:portfolio"/>
+    <file name="acp_menuclose_poster_u102642.png" crc="263519386" ref="index:portfolio"/>
+    <file name="dsc03703-wlsinvestment-1-crop-u581032.jpg" crc="99288131" seo="true" ref="index">
+      <caption webpage="index" alt="Link to Absolute Creative Print's Portfolio"/>
+    </file>
+    <file name="dsc03842-leedscastlepostcards-1-crop-u161132.jpg" crc="16328736" seo="true" ref="index">
+      <caption webpage="index" alt="Link to Absolute Creative Print's Portfolio"/>
+    </file>
+    <file name="dsc03878-tigerrecruitment-1-crop-u161562.jpg" crc="455650769" seo="true" ref="index">
+      <caption webpage="index" alt="Link to Absolute Creative Print's Portfolio"/>
+    </file>
+    <file name="dsc03703-wlsinvestment-1-crop-u581033.jpg" crc="244900328" seo="true" ref="index">
+      <caption webpage="index" alt="Link to Absolute Creative Print's Portfolio"/>
+    </file>
+    <file name="dsc03842-leedscastlepostcards-1-crop-u161133.jpg" crc="50897364" seo="true" ref="index">
+      <caption webpage="index" alt="Link to Absolute Creative Print's Portfolio"/>
+    </file>
+    <file name="acp_fullofbrightideas-white.svg" crc="4036238060" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="acp_fullofbrightideas-white_poster_.png" crc="4064588142" ref="index"/>
+    <file name="dsc03703-wlsinvestment-1-crop-u581034.jpg" crc="4287386261" seo="true" ref="index">
+      <caption webpage="index" alt="Link to Absolute Creative Print's Portfolio"/>
+    </file>
+    <file name="dsc03842-leedscastlepostcards-1-crop-u161134.jpg" crc="4248854094" seo="true" ref="index">
+      <caption webpage="index" alt="Link to Absolute Creative Print's Portfolio"/>
+    </file>
+    <file name="dsc03878-tigerrecruitment-1-crop-u161563.jpg" crc="3828700822" seo="true" ref="index">
+      <caption webpage="index" alt="Link to Absolute Creative Print's Portfolio"/>
+    </file>
+    <file name="acp_websiteheaders-aboutus.jpg" crc="406313401" seo="true" ref="about-us">
+      <caption webpage="about-us" alt="About Us - Header"/>
+      <caption webpage="about-us" alt="About Us - Header"/>
+    </file>
+    <file name="acp_aboutus_creativebunch.svg" crc="508340225" seo="true" ref="about-us">
+      <caption webpage="about-us" alt="We're a creative bunch..."/>
+      <caption webpage="about-us" alt="We're a creative bunch..."/>
+      <caption webpage="about-us" alt="We're a creative bunch..."/>
+      <caption webpage="about-us" alt="We're a creative bunch..."/>
+    </file>
+    <file name="acp_aboutus_creativebunch_poster_.png" crc="4293851563" ref="about-us"/>
+    <file name="acp_aboutus_meettheteam_ellie.svg" crc="4022336978" seo="true" ref="about-us">
+      <caption webpage="about-us" alt="Ellie - Design"/>
+      <caption webpage="about-us" alt="Ellie - Design"/>
+      <caption webpage="about-us" alt=""/>
+      <caption webpage="about-us" alt=""/>
+    </file>
+    <file name="acp_aboutus_meettheteam_ellie_poster_.png" crc="311506283" ref="about-us"/>
+    <file name="acp_aboutus_meettheteam_lauren.svg" crc="423860789" seo="true" ref="about-us">
+      <caption webpage="about-us" alt="Lauren - Design"/>
+      <caption webpage="about-us" alt="Lauren - Design"/>
+      <caption webpage="about-us" alt="Lauren - Design"/>
+      <caption webpage="about-us" alt="Lauren - Design"/>
+    </file>
+    <file name="acp_aboutus_meettheteam_lauren_poster_.png" crc="328715079" ref="about-us"/>
+    <file name="acp_aboutus_meettheteam_chris.svg" crc="244391257" seo="true" ref="about-us">
+      <caption webpage="about-us" alt="Chris - Sales"/>
+      <caption webpage="about-us" alt="Chris - Sales"/>
+      <caption webpage="about-us" alt="Chris - Sales"/>
+      <caption webpage="about-us" alt="Chris - Sales"/>
+    </file>
+    <file name="acp_aboutus_meettheteam_chris_poster_.png" crc="98750251" ref="about-us"/>
+    <file name="acp_aboutus_meettheteam_matt.svg" crc="4198883061" seo="true" ref="about-us">
+      <caption webpage="about-us" alt="Matt - Production"/>
+      <caption webpage="about-us" alt="Matt - Production"/>
+      <caption webpage="about-us" alt="Matt - Production"/>
+      <caption webpage="about-us" alt="Matt - Production"/>
+    </file>
+    <file name="acp_aboutus_meettheteam_matt_poster_.png" crc="4077080346" ref="about-us"/>
+    <file name="acp_aboutus_meettheteam_callum.svg" crc="4093545602" seo="true" ref="about-us">
+      <caption webpage="about-us" alt="Callum - Sales"/>
+      <caption webpage="about-us" alt="Callum - Sales"/>
+      <caption webpage="about-us" alt="Callum - Sales"/>
+      <caption webpage="about-us" alt="Callum - Sales"/>
+    </file>
+    <file name="acp_aboutus_meettheteam_callum_poster_.png" crc="3946444324" ref="about-us"/>
+    <file name="acp_aboutus_meettheteam_bob.svg" crc="3799824602" seo="true" ref="about-us">
+      <caption webpage="about-us" alt="Bob - Production"/>
+      <caption webpage="about-us" alt="Bob - Production"/>
+      <caption webpage="about-us" alt="Bob - Production"/>
+      <caption webpage="about-us" alt="Bob - Production"/>
+    </file>
+    <file name="acp_aboutus_meettheteam_bob_poster_.png" crc="4190439134" ref="about-us"/>
+    <file name="acp_websiteheaders-mobile-480-aboutus.jpg" crc="3840591344" seo="true" ref="about-us">
+      <caption webpage="about-us" alt="About Us header"/>
+    </file>
+    <file name="acp_websiteheaders-mobile-aboutus.jpg" crc="4058503753" seo="true" ref="about-us">
+      <caption webpage="about-us" alt=""/>
+    </file>
+    <file name="acp_clientlogo_jdm.svg" crc="466132282" seo="true" ref="about-us:quality:customer-service">
+      <caption webpage="quality" alt="JDM Estate Agents logo"/>
+      <caption webpage="quality" alt="JDM Estate Agents logo"/>
+      <caption webpage="quality" alt="JDM Estate Agents logo"/>
+      <caption webpage="customer-service" alt="JDM Estate Agents logo"/>
+      <caption webpage="customer-service" alt="JDM Estate Agents logo"/>
+      <caption webpage="customer-service" alt="JDM Estate Agents logo"/>
+      <caption webpage="about-us" alt="JDM Estate Agents logo"/>
+    </file>
+    <file name="acp_clientlogo_jdm_poster_.png" crc="4098780594" ref="about-us"/>
+    <file name="acp_clientlogo_leedscastle.svg" crc="4275095507" seo="true" ref="about-us:quality:customer-service">
+      <caption webpage="quality" alt="Leeds Castle logo"/>
+      <caption webpage="quality" alt="Leeds Castle logo"/>
+      <caption webpage="quality" alt="Leeds Castle logo"/>
+      <caption webpage="customer-service" alt="Leeds Castle logo"/>
+      <caption webpage="customer-service" alt="Leeds Castle logo"/>
+      <caption webpage="customer-service" alt="Leeds Castle logo"/>
+      <caption webpage="about-us" alt="Leeds Castle logo"/>
+    </file>
+    <file name="acp_clientlogo_leedscastle_poster_.png" crc="493213974" ref="about-us"/>
+    <file name="acp_clientlogo_hazlitttheatre.svg" crc="4254522058" seo="true" ref="about-us:quality:customer-service">
+      <caption webpage="quality" alt="Hazlitt Theatre logo"/>
+      <caption webpage="quality" alt="Hazlitt Theatre logo"/>
+      <caption webpage="quality" alt="Hazlitt Theatre logo"/>
+      <caption webpage="customer-service" alt="Hazlitt Theatre logo"/>
+      <caption webpage="customer-service" alt="Hazlitt Theatre logo"/>
+      <caption webpage="customer-service" alt="Hazlitt Theatre logo"/>
+      <caption webpage="about-us" alt="Hazlitt Theatre logo"/>
+    </file>
+    <file name="acp_clientlogo_hazlitttheatre_poster_.png" crc="4051506586" ref="about-us"/>
+    <file name="acp_clientlogo_sourcebar.svg" crc="31277748" seo="true" ref="about-us:quality:customer-service">
+      <caption webpage="quality" alt="Source Bar logo"/>
+      <caption webpage="quality" alt="Source Bar logo"/>
+      <caption webpage="quality" alt="Source Bar logo"/>
+      <caption webpage="customer-service" alt="Source Bar logo"/>
+      <caption webpage="customer-service" alt="Source Bar logo"/>
+      <caption webpage="customer-service" alt="Source Bar logo"/>
+      <caption webpage="about-us" alt="Source Bar logo"/>
+    </file>
+    <file name="acp_clientlogo_sourcebar_poster_.png" crc="4293323875" ref="about-us"/>
+    <file name="acp_clientlogo_sportsrecruitment.svg" crc="4123954899" seo="true" ref="about-us:quality:customer-service">
+      <caption webpage="quality" alt="Sports Recruitment International logo"/>
+      <caption webpage="quality" alt="Sports Recruitment International logo"/>
+      <caption webpage="quality" alt="Sports Recruitment International logo"/>
+      <caption webpage="customer-service" alt="Sports Recruitment International logo"/>
+      <caption webpage="customer-service" alt="Sports Recruitment International logo"/>
+      <caption webpage="customer-service" alt="Sports Recruitment International logo"/>
+      <caption webpage="about-us" alt="Sports Recruitment International logo"/>
+    </file>
+    <file name="acp_clientlogo_sportsrecruitment_poster_.png" crc="428437652" ref="about-us"/>
+    <file name="acp_clientlogo_kcc.svg" crc="4245759308" seo="true" ref="about-us:quality:customer-service">
+      <caption webpage="quality" alt="Kent County Council logo"/>
+      <caption webpage="quality" alt="Kent County Council logo"/>
+      <caption webpage="quality" alt="Kent County Council logo"/>
+      <caption webpage="customer-service" alt="Kent County Council logo"/>
+      <caption webpage="customer-service" alt="Kent County Council logo"/>
+      <caption webpage="customer-service" alt="Kent County Council logo"/>
+      <caption webpage="about-us" alt="Kent County Council logo"/>
+    </file>
+    <file name="acp_clientlogo_kcc_poster_.png" crc="4214918241" ref="about-us"/>
+    <file name="acp_clientlogo_tigerrecruitment.svg" crc="3912930050" seo="true" ref="about-us:quality:customer-service">
+      <caption webpage="quality" alt="Tiger Recruitment logo"/>
+      <caption webpage="quality" alt="Tiger Recruitment logo"/>
+      <caption webpage="quality" alt="Tiger Recruitment logo"/>
+      <caption webpage="customer-service" alt="Tiger Recruitment logo"/>
+      <caption webpage="customer-service" alt="Tiger Recruitment logo"/>
+      <caption webpage="customer-service" alt="Tiger Recruitment logo"/>
+      <caption webpage="about-us" alt="Tiger Recruitment logo"/>
+    </file>
+    <file name="acp_clientlogo_tigerrecruitment_poster_.png" crc="4159027495" ref="about-us"/>
+    <file name="acp_clientlogo_rssales.svg" crc="342654665" seo="true" ref="about-us:quality:customer-service">
+      <caption webpage="quality" alt="RS Sales logo"/>
+      <caption webpage="quality" alt="RS Sales logo"/>
+      <caption webpage="quality" alt="RS Sales logo"/>
+      <caption webpage="customer-service" alt="RS Sales logo"/>
+      <caption webpage="customer-service" alt="RS Sales logo"/>
+      <caption webpage="customer-service" alt="RS Sales logo"/>
+      <caption webpage="about-us" alt="RS Sales logo"/>
+    </file>
+    <file name="acp_clientlogo_rssales_poster_.png" crc="79940" ref="about-us"/>
+    <file name="acp_clientlogo_ralphsteadman.svg" crc="168267728" seo="true" ref="about-us:quality:customer-service">
+      <caption webpage="quality" alt="Ralph Steadman logo"/>
+      <caption webpage="quality" alt="Ralph Steadman logo"/>
+      <caption webpage="quality" alt="Ralph Steadman logo"/>
+      <caption webpage="customer-service" alt="Ralph Steadman logo"/>
+      <caption webpage="customer-service" alt="Ralph Steadman logo"/>
+      <caption webpage="customer-service" alt="Ralph Steadman logo"/>
+      <caption webpage="about-us" alt="Ralph Steadman logo"/>
+    </file>
+    <file name="acp_clientlogo_ralphsteadman_poster_.png" crc="186679250" ref="about-us"/>
+    <file name="acp_clientlogo_uca.svg" crc="3874854306" seo="true" ref="about-us:quality:customer-service">
+      <caption webpage="quality" alt="UCA: University for the Creative Arts logo"/>
+      <caption webpage="quality" alt="UCA: University for the Creative Arts logo"/>
+      <caption webpage="quality" alt="UCA: University for the Creative Arts logo"/>
+      <caption webpage="customer-service" alt="UCA: University for the Creative Arts logo"/>
+      <caption webpage="customer-service" alt="UCA: University for the Creative Arts logo"/>
+      <caption webpage="customer-service" alt="UCA: University for the Creative Arts logo"/>
+      <caption webpage="about-us" alt="UCA: University for the Creative Arts logo"/>
+    </file>
+    <file name="acp_clientlogo_uca_poster_.png" crc="3792776915" ref="about-us"/>
+    <file name="acp_clientlogo_hokhospice.svg" crc="4194205594" seo="true" ref="about-us:quality:customer-service">
+      <caption webpage="quality" alt="Heart of Kent Hospice logo"/>
+      <caption webpage="quality" alt="Heart of Kent Hospice logo"/>
+      <caption webpage="quality" alt="Heart of Kent Hospice logo"/>
+      <caption webpage="customer-service" alt="Heart of Kent Hospice logo"/>
+      <caption webpage="customer-service" alt="Heart of Kent Hospice logo"/>
+      <caption webpage="customer-service" alt="Heart of Kent Hospice logo"/>
+      <caption webpage="about-us" alt="Heart of Kent Hospice logo"/>
+    </file>
+    <file name="acp_clientlogo_hokhospice_poster_.png" crc="3950801222" ref="about-us"/>
+    <file name="acp_clientlogo_adamscreative.svg" crc="3946335707" seo="true" ref="about-us:quality:customer-service">
+      <caption webpage="quality" alt="Adams Group logo"/>
+      <caption webpage="quality" alt="Adams Group logo"/>
+      <caption webpage="quality" alt="Adams Group logo"/>
+      <caption webpage="customer-service" alt="Adams Group logo"/>
+      <caption webpage="customer-service" alt="Adams Group logo"/>
+      <caption webpage="customer-service" alt="Adams Group logo"/>
+      <caption webpage="about-us" alt="Adams Group logo"/>
+    </file>
+    <file name="acp_clientlogo_adamscreative_poster_.png" crc="112077950" ref="about-us"/>
+    <file name="acp_clientlogo_ferris-co.svg" crc="259190032" seo="true" ref="about-us:quality:customer-service">
+      <caption webpage="quality" alt="Ferris &amp; Co logo"/>
+      <caption webpage="quality" alt="Ferris &amp; Co logo"/>
+      <caption webpage="quality" alt="Ferris &amp; Co logo"/>
+      <caption webpage="customer-service" alt="Ferris &amp; Co logo"/>
+      <caption webpage="customer-service" alt="Ferris &amp; Co logo"/>
+      <caption webpage="customer-service" alt="Ferris &amp; Co logo"/>
+      <caption webpage="about-us" alt="Ferris &amp; Co logo"/>
+    </file>
+    <file name="acp_clientlogo_ferris-co_poster_.png" crc="401541307" ref="about-us"/>
+    <file name="acp_clientlogo_lashings.svg" crc="458375824" seo="true" ref="about-us:quality:customer-service">
+      <caption webpage="quality" alt="Lashings logo"/>
+      <caption webpage="quality" alt="Lashings logo"/>
+      <caption webpage="quality" alt="Lashings logo"/>
+      <caption webpage="customer-service" alt="Lashings logo"/>
+      <caption webpage="customer-service" alt="Lashings logo"/>
+      <caption webpage="customer-service" alt="Lashings logo"/>
+      <caption webpage="about-us" alt="Lashings logo"/>
+    </file>
+    <file name="acp_clientlogo_lashings_poster_.png" crc="388931274" ref="about-us"/>
+    <file name="acp_clientlogo_infinite.svg" crc="368268202" seo="true" ref="about-us:quality:customer-service">
+      <caption webpage="quality" alt="Infinite Group logo"/>
+      <caption webpage="quality" alt="Infinite Group logo"/>
+      <caption webpage="quality" alt="Infinite Group logo"/>
+      <caption webpage="customer-service" alt="Infinite Group logo"/>
+      <caption webpage="customer-service" alt="Infinite Group logo"/>
+      <caption webpage="customer-service" alt="Infinite Group logo"/>
+      <caption webpage="about-us" alt="Infinite Group logo"/>
+    </file>
+    <file name="acp_clientlogo_infinite_poster_.png" crc="4049392263" ref="about-us"/>
+    <file name="acp_clientlogo_mke.svg" crc="3821554901" seo="true" ref="about-us:quality:customer-service">
+      <caption webpage="quality" alt="MKE Engineering Group logo"/>
+      <caption webpage="quality" alt="MKE Engineering Group logo"/>
+      <caption webpage="quality" alt="MKE Engineering Group logo"/>
+      <caption webpage="customer-service" alt="MKE Engineering Group logo"/>
+      <caption webpage="customer-service" alt="MKE Engineering Group logo"/>
+      <caption webpage="customer-service" alt="MKE Engineering Group logo"/>
+      <caption webpage="about-us" alt="MKE Engineering Group logo"/>
+    </file>
+    <file name="acp_clientlogo_mke_poster_.png" crc="4123193075" ref="about-us"/>
+    <file name="acp_clientlogo_thaipalace.svg" crc="510315533" seo="true" ref="about-us:quality:customer-service">
+      <caption webpage="quality" alt="Thai Palace logo"/>
+      <caption webpage="quality" alt="Thai Palace logo"/>
+      <caption webpage="quality" alt="Thai Palace logo"/>
+      <caption webpage="customer-service" alt="Thai Palace logo"/>
+      <caption webpage="customer-service" alt="Thai Palace logo"/>
+      <caption webpage="customer-service" alt="Thai Palace logo"/>
+      <caption webpage="about-us" alt="Thai Palace logo"/>
+    </file>
+    <file name="acp_clientlogo_thaipalace_poster_.png" crc="125798" ref="about-us"/>
+    <file name="acp_clientlogo_hmscommercial.svg" crc="337668889" seo="true" ref="about-us:quality:customer-service">
+      <caption webpage="quality" alt="HMS Commercial Services logo"/>
+      <caption webpage="quality" alt="HMS Commercial Services logo"/>
+      <caption webpage="quality" alt="HMS Commercial Services logo"/>
+      <caption webpage="customer-service" alt="HMS Commercial Services logo"/>
+      <caption webpage="customer-service" alt="HMS Commercial Services logo"/>
+      <caption webpage="customer-service" alt="HMS Commercial Services logo"/>
+      <caption webpage="about-us" alt="HMS Commercial Services logo"/>
+    </file>
+    <file name="acp_clientlogo_hmscommercial_poster_.png" crc="4207004536" ref="about-us"/>
+    <file name="acp_clientlogo_asi.svg" crc="295770864" seo="true" ref="about-us:quality:customer-service">
+      <caption webpage="quality" alt="ASI logo"/>
+      <caption webpage="quality" alt="ASI logo"/>
+      <caption webpage="quality" alt="ASI logo"/>
+      <caption webpage="customer-service" alt="ASI logo"/>
+      <caption webpage="customer-service" alt="ASI logo"/>
+      <caption webpage="customer-service" alt="ASI logo"/>
+      <caption webpage="about-us" alt="ASI logo"/>
+    </file>
+    <file name="acp_clientlogo_asi_poster_.png" crc="4062431738" ref="about-us"/>
+    <file name="acp_clientlogo_albionendo.svg" crc="4272878562" seo="true" ref="about-us:quality:customer-service">
+      <caption webpage="quality" alt="Albion Endodontics logo"/>
+      <caption webpage="quality" alt="Albion Endodontics logo"/>
+      <caption webpage="quality" alt="Albion Endodontics logo"/>
+      <caption webpage="customer-service" alt="Albion Endodontics logo"/>
+      <caption webpage="customer-service" alt="Albion Endodontics logo"/>
+      <caption webpage="customer-service" alt="Albion Endodontics logo"/>
+      <caption webpage="about-us" alt="Albion Endodontics logo"/>
+    </file>
+    <file name="acp_clientlogo_albionendo_poster_.png" crc="360387760" ref="about-us"/>
+    <file name="acp_clientlogo_ngage.svg" crc="3765516259" seo="true" ref="about-us:quality:customer-service">
+      <caption webpage="quality" alt="nGage Specialist Recruitment logo"/>
+      <caption webpage="quality" alt="nGage Specialist Recruitment logo"/>
+      <caption webpage="quality" alt="nGage Specialist Recruitment logo"/>
+      <caption webpage="customer-service" alt="nGage Specialist Recruitment logo"/>
+      <caption webpage="customer-service" alt="nGage Specialist Recruitment logo"/>
+      <caption webpage="customer-service" alt="nGage Specialist Recruitment logo"/>
+      <caption webpage="about-us" alt="nGage Specialist Recruitment logo"/>
+    </file>
+    <file name="acp_clientlogo_ngage_poster_.png" crc="89499949" ref="about-us"/>
+    <file name="acp_clientlogo_kikiland.svg" crc="270516955" seo="true" ref="about-us:quality:customer-service">
+      <caption webpage="quality" alt="Kikiland logo"/>
+      <caption webpage="quality" alt="Kikiland logo"/>
+      <caption webpage="quality" alt="Kikiland logo"/>
+      <caption webpage="customer-service" alt="Kikiland logo"/>
+      <caption webpage="customer-service" alt="Kikiland logo"/>
+      <caption webpage="customer-service" alt="Kikiland logo"/>
+      <caption webpage="about-us" alt="Kikiland logo"/>
+    </file>
+    <file name="acp_clientlogo_kikiland_poster_.png" crc="490771896" ref="about-us"/>
+    <file name="acp_clientlogo_toolroom.svg" crc="4208702398" seo="true" ref="about-us:quality:customer-service">
+      <caption webpage="quality" alt="Toolroom logo"/>
+      <caption webpage="quality" alt="Toolroom logo"/>
+      <caption webpage="quality" alt="Toolroom logo"/>
+      <caption webpage="customer-service" alt="Toolroom logo"/>
+      <caption webpage="customer-service" alt="Toolroom logo"/>
+      <caption webpage="customer-service" alt="Toolroom logo"/>
+      <caption webpage="about-us" alt="Toolroom logo"/>
+    </file>
+    <file name="acp_clientlogo_toolroom_poster_.png" crc="4076132453" ref="about-us"/>
+    <file name="acp_clientlogo_plumberquick.svg" crc="82416609" seo="true" ref="about-us:quality:customer-service">
+      <caption webpage="quality" alt="Plumber Quick logo"/>
+      <caption webpage="quality" alt="Plumber Quick logo"/>
+      <caption webpage="quality" alt="Plumber Quick logo"/>
+      <caption webpage="customer-service" alt="Plumber Quick logo"/>
+      <caption webpage="customer-service" alt="Plumber Quick logo"/>
+      <caption webpage="customer-service" alt="Plumber Quick logo"/>
+      <caption webpage="about-us" alt="Plumber Quick logo"/>
+    </file>
+    <file name="acp_clientlogo_plumberquick_poster_.png" crc="477832648" ref="about-us"/>
+    <file name="acp_clientlogo_brillhosp.svg" crc="128183321" seo="true" ref="about-us:quality:customer-service">
+      <caption webpage="quality" alt="Brilliant Hospitality logo"/>
+      <caption webpage="quality" alt="Brilliant Hospitality logo"/>
+      <caption webpage="quality" alt="Brilliant Hospitality logo"/>
+      <caption webpage="customer-service" alt="Brilliant Hospitality logo"/>
+      <caption webpage="customer-service" alt="Brilliant Hospitality logo"/>
+      <caption webpage="customer-service" alt="Brilliant Hospitality logo"/>
+      <caption webpage="about-us" alt="Brilliant Hospitality logo"/>
+    </file>
+    <file name="acp_clientlogo_brillhosp_poster_.png" crc="383740179" ref="about-us"/>
+    <file name="acp_clientlogo_lapelmenshire.svg" crc="3771023765" seo="true" ref="about-us:quality:customer-service">
+      <caption webpage="quality" alt="Lapel Mens Hire logo"/>
+      <caption webpage="quality" alt="Lapel Mens Hire logo"/>
+      <caption webpage="quality" alt="Lapel Mens Hire logo"/>
+      <caption webpage="customer-service" alt="Lapel Mens Hire logo"/>
+      <caption webpage="customer-service" alt="Lapel Mens Hire logo"/>
+      <caption webpage="customer-service" alt="Lapel Mens Hire logo"/>
+      <caption webpage="about-us" alt="Lapel Mens Hire logo"/>
+    </file>
+    <file name="acp_clientlogo_lapelmenshire_poster_.png" crc="4153249712" ref="about-us"/>
+    <file name="acp_clientlogo_ubonsafari.svg" crc="111705693" seo="true" ref="about-us:quality:customer-service">
+      <caption webpage="quality" alt="UBon Safari logo"/>
+      <caption webpage="quality" alt="UBon Safari logo"/>
+      <caption webpage="quality" alt="UBon Safari logo"/>
+      <caption webpage="customer-service" alt="UBon Safari logo"/>
+      <caption webpage="customer-service" alt="UBon Safari logo"/>
+      <caption webpage="customer-service" alt="UBon Safari logo"/>
+      <caption webpage="about-us" alt="UBon Safari logo"/>
+    </file>
+    <file name="acp_clientlogo_ubonsafari_poster_.png" crc="3920990222" ref="about-us"/>
+    <file name="acp_clientlogo_royalstar.svg" crc="384995916" seo="true" ref="about-us:quality:customer-service">
+      <caption webpage="quality" alt="Royal Star Cafe logo"/>
+      <caption webpage="quality" alt="Royal Star Cafe logo"/>
+      <caption webpage="quality" alt="Royal Star Cafe logo"/>
+      <caption webpage="customer-service" alt="Royal Star Cafe logo"/>
+      <caption webpage="customer-service" alt="Royal Star Cafe logo"/>
+      <caption webpage="customer-service" alt="Royal Star Cafe logo"/>
+      <caption webpage="about-us" alt="Royal Star Cafe logo"/>
+    </file>
+    <file name="acp_clientlogo_royalstar_poster_.png" crc="21987068" ref="about-us"/>
+    <file name="acp_clientlogo_dragracing.svg" crc="4177063596" seo="true" ref="about-us:quality:customer-service">
+      <caption webpage="quality" alt="British Drag Racing Hall of Fame logo"/>
+      <caption webpage="quality" alt="British Drag Racing Hall of Fame logo"/>
+      <caption webpage="quality" alt="British Drag Racing Hall of Fame logo"/>
+      <caption webpage="customer-service" alt="British Drag Racing Hall of Fame logo"/>
+      <caption webpage="customer-service" alt="British Drag Racing Hall of Fame logo"/>
+      <caption webpage="customer-service" alt="British Drag Racing Hall of Fame logo"/>
+      <caption webpage="about-us" alt="British Drag Racing Hall of Fame logo"/>
+    </file>
+    <file name="acp_clientlogo_dragracing_poster_.png" crc="3869677307" ref="about-us"/>
+    <file name="acp_clientlogo_royaldocks.svg" crc="4162136382" seo="true" ref="about-us:quality:customer-service">
+      <caption webpage="quality" alt="Royal Docks Property Services logo"/>
+      <caption webpage="quality" alt="Royal Docks Property Services logo"/>
+      <caption webpage="quality" alt="Royal Docks Property Services logo"/>
+      <caption webpage="customer-service" alt="Royal Docks Property Services logo"/>
+      <caption webpage="customer-service" alt="Royal Docks Property Services logo"/>
+      <caption webpage="customer-service" alt="Royal Docks Property Services logo"/>
+      <caption webpage="about-us" alt="Royal Docks Property Services logo"/>
+    </file>
+    <file name="acp_clientlogo_royaldocks_poster_.png" crc="293177917" ref="about-us"/>
+    <file name="acp_clientlogo_solohairstudio.svg" crc="330449918" seo="true" ref="about-us:quality:customer-service">
+      <caption webpage="quality" alt="Solo Hair Studio logo"/>
+      <caption webpage="quality" alt="Solo Hair Studio logo"/>
+      <caption webpage="quality" alt="Solo Hair Studio logo"/>
+      <caption webpage="customer-service" alt="Solo Hair Studio logo"/>
+      <caption webpage="customer-service" alt="Solo Hair Studio logo"/>
+      <caption webpage="customer-service" alt="Solo Hair Studio logo"/>
+      <caption webpage="about-us" alt="Solo Hair Studio logo"/>
+    </file>
+    <file name="acp_clientlogo_solohairstudio_poster_.png" crc="4127246482" ref="about-us"/>
+    <file name="acp_clientlogo_sunbright.svg" crc="533204924" seo="true" ref="about-us:quality:customer-service">
+      <caption webpage="quality" alt="Sunbright logo"/>
+      <caption webpage="quality" alt="Sunbright logo"/>
+      <caption webpage="quality" alt="Sunbright logo"/>
+      <caption webpage="customer-service" alt="Sunbright logo"/>
+      <caption webpage="customer-service" alt="Sunbright logo"/>
+      <caption webpage="customer-service" alt="Sunbright logo"/>
+      <caption webpage="about-us" alt="Sunbright logo"/>
+    </file>
+    <file name="acp_clientlogo_sunbright_poster_.png" crc="4221633735" ref="about-us"/>
+    <file name="acp_clientlogo_priorygate.svg" crc="4214940123" seo="true" ref="about-us:quality:customer-service">
+      <caption webpage="quality" alt="Priory Gate, Maidstone logo"/>
+      <caption webpage="quality" alt="Priory Gate, Maidstone logo"/>
+      <caption webpage="quality" alt="Priory Gate, Maidstone logo"/>
+      <caption webpage="customer-service" alt="Priory Gate, Maidstone logo"/>
+      <caption webpage="customer-service" alt="Priory Gate, Maidstone logo"/>
+      <caption webpage="customer-service" alt="Priory Gate, Maidstone logo"/>
+      <caption webpage="about-us" alt="Priory Gate, Maidstone logo"/>
+    </file>
+    <file name="acp_clientlogo_priorygate_poster_.png" crc="287837501" ref="about-us"/>
+    <file name="acp_clientlogo_sibleypares.svg" crc="4127653262" seo="true" ref="about-us:quality:customer-service">
+      <caption webpage="quality" alt="Sibley Pares logo"/>
+      <caption webpage="quality" alt="Sibley Pares logo"/>
+      <caption webpage="quality" alt="Sibley Pares logo"/>
+      <caption webpage="customer-service" alt="Sibley Pares logo"/>
+      <caption webpage="customer-service" alt="Sibley Pares logo"/>
+      <caption webpage="customer-service" alt="Sibley Pares logo"/>
+      <caption webpage="about-us" alt="Sibley Pares logo"/>
+    </file>
+    <file name="acp_clientlogo_sibleypares_poster_.png" crc="3889413150" ref="about-us"/>
+    <file name="acp_clientlogo_coregym.svg" crc="4280714603" seo="true" ref="about-us:quality:customer-service">
+      <caption webpage="quality" alt="CORE Gym logo"/>
+      <caption webpage="quality" alt="CORE Gym logo"/>
+      <caption webpage="quality" alt="CORE Gym logo"/>
+      <caption webpage="customer-service" alt="CORE Gym logo"/>
+      <caption webpage="customer-service" alt="CORE Gym logo"/>
+      <caption webpage="customer-service" alt="CORE Gym logo"/>
+      <caption webpage="about-us" alt="CORE Gym logo"/>
+    </file>
+    <file name="acp_clientlogo_coregym_poster_.png" crc="3879837539" ref="about-us"/>
+    <file name="acp_clientlogo_excelconstruction.svg" crc="4191039168" seo="true" ref="about-us:quality:customer-service">
+      <caption webpage="quality" alt="Excel Construction Kent Ltd logo"/>
+      <caption webpage="quality" alt="Excel Construction Kent Ltd logo"/>
+      <caption webpage="quality" alt="Excel Construction Kent Ltd logo"/>
+      <caption webpage="customer-service" alt="Excel Construction Kent Ltd logo"/>
+      <caption webpage="customer-service" alt="Excel Construction Kent Ltd logo"/>
+      <caption webpage="customer-service" alt="Excel Construction Kent Ltd logo"/>
+      <caption webpage="about-us" alt="Excel Construction Kent Ltd logo"/>
+    </file>
+    <file name="acp_clientlogo_excelconstruction_poster_.png" crc="4023618949" ref="about-us"/>
+    <file name="acp_websiteheaders-portfolio.jpg" crc="255018986" seo="true" ref="portfolio:quality:customer-service">
+      <caption webpage="portfolio" alt="Portfolio header"/>
+      <caption webpage="portfolio" alt="Portfolio header"/>
+      <caption webpage="customer-service" alt="Fantastic Quality Guaranteed"/>
+      <caption webpage="customer-service" alt="Portfolio header"/>
+      <caption webpage="quality" alt="Portfolio header"/>
+      <caption webpage="quality" alt="Portfolio header"/>
+    </file>
+    <file name="dsc03718-leedscastle-1-crop-u72539.jpg" crc="4260034168" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Laser-cut greetings cards for a local tourist spot"/>
+    </file>
+    <file name="dsc03842-leedscastlepostcards-1-crop-u72543.jpg" crc="3909659586" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Printed postcards to sell in a gift shop"/>
+    </file>
+    <file name="dsc03796-ralphsteadman-1-crop-u72541.jpg" crc="517433960" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Folded leaflet design for an art exhibition"/>
+    </file>
+    <file name="dsc03703-wlsinvestment-1-crop-u57583.jpg" crc="475002001" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Printed and designed by Absolute Creative Print"/>
+    </file>
+    <file name="dsc04183-miad-1-crop-u57589.jpg" crc="3824605520" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Flyers for an International Arts Festival"/>
+    </file>
+    <file name="dsc03998-m-scontractors-2-crop-u57592.jpg" crc="450053969" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Flyers for a local construction company"/>
+    </file>
+    <file name="dsc04204-stmichaels-1-crop-u57627.jpg" crc="3758189245" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Folder designed and printed for a local nusery"/>
+    </file>
+    <file name="dsc03936-dlishious-1-crop-u57624.jpg" crc="4249524698" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Printed and laminated menu"/>
+    </file>
+    <file name="dsc03853-ksod-1-crop-u57621.jpg" crc="42551290" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Stapled booklets for a local dance company"/>
+    </file>
+    <file name="dsc03878-tigerrecruitment-1-crop-u57655.jpg" crc="4090061339" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Folded leaflet for a London-based recruitment agency"/>
+    </file>
+    <file name="dsc03749-oldcourse-3-crop-u57658.jpg" crc="503268138" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Hotel brochure"/>
+    </file>
+    <file name="dsc04207-leahsbistro-1-crop-u57664.jpg" crc="4010443801" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Menus printed and designed by Absolute Creative Print"/>
+    </file>
+    <file name="dsc03779-nailsbykelly-1-crop-u57688.jpg" crc="266913599" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Price guides and stationery for a local beauty therapist"/>
+    </file>
+    <file name="dsc03750-loveatfirstbite-2-crop-u57691.jpg" crc="115073959" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Flyers design and printed for a local cafe"/>
+    </file>
+    <file name="dsc04272-maidstoneshelter-1-crop-u57694.jpg" crc="3854623036" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Booklets for a local homeless charity"/>
+    </file>
+    <file name="dsc03901-ucaleaflet-2-crop-u57718.jpg" crc="4291142884" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Folded leaflets for a local creative university"/>
+    </file>
+    <file name="dsc04290-jptrailers-1-crop-u72370.jpg" crc="435764948" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Litho-printed business cards"/>
+    </file>
+    <file name="dsc03917-ferris-co-1-crop-u57724.jpg" crc="3954248430" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Property brochure for a local estate agents"/>
+    </file>
+    <file name="dsc04180-paulwhitehouse-1-crop-u71383.jpg" crc="3793404938" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Art prints"/>
+    </file>
+    <file name="dsc04212-sunbright-1-crop-u71385.jpg" crc="4284998206" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Folders for a local energy company"/>
+    </file>
+    <file name="dsc04325-janetnorfolk-1-crop-u71387.jpg" crc="3911719415" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Foilblocked perfect bound book for a local poet"/>
+    </file>
+    <file name="dsc03832-yaldingdiary-1-crop-u57721.jpg" crc="3800101376" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Primary school reading diaries"/>
+    </file>
+    <file name="dsc04340-hazlitttheatre-1-crop-u72372.jpg" crc="4061956909" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Membership cards for a local theatre"/>
+    </file>
+    <file name="dsc04263-jdminvites-1-crop-u72374.jpg" crc="24798461" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Folded invitations for a local estate agency"/>
+    </file>
+    <file name="dsc03718-leedscastle-1-crop-u725392.jpg" crc="4042668752" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Laser-cut greetings cards for a local tourist spot"/>
+    </file>
+    <file name="dsc03842-leedscastlepostcards-1-crop-u725432.jpg" crc="488381082" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Printed postcards to sell in a gift shop"/>
+    </file>
+    <file name="dsc03796-ralphsteadman-1-crop-u725412.jpg" crc="415446947" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Folded leaflet design for an art exhibition"/>
+    </file>
+    <file name="dsc03703-wlsinvestment-1-crop-u575832.jpg" crc="3922834442" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Printed and designed by Absolute Creative Print"/>
+    </file>
+    <file name="dsc04183-miad-1-crop-u575892.jpg" crc="3804151921" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Flyers for an International Arts Festival"/>
+    </file>
+    <file name="dsc03998-m-scontractors-2-crop-u575922.jpg" crc="3961539025" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Flyers for a local construction company"/>
+    </file>
+    <file name="dsc04204-stmichaels-1-crop-u576272.jpg" crc="425927366" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Folder designed and printed for a local nusery"/>
+    </file>
+    <file name="dsc03936-dlishious-1-crop-u576242.jpg" crc="4047489611" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Printed and laminated menu"/>
+    </file>
+    <file name="dsc03853-ksod-1-crop-u576212.jpg" crc="4037816531" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Stapled booklets for a local dance company"/>
+    </file>
+    <file name="dsc03878-tigerrecruitment-1-crop-u576552.jpg" crc="502605376" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Folded leaflet for a London-based recruitment agency"/>
+    </file>
+    <file name="dsc03749-oldcourse-3-crop-u576582.jpg" crc="339237916" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Hotel brochure"/>
+    </file>
+    <file name="dsc04207-leahsbistro-1-crop-u576642.jpg" crc="182621934" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Menus printed and designed by Absolute Creative Print"/>
+    </file>
+    <file name="dsc03779-nailsbykelly-1-crop-u576882.jpg" crc="196994170" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Price guides and stationery for a local beauty therapist"/>
+    </file>
+    <file name="dsc03750-loveatfirstbite-2-crop-u576912.jpg" crc="3784675923" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Flyers design and printed for a local cafe"/>
+    </file>
+    <file name="dsc04272-maidstoneshelter-1-crop-u576942.jpg" crc="214266458" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Booklets for a local homeless charity"/>
+    </file>
+    <file name="dsc03901-ucaleaflet-2-crop-u577182.jpg" crc="156021993" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Folded leaflets for a local creative university"/>
+    </file>
+    <file name="dsc04290-jptrailers-1-crop-u723702.jpg" crc="4163140003" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Litho-printed business cards"/>
+    </file>
+    <file name="dsc03917-ferris-co-1-crop-u577242.jpg" crc="3774798045" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Property brochure for a local estate agents"/>
+    </file>
+    <file name="dsc04180-paulwhitehouse-1-crop-u713832.jpg" crc="446635438" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Art prints"/>
+    </file>
+    <file name="dsc04212-sunbright-1-crop-u713852.jpg" crc="331524672" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Folders for a local energy company"/>
+    </file>
+    <file name="dsc04325-janetnorfolk-1-crop-u713872.jpg" crc="4267664753" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Foilblocked perfect bound book for a local poet"/>
+    </file>
+    <file name="dsc03832-yaldingdiary-1-crop-u577212.jpg" crc="369740652" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Primary school reading diaries"/>
+    </file>
+    <file name="dsc04340-hazlitttheatre-1-crop-u723722.jpg" crc="489023532" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Membership cards for a local theatre"/>
+    </file>
+    <file name="dsc04263-jdminvites-1-crop-u723742.jpg" crc="4011552477" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Folded invitations for a local estate agency"/>
+    </file>
+    <file name="dsc03718-leedscastle-1-crop-u72874.jpg" crc="4157381152" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Laser cut greetings cards"/>
+    </file>
+    <file name="dsc03836-leedscastlepotcards-2-crop-u72879.jpg" crc="4159602992" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Postcards"/>
+    </file>
+    <file name="dsc03703-wlsinvestment-1-crop-u72888.jpg" crc="112838569" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Foilbocked business cards"/>
+    </file>
+    <file name="acp_websiteheaders-mobile-480-portfolio.jpg" crc="362985235" seo="true" ref="portfolio:quality:customer-service">
+      <caption webpage="portfolio" alt=""/>
+      <caption webpage="customer-service" alt=""/>
+      <caption webpage="quality" alt=""/>
+    </file>
+    <file name="dsc03853-ksod-1-crop-u72992.jpg" crc="4204373091" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Stapled booklets"/>
+    </file>
+    <file name="dsc03936-dlishious-1-crop-u72993.jpg" crc="124251366" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Menus"/>
+    </file>
+    <file name="dsc03878-tigerrecruitment-1-crop-u72994.jpg" crc="3888824818" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Folded leaflets"/>
+    </file>
+    <file name="dsc03796-ralphsteadman-1-crop-u72934.jpg" crc="359036822" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Folded leaflets"/>
+    </file>
+    <file name="dsc04183-miad-1-crop-u72939.jpg" crc="91376951" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Flyers"/>
+    </file>
+    <file name="dsc04204-stmichaels-1-crop-u72948.jpg" crc="4293765917" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Folders"/>
+    </file>
+    <file name="dsc03998-m-scontractors-2-crop-u73061.jpg" crc="476447122" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Flyers"/>
+    </file>
+    <file name="dsc04207-leahsbistro-1-crop-u73062.jpg" crc="3833210157" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Menus"/>
+    </file>
+    <file name="dsc03779-nailsbykelly-1-crop-u73063.jpg" crc="4048733160" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Price guides and stationery"/>
+    </file>
+    <file name="dsc03750-loveatfirstbite-2-crop-u73118.jpg" crc="4046631349" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Flyers"/>
+    </file>
+    <file name="dsc04290-jptrailers-1-crop-u73119.jpg" crc="173536668" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Litho-printed business cards"/>
+    </file>
+    <file name="dsc03749-oldcourse-3-crop-u73120.jpg" crc="3909129040" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Hotel brochures"/>
+    </file>
+    <file name="dsc04272-maidstoneshelter-1-crop-u73175.jpg" crc="40738485" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Stapled booklets"/>
+    </file>
+    <file name="dsc04325-janetnorfolk-1-crop-u73176.jpg" crc="270753664" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Foilblocked perfect bound book"/>
+    </file>
+    <file name="dsc03901-ucaleaflet-2-crop-u73177.jpg" crc="4258031918" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Folded leaflet"/>
+    </file>
+    <file name="dsc04212-sunbright-1-crop-u73231.jpg" crc="128239661" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Folders"/>
+    </file>
+    <file name="dsc03917-ferris-co-1-crop-u73232.jpg" crc="19549099" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Property brochure"/>
+    </file>
+    <file name="dsc04180-paulwhitehouse-1-crop-u73233.jpg" crc="522110535" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Art prints"/>
+    </file>
+    <file name="dsc03832-yaldingdiary-1-crop-u73254.jpg" crc="34664666" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Primary school reading diaries"/>
+    </file>
+    <file name="dsc04263-jdminvites-1-crop-u73255.jpg" crc="365597574" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Folded invitation"/>
+    </file>
+    <file name="dsc04340-hazlitttheatre-1-crop-u73256.jpg" crc="427667116" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Membership cards"/>
+    </file>
+    <file name="acp_websiteheaders-mobile-portfolio.jpg" crc="4069154385" seo="true" ref="portfolio:quality:customer-service">
+      <caption webpage="portfolio" alt=""/>
+      <caption webpage="customer-service" alt=""/>
+      <caption webpage="quality" alt=""/>
+    </file>
+    <file name="dsc03718-leedscastle-1-crop-u728742.jpg" crc="385565113" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Laser cut greetings cards"/>
+    </file>
+    <file name="dsc03836-leedscastlepotcards-2-crop-u728792.jpg" crc="4251325105" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Postcards"/>
+    </file>
+    <file name="dsc03703-wlsinvestment-1-crop-u728882.jpg" crc="3789521825" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Foilbocked business cards"/>
+    </file>
+    <file name="dsc03853-ksod-1-crop-u729922.jpg" crc="4076310343" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Stapled booklets"/>
+    </file>
+    <file name="dsc03936-dlishious-1-crop-u729932.jpg" crc="209972573" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Menus"/>
+    </file>
+    <file name="dsc03878-tigerrecruitment-1-crop-u729942.jpg" crc="4076167951" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Folded leaflets"/>
+    </file>
+    <file name="dsc03796-ralphsteadman-1-crop-u729342.jpg" crc="4225895938" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Folded leaflets"/>
+    </file>
+    <file name="dsc04183-miad-1-crop-u729392.jpg" crc="188356036" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Flyers"/>
+    </file>
+    <file name="dsc04204-stmichaels-1-crop-u729482.jpg" crc="434084192" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Folders"/>
+    </file>
+    <file name="dsc03998-m-scontractors-2-crop-u730612.jpg" crc="35912791" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Flyers"/>
+    </file>
+    <file name="dsc04207-leahsbistro-1-crop-u730622.jpg" crc="4074458178" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Menus"/>
+    </file>
+    <file name="dsc03779-nailsbykelly-1-crop-u730632.jpg" crc="122878155" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Price guides and stationery"/>
+    </file>
+    <file name="dsc03750-loveatfirstbite-2-crop-u731182.jpg" crc="150013369" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Flyers"/>
+    </file>
+    <file name="dsc04290-jptrailers-1-crop-u731192.jpg" crc="482767191" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Litho-printed business cards"/>
+    </file>
+    <file name="dsc03749-oldcourse-3-crop-u731202.jpg" crc="3919622754" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Hotel brochures"/>
+    </file>
+    <file name="dsc04272-maidstoneshelter-1-crop-u731752.jpg" crc="3786276495" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Stapled booklets"/>
+    </file>
+    <file name="dsc04325-janetnorfolk-1-crop-u731762.jpg" crc="3965201556" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Foilblocked perfect bound book"/>
+    </file>
+    <file name="dsc03901-ucaleaflet-2-crop-u731772.jpg" crc="58650492" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Folded leaflet"/>
+    </file>
+    <file name="dsc04212-sunbright-1-crop-u732312.jpg" crc="483495342" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Folders"/>
+    </file>
+    <file name="dsc03917-ferris-co-1-crop-u732322.jpg" crc="4178567702" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Property brochure"/>
+    </file>
+    <file name="dsc04180-paulwhitehouse-1-crop-u732332.jpg" crc="4241888600" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Art prints"/>
+    </file>
+    <file name="dsc03832-yaldingdiary-1-crop-u732542.jpg" crc="3930259883" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Primary school reading diaries"/>
+    </file>
+    <file name="dsc04263-jdminvites-1-crop-u732552.jpg" crc="3945980126" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Folded invitation"/>
+    </file>
+    <file name="dsc04340-hazlitttheatre-1-crop-u732562.jpg" crc="279499380" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Membership cards"/>
+    </file>
+    <file name="acp_websiteheaders-sayhello.jpg" crc="4049370786" seo="true" ref="say-hello!">
+      <caption webpage="say-hello!" alt="Say Hello header"/>
+      <caption webpage="say-hello!" alt="Say Hello header"/>
+    </file>
+    <file name="acp_sayhello_map.jpg" crc="482318729" seo="true" ref="say-hello!">
+      <caption webpage="say-hello!" alt="Map of South East Kent"/>
+    </file>
+    <file name="acp_sayhello_map768x256.jpg" crc="4116092742" seo="true" ref="say-hello!">
+      <caption webpage="say-hello!" alt="Map of South East Kent"/>
+    </file>
+    <file name="acp_sayhello_map480x160.jpg" crc="461267718" seo="true" ref="say-hello!">
+      <caption webpage="say-hello!" alt="Map of South East Kent"/>
+    </file>
+    <file name="acp_websiteheaders-mobile-480-sayhello.jpg" crc="4221236058" seo="true" ref="say-hello!">
+      <caption webpage="say-hello!" alt="Say Hello header"/>
+    </file>
+    <file name="acp_sayhello_map320x107.jpg" crc="3783921276" seo="true" ref="say-hello!">
+      <caption webpage="say-hello!" alt="Map of South East Kent"/>
+    </file>
+    <file name="acp_websiteheaders-mobile-sayhello.jpg" crc="3972784309" seo="true" ref="say-hello!">
+      <caption webpage="say-hello!" alt=""/>
+    </file>
+    <file name="acp_websiteheaders-getquote.jpg" crc="4114731267" seo="true" ref="get-a-quote">
+      <caption webpage="get-a-quote" alt="Get a Quote header"/>
+      <caption webpage="get-a-quote" alt="Get a Quote header"/>
+      <caption webpage="get-a-quote" alt="Get a Quote header"/>
+    </file>
+    <file name="acp_websiteheaders-mobile-480-getaquote.jpg" crc="215096517" seo="true" ref="get-a-quote">
+      <caption webpage="get-a-quote" alt="Get a Quote header"/>
+    </file>
+    <file name="acp_websiteheaders-mobile-getquote.jpg" crc="4114651798" seo="true" ref="get-a-quote">
+      <caption webpage="get-a-quote" alt=""/>
+    </file>
+    <file name="acp_websiteheaders-wwd.jpg" crc="3825219705" seo="true" ref="what-we-do">
+      <caption webpage="what-we-do" alt="What We Do - Header"/>
+      <caption webpage="what-we-do" alt="What We Do - Header"/>
+    </file>
+    <file name="acp_services_printicon.jpg" crc="163088878" seo="true" ref="what-we-do">
+      <caption webpage="what-we-do" alt="Link to Print Services"/>
+      <caption webpage="what-we-do" alt="Link to Print Services"/>
+    </file>
+    <file name="acp_services_designicon.jpg" crc="4243355269" seo="true" ref="what-we-do">
+      <caption webpage="what-we-do" alt="Link to Design Services"/>
+      <caption webpage="what-we-do" alt="Link to Design Services"/>
+    </file>
+    <file name="acp_websiteheaders-mobile-480-wwd.jpg" crc="3869260279" seo="true" ref="what-we-do">
+      <caption webpage="what-we-do" alt="What We Do - Header"/>
+    </file>
+    <file name="acp_services_whatwedo-mobile-print.jpg" crc="486316925" seo="true" ref="what-we-do">
+      <caption webpage="what-we-do" alt="Link to Print Services"/>
+      <caption webpage="what-we-do" alt="Link to Print Services"/>
+    </file>
+    <file name="acp_services_whatwedo-mobile-design.jpg" crc="247863215" seo="true" ref="what-we-do">
+      <caption webpage="what-we-do" alt="Link to Design Services"/>
+      <caption webpage="what-we-do" alt="Link to Design Services"/>
+    </file>
+    <file name="acp_websiteheaders-mobile-wwd.jpg" crc="205475079" seo="true" ref="what-we-do">
+      <caption webpage="what-we-do" alt=""/>
+    </file>
+    <file name="acp_websiteheaders-wwd-print.jpg" crc="3861681074" seo="true" ref="print">
+      <caption webpage="print" alt="Print - Header"/>
+      <caption webpage="print" alt="Print - Header"/>
+    </file>
+    <file name="dsc04078-albionendo-2-crop-u26224.jpg" crc="157361382" seo="true" ref="print">
+      <caption webpage="print" alt="Printed business stationery"/>
+    </file>
+    <file name="dsc03749-oldcourse-3-crop-u26242.jpg" crc="230754439" seo="true" ref="print">
+      <caption webpage="print" alt="Brochure"/>
+    </file>
+    <file name="dsc04180-paulwhitehouse-1-crop-u26249.jpg" crc="21545026" seo="true" ref="print">
+      <caption webpage="print" alt="Art Prints"/>
+    </file>
+    <file name="dsc04090-braddeldesign-1-crop-u26262.jpg" crc="4153109210" seo="true" ref="print">
+      <caption webpage="print" alt="Wedding Stationery"/>
+    </file>
+    <file name="dsc04296-rssales-bp-1-crop-u26297.jpg" crc="4170324684" seo="true" ref="print">
+      <caption webpage="print" alt="Wirebinding documents"/>
+    </file>
+    <file name="dsc04078-albionendo-2-crop-u70983.jpg" crc="4207995501" seo="true" ref="print">
+      <caption webpage="print" alt=""/>
+    </file>
+    <file name="dsc03749-oldcourse-3-crop-u71015.jpg" crc="4110660338" seo="true" ref="print">
+      <caption webpage="print" alt=""/>
+    </file>
+    <file name="dsc04180-paulwhitehouse-1-crop-u71028.jpg" crc="4117927912" seo="true" ref="print">
+      <caption webpage="print" alt=""/>
+    </file>
+    <file name="dsc04090-braddeldesign-1-crop-u71045.jpg" crc="98495280" seo="true" ref="print">
+      <caption webpage="print" alt=""/>
+    </file>
+    <file name="adobestock_84187034-crop-u71062.jpg" crc="207999675" seo="true" ref="print">
+      <caption webpage="print" alt=""/>
+    </file>
+    <file name="acp_websiteheaders-mobile-480-wwdprint.jpg" crc="3916927258" seo="true" ref="print">
+      <caption webpage="print" alt="Print Header"/>
+    </file>
+    <file name="dsc04078-albionendo-2-crop-u71188.jpg" crc="3852035272" seo="true" ref="print">
+      <caption webpage="print" alt="Printed business stationery"/>
+    </file>
+    <file name="dsc03749-oldcourse-3-crop-u71224.jpg" crc="4294634019" seo="true" ref="print">
+      <caption webpage="print" alt="Printed brochures"/>
+    </file>
+    <file name="dsc04180-paulwhitehouse-1-crop-u71287.jpg" crc="298211177" seo="true" ref="print">
+      <caption webpage="print" alt="Art prints"/>
+    </file>
+    <file name="dsc04090-braddeldesign-1-crop-u71312.jpg" crc="4106413251" seo="true" ref="print">
+      <caption webpage="print" alt="Wedding Stationery"/>
+    </file>
+    <file name="adobestock_84187034-crop-u71346.jpg" crc="332963334" seo="true" ref="print">
+      <caption webpage="print" alt="Printed plan drawings"/>
+    </file>
+    <file name="acp_websiteheaders-mobile-wwdprint.jpg" crc="3932498553" seo="true" ref="print">
+      <caption webpage="print" alt=""/>
+    </file>
+    <file name="dsc04078-albionendo-2-crop-u711882.jpg" crc="4148406888" seo="true" ref="print">
+      <caption webpage="print" alt="Printed business stationery"/>
+    </file>
+    <file name="dsc03749-oldcourse-3-crop-u712242.jpg" crc="188138983" seo="true" ref="print">
+      <caption webpage="print" alt="Printed brochures"/>
+    </file>
+    <file name="dsc04180-paulwhitehouse-1-crop-u712872.jpg" crc="427702574" seo="true" ref="print">
+      <caption webpage="print" alt="Art prints"/>
+    </file>
+    <file name="dsc04090-braddeldesign-1-crop-u713122.jpg" crc="3809702547" seo="true" ref="print">
+      <caption webpage="print" alt="Wedding Stationery"/>
+    </file>
+    <file name="adobestock_84187034-crop-u713462.jpg" crc="4021170462" seo="true" ref="print">
+      <caption webpage="print" alt="Printed plan drawings"/>
+    </file>
+    <file name="acp_websiteheaders-wwd-design-crop-u26395.jpg" crc="4125453701" seo="true" ref="design">
+      <caption webpage="design" alt=""/>
+    </file>
+    <file name="dsc03703-wlsinvestment-1-crop-u28983.jpg" crc="187254841" seo="true" ref="design">
+      <caption webpage="design" alt="Visual identity &amp; branding - foilblocked business cards"/>
+    </file>
+    <file name="dsc03853-ksod-1-crop-u29230.jpg" crc="3918490087" seo="true" ref="design">
+      <caption webpage="design" alt="Logo design &amp; branding for a dance show"/>
+    </file>
+    <file name="dsc03805-ralphsteadman-2-crop-u29224.jpg" crc="312791926" seo="true" ref="design">
+      <caption webpage="design" alt="Folded leaflet design for an art exhibition"/>
+    </file>
+    <file name="dsc03756-loveatfirstbite-1-crop-u29215.jpg" crc="82830386" seo="true" ref="design">
+      <caption webpage="design" alt="Leaflet design for a local cafe"/>
+    </file>
+    <file name="dsc04204-stmichaels-1-crop-u29241.jpg" crc="4268077169" seo="true" ref="design">
+      <caption webpage="design" alt="Branding for a local nursery"/>
+    </file>
+    <file name="dsc04207-leahsbistro-1-crop-u29251.jpg" crc="3903132428" seo="true" ref="design">
+      <caption webpage="design" alt="Menu design for a local restaurant"/>
+    </file>
+    <file name="dsc04365-jenny-les-2-crop-u29254.jpg" crc="198991577" seo="true" ref="design">
+      <caption webpage="design" alt="Design for wedding invitations"/>
+    </file>
+    <file name="acp_websiteheaders-wwd-design-crop-u263952.jpg" crc="3809325129" seo="true" ref="design">
+      <caption webpage="design" alt=""/>
+    </file>
+    <file name="dsc03703-wlsinvestment-1-crop-u73526.jpg" crc="474272845" seo="true" ref="design">
+      <caption webpage="design" alt=""/>
+    </file>
+    <file name="dsc03853-ksod-1-crop-u292302.jpg" crc="3986426866" seo="true" ref="design">
+      <caption webpage="design" alt="Logo design &amp; branding for a dance show"/>
+    </file>
+    <file name="dsc03805-ralphsteadman-2-crop-u73539.jpg" crc="4185462452" seo="true" ref="design">
+      <caption webpage="design" alt=""/>
+    </file>
+    <file name="dsc03756-loveatfirstbite-1-crop-u292152.jpg" crc="442721765" seo="true" ref="design">
+      <caption webpage="design" alt="Leaflet design for a local cafe"/>
+    </file>
+    <file name="dsc04204-stmichaels-1-crop-u73552.jpg" crc="26297805" seo="true" ref="design">
+      <caption webpage="design" alt=""/>
+    </file>
+    <file name="dsc04207-leahsbistro-1-crop-u292512.jpg" crc="4139841827" seo="true" ref="design">
+      <caption webpage="design" alt="Menu design for a local restaurant"/>
+    </file>
+    <file name="dsc04365-jenny-les-2-crop-u73565.jpg" crc="4269161047" seo="true" ref="design">
+      <caption webpage="design" alt=""/>
+    </file>
+    <file name="dsc03703-wlsinvestment-1-crop-u73681.jpg" crc="346186353" seo="true" ref="design">
+      <caption webpage="design" alt="Visual identity and branding for foilblocked business cards"/>
+    </file>
+    <file name="dsc03853-ksod-1-crop-u292303.jpg" crc="4108280128" seo="true" ref="design">
+      <caption webpage="design" alt="Logo design &amp; branding for a dance show"/>
+    </file>
+    <file name="acp_websiteheaders-mobile-480-wwddesign.jpg" crc="358752593" seo="true" ref="design">
+      <caption webpage="design" alt="Design header"/>
+    </file>
+    <file name="dsc03805-ralphsteadman-2-crop-u73720.jpg" crc="4058627254" seo="true" ref="design">
+      <caption webpage="design" alt="Folded leaflet design for an art exhibition"/>
+    </file>
+    <file name="dsc04204-stmichaels-1-crop-u73759.jpg" crc="4158527032" seo="true" ref="design">
+      <caption webpage="design" alt="Branding for a local nursery"/>
+    </file>
+    <file name="dsc04207-leahsbistro-1-crop-u292513.jpg" crc="3830379934" seo="true" ref="design">
+      <caption webpage="design" alt="Menu design for a local restaurant"/>
+    </file>
+    <file name="dsc04365-jenny-les-2-crop-u73961.jpg" crc="121806781" seo="true" ref="design">
+      <caption webpage="design" alt="Design for wedding invitations"/>
+    </file>
+    <file name="acp_websiteheaders-mobile-wwddesign.jpg" crc="3862592109" seo="true" ref="design">
+      <caption webpage="design" alt=""/>
+    </file>
+    <file name="dsc03703-wlsinvestment-1-crop-u736812.jpg" crc="4284228797" seo="true" ref="design">
+      <caption webpage="design" alt="Visual identity and branding for foilblocked business cards"/>
+    </file>
+    <file name="dsc03853-ksod-1-crop-u292304.jpg" crc="4202435771" seo="true" ref="design">
+      <caption webpage="design" alt="Logo design &amp; branding for a dance show"/>
+    </file>
+    <file name="dsc03805-ralphsteadman-2-crop-u737202.jpg" crc="456587532" seo="true" ref="design">
+      <caption webpage="design" alt="Folded leaflet design for an art exhibition"/>
+    </file>
+    <file name="dsc03756-loveatfirstbite-1-crop-u292153.jpg" crc="408943918" seo="true" ref="design">
+      <caption webpage="design" alt="Leaflet design for a local cafe"/>
+    </file>
+    <file name="dsc04204-stmichaels-1-crop-u737592.jpg" crc="3840692237" seo="true" ref="design">
+      <caption webpage="design" alt="Branding for a local nursery"/>
+    </file>
+    <file name="dsc04207-leahsbistro-1-crop-u292514.jpg" crc="367284121" seo="true" ref="design">
+      <caption webpage="design" alt="Menu design for a local restaurant"/>
+    </file>
+    <file name="dsc04365-jenny-les-2-crop-u739612.jpg" crc="4012693401" seo="true" ref="design">
+      <caption webpage="design" alt="Design for wedding invitations"/>
+    </file>
+    <file name="terms - conditions.jpg" crc="430004334" seo="true" ref="terms:privacy:cookies">
+      <caption webpage="privacy" alt=""/>
+      <caption webpage="privacy" alt=""/>
+      <caption webpage="cookies" alt="Cookies header"/>
+      <caption webpage="terms" alt="Terms &amp; Conditions header"/>
+      <caption webpage="terms" alt="Terms &amp; Conditions header"/>
+    </file>
+    <file name="acp_websiteheaders-mobile-480-t-cs.jpg" crc="342750177" seo="true" ref="terms:privacy:cookies">
+      <caption webpage="privacy" alt="Privacy header"/>
+      <caption webpage="cookies" alt="Cookies header"/>
+      <caption webpage="terms" alt="Terms &amp; Conditions header"/>
+    </file>
+    <file name="acp_websiteheaders-mobile-terms-conditions.jpg" crc="352529077" seo="true" ref="terms:privacy:cookies">
+      <caption webpage="privacy" alt=""/>
+      <caption webpage="cookies" alt=""/>
+      <caption webpage="terms" alt=""/>
+    </file>
+    <file name="terms - conditions-crop-u27857.jpg" crc="9089757" seo="true" ref="cookies">
+      <caption webpage="cookies" alt="Cookies header"/>
+    </file>
+    <file name="acp_websiteheaders-students.jpg" crc="137159913" seo="true" ref="students">
+      <caption webpage="students" alt="Students header"/>
+      <caption webpage="students" alt="Students header"/>
+    </file>
+    <file name="acp_students_loyaltycard.svg" crc="4187928381" seo="true" ref="students">
+      <caption webpage="students" alt="ACP Student Loyalty Card"/>
+      <caption webpage="students" alt="ACP Student Loyalty Card"/>
+      <caption webpage="students" alt="ACP Student Loyalty Card"/>
+      <caption webpage="students" alt="ACP Student Loyalty Card"/>
+    </file>
+    <file name="acp_students_loyaltycard_poster_.png" crc="134983575" ref="students"/>
+    <file name="acp_websiteheaders-mobile-480-students.jpg" crc="4117047175" seo="true" ref="students">
+      <caption webpage="students" alt="Students header"/>
+    </file>
+    <file name="acp_websiteheaders-mobile-students.jpg" crc="4290629479" seo="true" ref="students">
+      <caption webpage="students" alt=""/>
+    </file>
+    <file name="acp_websiteheaders-artwork.jpg" crc="3854458554" seo="true" ref="artwork:crop---bleed:packaging-files:templates">
+      <caption webpage="templates" alt="Request a Template header"/>
+      <caption webpage="templates" alt="Request a Template header"/>
+      <caption webpage="crop---bleed" alt="Adding Crop &amp; Bleed header"/>
+      <caption webpage="crop---bleed" alt="Adding Crop &amp; Bleed header"/>
+      <caption webpage="packaging-files" alt="Packaging InDesign Files header"/>
+      <caption webpage="packaging-files" alt="Packaging InDesign Files header"/>
+      <caption webpage="artwork" alt="Artwork Tips header"/>
+      <caption webpage="artwork" alt="Artwork Tips header"/>
+    </file>
+    <file name="acp_artwork_adobelogo.svg" crc="102124097" seo="true" ref="artwork">
+      <caption webpage="artwork" alt="Adobe Acrobat logo"/>
+      <caption webpage="artwork" alt="Adobe Acrobat logo"/>
+      <caption webpage="artwork" alt="Adobe Acrobat logo"/>
+      <caption webpage="artwork" alt="Adobe Acrobat logo"/>
+    </file>
+    <file name="acp_artwork_adobelogo_poster_.png" crc="57406500" ref="artwork"/>
+    <file name="acp_artwork_indesignlogo.svg" crc="4192475207" seo="true" ref="artwork">
+      <caption webpage="artwork" alt="Adobe InDesign logo"/>
+      <caption webpage="artwork" alt="Adobe InDesign logo"/>
+      <caption webpage="artwork" alt="Adobe InDesign logo"/>
+      <caption webpage="artwork" alt="Adobe InDesign logo"/>
+    </file>
+    <file name="acp_artwork_indesignlogo_poster_.png" crc="254256165" ref="artwork"/>
+    <file name="acp_artwork_illustratorlogo.svg" crc="366753456" seo="true" ref="artwork">
+      <caption webpage="artwork" alt="Adobe Illustrator logo"/>
+      <caption webpage="artwork" alt="Adobe Illustrator logo"/>
+      <caption webpage="artwork" alt="Adobe Illustrator logo"/>
+      <caption webpage="artwork" alt="Adobe Illustrator logo"/>
+    </file>
+    <file name="acp_artwork_illustratorlogo_poster_.png" crc="514351079" ref="artwork"/>
+    <file name="acp_artwork_photoshoplogo.svg" crc="79787539" seo="true" ref="artwork">
+      <caption webpage="artwork" alt="Adobe Photoshop logo"/>
+      <caption webpage="artwork" alt="Adobe Photoshop logo"/>
+      <caption webpage="artwork" alt="Adobe Photoshop logo"/>
+      <caption webpage="artwork" alt="Adobe Photoshop logo"/>
+    </file>
+    <file name="acp_artwork_photoshoplogo_poster_.png" crc="411440205" ref="artwork"/>
+    <file name="acp_websiteheaders-mobile-480-artwork.jpg" crc="4197036833" seo="true" ref="artwork:crop---bleed:packaging-files:templates">
+      <caption webpage="templates" alt="Request a Template header"/>
+      <caption webpage="templates" alt="Request a Template header"/>
+      <caption webpage="crop---bleed" alt="Adding Crop &amp; Bleed header"/>
+      <caption webpage="packaging-files" alt="Packaging Files header"/>
+      <caption webpage="artwork" alt=""/>
+    </file>
+    <file name="acp_websiteheaders-mobile-artwork.jpg" crc="378987820" seo="true" ref="artwork:crop---bleed:packaging-files:templates">
+      <caption webpage="templates" alt=""/>
+      <caption webpage="crop---bleed" alt=""/>
+      <caption webpage="packaging-files" alt=""/>
+      <caption webpage="artwork" alt=""/>
+    </file>
+    <file name="acp_websiteheaders-recommendafriend.jpg" crc="4112061472" seo="true" ref="recommend">
+      <caption webpage="recommend" alt="Recommend a Business header"/>
+      <caption webpage="recommend" alt="Recommend a Business header"/>
+    </file>
+    <file name="acp_recommend_stepone.svg" crc="4188839205" seo="true" ref="recommend">
+      <caption webpage="recommend" alt="Step One"/>
+      <caption webpage="recommend" alt="Step One"/>
+      <caption webpage="recommend" alt="Step One"/>
+      <caption webpage="recommend" alt="Step One"/>
+    </file>
+    <file name="acp_recommend_stepone_poster_.png" crc="3772084691" ref="recommend"/>
+    <file name="acp_recommend_steptwo.svg" crc="4074467766" seo="true" ref="recommend">
+      <caption webpage="recommend" alt="Step Two"/>
+      <caption webpage="recommend" alt="Step Two"/>
+      <caption webpage="recommend" alt="Step Two"/>
+      <caption webpage="recommend" alt="Step Two"/>
+    </file>
+    <file name="acp_recommend_steptwo_poster_.png" crc="335502848" ref="recommend"/>
+    <file name="acp_recommend_stepthree.svg" crc="220820910" seo="true" ref="recommend">
+      <caption webpage="recommend" alt="Step Three"/>
+      <caption webpage="recommend" alt="Step Three"/>
+      <caption webpage="recommend" alt="Step Three"/>
+      <caption webpage="recommend" alt="Step Three"/>
+    </file>
+    <file name="acp_recommend_stepthree_poster_.png" crc="4011703372" ref="recommend"/>
+    <file name="acp_websiteheaders-mobile-480-recommend.jpg" crc="45925467" seo="true" ref="recommend">
+      <caption webpage="recommend" alt="Recommend a Business"/>
+    </file>
+    <file name="acp_websiteheaders-mobile-recommendafriend.jpg" crc="133707697" seo="true" ref="recommend">
+      <caption webpage="recommend" alt=""/>
+    </file>
+    <file name="acp_addingbleed_indesign1-crop-u83376.jpg" crc="4099620039" seo="true" ref="crop---bleed">
+      <caption webpage="crop---bleed" alt="InDesign - Step One"/>
+    </file>
+    <file name="acp_addingbleed_indesign2.jpg" crc="3781427950" seo="true" ref="crop---bleed">
+      <caption webpage="crop---bleed" alt="InDesign - Step Two"/>
+    </file>
+    <file name="acp_addingbleed_indesign3.jpg" crc="184910958" seo="true" ref="crop---bleed">
+      <caption webpage="crop---bleed" alt="InDesign - Step Three"/>
+    </file>
+    <file name="acp_addingbleed_illustrator1.jpg" crc="3768139004" seo="true" ref="crop---bleed">
+      <caption webpage="crop---bleed" alt="Illustrator - Step One"/>
+    </file>
+    <file name="acp_addingbleed_photoshop2.jpg" crc="278002998" seo="true" ref="crop---bleed">
+      <caption webpage="crop---bleed" alt=""/>
+    </file>
+    <file name="acp_addingbleed_photoshop3.jpg" crc="3997945820" seo="true" ref="crop---bleed">
+      <caption webpage="crop---bleed" alt=""/>
+    </file>
+    <file name="acp_addingbleed_illustrator2.jpg" crc="4267962159" seo="true" ref="crop---bleed">
+      <caption webpage="crop---bleed" alt="Illustrator - Step Two"/>
+    </file>
+    <file name="acp_addingbleed_illustrator3.jpg" crc="3913062047" seo="true" ref="crop---bleed">
+      <caption webpage="crop---bleed" alt="Illustrator - Step Three"/>
+    </file>
+    <file name="acp_addingbleed_photoshop1.png" crc="273469070" seo="true" ref="crop---bleed">
+      <caption webpage="crop---bleed" alt=""/>
+    </file>
+    <file name="acp_addingbleed_indesign1225x225.jpg" crc="4241592427" seo="true" ref="crop---bleed">
+      <caption webpage="crop---bleed" alt="InDesign - Step One"/>
+    </file>
+    <file name="acp_addingbleed_indesign2-crop-u38739.jpg" crc="3943910077" seo="true" ref="crop---bleed">
+      <caption webpage="crop---bleed" alt="InDesign - Step Two"/>
+    </file>
+    <file name="acp_addingbleed_indesign3-crop-u38741.jpg" crc="57532957" seo="true" ref="crop---bleed">
+      <caption webpage="crop---bleed" alt="InDesign - Step Three"/>
+    </file>
+    <file name="acp_addingbleed_illustrator1-crop-u38761.jpg" crc="3876168543" seo="true" ref="crop---bleed">
+      <caption webpage="crop---bleed" alt="Illustrator - Step One"/>
+    </file>
+    <file name="acp_addingbleed_photoshop2-crop-u38789.jpg" crc="200174551" seo="true" ref="crop---bleed">
+      <caption webpage="crop---bleed" alt=""/>
+    </file>
+    <file name="acp_addingbleed_photoshop3-crop-u38788.jpg" crc="3963598686" seo="true" ref="crop---bleed">
+      <caption webpage="crop---bleed" alt=""/>
+    </file>
+    <file name="acp_addingbleed_illustrator2-crop-u38763.jpg" crc="4232331086" seo="true" ref="crop---bleed">
+      <caption webpage="crop---bleed" alt="Illustrator - Step Two"/>
+    </file>
+    <file name="acp_addingbleed_illustrator3-crop-u38765.jpg" crc="392774345" seo="true" ref="crop---bleed">
+      <caption webpage="crop---bleed" alt="Illustrator - Step Three"/>
+    </file>
+    <file name="acp_addingbleed_photoshop1-crop-u38794.png" crc="4025563885" seo="true" ref="crop---bleed">
+      <caption webpage="crop---bleed" alt=""/>
+    </file>
+    <file name="acp_addingbleed_indesign1-crop-u83395.jpg" crc="3881440045" seo="true" ref="crop---bleed">
+      <caption webpage="crop---bleed" alt="InDesign - Step Two"/>
+    </file>
+    <file name="acp_addingbleed_indesign2-crop-u387392.jpg" crc="498497490" seo="true" ref="crop---bleed">
+      <caption webpage="crop---bleed" alt="InDesign - Step Two"/>
+    </file>
+    <file name="acp_addingbleed_indesign3-crop-u387412.jpg" crc="88995328" seo="true" ref="crop---bleed">
+      <caption webpage="crop---bleed" alt="InDesign - Step Three"/>
+    </file>
+    <file name="acp_addingbleed_illustrator1-crop-u387612.jpg" crc="16670285" seo="true" ref="crop---bleed">
+      <caption webpage="crop---bleed" alt="Illustrator - Step One"/>
+    </file>
+    <file name="acp_addingbleed_photoshop2-crop-u387892.jpg" crc="73972796" seo="true" ref="crop---bleed">
+      <caption webpage="crop---bleed" alt=""/>
+    </file>
+    <file name="acp_addingbleed_photoshop3-crop-u387882.jpg" crc="400356970" seo="true" ref="crop---bleed">
+      <caption webpage="crop---bleed" alt=""/>
+    </file>
+    <file name="acp_addingbleed_photoshop1-crop-u387942.png" crc="521848571" seo="true" ref="crop---bleed">
+      <caption webpage="crop---bleed" alt=""/>
+    </file>
+    <file name="acp_addingbleed_illustrator2-crop-u387632.jpg" crc="4015025363" seo="true" ref="crop---bleed">
+      <caption webpage="crop---bleed" alt="Illustrator - Step Two"/>
+    </file>
+    <file name="acp_addingbleed_illustrator3-crop-u387652.jpg" crc="4254951282" seo="true" ref="crop---bleed">
+      <caption webpage="crop---bleed" alt="Illustrator - Step Three"/>
+    </file>
+    <file name="acp_addingbleed_indesign1100x100.jpg" crc="52971317" seo="true" ref="crop---bleed">
+      <caption webpage="crop---bleed" alt="InDesign - Step One"/>
+    </file>
+    <file name="acp_addingbleed_indesign2-crop-u387393.jpg" crc="250352160" seo="true" ref="crop---bleed">
+      <caption webpage="crop---bleed" alt="InDesign - Step Two"/>
+    </file>
+    <file name="acp_addingbleed_indesign3-crop-u387413.jpg" crc="512665025" seo="true" ref="crop---bleed">
+      <caption webpage="crop---bleed" alt="InDesign - Step Three"/>
+    </file>
+    <file name="acp_addingbleed_illustrator1-crop-u387613.jpg" crc="161241964" seo="true" ref="crop---bleed">
+      <caption webpage="crop---bleed" alt="Illustrator - Step One"/>
+    </file>
+    <file name="acp_addingbleed_photoshop2-crop-u387893.jpg" crc="3846091560" seo="true" ref="crop---bleed">
+      <caption webpage="crop---bleed" alt=""/>
+    </file>
+    <file name="acp_addingbleed_photoshop3-crop-u387883.jpg" crc="188948285" seo="true" ref="crop---bleed">
+      <caption webpage="crop---bleed" alt=""/>
+    </file>
+    <file name="acp_addingbleed_photoshop1-crop-u387943.png" crc="223061511" seo="true" ref="crop---bleed">
+      <caption webpage="crop---bleed" alt=""/>
+    </file>
+    <file name="acp_addingbleed_illustrator2-crop-u387633.jpg" crc="3777855078" seo="true" ref="crop---bleed">
+      <caption webpage="crop---bleed" alt="Illustrator - Step Two"/>
+    </file>
+    <file name="acp_addingbleed_illustrator3-crop-u387653.jpg" crc="4048853353" seo="true" ref="crop---bleed">
+      <caption webpage="crop---bleed" alt="Illustrator - Step Three"/>
+    </file>
+    <file name="acp_packagingfiles1.jpg" crc="217632577" seo="true" ref="packaging-files">
+      <caption webpage="packaging-files" alt="Packaging - Step One"/>
+    </file>
+    <file name="acp_packagingfiles2.jpg" crc="434379488" seo="true" ref="packaging-files">
+      <caption webpage="packaging-files" alt="Packaging - Step Two"/>
+    </file>
+    <file name="acp_addingbleed_indesign32.jpg" crc="184910958" seo="true" ref="packaging-files">
+      <caption webpage="packaging-files" alt="Packaging - Step Three"/>
+    </file>
+    <file name="acp_packagingfiles1-crop-u39629.jpg" crc="123865274" seo="true" ref="packaging-files">
+      <caption webpage="packaging-files" alt="Packaging - Step One"/>
+    </file>
+    <file name="acp_packagingfiles2-crop-u39632.jpg" crc="4057068065" seo="true" ref="packaging-files">
+      <caption webpage="packaging-files" alt="Packaging - Step Two"/>
+    </file>
+    <file name="acp_addingbleed_indesign3-crop-u39635.jpg" crc="108289744" seo="true" ref="packaging-files">
+      <caption webpage="packaging-files" alt="Packaging - Step Three"/>
+    </file>
+    <file name="acp_packagingfiles1-crop-u396292.jpg" crc="262325943" seo="true" ref="packaging-files">
+      <caption webpage="packaging-files" alt="Packaging - Step One"/>
+    </file>
+    <file name="acp_packagingfiles2-crop-u396322.jpg" crc="519116064" seo="true" ref="packaging-files">
+      <caption webpage="packaging-files" alt="Packaging - Step Two"/>
+    </file>
+    <file name="acp_addingbleed_indesign3-crop-u396352.jpg" crc="4218113324" seo="true" ref="packaging-files">
+      <caption webpage="packaging-files" alt="Packaging - Step Three"/>
+    </file>
+    <file name="acp_packagingfiles1-crop-u396293.jpg" crc="377929427" seo="true" ref="packaging-files">
+      <caption webpage="packaging-files" alt="Packaging - Step One"/>
+    </file>
+    <file name="acp_packagingfiles2-crop-u396323.jpg" crc="4276321419" seo="true" ref="packaging-files">
+      <caption webpage="packaging-files" alt="Packaging - Step Two"/>
+    </file>
+    <file name="acp_addingbleed_indesign3-crop-u396353.jpg" crc="114408609" seo="true" ref="packaging-files">
+      <caption webpage="packaging-files" alt="Packaging - Step Three"/>
+    </file>
+    <file name="dsc03703-wlsinvestment-1-crop-u90716.jpg" crc="181381072" seo="true" ref="quality">
+      <caption webpage="quality" alt=""/>
+    </file>
+    <file name="dsc04207-leahsbistro-1-crop-u90722.jpg" crc="4197936385" seo="true" ref="quality">
+      <caption webpage="quality" alt=""/>
+    </file>
+    <file name="dsc03853-ksod-1-crop-u90725.jpg" crc="4019714194" seo="true" ref="quality">
+      <caption webpage="quality" alt=""/>
+    </file>
+    <file name="dsc03703-wlsinvestment-1-crop-u97605.jpg" crc="379847360" seo="true" ref="quality">
+      <caption webpage="quality" alt=""/>
+    </file>
+    <file name="dsc03703-wlsinvestment-1-crop-u92759.jpg" crc="181381072" seo="true" ref="customer-service">
+      <caption webpage="customer-service" alt=""/>
+    </file>
+    <file name="dsc04207-leahsbistro-1-crop-u92761.jpg" crc="4197936385" seo="true" ref="customer-service">
+      <caption webpage="customer-service" alt=""/>
+    </file>
+    <file name="dsc03853-ksod-1-crop-u92763.jpg" crc="4019714194" seo="true" ref="customer-service">
+      <caption webpage="customer-service" alt=""/>
+    </file>
+    <file name="dsc03703-wlsinvestment-1-crop-u98053.jpg" crc="379847360" seo="true" ref="customer-service">
+      <caption webpage="customer-service" alt=""/>
+    </file>
+    <file name="dsc04591-provapesperf-1-crop-u103567.jpg" crc="399451996" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Primary school reading diaries"/>
+    </file>
+    <file name="dsc04605-thepottedgarden-1-crop-u103605.jpg" crc="327021240" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Membership cards for a local theatre"/>
+    </file>
+    <file name="dsc04624-provapes-kndi-1-crop-u103643.jpg" crc="174265350" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Folded invitations for a local estate agency"/>
+    </file>
+    <file name="dsc04591-provapesperf-1-crop-u1035672.jpg" crc="4080442527" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Primary school reading diaries"/>
+    </file>
+    <file name="dsc04605-thepottedgarden-1-crop-u1036052.jpg" crc="12726672" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Membership cards for a local theatre"/>
+    </file>
+    <file name="dsc04624-provapes-kndi-1-crop-u1036432.jpg" crc="483135285" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Folded invitations for a local estate agency"/>
+    </file>
+    <file name="dsc04591-provapesperf-1-crop-u103686.jpg" crc="3936457178" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Primary school reading diaries"/>
+    </file>
+    <file name="dsc04605-thepottedgarden-1-crop-u103682.jpg" crc="3846004392" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Folded invitation"/>
+    </file>
+    <file name="dsc04624-provapes-kndi-1-crop-u103684.jpg" crc="186369811" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Membership cards"/>
+    </file>
+    <file name="dsc04591-provapesperf-1-crop-u1036862.jpg" crc="168876107" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Primary school reading diaries"/>
+    </file>
+    <file name="dsc04605-thepottedgarden-1-crop-u1036822.jpg" crc="535010508" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Folded invitation"/>
+    </file>
+    <file name="dsc04624-provapes-kndi-1-crop-u1036842.jpg" crc="419038936" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt="Membership cards"/>
+    </file>
+  </folder>
+  <file name="index.html" crc="410707521" seo="true" mt="1508765214020" redirect="true"/>
+  <file name="about-us.html" crc="3912624693" seo="true" mt="1506348246286" redirect="true"/>
+  <file name="portfolio.html" crc="4178808593" seo="true" mt="1509375793776" redirect="true"/>
+  <file name="say-hello!.html" crc="322103866" seo="true" mt="1506352804868" redirect="true"/>
+  <file name="get-a-quote.html" crc="499563545" seo="true" mt="1507028790722" redirect="true"/>
+  <file name="what-we-do.html" crc="34365789" seo="true" mt="1506348246286" redirect="true"/>
+  <file name="print.html" crc="4275159254" seo="true" mt="1506348246286" redirect="true"/>
+  <file name="design.html" crc="4196461793" seo="true" mt="1506348246286" redirect="true"/>
+  <file name="terms.html" crc="330519937" seo="true" mt="1506348246286" redirect="true"/>
+  <file name="privacy.html" crc="3827013146" seo="true" mt="1506350869723" redirect="true"/>
+  <file name="cookies.html" crc="175064749" seo="true" mt="1506348246286" redirect="true"/>
+  <file name="students.html" crc="214287588" seo="true" mt="1506348246286" redirect="true"/>
+  <file name="artwork.html" crc="198217280" seo="true" mt="1506348246286" redirect="true"/>
+  <file name="recommend.html" crc="3909292546" seo="true" mt="1506348246286" redirect="true"/>
+  <file name="crop---bleed.html" crc="3932895652" seo="true" mt="1506348246286" redirect="true"/>
+  <file name="packaging-files.html" crc="271586244" seo="true" mt="1506348246286" redirect="true"/>
+  <file name="templates.html" crc="366014727" seo="true" mt="1506348246286" redirect="true"/>
+  <file name="quality.html" crc="51843522" seo="true" mt="1506348246286" redirect="true"/>
+  <file name="customer-service.html" crc="430716788" seo="true" mt="1506348246286" redirect="true"/>
+  <site>
+    <asset filename="acp_studentdiscountdownload_0617.pdf" muse_href="upload:U44419"/>
+    <paragraphStyle className="normal_text" uid="U49"/>
+    <paragraphStyle className="Header" uid="U83050"/>
+    <paragraphStyle className="Subhead" uid="U83052"/>
+    <paragraphStyle className="Paragraph" uid="U83053"/>
+    <paragraphStyle className="Subhead-Mobile" uid="U83079"/>
+    <paragraphStyle className="Subhead-Icons" uid="U83080"/>
+    <paragraphStyle className="Paragraph-Mobile" uid="U83081"/>
+    <paragraphStyle className="Footer-Icons" uid="U83082"/>
+    <paragraphStyle className="Testimonials" uid="U83085"/>
+    <paragraphStyle className="Testimonials-Mobile" uid="U83086"/>
+    <paragraphStyle className="Services-Header" uid="U83087"/>
+    <paragraphStyle className="Services-Description" uid="U83088"/>
+    <paragraphStyle className="Services-Header-Mobile" uid="U83089"/>
+    <paragraphStyle className="Services-Description-Mobile" uid="U83090"/>
+    <paragraphStyle className="About-Us-Description" uid="U83092"/>
+    <paragraphStyle className="Artwork-Description-Mobile" uid="U83100"/>
+    <paragraphStyle className="Header---iPad" uid="U83107"/>
+    <paragraphStyle className="Header---iPhone" uid="U83108"/>
+    <textLinkStyle className="Footer---Email-links" uid="U1315"/>
+    <nestedListStyle className="nls-None" uid="U52"/>
+  </site>
+  <renditions>
+    <rendition device="desktop">
+      <page name="HOME" filename="index.html" muse_href="page:U93" master="U9693">
+        <breakpoint uid="U67617" maxwidth="320" minwidth="0" squishy="true"/>
+        <breakpoint uid="U77921" maxwidth="480" minwidth="321" squishy="true"/>
+        <breakpoint uid="U67478" maxwidth="768" minwidth="481" squishy="true"/>
+        <breakpoint uid="U83" maxwidth="1200" minwidth="769" squishy="true"/>
+        <anchor name="Scroll-down" html_id="scroll-down" muse_href="anchor:U82:U70034" includeInBPs="U83"/>
+      </page>
+      <masterPage name="MASTER PAGE" master="U62" uid="U9693">
+        <breakpoint uid="U52338" maxwidth="320" minwidth="0" squishy="false"/>
+        <breakpoint uid="U77808" maxwidth="480" minwidth="321" squishy="true"/>
+        <breakpoint uid="U52104" maxwidth="768" minwidth="481" squishy="true"/>
+        <breakpoint uid="U9840" maxwidth="1200" minwidth="769" squishy="true"/>
+      </masterPage>
+      <masterPage name="None" master="null" uid="U62">
+        <breakpoint uid="U63" maxwidth="1200" minwidth="0" squishy="true"/>
+      </masterPage>
+      <page name="ABOUT US" filename="about-us.html" muse_href="page:U531" master="U9693">
+        <breakpoint uid="U68321" maxwidth="320" minwidth="0" squishy="true"/>
+        <breakpoint uid="U79101" maxwidth="480" minwidth="321" squishy="true"/>
+        <breakpoint uid="U67866" maxwidth="768" minwidth="481" squishy="true"/>
+        <breakpoint uid="U521" maxwidth="1200" minwidth="769" squishy="true"/>
+      </page>
+      <page name="PORTFOLIO" filename="portfolio.html" muse_href="page:U543" master="U9693">
+        <breakpoint uid="U72781" maxwidth="320" minwidth="0" squishy="true"/>
+        <breakpoint uid="U78966" maxwidth="480" minwidth="321" squishy="true"/>
+        <breakpoint uid="U72719" maxwidth="768" minwidth="481" squishy="true"/>
+        <breakpoint uid="U533" maxwidth="1200" minwidth="769" squishy="true"/>
+      </page>
+      <page name="SAY HELLO!" filename="say-hello!.html" muse_href="page:U567" master="U9693">
+        <breakpoint uid="U69159" maxwidth="320" minwidth="0" squishy="true"/>
+        <breakpoint uid="U81613" maxwidth="480" minwidth="321" squishy="true"/>
+        <breakpoint uid="U69134" maxwidth="768" minwidth="481" squishy="true"/>
+        <breakpoint uid="U557" maxwidth="1200" minwidth="769" squishy="true"/>
+      </page>
+      <page name="GET A QUOTE" filename="get-a-quote.html" muse_href="page:U5726" master="U9693">
+        <breakpoint uid="U69233" maxwidth="320" minwidth="0" squishy="true"/>
+        <breakpoint uid="U80766" maxwidth="480" minwidth="321" squishy="true"/>
+        <breakpoint uid="U69195" maxwidth="786" minwidth="481" squishy="true"/>
+        <breakpoint uid="U5710" maxwidth="1200" minwidth="787" squishy="true"/>
+      </page>
+      <page name="WHAT WE DO" filename="what-we-do.html" muse_href="page:U5798" master="U9693">
+        <breakpoint uid="U70740" maxwidth="320" minwidth="0" squishy="true"/>
+        <breakpoint uid="U78672" maxwidth="480" minwidth="321" squishy="true"/>
+        <breakpoint uid="U70678" maxwidth="768" minwidth="481" squishy="true"/>
+        <breakpoint uid="U5782" maxwidth="1200" minwidth="769" squishy="true"/>
+      </page>
+      <page name="PRINT" filename="print.html" muse_href="page:U5990" master="U9693">
+        <breakpoint uid="U71075" maxwidth="320" minwidth="0" squishy="true"/>
+        <breakpoint uid="U78787" maxwidth="480" minwidth="321" squishy="true"/>
+        <breakpoint uid="U70937" maxwidth="768" minwidth="481" squishy="true"/>
+        <breakpoint uid="U5958" maxwidth="1200" minwidth="769" squishy="true"/>
+      </page>
+      <page name="DESIGN" filename="design.html" muse_href="page:U6024" master="U9693">
+        <breakpoint uid="U73578" maxwidth="320" minwidth="0" squishy="true"/>
+        <breakpoint uid="U78879" maxwidth="480" minwidth="321" squishy="true"/>
+        <breakpoint uid="U73489" maxwidth="768" minwidth="481" squishy="true"/>
+        <breakpoint uid="U5992" maxwidth="1200" minwidth="769" squishy="true"/>
+      </page>
+      <page name="TERMS" filename="terms.html" muse_href="page:U7432" master="U9693">
+        <breakpoint uid="U69324" maxwidth="320" minwidth="0" squishy="true"/>
+        <breakpoint uid="U80934" maxwidth="480" minwidth="321" squishy="true"/>
+        <breakpoint uid="U69312" maxwidth="768" minwidth="481" squishy="true"/>
+        <breakpoint uid="U7400" maxwidth="1200" minwidth="769" squishy="true"/>
+      </page>
+      <page name="PRIVACY" filename="privacy.html" muse_href="page:U7697" master="U9693">
+        <breakpoint uid="U69374" maxwidth="320" minwidth="0" squishy="true"/>
+        <breakpoint uid="U80966" maxwidth="480" minwidth="321" squishy="true"/>
+        <breakpoint uid="U69362" maxwidth="768" minwidth="481" squishy="true"/>
+        <breakpoint uid="U7665" maxwidth="1200" minwidth="769" squishy="true"/>
+      </page>
+      <page name="COOKIES" filename="cookies.html" muse_href="page:U7808" master="U9693">
+        <breakpoint uid="U69413" maxwidth="320" minwidth="0" squishy="true"/>
+        <breakpoint uid="U80995" maxwidth="480" minwidth="321" squishy="true"/>
+        <breakpoint uid="U69397" maxwidth="768" minwidth="481" squishy="true"/>
+        <breakpoint uid="U7776" maxwidth="1200" minwidth="769" squishy="true"/>
+      </page>
+      <page name="STUDENTS" filename="students.html" muse_href="page:U10252" master="U9693">
+        <breakpoint uid="U69461" maxwidth="320" minwidth="0" squishy="true"/>
+        <breakpoint uid="U81025" maxwidth="480" minwidth="321" squishy="true"/>
+        <breakpoint uid="U69440" maxwidth="768" minwidth="481" squishy="true"/>
+        <breakpoint uid="U10230" maxwidth="1200" minwidth="769" squishy="true"/>
+      </page>
+      <page name="ARTWORK" filename="artwork.html" muse_href="page:U10465" master="U9693">
+        <breakpoint uid="U74256" maxwidth="320" minwidth="0" squishy="true"/>
+        <breakpoint uid="U81118" maxwidth="480" minwidth="321" squishy="true"/>
+        <breakpoint uid="U74217" maxwidth="768" minwidth="481" squishy="true"/>
+        <breakpoint uid="U10443" maxwidth="1200" minwidth="769" squishy="true"/>
+      </page>
+      <page name="RECOMMEND" filename="recommend.html" muse_href="page:U10678" master="U9693">
+        <breakpoint uid="U69534" maxwidth="320" minwidth="0" squishy="true"/>
+        <breakpoint uid="U81064" maxwidth="480" minwidth="321" squishy="true"/>
+        <breakpoint uid="U69503" maxwidth="768" minwidth="481" squishy="true"/>
+        <breakpoint uid="U10656" maxwidth="1200" minwidth="769" squishy="true"/>
+      </page>
+      <page name="CROP &amp; BLEED" filename="crop---bleed.html" muse_href="page:U29803" master="U9693">
+        <breakpoint uid="U74912" maxwidth="320" minwidth="0" squishy="true"/>
+        <breakpoint uid="U81313" maxwidth="480" minwidth="321" squishy="true"/>
+        <breakpoint uid="U74164" maxwidth="768" minwidth="481" squishy="true"/>
+        <breakpoint uid="U29781" maxwidth="1200" minwidth="769" squishy="true"/>
+      </page>
+      <page name="PACKAGING FILES" filename="packaging-files.html" muse_href="page:U29827" master="U9693">
+        <breakpoint uid="U74518" maxwidth="320" minwidth="0" squishy="true"/>
+        <breakpoint uid="U81183" maxwidth="480" minwidth="321" squishy="true"/>
+        <breakpoint uid="U74469" maxwidth="768" minwidth="481" squishy="true"/>
+        <breakpoint uid="U29805" maxwidth="1200" minwidth="769" squishy="true"/>
+      </page>
+      <page name="TEMPLATES" filename="templates.html" muse_href="page:U29889" master="U9693">
+        <breakpoint uid="U74728" maxwidth="320" minwidth="0" squishy="true"/>
+        <breakpoint uid="U81251" maxwidth="480" minwidth="321" squishy="true"/>
+        <breakpoint uid="U74637" maxwidth="768" minwidth="481" squishy="true"/>
+        <breakpoint uid="U29867" maxwidth="1200" minwidth="769" squishy="true"/>
+      </page>
+      <page name="QUALITY" filename="quality.html" muse_href="page:U83746" master="U9693">
+        <breakpoint uid="U96578" maxwidth="320" minwidth="0" squishy="true"/>
+        <breakpoint uid="U94842" maxwidth="480" minwidth="321" squishy="true"/>
+        <breakpoint uid="U93398" maxwidth="768" minwidth="481" squishy="true"/>
+        <breakpoint uid="U83706" maxwidth="1200" minwidth="769" squishy="true"/>
+      </page>
+      <page name="CUSTOMER SERVICE" filename="customer-service.html" muse_href="page:U83788" master="U9693">
+        <breakpoint uid="U101121" maxwidth="320" minwidth="0" squishy="true"/>
+        <breakpoint uid="U99236" maxwidth="480" minwidth="321" squishy="true"/>
+        <breakpoint uid="U97700" maxwidth="768" minwidth="481" squishy="true"/>
+        <breakpoint uid="U83748" maxwidth="1200" minwidth="769" squishy="true"/>
+      </page>
+    </rendition>
+  </renditions>
+</manifest>

@@ -1,0 +1,50 @@
+/* Variables
+--------------------------*/
+
+.brandColour {
+	color:#9d3292;
+}
+
+.brandColourBG {
+	background-color:#9d3292;
+	color: white;
+}
+
+.brandCurrentPage {
+    padding-left: 9% !important;
+    border-left: 2px solid #9d3292;
+}
+
+.brandCurrentPage a{
+    color: #9d3292;
+    font-size: 15px;
+}
+
+.brandCurrentPage:before {
+    margin-right: 21px !important;
+    color: #9d3292;
+    font-size: 15px;
+}
+
+.brandCurrent .acf-form-submit input {
+ 	background-color:#9d3292!important;
+	color: white!important;
+	
+}
+
+.brandCurrent .editTools__delete, .brandCurrent .editTools__edit {
+ 	background-color:#9d3292;
+ 	color: white;
+}
+
+.brandCurrent .filterControls__search {
+	color: #9d3292;
+}
+
+.brandCurrent .filterControls__sort {
+	color: #9d3292;
+}
+
+.brandCurrent .filterControls__sort span[data-selected="true"] {
+	background: #9d3292;
+}

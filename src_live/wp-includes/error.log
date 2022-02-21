@@ -1,0 +1,170 @@
+INSERT INTO `wp_16_quote_calculator_customer_address` (`customer_address_type`, `customer_address_line1`, `customer_address_line2`, `customer_address_line3`, `customer_address_city`, `customer_address_country`, `customer_address_country_sub_division_code`, `customer_address_postal_code`, `customer_address_lat`, `customer_address_long`) VALUES (1, '', '', '', '', '', '', '', '', '')
+5127
+INSERT INTO `wp_16_quote_calculator_customer_address` (`customer_address_type`, `customer_address_line1`, `customer_address_line2`, `customer_address_line3`, `customer_address_city`, `customer_address_country`, `customer_address_country_sub_division_code`, `customer_address_postal_code`, `customer_address_lat`, `customer_address_long`) VALUES (2, '', NULL, NULL, '', NULL, NULL, NULL, NULL, NULL)
+5128
+INSERT INTO `wp_16_quote_calculator_customer_address` (`customer_address_type`, `customer_address_line1`, `customer_address_line2`, `customer_address_line3`, `customer_address_city`, `customer_address_country`, `customer_address_country_sub_division_code`, `customer_address_postal_code`, `customer_address_lat`, `customer_address_long`) VALUES (1, '', '', '', '', '', '', '', 'INVALID', 'INVALID')
+5129
+INSERT INTO `wp_16_quote_calculator_customer_address` (`customer_address_type`, `customer_address_line1`, `customer_address_line2`, `customer_address_line3`, `customer_address_city`, `customer_address_country`, `customer_address_country_sub_division_code`, `customer_address_postal_code`, `customer_address_lat`, `customer_address_long`) VALUES (2, '', NULL, NULL, '', NULL, NULL, NULL, NULL, NULL)
+5130
+INSERT INTO `wp_16_quote_calculator_customer_address` (`customer_address_type`, `customer_address_line1`, `customer_address_line2`, `customer_address_line3`, `customer_address_city`, `customer_address_country`, `customer_address_country_sub_division_code`, `customer_address_postal_code`, `customer_address_lat`, `customer_address_long`) VALUES (1, 'The Finance Team', 'Tindeal Road', '', 'Aylesbury', '', 'Bucks', 'HP20 1HR', '51.8240129', '-0.8052828')
+5131
+INSERT INTO `wp_16_quote_calculator_customer_address` (`customer_address_type`, `customer_address_line1`, `customer_address_line2`, `customer_address_line3`, `customer_address_city`, `customer_address_country`, `customer_address_country_sub_division_code`, `customer_address_postal_code`, `customer_address_lat`, `customer_address_long`) VALUES (2, 'The Finance Team', 'Tindeal Road', '', 'Aylesbury', '', 'Bucks', 'HP20 1HR', '51.8240129', '-0.8052828')
+5132
+INSERT INTO `wp_16_quote_calculator_customer_address` (`customer_address_type`, `customer_address_line1`, `customer_address_line2`, `customer_address_line3`, `customer_address_city`, `customer_address_country`, `customer_address_country_sub_division_code`, `customer_address_postal_code`, `customer_address_lat`, `customer_address_long`) VALUES (1, '', '', '', '', '', '', '', '', '')
+5133
+INSERT INTO `wp_16_quote_calculator_customer_address` (`customer_address_type`, `customer_address_line1`, `customer_address_line2`, `customer_address_line3`, `customer_address_city`, `customer_address_country`, `customer_address_country_sub_division_code`, `customer_address_postal_code`, `customer_address_lat`, `customer_address_long`) VALUES (2, '', NULL, NULL, '', NULL, NULL, NULL, NULL, NULL)
+5134
+INSERT INTO `wp_16_quote_calculator_customer_address` (`customer_address_type`, `customer_address_line1`, `customer_address_line2`, `customer_address_line3`, `customer_address_city`, `customer_address_country`, `customer_address_country_sub_division_code`, `customer_address_postal_code`, `customer_address_lat`, `customer_address_long`) VALUES (1, '101 Doulton Place, Macmillan Way', '', '', 'Tooting', '', 'London', 'SW17 6AT', '', '')
+5135
+INSERT INTO `wp_16_quote_calculator_customer_address` (`customer_address_type`, `customer_address_line1`, `customer_address_line2`, `customer_address_line3`, `customer_address_city`, `customer_address_country`, `customer_address_country_sub_division_code`, `customer_address_postal_code`, `customer_address_lat`, `customer_address_long`) VALUES (2, '', NULL, NULL, '', NULL, NULL, NULL, NULL, NULL)
+5136
+INSERT INTO `wp_16_quote_calculator_customer_address` (`customer_address_type`, `customer_address_line1`, `customer_address_line2`, `customer_address_line3`, `customer_address_city`, `customer_address_country`, `customer_address_country_sub_division_code`, `customer_address_postal_code`, `customer_address_lat`, `customer_address_long`) VALUES (1, 'Fort Pitt', '', '', 'Rochester', '', 'Kent', 'ME1 1DZ', '51.3815362', '0.5143067')
+5137
+INSERT INTO `wp_16_quote_calculator_customer_address` (`customer_address_type`, `customer_address_line1`, `customer_address_line2`, `customer_address_line3`, `customer_address_city`, `customer_address_country`, `customer_address_country_sub_division_code`, `customer_address_postal_code`, `customer_address_lat`, `customer_address_long`) VALUES (2, '', NULL, NULL, '', NULL, NULL, NULL, NULL, NULL)
+5138
+INSERT INTO `wp_16_quote_calculator_customer_address` (`customer_address_type`, `customer_address_line1`, `customer_address_line2`, `customer_address_line3`, `customer_address_city`, `customer_address_country`, `customer_address_country_sub_division_code`, `customer_address_postal_code`, `customer_address_lat`, `customer_address_long`) VALUES (1, 'Karl Kawell', 'Wonderland', 'Lockmeadow Complex', 'Maidstone', '', '', 'ME16 8LW', '51.2697322', '0.5185044')
+5139
+INSERT INTO `wp_16_quote_calculator_customer_address` (`customer_address_type`, `customer_address_line1`, `customer_address_line2`, `customer_address_line3`, `customer_address_city`, `customer_address_country`, `customer_address_country_sub_division_code`, `customer_address_postal_code`, `customer_address_lat`, `customer_address_long`) VALUES (2, 'Karl Kawell', 'Wonderland', 'Lockmeadow Complex', 'Maidstone', '', '', 'ME16 8LW', '51.2697322', '0.5185044')
+5140
+INSERT INTO `wp_11_posts` (`post_author`, `post_date`, `post_date_gmt`, `post_content`, `post_content_filtered`, `post_title`, `post_excerpt`, `post_status`, `post_type`, `comment_status`, `ping_status`, `post_password`, `post_name`, `to_ping`, `pinged`, `post_modified`, `post_modified_gmt`, `post_parent`, `menu_order`, `post_mime_type`, `guid`) VALUES (7, '2018-01-29 15:03:06', '2018-01-29 15:03:06', '', '', '', '', 'publish', 'projects', 'closed', 'closed', '', '', '', '', '2018-01-29 15:03:06', '2018-01-29 15:03:06', 0, 0, '', '')
+3774
+INSERT INTO `wp_11_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES (3774, 'client', 'CORE Gym')
+86773
+INSERT INTO `wp_11_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES (3774, '_client', 'field_578647289c450')
+86774
+INSERT INTO `wp_11_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES (3774, 'order_number', '1915')
+86775
+INSERT INTO `wp_11_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES (3774, '_order_number', 'field_5786476b9c451')
+86776
+INSERT INTO `wp_11_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES (3774, 'reference', 'Vinyl T-shirt')
+86777
+INSERT INTO `wp_11_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES (3774, '_reference', 'field_57f239b08b12a')
+86778
+INSERT INTO `wp_11_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES (3774, 'deadline', '20180131')
+86779
+INSERT INTO `wp_11_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES (3774, '_deadline', 'field_578647e195fdf')
+86780
+INSERT INTO `wp_11_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES (3774, 'notes', '')
+86781
+INSERT INTO `wp_11_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES (3774, '_notes', 'field_5786488d95fe1')
+86782
+INSERT INTO `wp_11_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES (3774, 'project_stage', 'Design')
+86783
+INSERT INTO `wp_11_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES (3774, '_project_stage', 'field_57867067bce90')
+86784
+INSERT INTO `wp_11_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES (3774, 'design_stage', '1')
+86785
+INSERT INTO `wp_11_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES (3774, '_design_stage', 'field_57b5e9a7f7531')
+86786
+INSERT INTO `wp_11_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES (3768, 'jobs_out_stage', '2')
+86787
+INSERT INTO `wp_11_postmeta` (`post_id`, `meta_key`, `meta_value`) VALUES (3768, '_jobs_out_stage', 'field_5786717163e05')
+86788
+INSERT INTO `wp_16_quote_calculator_customer_address` (`customer_address_type`, `customer_address_line1`, `customer_address_line2`, `customer_address_line3`, `customer_address_city`, `customer_address_country`, `customer_address_country_sub_division_code`, `customer_address_postal_code`, `customer_address_lat`, `customer_address_long`) VALUES (1, '', '', '', '', '', '', '', 'INVALID', 'INVALID')
+5143
+INSERT INTO `wp_16_quote_calculator_customer_address` (`customer_address_type`, `customer_address_line1`, `customer_address_line2`, `customer_address_line3`, `customer_address_city`, `customer_address_country`, `customer_address_country_sub_division_code`, `customer_address_postal_code`, `customer_address_lat`, `customer_address_long`) VALUES (2, '', NULL, NULL, '', NULL, NULL, NULL, NULL, NULL)
+5144
+INSERT INTO `wp_16_quote_calculator_customer_address` (`customer_address_type`, `customer_address_line1`, `customer_address_line2`, `customer_address_line3`, `customer_address_city`, `customer_address_country`, `customer_address_country_sub_division_code`, `customer_address_postal_code`, `customer_address_lat`, `customer_address_long`) VALUES (1, '', '', '', '', '', '', '', 'INVALID', 'INVALID')
+5145
+INSERT INTO `wp_16_quote_calculator_customer_address` (`customer_address_type`, `customer_address_line1`, `customer_address_line2`, `customer_address_line3`, `customer_address_city`, `customer_address_country`, `customer_address_country_sub_division_code`, `customer_address_postal_code`, `customer_address_lat`, `customer_address_long`) VALUES (2, '', NULL, NULL, '', NULL, NULL, NULL, NULL, NULL)
+5146
+INSERT INTO `wp_16_quote_calculator_customer_address` (`customer_address_type`, `customer_address_line1`, `customer_address_line2`, `customer_address_line3`, `customer_address_city`, `customer_address_country`, `customer_address_country_sub_division_code`, `customer_address_postal_code`, `customer_address_lat`, `customer_address_long`) VALUES (1, 'The Old Oast', 'Coldharbour Lane', '', 'Aylesford', '', 'Kent', 'ME20 7NS', '51.2984641', '0.485356')
+5173
+INSERT INTO `wp_16_quote_calculator_customer_address` (`customer_address_type`, `customer_address_line1`, `customer_address_line2`, `customer_address_line3`, `customer_address_city`, `customer_address_country`, `customer_address_country_sub_division_code`, `customer_address_postal_code`, `customer_address_lat`, `customer_address_long`) VALUES (2, '', NULL, NULL, '', NULL, NULL, NULL, NULL, NULL)
+5174
+INSERT INTO `wp_16_quote_calculator_customer_address` (`customer_address_type`, `customer_address_line1`, `customer_address_line2`, `customer_address_line3`, `customer_address_city`, `customer_address_country`, `customer_address_country_sub_division_code`, `customer_address_postal_code`, `customer_address_lat`, `customer_address_long`) VALUES (1, '', '', '', '', '', '', '', 'INVALID', 'INVALID')
+5180
+INSERT INTO `wp_16_quote_calculator_customer_address` (`customer_address_type`, `customer_address_line1`, `customer_address_line2`, `customer_address_line3`, `customer_address_city`, `customer_address_country`, `customer_address_country_sub_division_code`, `customer_address_postal_code`, `customer_address_lat`, `customer_address_long`) VALUES (2, '', NULL, NULL, '', NULL, NULL, NULL, NULL, NULL)
+5181
+INSERT INTO `wp_16_quote_calculator_customer_address` (`customer_address_type`, `customer_address_line1`, `customer_address_line2`, `customer_address_line3`, `customer_address_city`, `customer_address_country`, `customer_address_country_sub_division_code`, `customer_address_postal_code`, `customer_address_lat`, `customer_address_long`) VALUES (1, 'Unit 4, Lake Road', '', '', 'Aylesford', '', 'Kent', 'ME20 7QT', '51.2914851', '0.4667532')
+5190
+INSERT INTO `wp_16_quote_calculator_customer_address` (`customer_address_type`, `customer_address_line1`, `customer_address_line2`, `customer_address_line3`, `customer_address_city`, `customer_address_country`, `customer_address_country_sub_division_code`, `customer_address_postal_code`, `customer_address_lat`, `customer_address_long`) VALUES (2, 'Unit 4, Lake Road', '', '', 'Aylesford', '', 'Kent', 'ME20 7QT', '51.2914851', '0.4667532')
+5191
+INSERT INTO `wp_16_quote_calculator_customer_address` (`customer_address_type`, `customer_address_line1`, `customer_address_line2`, `customer_address_line3`, `customer_address_city`, `customer_address_country`, `customer_address_country_sub_division_code`, `customer_address_postal_code`, `customer_address_lat`, `customer_address_long`) VALUES (1, '222 Bishopsgate', '', '', 'London', '', '', 'EC2M 4QD', '51.518842', '-0.0791272')
+5194
+INSERT INTO `wp_16_quote_calculator_customer_address` (`customer_address_type`, `customer_address_line1`, `customer_address_line2`, `customer_address_line3`, `customer_address_city`, `customer_address_country`, `customer_address_country_sub_division_code`, `customer_address_postal_code`, `customer_address_lat`, `customer_address_long`) VALUES (2, '', NULL, NULL, '', NULL, NULL, NULL, NULL, NULL)
+5195
+INSERT INTO `wp_16_quote_calculator_customer_address` (`customer_address_type`, `customer_address_line1`, `customer_address_line2`, `customer_address_line3`, `customer_address_city`, `customer_address_country`, `customer_address_country_sub_division_code`, `customer_address_postal_code`, `customer_address_lat`, `customer_address_long`) VALUES (1, 'Unit 4/5 Integra Business Park, Bircholt Road', '', '', 'Maidstone', '', 'Kent', 'ME15 9GQ', '', '')
+5201
+INSERT INTO `wp_16_quote_calculator_customer_address` (`customer_address_type`, `customer_address_line1`, `customer_address_line2`, `customer_address_line3`, `customer_address_city`, `customer_address_country`, `customer_address_country_sub_division_code`, `customer_address_postal_code`, `customer_address_lat`, `customer_address_long`) VALUES (2, 'Unit 4/5 Integra Business Park, Bircholt Road', '', '', 'Maidstone', '', 'Kent', 'ME15 9GQ', '', '')
+5202
+INSERT INTO `wp_16_quote_calculator_customer_address` (`customer_address_type`, `customer_address_line1`, `customer_address_line2`, `customer_address_line3`, `customer_address_city`, `customer_address_country`, `customer_address_country_sub_division_code`, `customer_address_postal_code`, `customer_address_lat`, `customer_address_long`) VALUES (1, '', '', '', '', '', '', '', '', '')
+5203
+INSERT INTO `wp_16_quote_calculator_customer_address` (`customer_address_type`, `customer_address_line1`, `customer_address_line2`, `customer_address_line3`, `customer_address_city`, `customer_address_country`, `customer_address_country_sub_division_code`, `customer_address_postal_code`, `customer_address_lat`, `customer_address_long`) VALUES (2, '', NULL, NULL, '', NULL, NULL, NULL, NULL, NULL)
+5204
+INSERT INTO `wp_16_quote_calculator_customer_address` (`customer_address_type`, `customer_address_line1`, `customer_address_line2`, `customer_address_line3`, `customer_address_city`, `customer_address_country`, `customer_address_country_sub_division_code`, `customer_address_postal_code`, `customer_address_lat`, `customer_address_long`) VALUES (1, 'Grey Pocket Towers', 'Chelsfield Lakes', '', 'Court Road', '', 'Chelsfield', 'BR6 9BX', '51.3616644', '0.1157539')
+5208
+INSERT INTO `wp_16_quote_calculator_customer_address` (`customer_address_type`, `customer_address_line1`, `customer_address_line2`, `customer_address_line3`, `customer_address_city`, `customer_address_country`, `customer_address_country_sub_division_code`, `customer_address_postal_code`, `customer_address_lat`, `customer_address_long`) VALUES (2, '', NULL, NULL, '', NULL, NULL, NULL, NULL, NULL)
+5209
+INSERT INTO `wp_16_quote_calculator_customer_address` (`customer_address_type`, `customer_address_line1`, `customer_address_line2`, `customer_address_line3`, `customer_address_city`, `customer_address_country`, `customer_address_country_sub_division_code`, `customer_address_postal_code`, `customer_address_lat`, `customer_address_long`) VALUES (1, 'Goldings, Elphicks Farm, Walter Lane, Hunton', '', '', 'Maidstone', '', 'Kent', 'ME15 0SG', '', '')
+5213
+INSERT INTO `wp_16_quote_calculator_customer_address` (`customer_address_type`, `customer_address_line1`, `customer_address_line2`, `customer_address_line3`, `customer_address_city`, `customer_address_country`, `customer_address_country_sub_division_code`, `customer_address_postal_code`, `customer_address_lat`, `customer_address_long`) VALUES (2, '', NULL, NULL, '', NULL, NULL, NULL, NULL, NULL)
+5214
+INSERT INTO `wp_16_quote_calculator_customer_address` (`customer_address_type`, `customer_address_line1`, `customer_address_line2`, `customer_address_line3`, `customer_address_city`, `customer_address_country`, `customer_address_country_sub_division_code`, `customer_address_postal_code`, `customer_address_lat`, `customer_address_long`) VALUES (1, '36 Montpelier Vale', '', '', 'Blackheath', '', 'London', 'SE3 0TA', '', '')
+5231
+INSERT INTO `wp_16_quote_calculator_customer_address` (`customer_address_type`, `customer_address_line1`, `customer_address_line2`, `customer_address_line3`, `customer_address_city`, `customer_address_country`, `customer_address_country_sub_division_code`, `customer_address_postal_code`, `customer_address_lat`, `customer_address_long`) VALUES (2, '', NULL, NULL, '', NULL, NULL, NULL, NULL, NULL)
+5232
+INSERT INTO `wp_16_quote_calculator_customer_address` (`customer_address_type`, `customer_address_line1`, `customer_address_line2`, `customer_address_line3`, `customer_address_city`, `customer_address_country`, `customer_address_country_sub_division_code`, `customer_address_postal_code`, `customer_address_lat`, `customer_address_long`) VALUES (1, 'Tenterden Road', '', '', 'Biddenden', '', 'Kent', 'TN27 8BH', '', '')
+5237
+INSERT INTO `wp_16_quote_calculator_customer_address` (`customer_address_type`, `customer_address_line1`, `customer_address_line2`, `customer_address_line3`, `customer_address_city`, `customer_address_country`, `customer_address_country_sub_division_code`, `customer_address_postal_code`, `customer_address_lat`, `customer_address_long`) VALUES (2, 'Tenterden Road', '', '', 'Biddenden', '', 'Kent', 'TN27 8BH', '', '')
+5238
+INSERT INTO `wp_16_quote_calculator_customer_address` (`customer_address_type`, `customer_address_line1`, `customer_address_line2`, `customer_address_line3`, `customer_address_city`, `customer_address_country`, `customer_address_country_sub_division_code`, `customer_address_postal_code`, `customer_address_lat`, `customer_address_long`) VALUES (1, 'KCC - kent teach door 23', 'Commercial Services building', 'gibson drive', 'West Malling', '', '', 'ME19 4QG', '51.2752029', '0.3980257')
+5240
+INSERT INTO `wp_16_quote_calculator_customer_address` (`customer_address_type`, `customer_address_line1`, `customer_address_line2`, `customer_address_line3`, `customer_address_city`, `customer_address_country`, `customer_address_country_sub_division_code`, `customer_address_postal_code`, `customer_address_lat`, `customer_address_long`) VALUES (2, '', NULL, NULL, '', NULL, NULL, NULL, NULL, NULL)
+5241
+INSERT INTO `wp_16_quote_calculator_customer_address` (`customer_address_type`, `customer_address_line1`, `customer_address_line2`, `customer_address_line3`, `customer_address_city`, `customer_address_country`, `customer_address_country_sub_division_code`, `customer_address_postal_code`, `customer_address_lat`, `customer_address_long`) VALUES (1, 'Mid Kent Fencing Yard', 'Grove Road', 'Upper Halling', 'Kent', '', '', 'ME2 1HZ', '51.3515978', '0.4266304')
+5264
+INSERT INTO `wp_16_quote_calculator_customer_address` (`customer_address_type`, `customer_address_line1`, `customer_address_line2`, `customer_address_line3`, `customer_address_city`, `customer_address_country`, `customer_address_country_sub_division_code`, `customer_address_postal_code`, `customer_address_lat`, `customer_address_long`) VALUES (2, 'Mid Kent Fencing Yard', 'Grove Road', 'Upper Halling', 'Kent', '', '', 'ME2 1HZ', '51.3515978', '0.4266304')
+5265
+INSERT INTO `wp_16_quote_calculator_customer_address` (`customer_address_type`, `customer_address_line1`, `customer_address_line2`, `customer_address_line3`, `customer_address_city`, `customer_address_country`, `customer_address_country_sub_division_code`, `customer_address_postal_code`, `customer_address_lat`, `customer_address_long`) VALUES (1, '2-3 Nelson\'s Yard', 'St Faiths Street', 'Maidstone', 'Kent', '', '', 'ME14 1GH', 'INVALID', 'INVALID')
+5273
+INSERT INTO `wp_16_quote_calculator_customer_address` (`customer_address_type`, `customer_address_line1`, `customer_address_line2`, `customer_address_line3`, `customer_address_city`, `customer_address_country`, `customer_address_country_sub_division_code`, `customer_address_postal_code`, `customer_address_lat`, `customer_address_long`) VALUES (2, '2-3 Nelson\'s Yard', 'St Faiths Street', 'Maidstone', 'Kent', '', '', 'ME14 1GH', 'INVALID', 'INVALID')
+5274
+INSERT INTO `wp_16_quote_calculator_customer_address` (`customer_address_type`, `customer_address_line1`, `customer_address_line2`, `customer_address_line3`, `customer_address_city`, `customer_address_country`, `customer_address_country_sub_division_code`, `customer_address_postal_code`, `customer_address_lat`, `customer_address_long`) VALUES (1, '36 Dukes Drive', '', '', 'Tunbridge Wells', '', 'Kent', 'TN2 5FA', '', '')
+5275
+INSERT INTO `wp_16_quote_calculator_customer_address` (`customer_address_type`, `customer_address_line1`, `customer_address_line2`, `customer_address_line3`, `customer_address_city`, `customer_address_country`, `customer_address_country_sub_division_code`, `customer_address_postal_code`, `customer_address_lat`, `customer_address_long`) VALUES (2, '', NULL, NULL, '', NULL, NULL, NULL, NULL, NULL)
+5276
+INSERT INTO `wp_16_quote_calculator_customer_address` (`customer_address_type`, `customer_address_line1`, `customer_address_line2`, `customer_address_line3`, `customer_address_city`, `customer_address_country`, `customer_address_country_sub_division_code`, `customer_address_postal_code`, `customer_address_lat`, `customer_address_long`) VALUES (1, '', '', '', '', '', '', '', 'INVALID', 'INVALID')
+5279
+INSERT INTO `wp_16_quote_calculator_customer_address` (`customer_address_type`, `customer_address_line1`, `customer_address_line2`, `customer_address_line3`, `customer_address_city`, `customer_address_country`, `customer_address_country_sub_division_code`, `customer_address_postal_code`, `customer_address_lat`, `customer_address_long`) VALUES (2, '', NULL, NULL, '', NULL, NULL, NULL, NULL, NULL)
+5280
+INSERT INTO `wp_16_quote_calculator_customer_address` (`customer_address_type`, `customer_address_line1`, `customer_address_line2`, `customer_address_line3`, `customer_address_city`, `customer_address_country`, `customer_address_country_sub_division_code`, `customer_address_postal_code`, `customer_address_lat`, `customer_address_long`) VALUES (1, '', '', '', '', '', '', '', '', '')
+5290
+INSERT INTO `wp_16_quote_calculator_customer_address` (`customer_address_type`, `customer_address_line1`, `customer_address_line2`, `customer_address_line3`, `customer_address_city`, `customer_address_country`, `customer_address_country_sub_division_code`, `customer_address_postal_code`, `customer_address_lat`, `customer_address_long`) VALUES (2, '', NULL, NULL, '', NULL, NULL, NULL, NULL, NULL)
+5291
+INSERT INTO `wp_16_quote_calculator_customer_address` (`customer_address_type`, `customer_address_line1`, `customer_address_line2`, `customer_address_line3`, `customer_address_city`, `customer_address_country`, `customer_address_country_sub_division_code`, `customer_address_postal_code`, `customer_address_lat`, `customer_address_long`) VALUES (1, 'The Studio 8 Station Road', '', '', 'Headcorn', '', 'Kent', 'TN27 9SA', '', '')
+5298
+INSERT INTO `wp_16_quote_calculator_customer_address` (`customer_address_type`, `customer_address_line1`, `customer_address_line2`, `customer_address_line3`, `customer_address_city`, `customer_address_country`, `customer_address_country_sub_division_code`, `customer_address_postal_code`, `customer_address_lat`, `customer_address_long`) VALUES (2, '', NULL, NULL, '', NULL, NULL, NULL, NULL, NULL)
+5299
+INSERT INTO `wp_16_quote_calculator_customer_address` (`customer_address_type`, `customer_address_line1`, `customer_address_line2`, `customer_address_line3`, `customer_address_city`, `customer_address_country`, `customer_address_country_sub_division_code`, `customer_address_postal_code`, `customer_address_lat`, `customer_address_long`) VALUES (1, 'Flat 6, 26 - 28, Albion Place,', '', '', 'Maidstone', '', 'Kent', 'ME14 5DZ', '', '')
+5300
+INSERT INTO `wp_16_quote_calculator_customer_address` (`customer_address_type`, `customer_address_line1`, `customer_address_line2`, `customer_address_line3`, `customer_address_city`, `customer_address_country`, `customer_address_country_sub_division_code`, `customer_address_postal_code`, `customer_address_lat`, `customer_address_long`) VALUES (2, 'Flat 6, 26 - 28, Albion Place,', '', '', 'Maidstone', '', 'Kent', 'ME14 5DZ', '', '')
+5301
+INSERT INTO `wp_16_quote_calculator_customer_address` (`customer_address_type`, `customer_address_line1`, `customer_address_line2`, `customer_address_line3`, `customer_address_city`, `customer_address_country`, `customer_address_country_sub_division_code`, `customer_address_postal_code`, `customer_address_lat`, `customer_address_long`) VALUES (1, '', '', '', '', '', '', '', '', '')
+5317
+INSERT INTO `wp_16_quote_calculator_customer_address` (`customer_address_type`, `customer_address_line1`, `customer_address_line2`, `customer_address_line3`, `customer_address_city`, `customer_address_country`, `customer_address_country_sub_division_code`, `customer_address_postal_code`, `customer_address_lat`, `customer_address_long`) VALUES (2, '', NULL, NULL, '', NULL, NULL, NULL, NULL, NULL)
+5318
+INSERT INTO `wp_16_quote_calculator_customer_address` (`customer_address_type`, `customer_address_line1`, `customer_address_line2`, `customer_address_line3`, `customer_address_city`, `customer_address_country`, `customer_address_country_sub_division_code`, `customer_address_postal_code`, `customer_address_lat`, `customer_address_long`) VALUES (1, '', '', '', '', '', '', '', 'INVALID', 'INVALID')
+5321
+INSERT INTO `wp_16_quote_calculator_customer_address` (`customer_address_type`, `customer_address_line1`, `customer_address_line2`, `customer_address_line3`, `customer_address_city`, `customer_address_country`, `customer_address_country_sub_division_code`, `customer_address_postal_code`, `customer_address_lat`, `customer_address_long`) VALUES (2, '', NULL, NULL, '', NULL, NULL, NULL, NULL, NULL)
+5322
+INSERT INTO `wp_16_quote_calculator_customer_address` (`customer_address_type`, `customer_address_line1`, `customer_address_line2`, `customer_address_line3`, `customer_address_city`, `customer_address_country`, `customer_address_country_sub_division_code`, `customer_address_postal_code`, `customer_address_lat`, `customer_address_long`) VALUES (1, 'The Finance Team', 'Tindeal Road', '', 'Aylesbury', '', 'Bucks', 'HP20 1HR', '51.8240129', '-0.8052828')
+5326
+INSERT INTO `wp_16_quote_calculator_customer_address` (`customer_address_type`, `customer_address_line1`, `customer_address_line2`, `customer_address_line3`, `customer_address_city`, `customer_address_country`, `customer_address_country_sub_division_code`, `customer_address_postal_code`, `customer_address_lat`, `customer_address_long`) VALUES (2, 'The Finance Team', 'Tindeal Road', '', 'Aylesbury', '', 'Bucks', 'HP20 1HR', '51.8240129', '-0.8052828')
+5327
+INSERT INTO `wp_16_quote_calculator_customer_address` (`customer_address_type`, `customer_address_line1`, `customer_address_line2`, `customer_address_line3`, `customer_address_city`, `customer_address_country`, `customer_address_country_sub_division_code`, `customer_address_postal_code`, `customer_address_lat`, `customer_address_long`) VALUES (1, '', '', '', '', '', '', '', '', '')
+5348
+INSERT INTO `wp_16_quote_calculator_customer_address` (`customer_address_type`, `customer_address_line1`, `customer_address_line2`, `customer_address_line3`, `customer_address_city`, `customer_address_country`, `customer_address_country_sub_division_code`, `customer_address_postal_code`, `customer_address_lat`, `customer_address_long`) VALUES (2, '', NULL, NULL, '', NULL, NULL, NULL, NULL, NULL)
+5349
+INSERT INTO `wp_16_quote_calculator_customer_address` (`customer_address_type`, `customer_address_line1`, `customer_address_line2`, `customer_address_line3`, `customer_address_city`, `customer_address_country`, `customer_address_country_sub_division_code`, `customer_address_postal_code`, `customer_address_lat`, `customer_address_long`) VALUES (1, '101 Doulton Place, Macmillan Way', '', '', 'Tooting', '', 'London', 'SW17 6AT', '', '')
+5350
+INSERT INTO `wp_16_quote_calculator_customer_address` (`customer_address_type`, `customer_address_line1`, `customer_address_line2`, `customer_address_line3`, `customer_address_city`, `customer_address_country`, `customer_address_country_sub_division_code`, `customer_address_postal_code`, `customer_address_lat`, `customer_address_long`) VALUES (2, '', NULL, NULL, '', NULL, NULL, NULL, NULL, NULL)
+5351
+INSERT INTO `wp_16_quote_calculator_customer_address` (`customer_address_type`, `customer_address_line1`, `customer_address_line2`, `customer_address_line3`, `customer_address_city`, `customer_address_country`, `customer_address_country_sub_division_code`, `customer_address_postal_code`, `customer_address_lat`, `customer_address_long`) VALUES (1, 'Fort Pitt', '', '', 'Rochester', '', 'Kent', 'ME1 1DZ', '51.3815362', '0.5143067')
+5358
+INSERT INTO `wp_16_quote_calculator_customer_address` (`customer_address_type`, `customer_address_line1`, `customer_address_line2`, `customer_address_line3`, `customer_address_city`, `customer_address_country`, `customer_address_country_sub_division_code`, `customer_address_postal_code`, `customer_address_lat`, `customer_address_long`) VALUES (2, '', NULL, NULL, '', NULL, NULL, NULL, NULL, NULL)
+5359
+INSERT INTO `wp_16_quote_calculator_customer_address` (`customer_address_type`, `customer_address_line1`, `customer_address_line2`, `customer_address_line3`, `customer_address_city`, `customer_address_country`, `customer_address_country_sub_division_code`, `customer_address_postal_code`, `customer_address_lat`, `customer_address_long`) VALUES (1, 'Karl Kawell', 'Wonderland', 'Lockmeadow Complex', 'Maidstone', '', '', 'ME16 8LW', '51.2697322', '0.5185044')
+5369
+INSERT INTO `wp_16_quote_calculator_customer_address` (`customer_address_type`, `customer_address_line1`, `customer_address_line2`, `customer_address_line3`, `customer_address_city`, `customer_address_country`, `customer_address_country_sub_division_code`, `customer_address_postal_code`, `customer_address_lat`, `customer_address_long`) VALUES (2, 'Karl Kawell', 'Wonderland', 'Lockmeadow Complex', 'Maidstone', '', '', 'ME16 8LW', '51.2697322', '0.5185044')
+5370

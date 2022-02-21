@@ -1,0 +1,36 @@
+/* Variables
+--------------------------*/
+
+.brandColour {
+	color:#9b2b93;
+}
+
+.brandColourBG {
+	background-color:#9b2b93;
+	color: white;
+}
+
+.brandCurrentPage {
+	border-left: 2px solid #9b2b93;
+}
+
+.brandCurrentPage a{
+	color: #9b2b93}
+
+.brandCurrentPage:before {
+	color: #9b2b93}
+
+.brandCurrent .acf-form-submit input {
+ 	background-color:#9b2b93!important;
+	color: white!important;
+	
+}
+
+.brandCurrent .editTools__delete, .brandCurrent .editTools__edit {
+ 	background-color:#9b2b93;
+ 	color: white;
+}
+
+.brandCurrent .filterControls__search {
+	color: #9b2b93;
+}

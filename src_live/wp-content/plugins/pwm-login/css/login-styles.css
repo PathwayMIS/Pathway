@@ -1,0 +1,172 @@
+/* Reset standard WP login styles */
+.pwm-login-body #login {
+	width: auto;
+	margin: 0 !important;
+	padding: 0;
+}
+.pwm-login-body h1 a {
+	display: none;
+}
+.pwm-login-body form {
+	padding: 0;
+	background: none;
+    box-shadow: none;
+    overflow: visible;
+}
+.pwm-login-body form .forgetmenot,
+.pwm-login-body .button-primary {
+	float: none;
+}
+.pwm-login-body #nav,
+.pwm-login-body #backtoblog {
+	display: none;
+}
+.pwm-login-body label {
+	color: #ffffff;
+}
+/* Add custom login styles */
+.pwm-login-body * {
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.pwm-login-body {
+	min-width: 320px;
+	width: 100%;
+	background-color: #212443;
+}
+.pwm-login-body .pwm-login-wrapper {
+	position: relative;
+	height: 100%;
+	display: -webkit-box; 
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex; 
+	display: flex;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+	-moz-justify-content: space-between;
+	-ms-justify-content: space-between;
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+}
+.pwm-login-body .pwm-login-header {
+	width: 100%;
+	padding: 36px;
+}
+.pwm-login-body .pwm-login-block {
+	max-width: 400px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 30px 70px 40px;
+	background-color: #21345f;
+	-moz-box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.5);
+	-o-box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.5);
+	-ms-box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.5);
+	box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.5);
+}
+.pwm-login-body .pwm-login-logo a {
+	display: block;
+	max-width: 280px;
+	width: 100%;
+	margin: 0 auto 20px;
+}
+.pwm-login-body .pwm-login-logo a:hover,
+.pwm-login-body .pwm-login-logo a:active {
+	box-shadow: none;
+}
+.pwm-login-body .pwm-login-logo a img {
+	display: block;
+	max-width: 100%;
+	width: 100%;
+	height: auto;
+}
+.pwm-login-body .pwm-forgot-password {
+	float: right;
+}
+.pwm-login-body .pwm-forgot-password a {
+	color: #ffffff;
+	text-decoration: none;
+}
+.pwm-login-body .pwm-forgot-password a:hover,
+.pwm-login-body .pwm-forgot-password a:active {
+	text-decoration: underline;
+}
+.pwm-login-body form p.submit {
+	margin: 30px 0 0 !important;
+}
+.pwm-login-body #wp-submit {
+	width: 100%;
+	height: 37px;
+	font-weight: bold;
+	background: #6c7a95;
+	border: none;
+	text-shadow: none;
+	-moz-border-radius: 10px;
+	-o-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	-moz-box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.5);
+	-o-box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.5);
+	-ms-box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.5);
+	box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.5);
+}
+.pwm-login-body .pwm-login-footer {
+	width: 100%;
+	padding: 20px 36px;
+}
+.pwm-login-body .pwm-login-footer-menu {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: right;
+}
+.pwm-login-body .pwm-login-footer-menu li {
+	margin: 11px 0;
+	float: left;
+}
+.pwm-login-body .pwm-login-footer-menu li + li {
+	margin-left: 40px;
+}
+.pwm-login-body .pwm-login-footer-menu li a {
+	color: #ffffff;
+	text-decoration: none;
+}
+.pwm-login-body .pwm-login-footer-menu li a:hover,
+.pwm-login-body .pwm-login-footer-menu li a:active {
+	text-decoration: underline;
+}
+@media screen and (max-width: 782px) {
+	.pwm-login-body .pwm-login-footer {
+		padding: 36px;
+	}
+	.pwm-login-body .pwm-login-footer-menu li + li {
+		margin-left: 20px;
+	}
+}
+@media screen and (max-width: 700px) {
+	.pwm-login-body .pwm-login-block {
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+	.pwm-login-body .pwm-login-header,
+	.pwm-login-body .pwm-login-footer {
+		text-align: center;
+	}
+	.pwm-login-body .pwm-login-footer-menu {
+		float: none;
+	}
+	.pwm-login-body .pwm-login-footer-menu li {
+		float: none;
+	}
+	.pwm-login-body .pwm-login-footer-menu li + li {
+		margin-left: 0;
+	}
+}

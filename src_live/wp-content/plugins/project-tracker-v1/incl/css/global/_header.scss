@@ -1,0 +1,227 @@
+@media #{$xs} {
+	#header {
+		padding: 15px;
+		border-bottom: 1px solid $ltgrey;
+		
+		a {
+			color: $grey;
+			text-decoration: none;
+			font-weight: 700;
+			@include font-size(14px);
+		}
+	}
+
+	#logo {
+		display: inline-block;
+		float: left;
+	}
+
+	#hamburger {
+		display: inline-block;
+		float: right;
+		position: relative;
+		z-index: 999999;
+	}
+		
+	#user {
+		display: none;
+		float: right;
+	}
+
+	#nav {
+		height: 100vh;
+		width: 100%;
+		position: absolute;
+		background: white;
+		left: 0;
+		top: 0;
+		@include transition(box-shadow .7s ease-in-out, transform .7s cubic-bezier(.76, 0, .18, 1));
+		@include transform(translateX(-100%));
+		
+		.navBarWrap {
+			width: 100%;
+			position: absolute;
+			top: 50%;
+			@include transform(translateY(-50%));
+		
+			#brand {
+				width: 100px;
+				max-height: 50px;
+				padding-bottom: 25px;
+				padding-left: 10%;
+
+				img {
+					width: 100%;
+				}
+			}
+			
+			ul.navWrap {
+				margin: 0;
+				padding: 0;
+				width: 100%;
+				list-style: none;
+				position: relative;
+				height: 90vh;
+				
+				.navWrap__item {
+					color: $grey;
+					line-height: 4;
+					padding-left: 10%;
+					@include font-size(12px);
+					@include transition(background-color .2s ease-in-out);
+					
+					&--current {
+						
+					}
+
+					&:hover {
+						background-color: $ltgrey;
+					}
+
+
+					/* Data Stage Styles */
+
+					&[data-stage] {
+						&:before {
+							margin-right: 25px;	
+						}
+					}
+					
+					&[data-stage="all"] {
+						&:before {
+							content: "\f0e4";
+							font-family: FontAwesome;
+						}
+					}
+
+					&[data-stage="design"] {
+						&:before {
+							content: "\f247";
+							font-family: FontAwesome;
+						}
+					}
+
+          &[data-stage="proof"] {
+						&:before {
+							content: "\f044";
+							font-family: FontAwesome;
+						}
+					}
+
+					&[data-stage="print-production"] {
+						&:before {
+							content: "\f02f";
+							font-family: FontAwesome;
+						}
+					}
+
+					&[data-stage="wideformat"] {
+						&:before {
+							content: "\f02f";
+							font-family: FontAwesome;
+						}
+					}
+
+					&[data-stage="jobs-out"] {
+						&:before {
+							content: "\f017";
+							font-family: FontAwesome;
+						}
+					}
+
+					&[data-stage="delivery"] {
+						&:before {
+							content: "\f06b";
+							font-family: FontAwesome;
+						}
+					}
+
+					&[data-stage="completed"] {
+						&:before {
+							content: "\f046";
+							font-family: FontAwesome;
+						}
+					}
+
+					&[data-stage="settings"] {
+						position: absolute;
+						bottom: 0;
+						width: calc(100% - 25px);
+						
+						&:before {
+							content: "\f013";
+							font-family: FontAwesome;
+						}
+					}
+
+					a {
+						@include transition(all 0.2s ease-in-out);
+						&:hover {
+							text-decoration: none;
+							color: $black;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.open #nav {
+		@include transform(translateX(0%));
+		z-index: 9999;
+	}
+}
+@media #{$sm} {
+	#nav {
+		width: 50%;
+	}
+
+	.open #nav {
+		box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+	}
+}
+
+@media #{$md} {
+	#nav {
+		width: 30%;
+	}
+}
+
+@media #{$lg} {
+
+	#header { 
+		margin-left: 15%;
+	}
+
+	#user {
+		display: block;
+		
+		a {
+			@include font-size(12px);	
+		}
+	}
+
+	#hamburger {
+		display: none;
+	}
+
+	#nav {
+		width: calc(15% - 2px);
+		height: calc(100vh - 53px);
+		position: fixed;
+		background: white;
+		display: inline-block;
+		float: left;
+		border-right: 2px solid $ltgrey;
+		@include transition(box-shadow .7s ease-in-out, transform .7s cubic-bezier(.76, 0, .18, 1));
+		@include transform(translateX(0));
+		
+		.navBarWrap {
+			width: 100%;
+			position: relative;
+			top: 0%;
+			padding-top: 50px;
+			@include transform(translateY(0%));
+		}
+	}
+}

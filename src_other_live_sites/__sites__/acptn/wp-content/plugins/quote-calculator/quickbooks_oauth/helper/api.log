@@ -1,0 +1,181 @@
+before_createItem
+createItem
+create
+Array
+(
+    [Name] => Plans
+    [Description] => Wide Format Plans A1 Full Colour 1pp 3  Uncoated 100gsm, Roll
+    [ParentRef] => 520
+    [Active] => 1
+    [Taxable] => 
+    [UnitPrice] => 17.25
+    [Type] => Service
+    [IncomeAccountRef] => Array
+        (
+            [value] => 156
+            [name] => Sales
+        )
+
+    [SubItem] => 1
+    [TrackQtyOnHand] => 
+    [InvStartDate] => DateTime Object
+        (
+            [date] => 2020-01-30 14:56:15.058339
+            [timezone_type] => 3
+            [timezone] => UTC
+        )
+
+)
+
+createItem
+create
+QuickBooksOnline\API\Data\IPPItem Object
+(
+    [Name] => Plans
+    [Sku] => 
+    [Description] => Wide Format Plans A1 Full Colour 1pp 3  Uncoated 100gsm, Roll
+    [Active] => true
+    [SubItem] => true
+    [ParentRef] => QuickBooksOnline\API\Data\IPPReferenceType Object
+        (
+            [name] => 
+            [type] => 
+            [value] => 520
+        )
+
+    [Level] => 
+    [FullyQualifiedName] => 
+    [Taxable] => false
+    [SalesTaxIncluded] => 
+    [PercentBased] => 
+    [UnitPrice] => 17.25
+    [RatePercent] => 
+    [Type] => QuickBooksOnline\API\Data\IPPCustomFieldTypeEnum Object
+        (
+            [value] => Service
+        )
+
+    [PaymentMethodRef] => 
+    [UOMSetRef] => 
+    [IncomeAccountRef] => QuickBooksOnline\API\Data\IPPReferenceType Object
+        (
+            [name] => Sales
+            [type] => 
+            [value] => 156
+        )
+
+    [PurchaseDesc] => 
+    [PurchaseTaxIncluded] => 
+    [PurchaseCost] => 
+    [ExpenseAccountRef] => 
+    [COGSAccountRef] => 
+    [AssetAccountRef] => 
+    [PrefVendorRef] => 
+    [AvgCost] => 
+    [TrackQtyOnHand] => false
+    [QtyOnHand] => 
+    [QtyOnPurchaseOrder] => 
+    [QtyOnSalesOrder] => 
+    [ReorderPoint] => 
+    [ManPartNum] => 
+    [DepositToAccountRef] => 
+    [SalesTaxCodeRef] => 
+    [PurchaseTaxCodeRef] => 
+    [InvStartDate] => 2020-01-30
+    [BuildPoint] => 
+    [PrintGroupedItems] => 
+    [SpecialItem] => 
+    [SpecialItemType] => 
+    [ItemGroupDetail] => 
+    [ItemAssemblyDetail] => 
+    [AbatementRate] => 
+    [ReverseChargeRate] => 
+    [ServiceType] => 
+    [ItemCategoryType] => 
+    [ItemEx] => 
+    [Id] => 
+    [SyncToken] => 
+    [MetaData] => 
+    [CustomField] => 
+    [AttachableRef] => 
+    [domain] => 
+    [status] => 
+    [sparse] => 
+)
+
+createItem
+create
+QuickBooksOnline\API\Data\IPPItem Object
+(
+    [Name] => Plans
+    [Sku] => 
+    [Description] => Wide Format Plans A1 Full Colour 1pp 3  Uncoated 100gsm, Roll
+    [Active] => true
+    [SubItem] => true
+    [ParentRef] => QuickBooksOnline\API\Data\IPPReferenceType Object
+        (
+            [name] => 
+            [type] => 
+            [value] => 520
+        )
+
+    [Level] => 
+    [FullyQualifiedName] => 
+    [Taxable] => false
+    [SalesTaxIncluded] => 
+    [PercentBased] => 
+    [UnitPrice] => 17.25
+    [RatePercent] => 
+    [Type] => QuickBooksOnline\API\Data\IPPCustomFieldTypeEnum Object
+        (
+            [value] => Service
+        )
+
+    [PaymentMethodRef] => 
+    [UOMSetRef] => 
+    [IncomeAccountRef] => QuickBooksOnline\API\Data\IPPReferenceType Object
+        (
+            [name] => Sales
+            [type] => 
+            [value] => 156
+        )
+
+    [PurchaseDesc] => 
+    [PurchaseTaxIncluded] => 
+    [PurchaseCost] => 
+    [ExpenseAccountRef] => 
+    [COGSAccountRef] => 
+    [AssetAccountRef] => 
+    [PrefVendorRef] => 
+    [AvgCost] => 
+    [TrackQtyOnHand] => false
+    [QtyOnHand] => 
+    [QtyOnPurchaseOrder] => 
+    [QtyOnSalesOrder] => 
+    [ReorderPoint] => 
+    [ManPartNum] => 
+    [DepositToAccountRef] => 
+    [SalesTaxCodeRef] => 
+    [PurchaseTaxCodeRef] => 
+    [InvStartDate] => 2020-01-30
+    [BuildPoint] => 
+    [PrintGroupedItems] => 
+    [SpecialItem] => 
+    [SpecialItemType] => 
+    [ItemGroupDetail] => 
+    [ItemAssemblyDetail] => 
+    [AbatementRate] => 
+    [ReverseChargeRate] => 
+    [ServiceType] => 
+    [ItemCategoryType] => 
+    [ItemEx] => 
+    [Id] => 
+    [SyncToken] => 
+    [MetaData] => 
+    [CustomField] => 
+    [AttachableRef] => 
+    [domain] => 
+    [status] => 
+    [sparse] => 
+)
+

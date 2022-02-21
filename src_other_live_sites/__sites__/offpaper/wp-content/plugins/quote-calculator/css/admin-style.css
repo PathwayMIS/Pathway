@@ -1,0 +1,79 @@
+#toplevel_page_quote_calculator .wp-submenu a:empty {
+    padding: 0 !important;
+}
+.quote-calculator-tabs{
+	border-bottom: 3px solid #0085ba;
+	margin-bottom: 0;
+}
+	.quote-calculator-tabs li{
+		display: inline-block;
+		padding: 5px 10px;
+		border: 1px solid #e1e1e1;
+		margin: 0 2px;
+		border-radius: 3px 3px 0 0;
+	}
+		.quote-calculator-tabs li.active{
+			border-style: solid;
+			border-width: 1px;
+			border-color: #0073aa #006799 #0085ba;
+			background-color: #0085ba;
+			color: #fff;
+		}
+		.quote-calculator-tabs li a{
+			text-decoration: none;
+		}
+.wp-list-table.product_type,
+.wp-list-table.paper_size,
+.wp-list-table.quantity,
+.wp-list-table.impressions,
+.wp-list-table.colour,
+.wp-list-table.delivery,
+.wp-list-table.paper,
+.wp-list-table.finishing,
+.wp-list-table.page_count{
+	width: auto;
+	margin-top: 25px;
+}
+.wp-list-table .column-customers-given-name,
+.wp-list-table .column-customers-family-name,
+.wp-list-table .column-customers-company-name,
+.wp-list-table .column-customers-phone{
+	width: 9%;
+}
+.wp-list-table .column-customers-email,
+.wp-list-table .column-customers-display-name,
+.wp-list-table .column-customers-bill-addr,
+.wp-list-table .column-customers-ship-addr{
+	width: 15%;
+}
+.wp-list-table .customer-address-visible{
+	display: block;
+}
+#quote_calculator_customers_filter .search-box{
+	padding-bottom: 5px;
+}
+#quote_calculator_customers_filter .wp-list-table{
+	margin-top: 7px;
+}
+#quote_calculator_customers_operation .description{
+	margin-bottom: 15px;
+	line-height: 10px;
+	font-size: 13px;
+	margin-left: 2px;
+}
+/* .qc-xero-app-type-container {
+	padding-left: 25px;
+}
+.qc-xero-app-type-container h3 {
+	color: #6e8d9f;
+}
+.qc-xero-app-type-container input {
+	margin-left: 8px;
+	margin-right: 10px;
+	vertical-align: bottom;
+} */
+
+.qc-xero-notice {
+	padding-left: 25px;
+	color: #6e8d9f;
+}

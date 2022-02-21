@@ -1,0 +1,462 @@
+#header {
+	padding-top: 32px;
+	padding-bottom: 26px;
+	padding-left: 60px;
+	padding-right: 44px;
+}
+
+#header a {
+	font-family: Varela Round;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 19px;
+	color: #6E8D9F;
+	padding-right: 10px;
+}
+
+#nav {
+    height: calc( 100vh - 25px );
+}
+
+#nav .navBarWrap {
+	padding-top: 25px;
+	box-shadow: 0px 0px 15px rgba(89, 102, 122, 0.1);
+}
+
+#nav .navBarWrap #brand img {
+	width: 90%; 
+}
+
+#nav .navBarWrap ul.navWrap .navWrap__item {
+	line-height: 3.5;
+}
+
+#nav .navBarWrap #brand {
+	padding-bottom: 90px;
+}
+
+#nav .navBarWrap ul.navWrap .navWrap__item a {
+	font-family: Varela Round;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 15px;
+	color: #6E8D9F;
+}
+
+#nav .navBarWrap ul.navWrap .navWrap__item[data-stage]:before {
+	margin-right: 15px !important;
+}
+
+#nav .navBarWrap ul.navWrap .navWrap__item[data-stage="proof"]::before {
+    content: "\f247";
+    font-family: FontAwesome;
+	margin-right: 14px;
+}
+.user::before {
+	content: url( http://acp.pathwaymis.co.uk/acp/wp-content/plugins/quote-calculator/css/images/User%20Vector.svg );
+}
+
+.wpfc-calendar-wrapper {
+	margin-top: 40px;
+}
+
+.wpfc-calendar-wrapper .fc-toolbar {
+	margin-bottom: 40px;
+	margin-left: 36px;
+	margin-right: 30px;
+}
+
+.calendar-title {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 32px;
+	line-height: 15px;
+	color: #9E3393;
+	margin-top: 41px;
+	margin-left: 62px;
+}
+
+.design-title {
+	margin-top: 40px;
+	margin-bottom: 0;
+	margin-left: 61px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 32px;
+	line-height: 15px;
+	color: #9E3393;
+}
+
+.page-template-default #main-content {
+	background: #FAFAFA;
+}
+
+.page-template-default .filterControls {
+	padding-top: 18px;
+	padding-bottom: 40px;
+	padding-left: 60px;
+}
+
+.page-template-default .filterControls .filterControls__search {
+	font-family: Varela Round;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 20px;
+	letter-spacing: -0.01em;
+	color: #9E3393;
+}
+
+.page-template-default .filterControls .filterControls__search #search {
+	font-family: Varela Round;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px !important;
+	line-height: 20px;
+	letter-spacing: -0.01em;
+	color: rgba(110, 141, 159, 0.7);
+	padding-left: 14px !important;
+	margin-left: 15px;
+	background: #FFFFFF !important;
+	box-shadow: 0px 0px 20px rgba(8, 21, 66, 0.05) !important;
+	border-radius: 5px;
+	width: 320px;
+}
+
+.page-template-default .filterControls__sort span {
+	border: 1px solid #6E8D9F;
+	box-sizing: border-box;
+	filter: drop-shadow(0px 0px 20px rgba(8, 21, 66, 0.2));
+	border-radius: 10px;
+	font-family: Varela Round;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 20px;
+	letter-spacing: -0.01em;
+	color: #6E8D9F;
+}
+
+.page-template-default .filterControls__sort .filterControls__sort--name {
+	padding: 11px 33px;
+	margin-left: 15px;
+	margin-right: 0px;
+}
+
+.page-template-default .filterControls__sort .filterControls__sort--deadline {
+	padding: 11px 23px;
+}
+
+.page-template-default .filterControls .filterControls__sort {
+    margin-left: 35px;
+    margin-top: 22px;
+}
+
+.page-template-default .brandCurrent .filterControls__sort span[data-selected="true"] {
+	color: #ffffff;
+}
+
+.page-template-default .app__table__headings__container {
+	padding: 0px 40px;
+}
+
+.page-template-default .app__table__headings__container .app__table__heading {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 20px;
+	letter-spacing: -0.005em;
+	color: #6E8D9F;
+	text-transform: capitalize;
+	margin-top: 30px;
+	margin-bottom: 30px;
+} 
+
+.project-tracker-design .app__table__headings__container .app__table__heading,
+.project-tracker-design .app__table__row__item,
+.project-tracker-design .app__table__row__item--stage,
+.project-tracker-all-jobs .app__table__headings__container .app__table__heading,
+.project-tracker-all-jobs .app__table__row__item,
+.project-tracker-all-jobs .app__table__row__item--stage,
+.project-tracker-delivery .app__table__headings__container .app__table__heading,
+.project-tracker-delivery .app__table__row__item,
+.project-tracker-delivery .app__table__row__item--stage,
+.project-tracker-completed .app__table__headings__container .app__table__heading,
+.project-tracker-completed .app__table__row__item,
+.project-tracker-completed .app__table__row__item--stage {
+	width: 7%;
+}
+
+.project-tracker-design .app__table__headings__container .app__table__heading:nth-child(1),
+.project-tracker-design .app__table__headings__container .app__table__heading:nth-child(2),
+.project-tracker-design .app__table__row .app__table__row__item:nth-child(1), 
+.project-tracker-design .app__table__row .app__table__row__item:nth-child(2),
+.project-tracker-all-jobs .app__table__headings__container .app__table__heading:nth-child(1),
+.project-tracker-all-jobs .app__table__headings__container .app__table__heading:nth-child(2),
+.project-tracker-all-jobs .app__table__row .app__table__row__item:nth-child(1), 
+.project-tracker-all-jobs .app__table__row .app__table__row__item:nth-child(2),
+.project-tracker-delivery .app__table__headings__container .app__table__heading:nth-child(1),
+.project-tracker-delivery .app__table__headings__container .app__table__heading:nth-child(2),
+.project-tracker-delivery .app__table__row .app__table__row__item:nth-child(1), 
+.project-tracker-delivery .app__table__row .app__table__row__item:nth-child(2),
+.project-tracker-completed .app__table__headings__container .app__table__heading:nth-child(1),
+.project-tracker-completed .app__table__headings__container .app__table__heading:nth-child(2),
+.project-tracker-completed .app__table__row .app__table__row__item:nth-child(1), 
+.project-tracker-completed .app__table__row .app__table__row__item:nth-child(2) {
+	width: 18%;
+}
+
+.project-tracker-print-production .app__table__headings__container .app__table__heading,
+.project-tracker-print-production .app__table__row__item,
+.project-tracker-print-production .app__table__row__item--stage,
+.project-tracker-wideformat .app__table__headings__container .app__table__heading,
+.project-tracker-wideformat .app__table__row__item,
+.project-tracker-wideformat .app__table__row__item--stage,
+.project-tracker-jobs-out .app__table__headings__container .app__table__heading,
+.project-tracker-jobs-out .app__table__row__item,
+.project-tracker-jobs-out .app__table__row__item--stage {
+	width: 7%;
+}
+
+.project-tracker-print-production .app__table__headings__container .app__table__heading:nth-child(1),
+.project-tracker-print-production .app__table__headings__container .app__table__heading:nth-child(2),
+.project-tracker-print-production .app__table__row .app__table__row__item:nth-child(1), 
+.project-tracker-print-production .app__table__row .app__table__row__item:nth-child(2),
+.project-tracker-wideformat .app__table__headings__container .app__table__heading:nth-child(1),
+.project-tracker-wideformat .app__table__headings__container .app__table__heading:nth-child(2),
+.project-tracker-wideformat .app__table__row .app__table__row__item:nth-child(1), 
+.project-tracker-wideformat .app__table__row .app__table__row__item:nth-child(2),
+.project-tracker-jobs-out .app__table__headings__container .app__table__heading:nth-child(1),
+.project-tracker-jobs-out .app__table__headings__container .app__table__heading:nth-child(2),
+.project-tracker-jobs-out .app__table__row .app__table__row__item:nth-child(1), 
+.project-tracker-jobs-out .app__table__row .app__table__row__item:nth-child(2) {
+	width: 11%;
+}
+
+.page-template-default .app__table__headings__container .app__table__heading:nth-child(4),
+.page-template-default .app__table__headings__container .app__table__heading:nth-child(5),
+.page-template-default .app__table__headings__container .app__table__heading:nth-child(6),
+.page-template-default .app__table__headings__container .app__table__heading:nth-child(7),
+.page-template-default .app__table__headings__container .app__table__heading:nth-child(8),
+.page-template-default .app__table__headings__container .app__table__heading:nth-child(9),
+.page-template-default .app__table__headings__container .app__table__heading:nth-child(10),
+.page-template-default .app__table__row .app__table__row__item:nth-child(4), 
+.page-template-default .app__table__row .app__table__row__item:nth-child(5), 
+.page-template-default .app__table__row .app__table__row__item:nth-child(6), 
+.page-template-default .app__table__row .app__table__row__item:nth-child(7),
+.page-template-default .app__table__row .app__table__row__item:nth-child(8), 
+.page-template-default .app__table__row .app__table__row__item:nth-child(9), 
+.page-template-default .app__table__row .app__table__row__item:nth-child(10) {
+	text-align: center;
+} 
+
+.fa-check-circle:before {
+	zoom: 1.4;
+}
+
+.page-template-default .app__table__row {
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.page-template-default .app__table__row .app__table__row__item {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 20px;
+	letter-spacing: -0.01em;
+	color: #6E8D9F;
+}
+
+.wpfc-calendar-wrapper .wpfc-calendar .fc-toolbar button {
+	background: #FAFAFA;
+	border: 1px solid #6E8D9F;
+	box-sizing: border-box;
+	box-shadow: 0 0 20px rgba( 8, 21, 66, 0.15 );
+	border-radius: 10px;
+	width: 44px;
+	height: 44px;
+	margin-right: 6px;
+	opacity: 1;
+	outline: none;
+}
+
+.wpfc-calendar-wrapper .fc-toolbar button:hover {
+	background: #9E3393;
+	border: 1px solid #9E3393;
+	box-shadow: 0px 0px 20px rgba(8, 21, 66, 0.2);
+	color: #ffffff !important;
+}
+
+.wpfc-calendar-wrapper .wpfc-calendar .fc-toolbar .fc-today-button,
+.wpfc-calendar-wrapper .wpfc-calendar .fc-toolbar .fc-month-button,
+.wpfc-calendar-wrapper .wpfc-calendar .fc-toolbar .fc-basicWeek-button,
+.wpfc-calendar-wrapper .wpfc-calendar .fc-toolbar .fc-basicDay-button {
+	width: 108px;
+}
+
+.wpfc-calendar-wrapper .fc-toolbar .fc-prev-button span,
+.wpfc-calendar-wrapper .fc-toolbar .fc-next-button span {
+	margin: 0 auto;
+}
+
+.wpfc-calendar-wrapper .fc-toolbar .fc-today-button {
+	font-family: Varela Round;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px !important;
+	line-height: 20px;
+	letter-spacing: -0.01em;
+	color: #6E8D9F;
+}
+
+.wpfc-calendar-wrapper .wpfc-calendar .fc-toolbar .fc-month-button,
+.wpfc-calendar-wrapper .wpfc-calendar .fc-toolbar .fc-basicWeek-button,
+.wpfc-calendar-wrapper .wpfc-calendar .fc-toolbar .fc-basicDay-button {
+	font-family: Varela Round;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px !important;
+	line-height: 19px;
+	color: #6E8D9F;
+}
+
+.wpfc-calendar-wrapper .wpfc-calendar .fc-toolbar .fc-month-button.ui-state-active,
+.wpfc-calendar-wrapper .wpfc-calendar .fc-toolbar .fc-basicWeek-button.ui-state-active,
+.wpfc-calendar-wrapper .wpfc-calendar .fc-toolbar .fc-basicDay-button.ui-state-active {
+	color: #EE82EE;
+}
+
+.wpfc-calendar-wrapper .wpfc-calendar .fc-toolbar .fc-center h2 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px !important;
+    line-height: 20px;
+    letter-spacing: -0.005em;
+    color: #6E8D9F;
+    margin-top: 12px !important;
+	padding-left: 10px;
+}
+
+.fc-view-container,
+.page-template-default .app__table {
+	width: 92.5%;
+	#height: 1261px;
+	margin-left: 3.7%;
+	margin-bottom: 50px;
+	background: #FFFFFF;
+	box-shadow: 0px 0px 20px rgba(8, 21, 66, 0.1);
+	border-radius: 10px;
+	overflow: hidden;
+}
+.page-template-default .app__table .searchContainer {
+	height: 75vh;
+	overflow: hidden;
+}
+
+.fc-view-container .fc-day-header {
+	padding-top: 36px !important;
+	padding-bottom: 34px !important;
+	font-family: Varela Round;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px !important;
+	line-height: 20px;
+	letter-spacing: -0.005em;
+}
+
+.calendar-view .fc-row .fc-content-skeleton tbody td a {
+	font-family: Varela Round;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+    border: 0 !important;
+	padding-left: 15px;
+}
+
+.calendar-view .fc-row .fc-content-skeleton tbody td a .fc-content span {
+	font-size: 15px !important;
+}
+
+#nav .navBarWrap ul.navWrap .navWrap__item[data-stage="settings"] {
+	bottom: 95px;
+}
+
+#nav .navBarWrap ul.navWrap .navWrap__item[data-stage="settings"] a:after {
+	display: flex;
+	position: relative;
+	left: -15%;
+	width: 115%;
+	height: 2px;
+	background-color: #F5F7F9;
+	content: "";
+	transition: width 0.3s ease-out;
+}
+
+.calendar-view .fc th {
+	font-size: 18px !important;
+	color: #6E8D9F;
+}
+
+.fc-ltr .fc-basic-view .fc-day-number {
+	font-family: Varela Round;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px !important;
+	line-height: 19px;
+	color: #6E8D9F;
+}
+
+.fc-basic-view .fc-body .fc-row {
+    min-height: 230px;
+}
+
+div.back-to-top {
+	position: absolute;
+	width: 45px;
+	height: 45px;
+	left: 27px;
+	bottom: 30px;
+	background: rgb(255, 255, 255);
+	box-shadow: rgba(89, 102, 122, 0.3) 0px 0px 20px;
+	border-radius: 10px;
+	z-index: 9999999;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+div.back-to-top:hover {
+	cursor: pointer;
+}
+
+.dashicons-arrow-up-alt:before {
+    content: "\f343";
+}
+
+.page-template-default .newItem--plus {
+	bottom: 10px;
+	right: 10px;
+}
+
+.page-template-default div.pathway {
+	width: 100%;
+	background: #FFFFFF;
+	box-shadow: 0px 0px 15px rgba(89, 102, 122, 0.1);
+	border-radius: 0px 5px 0px 0px;
+	margin: 0;
+	padding-top: 13px;
+	padding-bottom: 20px;
+	margin-top: 70px;
+}
+
+.page-template-default div.pathway img {
+	max-width: 130px;
+	display: inline-block;
+	padding-top: 23px;
+	padding-left: 58px;
+}

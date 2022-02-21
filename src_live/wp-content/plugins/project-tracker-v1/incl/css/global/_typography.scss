@@ -1,0 +1,57 @@
+@media #{$xs} {
+    h1, h2, h3, h4, h5, h6 {
+        font-family: $headings!important;
+        line-height: 1.6;
+    }
+
+    h1 {
+        @include font-size(28px);
+
+        font-weight: 500;
+        line-height: 1.2;
+    }
+
+    h2 {
+        @include font-size(24px);
+
+        font-weight: 500;
+    }
+
+    h3 {
+        @include font-size(20px);
+
+        font-weight: 500;
+    }
+
+    h4 {
+        @include font-size(16px);
+
+        font-weight: 500;
+    }
+
+    h5 {
+        @include font-size(12px);
+
+        font-weight: 500;
+    }
+
+    h6 {
+        @include font-size(10px);
+
+        font-weight: 500;
+    }
+
+    p, body {
+        @include font-size(16px);
+        line-height: 1.8;
+        font-family: $body!important;
+        font-weight: 300;
+        color: $black;
+    }
+}
+
+@media #{$md} {
+    h1 {
+        @include font-size(65px);
+    }
+}

@@ -1,0 +1,1262 @@
+https://quickbooks.api.intuit.com/v3/company/1419738750/estimate?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0.._2lY4cCq1T-zVtAdQy92Zw.YW0modN09XhU781Q85dYKuyz6bn2dvm0m-0whNfB9aQecIW7MvoTjh9csVvpca2pCV8I1p3D9TaUCtFhQwyf13KwUwZFXucmHBoN_6eti2myNmnNTLbiLU2GKeZU3jpZVCEkWcGfYBWnpCOHHxfofzvIFuZyqGQpfanIkLuw6MEqULsFhC4n0pGECqVIxLLzFX6KhDIiLJw3qXV0VS46boIQzXtWXaWAkzIORoliKrlCXl83pSGe61wtOqZ63IGpm_XyFq7won8h-osXFhJqPwjv8YAV-6IzGD4kDVu0tlIsoJgVUL37u1lTCaymgat3x9Ofl-3Cjuq5PBABKmJL4KZrCeb-KkY4ssjEx-x56w2sVvPZLIHKcVZKx5N6OBUKUu3e6mVr-TnutayRZ42nk18SjhBZ_gf1lo7y9ccvgRNHkHQ4q_F_nk6G126T-78hGkLmhdGkUwQMk4WonuyrogQous0o5HKfqJf97KRaLYcTTsO7D_PyFXrKQ_qQRLiCgWfB0BSNLthCI6Sct3OU373sSoY_rRyX2SbcdG8AdG3_gUcH0Scc8Jfw73zCkCpmui_8zrb7NIVJAh44WN8ZGZVUlO6T2GwNmjdQWYnZMUDBD918qv6ErBvRoUbf_NG4bBYHl8uD3AT2hwYOz7hbP2q4ThhfwvMofQp5CQv5mnE.4zeKbyVDhbsb478H38Oy9A
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 3015
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Estimate xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:CustomField>
+    <ns0:DefinitionId>1</ns0:DefinitionId>
+    <ns0:Name>Deadline</ns0:Name>
+    <ns0:Type>StringType</ns0:Type>
+    <ns0:StringValue>15/11/2019</ns0:StringValue>
+  </ns0:CustomField>
+  <ns0:CustomField>
+    <ns0:DefinitionId>2</ns0:DefinitionId>
+    <ns0:Name>Notes</ns0:Name>
+    <ns0:Type>StringType</ns0:Type>
+    <ns0:StringValue>Artwork on file, proof to custo</ns0:StringValue>
+  </ns0:CustomField>
+  <ns0:CustomField>
+    <ns0:DefinitionId>3</ns0:DefinitionId>
+    <ns0:Name>Terms</ns0:Name>
+    <ns0:Type>StringType</ns0:Type>
+    <ns0:StringValue>Net30</ns0:StringValue>
+  </ns0:CustomField>
+  <ns0:DocNumber>QC25</ns0:DocNumber>
+  <ns0:TxnDate>2020-02-03</ns0:TxnDate>
+  <ns0:PrivateNote>AP6779/2 DFU - Schein TCFM</ns0:PrivateNote>
+  <ns0:Line>
+    <ns0:LineNum>1</ns0:LineNum>
+    <ns0:Description>Printing DFU 280 x 38mm Double Sided Spot Colour 8pp 5000 Type 70gsm , Folding</ns0:Description>
+    <ns0:Amount>294.00</ns0:Amount>
+    <ns0:DetailType>SalesItemLineDetail</ns0:DetailType>
+    <ns0:SalesItemLineDetail>
+      <ns0:ItemRef>90</ns0:ItemRef>
+      <ns0:UnitPrice>0.0588</ns0:UnitPrice>
+      <ns0:Qty>5000</ns0:Qty>
+      <ns0:TaxCodeRef>13</ns0:TaxCodeRef>
+    </ns0:SalesItemLineDetail>
+  </ns0:Line>
+  <ns0:Line>
+    <ns0:LineNum>2</ns0:LineNum>
+    <ns0:Description>Tracked next day delivery service.</ns0:Description>
+    <ns0:Amount>12.5</ns0:Amount>
+    <ns0:DetailType>SalesItemLineDetail</ns0:DetailType>
+    <ns0:SalesItemLineDetail>
+      <ns0:ItemRef>7</ns0:ItemRef>
+      <ns0:UnitPrice>12.5</ns0:UnitPrice>
+      <ns0:Qty>1</ns0:Qty>
+      <ns0:TaxCodeRef>13</ns0:TaxCodeRef>
+    </ns0:SalesItemLineDetail>
+  </ns0:Line>
+  <ns0:TxnTaxDetail>
+    <ns0:TotalTax>58.8</ns0:TotalTax>
+    <ns0:TaxLine>
+      <ns0:Amount>58.8</ns0:Amount>
+      <ns0:DetailType>TaxLineDetail</ns0:DetailType>
+      <ns0:TaxLineDetail>
+        <ns0:TaxRateRef>23</ns0:TaxRateRef>
+        <ns0:PercentBased>true</ns0:PercentBased>
+        <ns0:TaxPercent>20</ns0:TaxPercent>
+        <ns0:NetAmountTaxable>294.00</ns0:NetAmountTaxable>
+      </ns0:TaxLineDetail>
+    </ns0:TaxLine>
+  </ns0:TxnTaxDetail>
+  <ns0:CustomerRef>83</ns0:CustomerRef>
+  <ns0:BillAddr>
+    <ns0:Id>77</ns0:Id>
+    <ns0:Line1>Units 2-4 Leavers Estate, Chiddingstone Causeway</ns0:Line1>
+    <ns0:City>Tonbridge</ns0:City>
+    <ns0:CountrySubDivisionCode>Kent</ns0:CountrySubDivisionCode>
+    <ns0:PostalCode>TN11 8JU</ns0:PostalCode>
+  </ns0:BillAddr>
+  <ns0:ShipAddr>
+    <ns0:Id>77</ns0:Id>
+    <ns0:Line1>Units 2-4 Leavers Estate, Chiddingstone Causeway</ns0:Line1>
+    <ns0:City>Tonbridge</ns0:City>
+    <ns0:CountrySubDivisionCode>Kent</ns0:CountrySubDivisionCode>
+    <ns0:PostalCode>TN11 8JU</ns0:PostalCode>
+  </ns0:ShipAddr>
+  <ns0:TotalAmt>352.80</ns0:TotalAmt>
+  <ns0:ApplyTaxAfterDiscount>false</ns0:ApplyTaxAfterDiscount>
+  <ns0:ExpirationDate>2020-02-18</ns0:ExpirationDate>
+</ns0:Estimate>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><IntuitResponse xmlns="http://schema.intuit.com/finance/v3" time="2020-02-03T09:19:21.767-08:00"><Fault type="ValidationFault"><Error code="6000" element=""><Message>A business validation error has occurred while processing your request</Message><Detail>Business Validation Error: Were sorry, QuickBooks encountered an error while calculating tax. Try reselecting the tax rate or reentering the product/service item and saving the form again.</Detail></Error></Fault></IntuitResponse>
+Array
+(
+    [Date] => Mon, 03 Feb 2020 17:19:21 GMT
+    [Content-Type] => application/xml
+    [Content-Length] => 539
+    [Connection] => close
+    [Server] => nginx
+    [Strict-Transport-Security] => max-age=15552000
+    [intuit_tid] => 6307337f-0a0b-42f7-96d0-c32f06702c1a
+    [Set-Cookie] => qboeuid=114a8d35.59daf1fca7ca9; path=/; expires=Tue, 02-Feb-21 17:19:21 GMT; domain=.intuit.com
+    [X-XSS-Protection] => 1; mode=block
+)
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/1419738750/estimate?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..l4d8AgpsgrZJ_zO3MSu1uw.rceApXllbVIs9ev1BAKRptXn9C-L2z6a3gvaH-NjMrTLNiIq3yfMvRvyE81owhurPHgHKDIJcwXUBaNbjMj9fewVXbhmPqqe66z0VRyZHuOQaWecVZMkgBcFXvkyR0PC4wM7x4PxWLt0YDlyeZ4Hye6sRV9P9WAKBQ9TZsC5VJ9XpCEm4fmFD1A3BPly_Q4s_EIZH0r14ZR2xNggop4XOnV_LmGH2luX1HNkvZU-cNRE2IRTV70j0AfVCFGQj9cBdPfKcwYSKOc9lSsb33fI3OQziGxbHCiqRP0nz41HsjVRT2yLPK5KFWF2xZBScvna2K9yYGDcOiC3T0HT2CjhOLXo4G3gDkqi1cK8YFgdnGt9QGEGWCC5XxrxwzDsyjTRrgvp8CEsGim8Q2vMacAwtkWC9RWQsI9Ph8Ag3uUcl1JYpbzr-1icECuy6EElkdBT996j_6YpRtgarCpZ789CKyW9ZAhN6I44UO_hTJX6sgmyYNZcqgiax9jLlyb4aLvJjYrS-cC4OCbDsvGPHs_amNwBxeWTt7vlhGyUJGbj40fw5NaAXhyuFfcXPTVYgPuKb2coW3oj2DyMO70HU3azUIQsaA41QaEZxIyYunrlLa6kTYGEpEtAe3wD2kYmQSoRrNsOtasWZa8p3GTUmQhJCMCnmOiy8pGt72uW7QvCZMY.OacQ6uczFih8jaUjOWOIoA
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 3015
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Estimate xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:CustomField>
+    <ns0:DefinitionId>1</ns0:DefinitionId>
+    <ns0:Name>Deadline</ns0:Name>
+    <ns0:Type>StringType</ns0:Type>
+    <ns0:StringValue>15/11/2019</ns0:StringValue>
+  </ns0:CustomField>
+  <ns0:CustomField>
+    <ns0:DefinitionId>2</ns0:DefinitionId>
+    <ns0:Name>Notes</ns0:Name>
+    <ns0:Type>StringType</ns0:Type>
+    <ns0:StringValue>Artwork on file, proof to custo</ns0:StringValue>
+  </ns0:CustomField>
+  <ns0:CustomField>
+    <ns0:DefinitionId>3</ns0:DefinitionId>
+    <ns0:Name>Terms</ns0:Name>
+    <ns0:Type>StringType</ns0:Type>
+    <ns0:StringValue>Net30</ns0:StringValue>
+  </ns0:CustomField>
+  <ns0:DocNumber>QC25</ns0:DocNumber>
+  <ns0:TxnDate>2020-02-03</ns0:TxnDate>
+  <ns0:PrivateNote>AP6779/2 DFU - Schein TCFM</ns0:PrivateNote>
+  <ns0:Line>
+    <ns0:LineNum>1</ns0:LineNum>
+    <ns0:Description>Printing DFU 280 x 38mm Double Sided Spot Colour 8pp 5000 Type 70gsm , Folding</ns0:Description>
+    <ns0:Amount>294.00</ns0:Amount>
+    <ns0:DetailType>SalesItemLineDetail</ns0:DetailType>
+    <ns0:SalesItemLineDetail>
+      <ns0:ItemRef>90</ns0:ItemRef>
+      <ns0:UnitPrice>0.0588</ns0:UnitPrice>
+      <ns0:Qty>5000</ns0:Qty>
+      <ns0:TaxCodeRef>13</ns0:TaxCodeRef>
+    </ns0:SalesItemLineDetail>
+  </ns0:Line>
+  <ns0:Line>
+    <ns0:LineNum>2</ns0:LineNum>
+    <ns0:Description>Tracked next day delivery service.</ns0:Description>
+    <ns0:Amount>12.5</ns0:Amount>
+    <ns0:DetailType>SalesItemLineDetail</ns0:DetailType>
+    <ns0:SalesItemLineDetail>
+      <ns0:ItemRef>7</ns0:ItemRef>
+      <ns0:UnitPrice>12.5</ns0:UnitPrice>
+      <ns0:Qty>1</ns0:Qty>
+      <ns0:TaxCodeRef>13</ns0:TaxCodeRef>
+    </ns0:SalesItemLineDetail>
+  </ns0:Line>
+  <ns0:TxnTaxDetail>
+    <ns0:TotalTax>58.8</ns0:TotalTax>
+    <ns0:TaxLine>
+      <ns0:Amount>58.8</ns0:Amount>
+      <ns0:DetailType>TaxLineDetail</ns0:DetailType>
+      <ns0:TaxLineDetail>
+        <ns0:TaxRateRef>23</ns0:TaxRateRef>
+        <ns0:PercentBased>true</ns0:PercentBased>
+        <ns0:TaxPercent>20</ns0:TaxPercent>
+        <ns0:NetAmountTaxable>294.00</ns0:NetAmountTaxable>
+      </ns0:TaxLineDetail>
+    </ns0:TaxLine>
+  </ns0:TxnTaxDetail>
+  <ns0:CustomerRef>83</ns0:CustomerRef>
+  <ns0:BillAddr>
+    <ns0:Id>77</ns0:Id>
+    <ns0:Line1>Units 2-4 Leavers Estate, Chiddingstone Causeway</ns0:Line1>
+    <ns0:City>Tonbridge</ns0:City>
+    <ns0:CountrySubDivisionCode>Kent</ns0:CountrySubDivisionCode>
+    <ns0:PostalCode>TN11 8JU</ns0:PostalCode>
+  </ns0:BillAddr>
+  <ns0:ShipAddr>
+    <ns0:Id>77</ns0:Id>
+    <ns0:Line1>Units 2-4 Leavers Estate, Chiddingstone Causeway</ns0:Line1>
+    <ns0:City>Tonbridge</ns0:City>
+    <ns0:CountrySubDivisionCode>Kent</ns0:CountrySubDivisionCode>
+    <ns0:PostalCode>TN11 8JU</ns0:PostalCode>
+  </ns0:ShipAddr>
+  <ns0:TotalAmt>352.80</ns0:TotalAmt>
+  <ns0:ApplyTaxAfterDiscount>false</ns0:ApplyTaxAfterDiscount>
+  <ns0:ExpirationDate>2020-02-18</ns0:ExpirationDate>
+</ns0:Estimate>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><IntuitResponse xmlns="http://schema.intuit.com/finance/v3" time="2020-02-03T09:26:15.890-08:00"><Fault type="ValidationFault"><Error code="6000" element=""><Message>A business validation error has occurred while processing your request</Message><Detail>Business Validation Error: Were sorry, QuickBooks encountered an error while calculating tax. Try reselecting the tax rate or reentering the product/service item and saving the form again.</Detail></Error></Fault></IntuitResponse>
+Array
+(
+    [Date] => Mon, 03 Feb 2020 17:26:15 GMT
+    [Content-Type] => application/xml
+    [Content-Length] => 539
+    [Connection] => close
+    [Server] => nginx
+    [Strict-Transport-Security] => max-age=15552000
+    [intuit_tid] => 7c3797c7-075b-4507-9e2b-76095d8396ad
+    [Set-Cookie] => qboeuid=117034f5.59daf38782030; path=/; expires=Tue, 02-Feb-21 17:26:15 GMT; domain=.intuit.com
+    [X-XSS-Protection] => 1; mode=block
+)
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/1419738750/estimate?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..Be2o6ZZAzyEHU7q0ERGs9A.oSih7Rqissv9iwX6qMmoGZ3E4qrOzdGYnlZaXdHGmKCn6lH7BfJolNwt9GOmsV1WEV-cyg1tVHVFwvUkf7HLhxq-IUPFyK-VG90Lr9zIjvGzmioXWW2TlZ6EDc91Ed3qlOt9-Q12G3Axj-OX9yEVJUosZ16ED9ymzv-xfZHn2DMAOVg63jgUNoke7TiZowT5z-iIFfxDyfHpwRdIHfbsbNdOoxH-wYhKUrZHEM3XJjDl1UOolKI-5Avc0WiOdwmriDnCLYqgxUwskLGkTlU9ROjmv8Gt-aNgVyB2cGUAYfHiY-mDa03LimEQagt-tQz91IKqN5HB3ipvEtJa5nVMWM7OETkD7wTRI7qf0d3d4Rn2-bXIFG7B6w_plucGA-9sA6BRmp7SsIR7IV4LvMU3Y9hpXUc_giXvbMeOTl8L6Xowyr67G9zVtsCZz4BBiPQQWar3HSAuGktw1dRJQDwznz1GZ_uJKd-xMdghjx_bdQiUnnrSac1Dzl49voXbnmuJODJGFQplpI3M1ki4BYDgLQTYyMJ20rcsZ8KYd37k-5tWDLwY25e0hMtAV0aD_oD_Y4YYlzlIKPOs_C3KS9s2U7TJV6DnoDu-rm2M_nyj_E55TfxjA6HNYfYyM4MvUZldvt-X-Zvz85WAuqPH7cMmO2jutC9HVy5iG1sYjR59yKg.zUxBw_3zyPKT40BA8_Jb2w
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 3011
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Estimate xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:CustomField>
+    <ns0:DefinitionId>1</ns0:DefinitionId>
+    <ns0:Name>Deadline</ns0:Name>
+    <ns0:Type>StringType</ns0:Type>
+    <ns0:StringValue>15/11/2019</ns0:StringValue>
+  </ns0:CustomField>
+  <ns0:CustomField>
+    <ns0:DefinitionId>2</ns0:DefinitionId>
+    <ns0:Name>Notes</ns0:Name>
+    <ns0:Type>StringType</ns0:Type>
+    <ns0:StringValue>Artwork on file, proof to custo</ns0:StringValue>
+  </ns0:CustomField>
+  <ns0:CustomField>
+    <ns0:DefinitionId>3</ns0:DefinitionId>
+    <ns0:Name>Terms</ns0:Name>
+    <ns0:Type>StringType</ns0:Type>
+    <ns0:StringValue>Net30</ns0:StringValue>
+  </ns0:CustomField>
+  <ns0:DocNumber>QC25</ns0:DocNumber>
+  <ns0:TxnDate>2020-02-03</ns0:TxnDate>
+  <ns0:PrivateNote>AP6779/2 DFU - Schein TCFM</ns0:PrivateNote>
+  <ns0:Line>
+    <ns0:LineNum>1</ns0:LineNum>
+    <ns0:Description>Printing DFU 280 x 38mm Double Sided Spot Colour 8pp 5000 Type 70gsm , Folding</ns0:Description>
+    <ns0:Amount>294.00</ns0:Amount>
+    <ns0:DetailType>SalesItemLineDetail</ns0:DetailType>
+    <ns0:SalesItemLineDetail>
+      <ns0:ItemRef>90</ns0:ItemRef>
+      <ns0:UnitPrice>0.0588</ns0:UnitPrice>
+      <ns0:Qty>5000</ns0:Qty>
+      <ns0:TaxCodeRef>13</ns0:TaxCodeRef>
+    </ns0:SalesItemLineDetail>
+  </ns0:Line>
+  <ns0:Line>
+    <ns0:LineNum>2</ns0:LineNum>
+    <ns0:Description>Tracked next day delivery service.</ns0:Description>
+    <ns0:Amount>15</ns0:Amount>
+    <ns0:DetailType>SalesItemLineDetail</ns0:DetailType>
+    <ns0:SalesItemLineDetail>
+      <ns0:ItemRef>7</ns0:ItemRef>
+      <ns0:UnitPrice>15</ns0:UnitPrice>
+      <ns0:Qty>1</ns0:Qty>
+      <ns0:TaxCodeRef>13</ns0:TaxCodeRef>
+    </ns0:SalesItemLineDetail>
+  </ns0:Line>
+  <ns0:TxnTaxDetail>
+    <ns0:TotalTax>58.8</ns0:TotalTax>
+    <ns0:TaxLine>
+      <ns0:Amount>58.8</ns0:Amount>
+      <ns0:DetailType>TaxLineDetail</ns0:DetailType>
+      <ns0:TaxLineDetail>
+        <ns0:TaxRateRef>23</ns0:TaxRateRef>
+        <ns0:PercentBased>true</ns0:PercentBased>
+        <ns0:TaxPercent>20</ns0:TaxPercent>
+        <ns0:NetAmountTaxable>294.00</ns0:NetAmountTaxable>
+      </ns0:TaxLineDetail>
+    </ns0:TaxLine>
+  </ns0:TxnTaxDetail>
+  <ns0:CustomerRef>83</ns0:CustomerRef>
+  <ns0:BillAddr>
+    <ns0:Id>77</ns0:Id>
+    <ns0:Line1>Units 2-4 Leavers Estate, Chiddingstone Causeway</ns0:Line1>
+    <ns0:City>Tonbridge</ns0:City>
+    <ns0:CountrySubDivisionCode>Kent</ns0:CountrySubDivisionCode>
+    <ns0:PostalCode>TN11 8JU</ns0:PostalCode>
+  </ns0:BillAddr>
+  <ns0:ShipAddr>
+    <ns0:Id>77</ns0:Id>
+    <ns0:Line1>Units 2-4 Leavers Estate, Chiddingstone Causeway</ns0:Line1>
+    <ns0:City>Tonbridge</ns0:City>
+    <ns0:CountrySubDivisionCode>Kent</ns0:CountrySubDivisionCode>
+    <ns0:PostalCode>TN11 8JU</ns0:PostalCode>
+  </ns0:ShipAddr>
+  <ns0:TotalAmt>352.80</ns0:TotalAmt>
+  <ns0:ApplyTaxAfterDiscount>false</ns0:ApplyTaxAfterDiscount>
+  <ns0:ExpirationDate>2020-02-18</ns0:ExpirationDate>
+</ns0:Estimate>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><IntuitResponse xmlns="http://schema.intuit.com/finance/v3" time="2020-02-03T09:27:08.200-08:00"><Fault type="ValidationFault"><Error code="6000" element=""><Message>A business validation error has occurred while processing your request</Message><Detail>Business Validation Error: Were sorry, QuickBooks encountered an error while calculating tax. Try reselecting the tax rate or reentering the product/service item and saving the form again.</Detail></Error></Fault></IntuitResponse>
+Array
+(
+    [Date] => Mon, 03 Feb 2020 17:27:08 GMT
+    [Content-Type] => application/xml
+    [Content-Length] => 539
+    [Connection] => close
+    [Server] => nginx
+    [Strict-Transport-Security] => max-age=15552000
+    [intuit_tid] => d94eed56-500a-4a28-a662-795d06345675
+    [Set-Cookie] => qboeuid=3773a237.59daf3b97ab22; path=/; expires=Tue, 02-Feb-21 17:27:08 GMT; domain=.intuit.com
+    [X-XSS-Protection] => 1; mode=block
+)
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/1419738750/estimate?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0.._I82a6nOXcKn7zRQvubNDg.o0Hxc1hFowQKT1PJOuIFT-3wsVIgjGG9K8jaz1AS8tKQjzGcXYSr79xqDv6ynhfuWKf4JK3BayQ23nfR9EXcxQBHifZDIGUNf_kMMc3ZtGbZoEIvG9Zvx981u8mgdBKpR_-tquM015wPfHABcgIhXgz2X4EXTfirgZDKs3fOE68RSBrwLjebQJK2lW91XNJ7eoeJvq5hGfPInVErizDmbv_JQD3sHRISI4w9QT8VBZlr4Ednt39xSUr8ZT8wdWpRjkuleEYoxjX7xSZ-yYA-CGeBf_Zkr5OZyJ7PRJEXStsW3UHpXCOxJrCXDNz7pRNtOkhRcidYGWlWDcfy05knl4DJTPL1wctTvchAPLrrDxF9rteZes7VWEEwHeqxPs0ldSnBwVC-KX7KkzeBiMXD6jtS6I_cqjCYCzXT3NlKOkvdTMmLlPGFSljYbYS1Nc4M-5NhWDpjnfTK9pqVfKqi4v9u5oFy4rLV9It6j-02q8kh_NAHFS1tI-5KWILsglbwJnjBFiWuxs_LQNExlT1DMWCEeRcyoGKYtff5_s3TB7pMUC-cgNKqkxWMPLxDZKCRmRq_LWXJJK72BQAsgCzSEY4mexFwpJGp0JXp0dig0TmuOWmlddT9tGtb19v78pmbrJc4Q0FsmqmSayynG9bY4JgyZUb5vFywykaUG28vDr8.HLhf6SiKCTJma17qedbkMw
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 3011
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Estimate xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:CustomField>
+    <ns0:DefinitionId>1</ns0:DefinitionId>
+    <ns0:Name>Deadline</ns0:Name>
+    <ns0:Type>StringType</ns0:Type>
+    <ns0:StringValue>15/11/2019</ns0:StringValue>
+  </ns0:CustomField>
+  <ns0:CustomField>
+    <ns0:DefinitionId>2</ns0:DefinitionId>
+    <ns0:Name>Notes</ns0:Name>
+    <ns0:Type>StringType</ns0:Type>
+    <ns0:StringValue>Artwork on file, proof to custo</ns0:StringValue>
+  </ns0:CustomField>
+  <ns0:CustomField>
+    <ns0:DefinitionId>3</ns0:DefinitionId>
+    <ns0:Name>Terms</ns0:Name>
+    <ns0:Type>StringType</ns0:Type>
+    <ns0:StringValue>Net30</ns0:StringValue>
+  </ns0:CustomField>
+  <ns0:DocNumber>QC25</ns0:DocNumber>
+  <ns0:TxnDate>2020-02-03</ns0:TxnDate>
+  <ns0:PrivateNote>AP6779/2 DFU - Schein TCFM</ns0:PrivateNote>
+  <ns0:Line>
+    <ns0:LineNum>1</ns0:LineNum>
+    <ns0:Description>Printing DFU 280 x 38mm Double Sided Spot Colour 8pp 5000 Type 70gsm , Folding</ns0:Description>
+    <ns0:Amount>294.00</ns0:Amount>
+    <ns0:DetailType>SalesItemLineDetail</ns0:DetailType>
+    <ns0:SalesItemLineDetail>
+      <ns0:ItemRef>90</ns0:ItemRef>
+      <ns0:UnitPrice>0.0588</ns0:UnitPrice>
+      <ns0:Qty>5000</ns0:Qty>
+      <ns0:TaxCodeRef>13</ns0:TaxCodeRef>
+    </ns0:SalesItemLineDetail>
+  </ns0:Line>
+  <ns0:Line>
+    <ns0:LineNum>2</ns0:LineNum>
+    <ns0:Description>Tracked next day delivery service.</ns0:Description>
+    <ns0:Amount>15</ns0:Amount>
+    <ns0:DetailType>SalesItemLineDetail</ns0:DetailType>
+    <ns0:SalesItemLineDetail>
+      <ns0:ItemRef>7</ns0:ItemRef>
+      <ns0:UnitPrice>15</ns0:UnitPrice>
+      <ns0:Qty>1</ns0:Qty>
+      <ns0:TaxCodeRef>13</ns0:TaxCodeRef>
+    </ns0:SalesItemLineDetail>
+  </ns0:Line>
+  <ns0:TxnTaxDetail>
+    <ns0:TotalTax>61.8</ns0:TotalTax>
+    <ns0:TaxLine>
+      <ns0:Amount>61.8</ns0:Amount>
+      <ns0:DetailType>TaxLineDetail</ns0:DetailType>
+      <ns0:TaxLineDetail>
+        <ns0:TaxRateRef>23</ns0:TaxRateRef>
+        <ns0:PercentBased>true</ns0:PercentBased>
+        <ns0:TaxPercent>20</ns0:TaxPercent>
+        <ns0:NetAmountTaxable>309.00</ns0:NetAmountTaxable>
+      </ns0:TaxLineDetail>
+    </ns0:TaxLine>
+  </ns0:TxnTaxDetail>
+  <ns0:CustomerRef>83</ns0:CustomerRef>
+  <ns0:BillAddr>
+    <ns0:Id>77</ns0:Id>
+    <ns0:Line1>Units 2-4 Leavers Estate, Chiddingstone Causeway</ns0:Line1>
+    <ns0:City>Tonbridge</ns0:City>
+    <ns0:CountrySubDivisionCode>Kent</ns0:CountrySubDivisionCode>
+    <ns0:PostalCode>TN11 8JU</ns0:PostalCode>
+  </ns0:BillAddr>
+  <ns0:ShipAddr>
+    <ns0:Id>77</ns0:Id>
+    <ns0:Line1>Units 2-4 Leavers Estate, Chiddingstone Causeway</ns0:Line1>
+    <ns0:City>Tonbridge</ns0:City>
+    <ns0:CountrySubDivisionCode>Kent</ns0:CountrySubDivisionCode>
+    <ns0:PostalCode>TN11 8JU</ns0:PostalCode>
+  </ns0:ShipAddr>
+  <ns0:TotalAmt>370.80</ns0:TotalAmt>
+  <ns0:ApplyTaxAfterDiscount>false</ns0:ApplyTaxAfterDiscount>
+  <ns0:ExpirationDate>2020-02-18</ns0:ExpirationDate>
+</ns0:Estimate>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><IntuitResponse xmlns="http://schema.intuit.com/finance/v3" time="2020-02-03T09:33:32.521-08:00"><Fault type="ValidationFault"><Error code="6000" element=""><Message>A business validation error has occurred while processing your request</Message><Detail>Business Validation Error: Were sorry, QuickBooks encountered an error while calculating tax. Try reselecting the tax rate or reentering the product/service item and saving the form again.</Detail></Error></Fault></IntuitResponse>
+Array
+(
+    [Date] => Mon, 03 Feb 2020 17:33:32 GMT
+    [Content-Type] => application/xml
+    [Content-Length] => 539
+    [Connection] => close
+    [Server] => nginx
+    [Strict-Transport-Security] => max-age=15552000
+    [intuit_tid] => 5bbe79d1-d77c-4604-9df2-cfd3b9af4d9f
+    [Set-Cookie] => qboeuid=245bee4c.59daf527e6c21; path=/; expires=Tue, 02-Feb-21 17:33:32 GMT; domain=.intuit.com
+    [X-XSS-Protection] => 1; mode=block
+)
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/1419738750/estimate?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..98qNGO4HqVXdnh6nI-e2Mw.ALRa_gohxJQ8JiBRtLesv73mCLPF6LBiA6pbA_xKGRZUg0WXymzP2_iQNIVFZkWRv_0ri1sCmq8TyaTz2MZEXuzeK6dq3GKAZv-JkMe91IJxu5gieiFry6ofAybq5gfeDRHD1dKRYQv-_CNgjt3mChdWF7dvxc7DdgUou-vKPVdajPl74N0YYmr6wfGV8zUmp7PPXTta6sufkZtc0WXpFBmFXjHdTKvTAfjkahOm8wqr-6UouXDxoQHSv8wukB-eBb9SumLTVSI5vz0bOzoHTN3iN3UQ6Ya16_mMUK6XYdvQO6JsBUGQIzm2mXxsVle5gynbOErDxhID9l29sh9CXHKYXcFSbS6Gb_4hVyiqRDK07DrVML_720UF1c2L0DWo7i9cmwh1Jhv5F6GerXYkVIWqcXqIqhZfS8yZdXUTuq-jX5tsicnQyAHsFY4ucs59TAc_uaBBDouYnA8IcgYUUkDcu9KrKQWoCW-GYtzxFNJxFiYsjW0Xe6dfP_YFbLjRD3M-KQTu4qXapweZ60oJneC7vtM_TVT2_A3IBAvbJ_WjjSmKrUw5IRwpE__YwJKr-sg8mUWwhTKIiGa3kp2gkkL5Cpa2r5YWGPfO4n9SwBZTuFiYPs9vdpCaZ3cMo1SOh3ONDcUygAx772JpaSSSc90gU0hHth4ldX9YiOlLDMo.ZuzHGOqimFQtOmfNJ9aW5Q
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 3012
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Estimate xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:CustomField>
+    <ns0:DefinitionId>1</ns0:DefinitionId>
+    <ns0:Name>Deadline</ns0:Name>
+    <ns0:Type>StringType</ns0:Type>
+    <ns0:StringValue>15/11/2019</ns0:StringValue>
+  </ns0:CustomField>
+  <ns0:CustomField>
+    <ns0:DefinitionId>2</ns0:DefinitionId>
+    <ns0:Name>Notes</ns0:Name>
+    <ns0:Type>StringType</ns0:Type>
+    <ns0:StringValue>Artwork on file, proof to custo</ns0:StringValue>
+  </ns0:CustomField>
+  <ns0:CustomField>
+    <ns0:DefinitionId>3</ns0:DefinitionId>
+    <ns0:Name>Terms</ns0:Name>
+    <ns0:Type>StringType</ns0:Type>
+    <ns0:StringValue>Net30</ns0:StringValue>
+  </ns0:CustomField>
+  <ns0:DocNumber>QC25</ns0:DocNumber>
+  <ns0:TxnDate>2020-02-03</ns0:TxnDate>
+  <ns0:PrivateNote>AP6779/2 DFU - Schein TCFM</ns0:PrivateNote>
+  <ns0:Line>
+    <ns0:LineNum>1</ns0:LineNum>
+    <ns0:Description>Printing DFU 280 x 38mm Double Sided Spot Colour 8pp 5000 Type 70gsm , Folding</ns0:Description>
+    <ns0:Amount>294.00</ns0:Amount>
+    <ns0:DetailType>SalesItemLineDetail</ns0:DetailType>
+    <ns0:SalesItemLineDetail>
+      <ns0:ItemRef>90</ns0:ItemRef>
+      <ns0:UnitPrice>0.0588</ns0:UnitPrice>
+      <ns0:Qty>5000</ns0:Qty>
+      <ns0:TaxCodeRef>13</ns0:TaxCodeRef>
+    </ns0:SalesItemLineDetail>
+  </ns0:Line>
+  <ns0:Line>
+    <ns0:LineNum>2</ns0:LineNum>
+    <ns0:Description>Tracked next day delivery service.</ns0:Description>
+    <ns0:Amount>0.00</ns0:Amount>
+    <ns0:DetailType>SalesItemLineDetail</ns0:DetailType>
+    <ns0:SalesItemLineDetail>
+      <ns0:ItemRef>7</ns0:ItemRef>
+      <ns0:UnitPrice>0</ns0:UnitPrice>
+      <ns0:Qty>1</ns0:Qty>
+      <ns0:TaxCodeRef>13</ns0:TaxCodeRef>
+    </ns0:SalesItemLineDetail>
+  </ns0:Line>
+  <ns0:TxnTaxDetail>
+    <ns0:TotalTax>58.8</ns0:TotalTax>
+    <ns0:TaxLine>
+      <ns0:Amount>58.8</ns0:Amount>
+      <ns0:DetailType>TaxLineDetail</ns0:DetailType>
+      <ns0:TaxLineDetail>
+        <ns0:TaxRateRef>23</ns0:TaxRateRef>
+        <ns0:PercentBased>true</ns0:PercentBased>
+        <ns0:TaxPercent>20</ns0:TaxPercent>
+        <ns0:NetAmountTaxable>294.00</ns0:NetAmountTaxable>
+      </ns0:TaxLineDetail>
+    </ns0:TaxLine>
+  </ns0:TxnTaxDetail>
+  <ns0:CustomerRef>83</ns0:CustomerRef>
+  <ns0:BillAddr>
+    <ns0:Id>77</ns0:Id>
+    <ns0:Line1>Units 2-4 Leavers Estate, Chiddingstone Causeway</ns0:Line1>
+    <ns0:City>Tonbridge</ns0:City>
+    <ns0:CountrySubDivisionCode>Kent</ns0:CountrySubDivisionCode>
+    <ns0:PostalCode>TN11 8JU</ns0:PostalCode>
+  </ns0:BillAddr>
+  <ns0:ShipAddr>
+    <ns0:Id>77</ns0:Id>
+    <ns0:Line1>Units 2-4 Leavers Estate, Chiddingstone Causeway</ns0:Line1>
+    <ns0:City>Tonbridge</ns0:City>
+    <ns0:CountrySubDivisionCode>Kent</ns0:CountrySubDivisionCode>
+    <ns0:PostalCode>TN11 8JU</ns0:PostalCode>
+  </ns0:ShipAddr>
+  <ns0:TotalAmt>352.80</ns0:TotalAmt>
+  <ns0:ApplyTaxAfterDiscount>false</ns0:ApplyTaxAfterDiscount>
+  <ns0:ExpirationDate>2020-02-18</ns0:ExpirationDate>
+</ns0:Estimate>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><IntuitResponse xmlns="http://schema.intuit.com/finance/v3" time="2020-02-03T09:42:51.294-08:00"><Fault type="ValidationFault"><Error code="6000" element=""><Message>A business validation error has occurred while processing your request</Message><Detail>Business Validation Error: Were sorry, QuickBooks encountered an error while calculating tax. Try reselecting the tax rate or reentering the product/service item and saving the form again.</Detail></Error></Fault></IntuitResponse>
+Array
+(
+    [Date] => Mon, 03 Feb 2020 17:42:51 GMT
+    [Content-Type] => application/xml
+    [Content-Length] => 539
+    [Connection] => close
+    [Server] => nginx
+    [Strict-Transport-Security] => max-age=15552000
+    [intuit_tid] => e96ce7dd-a730-4e78-82b8-13d5338cc55b
+    [Set-Cookie] => qboeuid=dcad0320.59daf73cca4b6; path=/; expires=Tue, 02-Feb-21 17:42:51 GMT; domain=.intuit.com
+    [X-XSS-Protection] => 1; mode=block
+)
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/1419738750/estimate?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..DPaiHseXA6vst9hT0ZMJsg.euEXs7d1wHLvQVpRYvWUKLk7zgp2rfFDaO7lenfYLlJuqik9evs8bgcgQag-t9EO9LV6Bo4KvfYnQbyDUFmLZIxy7A8-6Wnb1yY5T6c58KPIohzXKie2Io6UX-mvWupLlG8aDACviKSC_lajoIS7K1ycwFuYivddfe1U5s89dcLCqNH3k521--IEbReZOnu0RdG_-7wpisBi06MFOHuwo3clfp-qrevu2Z-FYt7MwcCeyqamzBQmIkZq2v1xZdOiSM70Cf3cDWU44RZdoz1shrOhgfXvf4j-aKk3bla9tWdoJnvsd0gMNv3h2Il4mEx9VmtEU845uOSnvZIkzQ4-3iA4AWD0g-VRv77wfoV6xSU5oQLQUU03mi4KLQAY4w41OUpW0VdNzYH7L2BJ_21RTTuNmP6YYWtIWMZNWboGXNZamQF15cIu-_4qGdrmzYVPdRUdjyqpQTZG7xAYwZNxjAtG7NamjhJ7tRq9IEDYB6gpC9c45UyRB4M19XvcCJnhonwwOHhnY5F-p88D_nZ72aZWu_PKe67KWmEAdykQOv7yglZMPzx1rREoHIDyKWIgPl7Zf1u_4ZBB0-zmimZgzcPlPSYbybkheiWPTq8d26pTRIKQ5RBbW0kOFGeAwhvTH8u3GPFeL_lQPG6ihBeM9qMp6CrjgFrHttoCR3lpJHc.f4dFjPaP9mdcotoDIhqhHA
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 3504
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Estimate xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:CustomField>
+    <ns0:DefinitionId>1</ns0:DefinitionId>
+    <ns0:Name>Deadline</ns0:Name>
+    <ns0:Type>StringType</ns0:Type>
+    <ns0:StringValue>31/01/2020</ns0:StringValue>
+  </ns0:CustomField>
+  <ns0:CustomField>
+    <ns0:DefinitionId>2</ns0:DefinitionId>
+    <ns0:Name>Notes</ns0:Name>
+    <ns0:Type>StringType</ns0:Type>
+    <ns0:StringValue>Artwork brief supplied by the c</ns0:StringValue>
+  </ns0:CustomField>
+  <ns0:CustomField>
+    <ns0:DefinitionId>3</ns0:DefinitionId>
+    <ns0:Name>Terms</ns0:Name>
+    <ns0:Type>StringType</ns0:Type>
+    <ns0:StringValue>50% to be paid on order</ns0:StringValue>
+  </ns0:CustomField>
+  <ns0:DocNumber>QC163</ns0:DocNumber>
+  <ns0:TxnDate>2020-02-04</ns0:TxnDate>
+  <ns0:PrivateNote>Menus, Main &amp; Breakfast.</ns0:PrivateNote>
+  <ns0:Line>
+    <ns0:LineNum>1</ns0:LineNum>
+    <ns0:Description>Design Artwork Set Up A5 Single Sided</ns0:Description>
+    <ns0:Amount>30</ns0:Amount>
+    <ns0:DetailType>SalesItemLineDetail</ns0:DetailType>
+    <ns0:SalesItemLineDetail>
+      <ns0:ItemRef>91</ns0:ItemRef>
+      <ns0:UnitPrice>30</ns0:UnitPrice>
+      <ns0:Qty>1</ns0:Qty>
+      <ns0:TaxCodeRef>13</ns0:TaxCodeRef>
+    </ns0:SalesItemLineDetail>
+  </ns0:Line>
+  <ns0:Line>
+    <ns0:LineNum>2</ns0:LineNum>
+    <ns0:Description>Printing Digital Print A5 Single Sided Black 1pp 25  Uncoated 300gsm, Trimming</ns0:Description>
+    <ns0:Amount>20</ns0:Amount>
+    <ns0:DetailType>SalesItemLineDetail</ns0:DetailType>
+    <ns0:SalesItemLineDetail>
+      <ns0:ItemRef>92</ns0:ItemRef>
+      <ns0:UnitPrice>0.8</ns0:UnitPrice>
+      <ns0:Qty>25</ns0:Qty>
+      <ns0:TaxCodeRef>13</ns0:TaxCodeRef>
+    </ns0:SalesItemLineDetail>
+  </ns0:Line>
+  <ns0:Line>
+    <ns0:LineNum>3</ns0:LineNum>
+    <ns0:Description>Printing Digital Print A5 Single Sided Black 1pp 10  Uncoated 300gsm, Trimming</ns0:Description>
+    <ns0:Amount>0.00</ns0:Amount>
+    <ns0:DetailType>SalesItemLineDetail</ns0:DetailType>
+    <ns0:SalesItemLineDetail>
+      <ns0:ItemRef>92</ns0:ItemRef>
+      <ns0:UnitPrice>0</ns0:UnitPrice>
+      <ns0:Qty>10</ns0:Qty>
+      <ns0:TaxCodeRef>13</ns0:TaxCodeRef>
+    </ns0:SalesItemLineDetail>
+  </ns0:Line>
+  <ns0:Line>
+    <ns0:LineNum>4</ns0:LineNum>
+    <ns0:Amount>0.00</ns0:Amount>
+    <ns0:DetailType>SalesItemLineDetail</ns0:DetailType>
+    <ns0:SalesItemLineDetail>
+      <ns0:ItemRef>60</ns0:ItemRef>
+      <ns0:UnitPrice>0</ns0:UnitPrice>
+      <ns0:Qty>1</ns0:Qty>
+      <ns0:TaxCodeRef>13</ns0:TaxCodeRef>
+    </ns0:SalesItemLineDetail>
+  </ns0:Line>
+  <ns0:TxnTaxDetail>
+    <ns0:TotalTax>10</ns0:TotalTax>
+    <ns0:TaxLine>
+      <ns0:Amount>10</ns0:Amount>
+      <ns0:DetailType>TaxLineDetail</ns0:DetailType>
+      <ns0:TaxLineDetail>
+        <ns0:TaxRateRef>23</ns0:TaxRateRef>
+        <ns0:PercentBased>true</ns0:PercentBased>
+        <ns0:TaxPercent>20</ns0:TaxPercent>
+        <ns0:NetAmountTaxable>50.00</ns0:NetAmountTaxable>
+      </ns0:TaxLineDetail>
+    </ns0:TaxLine>
+  </ns0:TxnTaxDetail>
+  <ns0:CustomerRef>148</ns0:CustomerRef>
+  <ns0:BillAddr>
+    <ns0:Id>103</ns0:Id>
+    <ns0:Line1>122 High St</ns0:Line1>
+    <ns0:City>Tonbridge</ns0:City>
+    <ns0:Country>Kent</ns0:Country>
+    <ns0:PostalCode>TN9 1AS</ns0:PostalCode>
+  </ns0:BillAddr>
+  <ns0:TotalAmt>60.00</ns0:TotalAmt>
+  <ns0:ApplyTaxAfterDiscount>false</ns0:ApplyTaxAfterDiscount>
+  <ns0:ExpirationDate>2020-02-19</ns0:ExpirationDate>
+</ns0:Estimate>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><IntuitResponse xmlns="http://schema.intuit.com/finance/v3" time="2020-02-04T04:09:03.609-08:00"><Fault type="ValidationFault"><Error code="6000" element=""><Message>A business validation error has occurred while processing your request</Message><Detail>Business Validation Error: Were sorry, QuickBooks encountered an error while calculating tax. Try reselecting the tax rate or reentering the product/service item and saving the form again.</Detail></Error></Fault></IntuitResponse>
+Array
+(
+    [Date] => Tue, 04 Feb 2020 12:09:03 GMT
+    [Content-Type] => application/xml
+    [Content-Length] => 539
+    [Connection] => close
+    [Server] => nginx
+    [Strict-Transport-Security] => max-age=15552000
+    [intuit_tid] => 4228db88-3df3-495e-b5c3-9cab4a6ed949
+    [Set-Cookie] => qboeuid=ae28b65e.59dbee7e758c6; path=/; expires=Wed, 03-Feb-21 12:09:03 GMT; domain=.intuit.com
+    [X-XSS-Protection] => 1; mode=block
+)
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/1419738750/estimate?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..WyDsNuLgLmxYcwBVV1aZog.wUBgMarf_4gJHsZJl9M2nW2r2jv6FDNw9hobR0CCpx1SV5c0Rv7joiVx9skrqP0dDCjP9ho4UOiAHhZzU5B-3MfVQNG86X0a0PhlEkEvkMTnUausHqhQzNUa3WVfjbfp1LsmUCwAPhWYK4u913xpiD8arHBpgYKhs2XA-QFUe669qM7bWc5QwdqmwJUdxQKn7cXfFbELcyazfWYtJ2D0R9U4KLkXbs1ctk_2UuAQF6ljBmUWRszdR7a8lxtgOd910SPR-KyZijQS874Wtq_xaffvANg-51SmO-y1xu3CIZ9YfFd2raIVHwXktS3loU4Ju7ig84nUQ_BwGatH-wNZYqtHWMcUs7cj5r7ksB5v73gpSOnOA_fdVVpNuoN_LuKiGQytM_ZUu8SiLP4AcWYwryS6ZcbKi2Sv0V9Lb1Hd4B8EEKZU-HCIQImyfVGUY4JNoOYUsEfIyuL3o2mVD33IQonJm-o9CcnecKRorMYaJKONlstiPkzNOLab5eFb5aqYhDsASlkSQUCnoL3b7l3YAm0c53auld68oep47UeB5MBGIvLikn_j7LbHtPTaQrs8pJBkBkn8LBrMUr-J6IA7ANB37RhIcujQdvMzW9DnyQMfiuEMHOYKfglS2Pq8-_VRRssKkkD9Q-X6TypOPbIlfFdlqDsDdjJoLiUIgUr4YN4.6mpvV1jcPFaiMUGQycQfgQ
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 3510
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Estimate xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:CustomField>
+    <ns0:DefinitionId>1</ns0:DefinitionId>
+    <ns0:Name>Deadline</ns0:Name>
+    <ns0:Type>StringType</ns0:Type>
+    <ns0:StringValue>31/01/2020</ns0:StringValue>
+  </ns0:CustomField>
+  <ns0:CustomField>
+    <ns0:DefinitionId>2</ns0:DefinitionId>
+    <ns0:Name>Notes</ns0:Name>
+    <ns0:Type>StringType</ns0:Type>
+    <ns0:StringValue>Artwork brief supplied by the c</ns0:StringValue>
+  </ns0:CustomField>
+  <ns0:CustomField>
+    <ns0:DefinitionId>3</ns0:DefinitionId>
+    <ns0:Name>Terms</ns0:Name>
+    <ns0:Type>StringType</ns0:Type>
+    <ns0:StringValue>50% to be paid on order</ns0:StringValue>
+  </ns0:CustomField>
+  <ns0:DocNumber>QC163</ns0:DocNumber>
+  <ns0:TxnDate>2020-02-04</ns0:TxnDate>
+  <ns0:PrivateNote>Menus, Main &amp; Breakfast.</ns0:PrivateNote>
+  <ns0:Line>
+    <ns0:LineNum>1</ns0:LineNum>
+    <ns0:Description>Design Artwork Set Up A5 Single Sided</ns0:Description>
+    <ns0:Amount>30.00</ns0:Amount>
+    <ns0:DetailType>SalesItemLineDetail</ns0:DetailType>
+    <ns0:SalesItemLineDetail>
+      <ns0:ItemRef>91</ns0:ItemRef>
+      <ns0:UnitPrice>30</ns0:UnitPrice>
+      <ns0:Qty>1</ns0:Qty>
+      <ns0:TaxCodeRef>13</ns0:TaxCodeRef>
+    </ns0:SalesItemLineDetail>
+  </ns0:Line>
+  <ns0:Line>
+    <ns0:LineNum>2</ns0:LineNum>
+    <ns0:Description>Printing Digital Print A5 Single Sided Black 1pp 25  Uncoated 300gsm, Trimming</ns0:Description>
+    <ns0:Amount>20.00</ns0:Amount>
+    <ns0:DetailType>SalesItemLineDetail</ns0:DetailType>
+    <ns0:SalesItemLineDetail>
+      <ns0:ItemRef>92</ns0:ItemRef>
+      <ns0:UnitPrice>0.8</ns0:UnitPrice>
+      <ns0:Qty>25</ns0:Qty>
+      <ns0:TaxCodeRef>13</ns0:TaxCodeRef>
+    </ns0:SalesItemLineDetail>
+  </ns0:Line>
+  <ns0:Line>
+    <ns0:LineNum>3</ns0:LineNum>
+    <ns0:Description>Printing Digital Print A5 Single Sided Black 1pp 10  Uncoated 300gsm, Trimming</ns0:Description>
+    <ns0:Amount>0.00</ns0:Amount>
+    <ns0:DetailType>SalesItemLineDetail</ns0:DetailType>
+    <ns0:SalesItemLineDetail>
+      <ns0:ItemRef>92</ns0:ItemRef>
+      <ns0:UnitPrice>0</ns0:UnitPrice>
+      <ns0:Qty>10</ns0:Qty>
+      <ns0:TaxCodeRef>13</ns0:TaxCodeRef>
+    </ns0:SalesItemLineDetail>
+  </ns0:Line>
+  <ns0:Line>
+    <ns0:LineNum>4</ns0:LineNum>
+    <ns0:Amount>0.00</ns0:Amount>
+    <ns0:DetailType>SalesItemLineDetail</ns0:DetailType>
+    <ns0:SalesItemLineDetail>
+      <ns0:ItemRef>60</ns0:ItemRef>
+      <ns0:UnitPrice>0</ns0:UnitPrice>
+      <ns0:Qty>1</ns0:Qty>
+      <ns0:TaxCodeRef>13</ns0:TaxCodeRef>
+    </ns0:SalesItemLineDetail>
+  </ns0:Line>
+  <ns0:TxnTaxDetail>
+    <ns0:TotalTax>10</ns0:TotalTax>
+    <ns0:TaxLine>
+      <ns0:Amount>10</ns0:Amount>
+      <ns0:DetailType>TaxLineDetail</ns0:DetailType>
+      <ns0:TaxLineDetail>
+        <ns0:TaxRateRef>23</ns0:TaxRateRef>
+        <ns0:PercentBased>true</ns0:PercentBased>
+        <ns0:TaxPercent>20</ns0:TaxPercent>
+        <ns0:NetAmountTaxable>50.00</ns0:NetAmountTaxable>
+      </ns0:TaxLineDetail>
+    </ns0:TaxLine>
+  </ns0:TxnTaxDetail>
+  <ns0:CustomerRef>148</ns0:CustomerRef>
+  <ns0:BillAddr>
+    <ns0:Id>103</ns0:Id>
+    <ns0:Line1>122 High St</ns0:Line1>
+    <ns0:City>Tonbridge</ns0:City>
+    <ns0:Country>Kent</ns0:Country>
+    <ns0:PostalCode>TN9 1AS</ns0:PostalCode>
+  </ns0:BillAddr>
+  <ns0:TotalAmt>60.00</ns0:TotalAmt>
+  <ns0:ApplyTaxAfterDiscount>false</ns0:ApplyTaxAfterDiscount>
+  <ns0:ExpirationDate>2020-02-19</ns0:ExpirationDate>
+</ns0:Estimate>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><IntuitResponse xmlns="http://schema.intuit.com/finance/v3" time="2020-02-04T04:09:28.281-08:00"><Fault type="ValidationFault"><Error code="6000" element=""><Message>A business validation error has occurred while processing your request</Message><Detail>Business Validation Error: Were sorry, QuickBooks encountered an error while calculating tax. Try reselecting the tax rate or reentering the product/service item and saving the form again.</Detail></Error></Fault></IntuitResponse>
+Array
+(
+    [Date] => Tue, 04 Feb 2020 12:09:28 GMT
+    [Content-Type] => application/xml
+    [Content-Length] => 539
+    [Connection] => close
+    [Server] => nginx
+    [Strict-Transport-Security] => max-age=15552000
+    [intuit_tid] => 9c2f8b00-a6b2-431f-944d-949e03968479
+    [Set-Cookie] => qboeuid=a31f182c.59dbee95fa06d; path=/; expires=Wed, 03-Feb-21 12:09:28 GMT; domain=.intuit.com
+    [X-XSS-Protection] => 1; mode=block
+)
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/1419738750/estimate?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..aGXVMNX3wGM11BQHyrHR1Q.ob7RTBNeCxK9LcjHb9t0brg_xJT2QKlISPW5ixvhqZp5vOCKoOJj2DlcdsQRPvzGDNEJ9rQL1xwPwk3dlFKlIP9uXTzK_FTXzIzfeHWqxj3j89euqvt7MlKrwS7wRzKlLUYuTXurtHbLcRwzWi-X-G8Ud1JLBi9srqZWRDRqEE-6hIV8UGwjg3Fw-D7Cu2i6p7cziEH-KEA0vP3soEcCeklbWbMj63vE-iIRMReseIHq4VvcYNOsBSBHSaNl2tvPUr-4-RM4K_DZMVc4Yggqv5wF6bkg_KV0QprgCBnPf-vAlGl6MN0I-SRJW-ojpDIsZL3_zt21uq9JhLRUx2b_2tinHwM2w-M-KuZQ7c7Qdqf4PhOOGBgs_jtp8fk_vjG6OajJMk2DxP6pLboCHCF3SS5toLQnZlJyfNtzO9XmsbcI6YsWxhig5zK-U6IzeQWUie2LvyznalKghoUxU_dEBgfB6K8gLRJ14V6efJs2sQMoxyy5tpvLlhBgbCqfgfE24T4CizLEsj_jrjVxKUW7YrequmxQuTbqGAiMcy1ZRMWHVou47qAX_taXzXwVKn6TK-pd95rw1vtOqrtDbAFMW35v40sEpTnelBLTt2ucGEzKRzxQET9nZ3V7yDQ4z3Ds5vsVz-auoEIfZAfFWOP0PYKXv1-vwcb8JzX8WFPLpng.oqM0AM782XeSRXOXdLaDTg
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 3012
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Estimate xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:CustomField>
+    <ns0:DefinitionId>1</ns0:DefinitionId>
+    <ns0:Name>Deadline</ns0:Name>
+    <ns0:Type>StringType</ns0:Type>
+    <ns0:StringValue>15/11/2019</ns0:StringValue>
+  </ns0:CustomField>
+  <ns0:CustomField>
+    <ns0:DefinitionId>2</ns0:DefinitionId>
+    <ns0:Name>Notes</ns0:Name>
+    <ns0:Type>StringType</ns0:Type>
+    <ns0:StringValue>Artwork on file, proof to custo</ns0:StringValue>
+  </ns0:CustomField>
+  <ns0:CustomField>
+    <ns0:DefinitionId>3</ns0:DefinitionId>
+    <ns0:Name>Terms</ns0:Name>
+    <ns0:Type>StringType</ns0:Type>
+    <ns0:StringValue>Net30</ns0:StringValue>
+  </ns0:CustomField>
+  <ns0:DocNumber>QC25</ns0:DocNumber>
+  <ns0:TxnDate>2020-02-06</ns0:TxnDate>
+  <ns0:PrivateNote>AP6779/2 DFU - Schein TCFM</ns0:PrivateNote>
+  <ns0:Line>
+    <ns0:LineNum>1</ns0:LineNum>
+    <ns0:Description>Printing DFU 280 x 38mm Double Sided Spot Colour 8pp 5000 Type 70gsm , Folding</ns0:Description>
+    <ns0:Amount>294.00</ns0:Amount>
+    <ns0:DetailType>SalesItemLineDetail</ns0:DetailType>
+    <ns0:SalesItemLineDetail>
+      <ns0:ItemRef>90</ns0:ItemRef>
+      <ns0:UnitPrice>0.0588</ns0:UnitPrice>
+      <ns0:Qty>5000</ns0:Qty>
+      <ns0:TaxCodeRef>13</ns0:TaxCodeRef>
+    </ns0:SalesItemLineDetail>
+  </ns0:Line>
+  <ns0:Line>
+    <ns0:LineNum>2</ns0:LineNum>
+    <ns0:Description>Tracked next day delivery service.</ns0:Description>
+    <ns0:Amount>0.00</ns0:Amount>
+    <ns0:DetailType>SalesItemLineDetail</ns0:DetailType>
+    <ns0:SalesItemLineDetail>
+      <ns0:ItemRef>7</ns0:ItemRef>
+      <ns0:UnitPrice>0</ns0:UnitPrice>
+      <ns0:Qty>1</ns0:Qty>
+      <ns0:TaxCodeRef>13</ns0:TaxCodeRef>
+    </ns0:SalesItemLineDetail>
+  </ns0:Line>
+  <ns0:TxnTaxDetail>
+    <ns0:TotalTax>58.8</ns0:TotalTax>
+    <ns0:TaxLine>
+      <ns0:Amount>58.8</ns0:Amount>
+      <ns0:DetailType>TaxLineDetail</ns0:DetailType>
+      <ns0:TaxLineDetail>
+        <ns0:TaxRateRef>23</ns0:TaxRateRef>
+        <ns0:PercentBased>true</ns0:PercentBased>
+        <ns0:TaxPercent>20</ns0:TaxPercent>
+        <ns0:NetAmountTaxable>294.00</ns0:NetAmountTaxable>
+      </ns0:TaxLineDetail>
+    </ns0:TaxLine>
+  </ns0:TxnTaxDetail>
+  <ns0:CustomerRef>83</ns0:CustomerRef>
+  <ns0:BillAddr>
+    <ns0:Id>77</ns0:Id>
+    <ns0:Line1>Units 2-4 Leavers Estate, Chiddingstone Causeway</ns0:Line1>
+    <ns0:City>Tonbridge</ns0:City>
+    <ns0:CountrySubDivisionCode>Kent</ns0:CountrySubDivisionCode>
+    <ns0:PostalCode>TN11 8JU</ns0:PostalCode>
+  </ns0:BillAddr>
+  <ns0:ShipAddr>
+    <ns0:Id>77</ns0:Id>
+    <ns0:Line1>Units 2-4 Leavers Estate, Chiddingstone Causeway</ns0:Line1>
+    <ns0:City>Tonbridge</ns0:City>
+    <ns0:CountrySubDivisionCode>Kent</ns0:CountrySubDivisionCode>
+    <ns0:PostalCode>TN11 8JU</ns0:PostalCode>
+  </ns0:ShipAddr>
+  <ns0:TotalAmt>352.80</ns0:TotalAmt>
+  <ns0:ApplyTaxAfterDiscount>false</ns0:ApplyTaxAfterDiscount>
+  <ns0:ExpirationDate>2020-02-21</ns0:ExpirationDate>
+</ns0:Estimate>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><IntuitResponse xmlns="http://schema.intuit.com/finance/v3" time="2020-02-06T03:48:14.052-08:00"><Fault type="ValidationFault"><Error code="6000" element=""><Message>A business validation error has occurred while processing your request</Message><Detail>Business Validation Error: Were sorry, QuickBooks encountered an error while calculating tax. Try reselecting the tax rate or reentering the product/service item and saving the form again.</Detail></Error></Fault></IntuitResponse>
+Array
+(
+    [Date] => Thu, 06 Feb 2020 11:48:14 GMT
+    [Content-Type] => application/xml
+    [Content-Length] => 539
+    [Connection] => close
+    [Server] => nginx
+    [Strict-Transport-Security] => max-age=15552000
+    [intuit_tid] => 97c0ed4b-d1c3-47c6-9c44-d71be4b6797f
+    [Set-Cookie] => qboeuid=f64acd6b.59de6d91b441d; path=/; expires=Fri, 05-Feb-21 11:48:14 GMT; domain=.intuit.com
+    [X-XSS-Protection] => 1; mode=block
+)
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/1419738750/estimate?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..QSjcn5pI8ewTkE9LQWU6jA.Z_yYTcf2gzXpIlMbhdpTnDXhmhNXX53ay8K_Ft9IXjN1aRL6NQMJUKKydI3tDHkQfhxve1LMIOgLIDE4olCSdr-jiIlr9hTP8cgF2cyLcA8zwPQpS5ntn_-0KcarjGM83UpfiV-sgDsm_HYUhVdY-2OwksXlgKgIkGDP2uAVNRdFBuUXxLrlSNoZ0vXCHgVw2HCA-26BUdlSGicJFfLDkk5-CpLNrz8MoqxwIHz94SavL3SBiJym44Vs_-6bsIxdC4tzIodQ9Ki8KkMoYEny7fO2JxGrUrVKr81WVbiXuC0wqTiWB8zPjt5B6ezFp4apC-OVmq3VY1Dmskc17QFTc3ydyE2rzbtC27EwWq_LzKKumrjV0po76uiHTbVB1rvKLnSDb99tjF358lSEm_HOmaM26i52KU6jd5NonXhZTnuSumq8ZRe3cqBdnBJ9YjORMA7POPQKkEsrnSrjqBDZZ-hDwxGzJJZgHIrW_X_aQ6-B872zW1j8bOFqLkYX01ermiiRu-Pugc5IkN1apyBAkLrCzSxZo7N_Mmf_2Ar-1yUWrGjIIkaZ_a92iVevIYj27DgPJA4SdV6o22eL5GLdiYDhQMmJr2OVxCxkdkTq6_l5iAFVxbZrh5Flth7X7cmDEL-WiO-b1jTBZ3pDGyxnZc-gxXLP-HFBY69pfo-QE5A.HtJDBqYt_GIktsH3LcV3Lw
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 3010
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Estimate xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:CustomField>
+    <ns0:DefinitionId>1</ns0:DefinitionId>
+    <ns0:Name>Deadline</ns0:Name>
+    <ns0:Type>StringType</ns0:Type>
+    <ns0:StringValue>15/11/2019</ns0:StringValue>
+  </ns0:CustomField>
+  <ns0:CustomField>
+    <ns0:DefinitionId>2</ns0:DefinitionId>
+    <ns0:Name>Notes</ns0:Name>
+    <ns0:Type>StringType</ns0:Type>
+    <ns0:StringValue>Artwork on file, proof to custo</ns0:StringValue>
+  </ns0:CustomField>
+  <ns0:CustomField>
+    <ns0:DefinitionId>3</ns0:DefinitionId>
+    <ns0:Name>Terms</ns0:Name>
+    <ns0:Type>StringType</ns0:Type>
+    <ns0:StringValue>Net30</ns0:StringValue>
+  </ns0:CustomField>
+  <ns0:DocNumber>QC25</ns0:DocNumber>
+  <ns0:TxnDate>2020-02-06</ns0:TxnDate>
+  <ns0:PrivateNote>AP6779/2 DFU - Schein TCFM</ns0:PrivateNote>
+  <ns0:Line>
+    <ns0:LineNum>1</ns0:LineNum>
+    <ns0:Description>Printing DFU 280 x 38mm Double Sided Spot Colour 8pp 5000 Type 70gsm , Folding</ns0:Description>
+    <ns0:Amount>294.00</ns0:Amount>
+    <ns0:DetailType>SalesItemLineDetail</ns0:DetailType>
+    <ns0:SalesItemLineDetail>
+      <ns0:ItemRef>90</ns0:ItemRef>
+      <ns0:UnitPrice>0.0588</ns0:UnitPrice>
+      <ns0:Qty>5000</ns0:Qty>
+      <ns0:TaxCodeRef>2</ns0:TaxCodeRef>
+    </ns0:SalesItemLineDetail>
+  </ns0:Line>
+  <ns0:Line>
+    <ns0:LineNum>2</ns0:LineNum>
+    <ns0:Description>Tracked next day delivery service.</ns0:Description>
+    <ns0:Amount>0.00</ns0:Amount>
+    <ns0:DetailType>SalesItemLineDetail</ns0:DetailType>
+    <ns0:SalesItemLineDetail>
+      <ns0:ItemRef>7</ns0:ItemRef>
+      <ns0:UnitPrice>0</ns0:UnitPrice>
+      <ns0:Qty>1</ns0:Qty>
+      <ns0:TaxCodeRef>2</ns0:TaxCodeRef>
+    </ns0:SalesItemLineDetail>
+  </ns0:Line>
+  <ns0:TxnTaxDetail>
+    <ns0:TotalTax>58.8</ns0:TotalTax>
+    <ns0:TaxLine>
+      <ns0:Amount>58.8</ns0:Amount>
+      <ns0:DetailType>TaxLineDetail</ns0:DetailType>
+      <ns0:TaxLineDetail>
+        <ns0:TaxRateRef>23</ns0:TaxRateRef>
+        <ns0:PercentBased>true</ns0:PercentBased>
+        <ns0:TaxPercent>20</ns0:TaxPercent>
+        <ns0:NetAmountTaxable>294.00</ns0:NetAmountTaxable>
+      </ns0:TaxLineDetail>
+    </ns0:TaxLine>
+  </ns0:TxnTaxDetail>
+  <ns0:CustomerRef>83</ns0:CustomerRef>
+  <ns0:BillAddr>
+    <ns0:Id>77</ns0:Id>
+    <ns0:Line1>Units 2-4 Leavers Estate, Chiddingstone Causeway</ns0:Line1>
+    <ns0:City>Tonbridge</ns0:City>
+    <ns0:CountrySubDivisionCode>Kent</ns0:CountrySubDivisionCode>
+    <ns0:PostalCode>TN11 8JU</ns0:PostalCode>
+  </ns0:BillAddr>
+  <ns0:ShipAddr>
+    <ns0:Id>77</ns0:Id>
+    <ns0:Line1>Units 2-4 Leavers Estate, Chiddingstone Causeway</ns0:Line1>
+    <ns0:City>Tonbridge</ns0:City>
+    <ns0:CountrySubDivisionCode>Kent</ns0:CountrySubDivisionCode>
+    <ns0:PostalCode>TN11 8JU</ns0:PostalCode>
+  </ns0:ShipAddr>
+  <ns0:TotalAmt>352.80</ns0:TotalAmt>
+  <ns0:ApplyTaxAfterDiscount>false</ns0:ApplyTaxAfterDiscount>
+  <ns0:ExpirationDate>2020-02-21</ns0:ExpirationDate>
+</ns0:Estimate>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><IntuitResponse xmlns="http://schema.intuit.com/finance/v3" time="2020-02-06T05:20:55.149-08:00"><Fault type="ValidationFault"><Error code="3060" element="Global Tax"><Message>Invalid Tax Rate</Message><Detail>Invalid Tax Rate : Invalid tax rate id - 23</Detail></Error></Fault></IntuitResponse>
+Array
+(
+    [Date] => Thu, 06 Feb 2020 13:20:55 GMT
+    [Content-Type] => application/xml
+    [Content-Length] => 350
+    [Connection] => close
+    [Server] => nginx
+    [Strict-Transport-Security] => max-age=15552000
+    [intuit_tid] => 7d44590f-e2dc-4f8b-afee-eb99b732bb93
+    [Set-Cookie] => qboeuid=4460127f.59de824919a0b; path=/; expires=Fri, 05-Feb-21 13:20:55 GMT; domain=.intuit.com
+    [X-XSS-Protection] => 1; mode=block
+)
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/1419738750/item?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..V7auPG8dihD9bfq-3GeYQw.FoeiYm6OJwHylED4UZA878dStyuSFkm9edDDkGnnwCnWcjSqeJTwzskx28WIFATI1QuteczfgJvEJbpxe-Df1zBiejkmICJlzTtFimstr8-wir2VuwCjteswzqC34ntSoD-3ZEUmLRyGc0JCdqkQ9-JNhDpx9wvTZBi3WpzHJu3V3MGFpZE0QwR3mV0bgJuT8XuzYvTgeyl6VW2cTliEHFIClwhjDAAF7mm6p7Cvu0IoT3QD2uHAQrWBGMQGiWPqxgFEGqNpv-XvZud-xUnyW-bhwoeRNCzMBt17gvUvqJjcM0Zk_GIxJ_4Ct4ABW38RPuo5CT-o_uwfbm_GAJmb0Xoy94-gxbbStJibb5t15LE9dKob_GGOw3cvgvnKUMJROtxk60-WBSQcuCP-5ZpwEUiisVRG1uvA3D014xQ8EfP7F-JmhsAWOZG75KrjJkhkpZFm1gs0nkgG4f6YAs0BFMiIjM6tYVm-sWAlWrVvx1WAlFI4Au4dk51OO6yPH6im1TXWtxFtiOEA7J58oKiFPsGUT0JgzGA_gjrfpAUjo4nbtUHzc1xgMvItkuIVfIqaekGYdvsUrKYDfStHXZF25FRacuBoIsrj6ECoW3Pol4mGPjK-2TuT5PmRORMiT5SvOrcEt8uv6E_Wj9impNIu5i_zPG4zsgV07ZDndK8cRnA.vCExRoE7hQwyMAC-nu6JtA
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 599
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Item xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:Name>Artwork Corrections</ns0:Name>
+  <ns0:Description>Design Artwork Corrections  Single Sided</ns0:Description>
+  <ns0:Active>true</ns0:Active>
+  <ns0:SubItem>true</ns0:SubItem>
+  <ns0:ParentRef>22</ns0:ParentRef>
+  <ns0:Taxable>false</ns0:Taxable>
+  <ns0:UnitPrice>20.00</ns0:UnitPrice>
+  <ns0:Type>Service</ns0:Type>
+  <ns0:IncomeAccountRef name="Sales">1</ns0:IncomeAccountRef>
+  <ns0:TrackQtyOnHand>false</ns0:TrackQtyOnHand>
+  <ns0:InvStartDate>2020-02-06</ns0:InvStartDate>
+</ns0:Item>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><IntuitResponse xmlns="http://schema.intuit.com/finance/v3" time="2020-02-06T08:46:21.202-08:00"><Fault type="ValidationFault"><Error code="700" element=""><Message>Parent Reference Invalid</Message><Detail>Parent Reference Invalid : This selection can only be a Category.</Detail></Error></Fault></IntuitResponse>
+Array
+(
+    [Date] => Thu, 06 Feb 2020 16:46:21 GMT
+    [Content-Type] => application/xml
+    [Content-Length] => 369
+    [Connection] => close
+    [Server] => nginx
+    [Strict-Transport-Security] => max-age=15552000
+    [intuit_tid] => ed85f5df-49d7-4e21-a38f-93df0de86a85
+    [Set-Cookie] => qboeuid=1ce3169f.59deb034109a5; path=/; expires=Fri, 05-Feb-21 16:46:21 GMT; domain=.intuit.com
+    [X-XSS-Protection] => 1; mode=block
+)
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/1419738750/item?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..icCkN3gOhndPdaSbHMDmYg.gsiBu-NMv1qAWvE51jdIeqiXxj8yOhrW-jZcqKa9Uf6_g3OqB8XvsSm-eMOOnqVMwpQJnM14Udzp51vkVSrQZaOgBFuKoxvAg1rxiFi2-AizHFT7RlcjwXKjEw88RdMCjNZkdfzG5QAEWp34GAjrqSUGZFatMmk3mYS1eEtlC2LivzIox46C74GtRV9aTEKIVHpALE9_YeoJYTqcu24NvawYfpLtpd3eMcUwNcAmFBGKjeLULGaAaFsiVrqChAvBk-hliY5yit6RoB1RtV71HOv3sgwYvzlUp4wbzm3h4f9wJ2ZjOMPGw5n7l5UQ38FfiQwIr0m9fPE4ZT6ZH6EPiEr4iA19wAxBbuq1wOgAy9eF8YyvaEDt_cPvcTz0ERXC_FOsNn7aaRGfKsSlqJWF8ENbOAfPfhUWkF_1dteJdlaNaeaK5RTAGKTj-Ifu5i3vQY38WXmIuu5auAE1fosqnEMIL5GsUtlkZe00pIgw3ufDiXQEpRoikQFx9dGs50Jsb0K8tbN__4CmlhDxihEUalwY_wC3S2c0k2sevAJI44z7wYq2aEnGcYtaRMmciXLS1MKp0sc-3cOvqzwgE2AiUnBnt1WvbwD8N_8I8m6G2pxY3RTOB9aulI6UWZECG4EJvy3aypKtGkanLpmsZBEJyJfSmr19GPhPUMS7xG0i6xg.ekLT0Z6EGcY1Xz-SjBLdEw
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 599
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Item xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:Name>Artwork Corrections</ns0:Name>
+  <ns0:Description>Design Artwork Corrections  Single Sided</ns0:Description>
+  <ns0:Active>true</ns0:Active>
+  <ns0:SubItem>true</ns0:SubItem>
+  <ns0:ParentRef>22</ns0:ParentRef>
+  <ns0:Taxable>false</ns0:Taxable>
+  <ns0:UnitPrice>20.00</ns0:UnitPrice>
+  <ns0:Type>Service</ns0:Type>
+  <ns0:IncomeAccountRef name="Sales">1</ns0:IncomeAccountRef>
+  <ns0:TrackQtyOnHand>false</ns0:TrackQtyOnHand>
+  <ns0:InvStartDate>2020-02-06</ns0:InvStartDate>
+</ns0:Item>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><IntuitResponse xmlns="http://schema.intuit.com/finance/v3" time="2020-02-06T10:32:50.182-08:00"><Fault type="ValidationFault"><Error code="700" element=""><Message>Parent Reference Invalid</Message><Detail>Parent Reference Invalid : This selection can only be a Category.</Detail></Error></Fault></IntuitResponse>
+Array
+(
+    [Date] => Thu, 06 Feb 2020 18:32:50 GMT
+    [Content-Type] => application/xml
+    [Content-Length] => 369
+    [Connection] => close
+    [Server] => nginx
+    [Strict-Transport-Security] => max-age=15552000
+    [intuit_tid] => 2ba8eefa-739e-4fbf-bb08-492411c99f3f
+    [Set-Cookie] => qboeuid=b95395f6.59dec80127e10; path=/; expires=Fri, 05-Feb-21 18:32:50 GMT; domain=.intuit.com
+    [X-XSS-Protection] => 1; mode=block
+)
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/1419738750/item?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..rSFXIG5uyO-lEXjUX0gU-Q.CmbAKq-rPESfXxhVTp4D2Qvfi4_5MaUiDhCQplYyuAuvBKKvasrewvxBsigEXpQ60CEfcKfowVwNuNzCg3NAt0LycbTyFbeRewxQtORLt7DuEGTtHVCQ_g7skM82T51H26BXldYnuR0MFxF04mtEgHJ-7-3GMiVp8ic2AByMClEGqbaX4QPKehkAbDmqfNKYIYz2P-JdubgT9u_8uJTIZqlZJ_A3MPpnTo1tuMnlr6nPVzUyXhYE66H_jiFu-MA_wqvArGUhfHLkqjlKaGPDkoSUESRKFkGzodk7PyGCDp-4dpvN7--zGTyXU0YLpkM14_v8lxYgUMyxiPF3si0ed-6L1cdk-HeZqaWxmE8tyXkHLp4y-XXlrWLamEhFFW_x5RRIJuSdf92xyRmkx1NHvrE6LyylUdkZuDNsI8Y8eocj0OETqUaWUAcOw3oJZsDD8FCAgrvQLSJ-jrmDrAO8TZ3lTDC0N3ZuQUszNGuo0nfGMJEvLvvT9FPqsYyJt3NYXzB4_zf0ieXinZG6BsyVnVkL3kvBicjIxWzfz8x7RmwnxaSWrBuu4i7o5xkJ-hyo4akKvZ7m3FFm2EQBCyrfxMI31vcgC8XBNWEQH5KTu7mJsPtZ3Wz1ncB2lhJ4fG5I2CjOz39rgu9cnD_rxYL9_f9EE9TaCW2ZfPoGpLfdhIk.IPDJy87_UmjvAba8cYOUiQ
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 599
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Item xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:Name>Artwork Corrections</ns0:Name>
+  <ns0:Description>Design Artwork Corrections  Single Sided</ns0:Description>
+  <ns0:Active>true</ns0:Active>
+  <ns0:SubItem>true</ns0:SubItem>
+  <ns0:ParentRef>22</ns0:ParentRef>
+  <ns0:Taxable>false</ns0:Taxable>
+  <ns0:UnitPrice>20.00</ns0:UnitPrice>
+  <ns0:Type>Service</ns0:Type>
+  <ns0:IncomeAccountRef name="Sales">1</ns0:IncomeAccountRef>
+  <ns0:TrackQtyOnHand>false</ns0:TrackQtyOnHand>
+  <ns0:InvStartDate>2020-02-06</ns0:InvStartDate>
+</ns0:Item>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><IntuitResponse xmlns="http://schema.intuit.com/finance/v3" time="2020-02-06T10:37:24.128-08:00"><Fault type="ValidationFault"><Error code="700" element=""><Message>Parent Reference Invalid</Message><Detail>Parent Reference Invalid : This selection can only be a Category.</Detail></Error></Fault></IntuitResponse>
+Array
+(
+    [Date] => Thu, 06 Feb 2020 18:37:24 GMT
+    [Content-Type] => application/xml
+    [Content-Length] => 369
+    [Connection] => close
+    [Server] => nginx
+    [Strict-Transport-Security] => max-age=15552000
+    [intuit_tid] => cb066c64-5627-4fd1-bcc9-715a3b0a81d9
+    [Set-Cookie] => qboeuid=a22bdec.59dec90651124; path=/; expires=Fri, 05-Feb-21 18:37:23 GMT; domain=.intuit.com
+    [X-XSS-Protection] => 1; mode=block
+)
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/1419738750/item?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..eQQla8P6Hm_4n2uPhhdk3A.UIindE_Ce4-kRnfIfEDMDYKnGy2I0azEpCeOmyafuEpEGzsUBFZD2IwvHL0zuKp9PW9XlqbwF4kI2ati7kumQ9ya0BU-C8fAsqUtu7S5PFOlzdVh0TsJcWw3zCc9Hnan_1lLNuSh2dU0icJ3PZxuX116-_wj21BAHybaa_3g98EzIMFFbpuxrgasSZeA-enmpmkJ2knckC56fK1DUv4xU4w6Gu7DDGlrxPaN1yIuj0qoRO_3OpbWmsZrmnCh2br1CyGPaOeYpNLrwzG1sRA0n48GnvljcqWU3bsiuEKo0Qu35bM3i5Fy3CFP7WIXg4M8abRBSGl4YvSsmG8m9vfVYlXHPMGjY_FJVMXCN3IF6q6R60zTmxG5ID6xB4aVJT-RIs0q_3oEMLufxb5TJuMoOg4cwthsAIDHFlg9T1rHx-STb-UjoXpvxTtvDaLHOhBLN_Y4k-PLyI0SDWwkgz3AI0yIAeccvbs96wYUJ6Tg65iqZvQ1MoB79YzMZYPhS3ouP6L7MJqMdEUUgDwEA-ShIQXte0-lTHHZY5BAkknl0Kr0-Lfr7LbuE3OvA-EquqU_6PxJxridKVgTJBufxO16osCE87WREMa0Ohk9A3smaKdcKaPc8h2WW631ld7Y6AOgkQRHAx4iH42wPZD3KuIGAztDWpnNV-7Ix6dbBDtMMX0.mRzvvX3x3aVm8k6yYToFVQ
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 599
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Item xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:Name>Artwork Corrections</ns0:Name>
+  <ns0:Description>Design Artwork Corrections  Single Sided</ns0:Description>
+  <ns0:Active>true</ns0:Active>
+  <ns0:SubItem>true</ns0:SubItem>
+  <ns0:ParentRef>22</ns0:ParentRef>
+  <ns0:Taxable>false</ns0:Taxable>
+  <ns0:UnitPrice>20.00</ns0:UnitPrice>
+  <ns0:Type>Service</ns0:Type>
+  <ns0:IncomeAccountRef name="Sales">1</ns0:IncomeAccountRef>
+  <ns0:TrackQtyOnHand>false</ns0:TrackQtyOnHand>
+  <ns0:InvStartDate>2020-02-06</ns0:InvStartDate>
+</ns0:Item>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><IntuitResponse xmlns="http://schema.intuit.com/finance/v3" time="2020-02-06T10:39:26.115-08:00"><Fault type="ValidationFault"><Error code="700" element=""><Message>Parent Reference Invalid</Message><Detail>Parent Reference Invalid : This selection can only be a Category.</Detail></Error></Fault></IntuitResponse>
+Array
+(
+    [Date] => Thu, 06 Feb 2020 18:39:26 GMT
+    [Content-Type] => application/xml
+    [Content-Length] => 369
+    [Connection] => close
+    [Server] => nginx
+    [Strict-Transport-Security] => max-age=15552000
+    [intuit_tid] => 70c5cc92-0d1b-49e3-8a16-e04993125a00
+    [Set-Cookie] => qboeuid=b1eaf0ff.59dec97abd33c; path=/; expires=Fri, 05-Feb-21 18:39:26 GMT; domain=.intuit.com
+    [X-XSS-Protection] => 1; mode=block
+)
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/1419738750/item?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..QUA0ri-L1-Hoy20iRGFSVA.X2BWLhP9gxxV561gC56_-5L-758PNyiyLpcESej7WBBnCvvfHiPT_BSnKPJ7wKbqjMCnLyxlkmCbkbmV7rroiBewLOQxRjvZGqi6arZdiTKHsKgFpkqFwo25x6652soqn3v9oJ4gyL2tfsfou-Ojo9Jp8Gqp7Ykia8AhsBHu0m7CXbYVrYenRtkYDtJbpkK7kFKM6RqlkQFdjfmmMNbFG8zcBTFIwIhzlVFQKC6C_BTaeDvNvq21gfEdHxYZFEFjOHoNFotBi2MOAsFwG82uJt6VwxWGKiGNgkeX20uo10XFd5AIxOVko_l-So_O--JOjrp-kWeSEgYyADAXOqQoC0LnpSxyiQkSsFWTOWMt9o0gMzsf2BWYS0ZgRe5uwd-Q9X6fbyoSY8rZh1f5ZpAzAiE8UQZ6XUz1h__48vePGyLAZ_bIYEjAgm5431qUJtyBoaQtyz_nS6v66YLWrin_jhlRefmBAk5Nel5ctTkJOLmcSsaYFbyChJtez4Cyx4wIQU_LEtslbfyaWammftZZJ41oDczejHSb5NfW2e1rnz6F9RhO1D5BDE02xqFNXTi0rXq7MU1aoV5oDSTCFJnxxYe6sO5x987cd7utd4LZo380FhCLjR2sXVIIlNgq1akRF6dtAGyTKrBl7VFngoPsDyqz_Br1bFmHLu3E_7C_4oQ.WmtGwbpjsGoU7D9eHRDmRA
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 599
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Item xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:Name>Artwork Corrections</ns0:Name>
+  <ns0:Description>Design Artwork Corrections  Single Sided</ns0:Description>
+  <ns0:Active>true</ns0:Active>
+  <ns0:SubItem>true</ns0:SubItem>
+  <ns0:ParentRef>22</ns0:ParentRef>
+  <ns0:Taxable>false</ns0:Taxable>
+  <ns0:UnitPrice>20.00</ns0:UnitPrice>
+  <ns0:Type>Service</ns0:Type>
+  <ns0:IncomeAccountRef name="Sales">1</ns0:IncomeAccountRef>
+  <ns0:TrackQtyOnHand>false</ns0:TrackQtyOnHand>
+  <ns0:InvStartDate>2020-02-06</ns0:InvStartDate>
+</ns0:Item>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><IntuitResponse xmlns="http://schema.intuit.com/finance/v3" time="2020-02-06T10:39:50.327-08:00"><Fault type="ValidationFault"><Error code="700" element=""><Message>Parent Reference Invalid</Message><Detail>Parent Reference Invalid : This selection can only be a Category.</Detail></Error></Fault></IntuitResponse>
+Array
+(
+    [Date] => Thu, 06 Feb 2020 18:39:50 GMT
+    [Content-Type] => application/xml
+    [Content-Length] => 369
+    [Connection] => close
+    [Server] => nginx
+    [Strict-Transport-Security] => max-age=15552000
+    [intuit_tid] => 42d08301-6c65-4a2f-9c3c-e1fa61eafd95
+    [Set-Cookie] => qboeuid=6216b4f5.59dec991e97b0; path=/; expires=Fri, 05-Feb-21 18:39:50 GMT; domain=.intuit.com
+    [X-XSS-Protection] => 1; mode=block
+)
+
+//////////////////////////////
+https://quickbooks.api.intuit.com/v3/company/1419738750/item?minorversion=8
+POST
+Array
+(
+    [Authorization] => Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..xbBzlnCH3lwGpPa-Xjmw9w.U3Cr1AHZkhc6GjYBhtnk1Bz3tJ09cRpyUpuwcH33fCqRN3o7S6LAzUVmGszgyRRTKnWwUeh_yBEcHJ9ZY3-6iT0VPSfTT9J5iXKVU2MFY-qjV30RV4VMIbILk69Llfb7DL0tyqbs3DiRJLd1DpRIBurlrrIHc2eQew8NmChZ8_nAuHuH2nSgpNaWzrzXWm4QDPLKkHKIqY9R2SZv-a1xH2QwiuUiPP8OrEAJCk6Rov2RRK3o_e1V7SVXTrm1jkOEJD4Z3jSdFSs2ufeUEHHVNdL9xj2m1NGWHEudpRJP_jhzPGw-8XX1Zy_4aL4MEPk2uUko3qqRbqd947gKFLPSYE4pUX0CiaDap8bbV56BL7j944NYshFBVy0uMjbXj4sbXcMOeE9_Wa1PTCXi593jr0q0-l88d6yByaUulbvna4bdJAARx2mfb6eHrfzzHGEmI8ewsds_6IzgsriEb4rF7Fwqvo3udIYBmRRuUuP46MikMSJ6e2J8IO2yMiM4VnOuX2pkZr5TFCk_E4rns5Tk5OrT3UdKlPgShw9MQuUUokw0yYh2768MTkgdoEJmWSVeKpCY9nou1T_K7E7yf6F5Zvr4HR0DCMENKuutURJKPHOnSVOvJQ0dbjnmDlIQxAIXIC-Y4rmJnvVNtBk9v7HJ-rUNggdUmZRzwup0FQazIGk.vZOxmBUUYfJLq3NPfXtxlg
+    [host] => quickbooks.api.intuit.com
+    [user-agent] => V3PHPSDK4.0.0
+    [accept] => application/xml
+    [connection] => close
+    [content-type] => application/xml
+    [content-length] => 599
+)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Item xmlns:ns0="http://schema.intuit.com/finance/v3">
+  <ns0:Name>Artwork Corrections</ns0:Name>
+  <ns0:Description>Design Artwork Corrections  Single Sided</ns0:Description>
+  <ns0:Active>true</ns0:Active>
+  <ns0:SubItem>true</ns0:SubItem>
+  <ns0:ParentRef>22</ns0:ParentRef>
+  <ns0:Taxable>false</ns0:Taxable>
+  <ns0:UnitPrice>20.00</ns0:UnitPrice>
+  <ns0:Type>Service</ns0:Type>
+  <ns0:IncomeAccountRef name="Sales">1</ns0:IncomeAccountRef>
+  <ns0:TrackQtyOnHand>false</ns0:TrackQtyOnHand>
+  <ns0:InvStartDate>2020-02-06</ns0:InvStartDate>
+</ns0:Item>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><IntuitResponse xmlns="http://schema.intuit.com/finance/v3" time="2020-02-06T10:40:14.831-08:00"><Fault type="ValidationFault"><Error code="700" element=""><Message>Parent Reference Invalid</Message><Detail>Parent Reference Invalid : This selection can only be a Category.</Detail></Error></Fault></IntuitResponse>
+Array
+(
+    [Date] => Thu, 06 Feb 2020 18:40:14 GMT
+    [Content-Type] => application/xml
+    [Content-Length] => 369
+    [Connection] => close
+    [Server] => nginx
+    [Strict-Transport-Security] => max-age=15552000
+    [intuit_tid] => 10c64fb8-bc29-45c2-8cec-4ab862b7eef5
+    [Set-Cookie] => qboeuid=afb20ce5.59dec9a946e70; path=/; expires=Fri, 05-Feb-21 18:40:14 GMT; domain=.intuit.com
+    [X-XSS-Protection] => 1; mode=block
+)
+
+//////////////////////////////

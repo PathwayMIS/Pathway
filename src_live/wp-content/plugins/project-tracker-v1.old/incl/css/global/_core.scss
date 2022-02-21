@@ -1,0 +1,56 @@
+@media #{$xs} { 
+	html {
+		margin-top: 0!important;
+	}
+	body {
+		margin: 0;
+		background-color: white!important;
+	}
+
+	body.open {
+		overflow: hidden;
+	}
+
+	a:any-link {
+		color: $grey;
+		text-decoration: none;
+	}
+
+	.container {
+		margin: auto;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	.clearfix {
+		clear: both;
+	}
+
+	.active {
+		display: block!important;
+	}
+
+	#message {
+		display: none;
+	}
+
+	.dimmed {
+		display: none;
+		background: rgba(0,0,0,0.7);
+		opacity: 0.6;
+		width: 100%;
+		height: 100%;
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: 9998;
+	}
+
+	.acf-form-submit {
+		input {
+			padding: 5px 10px!important;
+			border-radius: 100px!important;
+			font-size: 10px!important;
+		}
+	}
+}

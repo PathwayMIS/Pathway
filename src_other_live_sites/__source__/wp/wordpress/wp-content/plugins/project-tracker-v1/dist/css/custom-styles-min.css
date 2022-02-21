@@ -1,0 +1,36 @@
+/* Variables
+--------------------------*/
+
+.brandColour {
+	color:#21cea0;
+}
+
+.brandColourBG {
+	background-color:#21cea0;
+	color: white;
+}
+
+.brandCurrentPage {
+	border-left: 2px solid #21cea0;
+}
+
+.brandCurrentPage a{
+	color: #21cea0}
+
+.brandCurrentPage:before {
+	color: #21cea0}
+
+.brandCurrent .acf-form-submit input {
+ 	background-color:#21cea0!important;
+	color: white!important;
+	
+}
+
+.brandCurrent .editTools__delete, .brandCurrent .editTools__edit {
+ 	background-color:#21cea0;
+ 	color: white;
+}
+
+.brandCurrent .filterControls__search {
+	color: #21cea0;
+}

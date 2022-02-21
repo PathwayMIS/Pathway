@@ -1,0 +1,419 @@
+/* Fonts */
+@font-face {
+	font-family: 'Futuraptbold-header';
+	src: url('../fonts/FuturaPT-Bold.woff') format('woff'),
+	url('../fonts/FuturaPT-Bold.woff2') format('woff2'),
+	url('../fonts/FuturaPT-Bold.ttf') format('ttf'),
+	url('../fonts/FuturaPT-Bold.eot') format('eot'),
+	url('../fonts/FuturaPTBold-Header.otf') format('otf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Futuraptbook-text';
+	src: url('../fonts/FuturaPT-Book.woff') format('woff'),
+	url('../fonts/FuturaPT-Book.woff2') format('woff2'),
+	url('../fonts/FuturaPT-Book.ttf') format('ttf'),
+	url('../fonts/FuturaPT-Book.eot') format('eot'),
+	url('../fonts/FuturaPTBook-Text.otf') format('otf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #202643 !important;
+	color: white;
+	font-family: 'Futuraptbook-text', sans-serif;
+	line-height: 1.4em;
+}
+
+/**** header ****/
+
+.pwm-signup-header {
+	padding: 52px 36px 36px 36px;
+}
+
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.pwm-signup-header__logo {
+	float: left;
+}
+
+.pwm-signup-header__nav-list {
+	margin: 0;
+	margin-top: 15px;
+	padding: 0;
+	float: right;
+}
+
+.pwm-signup-header__nav-item {
+	margin: 11px 0 11px 50px;
+	float: left;
+	list-style: none;
+}
+
+.pwm-signup-header__nav-link {
+	text-decoration: none;
+	color: #616880;
+	font-family: 'Futuraptbook-text', sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	word-spacing: 5px;
+}
+
+.pwm-signup-header__nav-link:hover {
+	color: white;
+}
+
+.pwm-signup-header__nav-link--active {
+	color: white;
+}
+/**********************************************/
+
+/**** main ****/
+.pwm-signup-main__wrapper {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.pwm-signup-main__page-title {
+	text-align: center;
+	font-size: 48px;
+	font-weight: bold;
+	font-family: 'Futuraptbold-header', sans-serif;
+}
+
+.pwm-signup-line {
+	max-width: 100%;
+	border: none;
+	border-top: 1px solid white;
+}
+
+.pwm-signup-main__top-line {
+	max-width: 98%;
+	margin: 50px 0 30px 0;
+
+}
+
+.pwm-signup-form__middle-line {
+	margin-bottom: 30px;
+
+}
+
+.pwm-signup-form__bottom-line {
+	margin: 14px 0 30px 0;
+
+}
+
+.pwm-signup-main__form-wrapper {
+	max-width: 820px;
+	margin: 0 auto;
+}
+
+.pwm-signup-main__form-caption {
+	margin-bottom: 40px;
+	text-align: center;
+	font-size: 20px;
+}
+
+.pwm-signup-form__item {
+	margin-bottom: 10px;
+}
+
+.pwm-signup-form__item--left {
+	width: 49%;
+	float: left;
+}
+
+.pwm-signup-form__item--right {
+	float: right;
+	width: 49%;
+}
+
+.pwm-signup-form__label {
+	display: block;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+p.pwm-signup-form__label {
+	padding-top: 20px;
+}
+.pwm-signup-form__input {
+	width: 100%;
+	font-size: 24px;
+	padding: 3px 10px;
+	margin: 5px 0 25px 0;
+}
+
+.pwm-signup-form__input--error {
+	border: 2px solid #dc3232;
+}
+
+.pwm-signup-form__input--domain {
+	margin-bottom: 5px;
+}
+
+.pwm-signup-form__input--address:not(:last-child) {
+	margin-bottom: 5px;
+}
+
+.pwm-signup-form__error {
+	margin: -20px 0 10px 0;
+}
+
+.pwm-signup-form__error--domain {
+	margin-top: 0;
+	-webkit-margin-top: -20px;
+}
+
+.pwm-signup-form__error span {
+	color: #707a89;
+	font-size: 12px;
+}
+
+.pwm-signup-form__error--input-text {
+	position: relative;
+	top: -14px;
+}
+
+.pwm-signup-form__checkbox {
+	-webkit-margin-left: 5px;
+	transform: scale(2);
+	-moz-transform: scale(1);
+}
+
+.pwm-signup-form__terms-text {
+	position: relative;
+	left: 30px;
+	top: -42px;
+	padding-right: 30px;
+}
+
+input::placeholder {
+	font-family: Futuraptbook-text, sans-serif;
+}
+
+/**** Submit Block ****/
+
+.pwm-submit-block {
+	height: 60px;
+	margin-top: -20px;
+}
+
+.pwm-submit-block__button {
+	float: left;
+	width: 280px;
+	height: 100%;
+	background-color: #6c7a95;
+	color: white;
+	border: none;
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+
+.pwm-submit-block__label-block {
+	height: 100%;
+}
+
+.pwm-submit-block__label-text {
+	font-size: 24px;
+	letter-spacing: 1px;
+	text-align: center;
+	line-height: 60px;
+}
+
+.pwm-submit-block__logo {
+	height: 100%;
+	padding-top: 13px;
+	float: right;
+}
+
+.pwm-submit-block__image {
+	width: 160px;
+}
+
+/**** Notice ****/
+.pwm-notice {
+	margin: 5px 0 15px;
+	padding: 1px 12px;
+	border-left: 4px solid #949ba3;
+	border-top: 1px solid #949ba3;
+	border-right: 1px solid #949ba3;
+	border-bottom: 1px solid #949ba3;
+	box-shadow: none;
+}
+
+.pwm-notice-error {
+	border-left-color: #dc3232;
+}
+
+.pwm-notice-built {
+	border-left-color: #46b450;
+}
+
+.pwm-notice-built a {
+	color: white;
+}
+/**********************************************/
+/**** End main ****/
+
+/**** footer ****/
+.pwm-signup-footer {
+	padding: 36px;
+}
+
+.pwm-signup-footer__logo {
+	float: left;
+}
+
+.pwm-signup-footer__nav-list {
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+
+.pwm-signup-footer__nav-item {
+	margin: 11px 0 11px 40px;
+	float: left;
+	list-style: none;
+}
+
+.pwm-signup-footer__nav-link {
+	text-decoration: none;
+	color: white;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+/**** Media ****/
+
+@media screen and (max-width: 768px) {
+	/**** Header ****/
+	.pwm-signup-header__logo {
+		display: block;
+		margin: 0 auto;
+		float: none;
+	}
+
+	.pwm-signup-header__main-nav {
+		max-width: 480px;
+		margin: 0 auto;
+	}
+
+	.pwm-signup-header__nav-list {
+		margin-top: 30px;
+		float: none;
+	}
+
+	.pwm-signup-header__nav-item {
+		margin: 0 0 0 40px;
+	}
+	/**********************************/
+
+	/**** Footer ****/
+	.pwm-signup-footer__logo {
+		display: block;
+		margin: 0 auto;
+		float: none;
+	}
+
+	.pwm-signup-footer__nav {
+		max-width: 100%;
+		margin: 0 auto;
+	}
+
+	.pwm-signup-footer__nav-list {
+		margin-top: 30px;
+		float: none;
+	}
+
+	.pwm-signup-footer__nav-item {
+		margin: 0 0 0 60px;
+	}
+}
+
+@media screen and (max-width: 678px) {
+
+	/**** Main ****/
+	.pwm-submit-block {
+		height: auto;
+	}
+	.pwm-submit-block__button {
+		display: block;
+		height: 60px;
+		margin: 0 auto;
+		float: none;
+	}
+
+	.pwm-submit-block__logo {
+		height: 60px;
+		margin-top: 25px;
+		margin-bottom: -25px;
+		float: none;
+	}
+
+	.pwm-submit-block__image {
+		display: block;
+		width: 190px;
+		margin: 0 auto;
+	}
+
+	.pwm-submit-block__label-block {
+		height: 60px;
+	}
+	/**********************************/
+
+	/**** Footer ****/
+	.pwm-signup-footer__wrapper {
+		max-width: 465px;
+		margin: 0 auto;
+	}
+
+	.pwm-signup-footer__nav-item {
+		margin: 0 0 0 20px;
+	}
+}
+
+@media screen and (max-width: 576px) {
+
+	/**** Header ****/
+	.pwm-signup-header__nav-item {
+		float: none;
+		text-align: center;
+		line-height: 1.6em;
+	}
+
+	/**** Main ****/
+	.pwm-signup-form__item--left,
+	.pwm-signup-form__item--right {
+		width: 100%;
+		float: none;
+	}
+
+	p.pwm-signup-form__label {
+		position: relative;
+		top: -20px;
+		padding-top: 0;
+	}
+
+	/**** Footer ****/
+	.pwm-signup-footer__nav-item {
+		float: none;
+		text-align: center;
+		line-height: 1.6em;
+	}
+}

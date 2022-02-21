@@ -1,0 +1,42 @@
+/* Variables
+--------------------------*/
+
+.brandColour {
+	color:#21cea0;
+}
+
+.brandColourBG {
+	background-color:#21cea0;
+	color: white;
+}
+
+.brandCurrentPage {
+	padding-left: 9% !important;
+	border-left: 2px solid #21cea0;
+}
+
+.brandCurrentPage a{
+	color: #9d3292;;
+	font-size: 15px;
+}
+
+.brandCurrentPage:before {
+	margin-right: 21px !important;
+	color: #9d3292;
+	font-size: 15px;
+}
+
+.brandCurrent .acf-form-submit input {
+ 	background-color:#21cea0!important;
+	color: white!important;
+	
+}
+
+.brandCurrent .editTools__delete, .brandCurrent .editTools__edit {
+ 	background-color:#21cea0;
+ 	color: white;
+}
+
+.brandCurrent .filterControls__search {
+	color: #21cea0;
+}
